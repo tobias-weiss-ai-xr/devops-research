@@ -1,0 +1,1437 @@
+{
+ "a284ff4d294f55cf": {
+  "t": 1786078703.2528486,
+  "title": "[open-policy-agent/opa] v1.19.0",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.19.0"
+ },
+ "98c52b663d9f44e1": {
+  "t": 1786078703.2528505,
+  "title": "[open-policy-agent/opa] v1.18.2",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.18.2"
+ },
+ "cd0a5050f3aef2f0": {
+  "t": 1786078703.2528508,
+  "title": "[open-policy-agent/opa] v1.18.1",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.18.1"
+ },
+ "a4f6c21379e1aaa8": {
+  "t": 1786078703.2528512,
+  "title": "[open-policy-agent/opa] v1.18.0",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.18.0"
+ },
+ "fb2d853181eb9627": {
+  "t": 1786078703.2528517,
+  "title": "[open-policy-agent/opa] v1.17.1",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.17.1"
+ },
+ "ba0ac2b7c6545866": {
+  "t": 1786078703.252852,
+  "title": "[open-policy-agent/opa] v1.17.0",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.17.0"
+ },
+ "11f7c133bf06cc64": {
+  "t": 1786078703.2528524,
+  "title": "[open-policy-agent/opa] v1.16.2",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.16.2"
+ },
+ "33ee870bba5176e9": {
+  "t": 1786078703.2528532,
+  "title": "[open-policy-agent/opa] v1.16.1",
+  "url": "https://github.com/open-policy-agent/opa/releases/tag/v1.16.1"
+ },
+ "e56976fafb65c9cd": {
+  "t": 1786078703.252854,
+  "title": "Zero-downtime Kubernetes deploys for 8 Spring Boot services: maxUnavailable 0, preStop drain, graceful shutdown",
+  "url": "https://dev.to/dev48v/zero-downtime-kubernetes-deploys-for-8-spring-boot-services-maxunavailable-0-prestop-drain-1j5f"
+ },
+ "54989a650baebefc": {
+  "t": 1786078703.2528543,
+  "title": "[kubernetes/kubernetes] v1.37.0-rc.0",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-rc.0"
+ },
+ "904e863acb1c6dc7": {
+  "t": 1786078703.2528546,
+  "title": "[hashicorp/terraform] v1.16.0-beta2",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2"
+ },
+ "500bbd42af8ca686": {
+  "t": 1786078703.252855,
+  "title": "[argoproj/argo-cd] v3.5.0",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.0"
+ },
+ "f55ffb611c25c44a": {
+  "t": 1786078703.2528555,
+  "title": "[fluxcd/flux2] v2.8.8",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.8.8"
+ },
+ "a69ec9c65c87416c": {
+  "t": 1786078703.2528558,
+  "title": "[kubernetes/kubernetes] v1.36.3",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.3"
+ },
+ "df1473eef13c6661": {
+  "t": 1786078703.252856,
+  "title": "[kubernetes/kubernetes] v1.35.7",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.7"
+ },
+ "877faa4f29e992aa": {
+  "t": 1786078703.2528565,
+  "title": "[kubernetes/kubernetes] v1.34.10",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.34.10"
+ },
+ "abe9d6c6a6cda78d": {
+  "t": 1786078703.2528567,
+  "title": "[kubernetes/kubernetes] v1.37.0-beta.0",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-beta.0"
+ },
+ "3e5a8bfb06a4b9a4": {
+  "t": 1786078703.252857,
+  "title": "[kubernetes/kubernetes] v1.37.0-alpha.3",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-alpha.3"
+ },
+ "6a309d05fef9c847": {
+  "t": 1786078703.2528574,
+  "title": "[kubernetes/kubernetes] v1.37.0-alpha.2",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-alpha.2"
+ },
+ "4d7d9b57e70a2084": {
+  "t": 1786078703.2528577,
+  "title": "[kubernetes/kubernetes] v1.36.2",
+  "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.2"
+ },
+ "eb415b08670a538b": {
+  "t": 1786078703.2528582,
+  "title": "[hashicorp/terraform] v1.17.0-alpha20260729",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729"
+ },
+ "0296f5b9c3fa5b74": {
+  "t": 1786078703.2528584,
+  "title": "[hashicorp/terraform] v1.16.0-beta1",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1"
+ },
+ "f5d5269d954621a7": {
+  "t": 1786078703.252859,
+  "title": "[hashicorp/terraform] v1.16.0-alpha20260715",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715"
+ },
+ "6a660b7184296abb": {
+  "t": 1786078703.2528594,
+  "title": "[hashicorp/terraform] v1.16.0-alpha20260708",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708"
+ },
+ "ea6fe4b233313054": {
+  "t": 1786078703.2528596,
+  "title": "[hashicorp/terraform] v1.15.8",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8"
+ },
+ "ac0843e6a6d01c8a": {
+  "t": 1786078703.2528598,
+  "title": "[hashicorp/terraform] v1.16.0-alpha20260706",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260706"
+ },
+ "8cc5f39b662cbc2f": {
+  "t": 1786078703.2528603,
+  "title": "[hashicorp/terraform] v1.16.0-alpha20260701",
+  "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701"
+ },
+ "2381408dc706aa2e": {
+  "t": 1786078703.2528603,
+  "title": "[crossplane/crossplane] v2.3.4",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.4"
+ },
+ "c2db2231812876e3": {
+  "t": 1786078703.2528608,
+  "title": "[crossplane/crossplane] v2.2.4",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.4"
+ },
+ "d293ae0bacf86118": {
+  "t": 1786078703.2528613,
+  "title": "[crossplane/crossplane] v2.1.8",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.8"
+ },
+ "5299e4834182957a": {
+  "t": 1786078703.2528613,
+  "title": "[crossplane/crossplane] v1.20.11",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.11"
+ },
+ "dca8ff99ef7f62e4": {
+  "t": 1786078703.2528615,
+  "title": "[crossplane/crossplane] v2.3.3",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.3"
+ },
+ "e988d75580f4d615": {
+  "t": 1786078703.252862,
+  "title": "[crossplane/crossplane] v2.2.3",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.3"
+ },
+ "4100cfc09536eaa2": {
+  "t": 1786078703.252862,
+  "title": "[crossplane/crossplane] v2.1.7",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.7"
+ },
+ "63479409922eee06": {
+  "t": 1786078703.2528622,
+  "title": "[crossplane/crossplane] v1.20.10",
+  "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.10"
+ },
+ "5830e07903a1386e": {
+  "t": 1786078703.2528627,
+  "title": "[argoproj/argo-cd] v3.4.6",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.6"
+ },
+ "71ce9050d067dc7e": {
+  "t": 1786078703.252863,
+  "title": "[argoproj/argo-cd] v3.3.13",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.13"
+ },
+ "832be1cfe8c32ef3": {
+  "t": 1786078703.252863,
+  "title": "[argoproj/argo-cd] v3.5.0-rc3",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.0-rc3"
+ },
+ "21132b7b8dc34a24": {
+  "t": 1786078703.2528634,
+  "title": "[argoproj/argo-cd] v3.4.5",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.5"
+ },
+ "8fc961c6ef98396f": {
+  "t": 1786078703.2528636,
+  "title": "[argoproj/argo-cd] v3.5.0-rc2",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.0-rc2"
+ },
+ "5fa58d57b7328c99": {
+  "t": 1786078703.252864,
+  "title": "[argoproj/argo-cd] v3.4.4",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.4"
+ },
+ "36cfaf9ae357477c": {
+  "t": 1786078703.2528644,
+  "title": "[argoproj/argo-cd] v3.3.12",
+  "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.12"
+ },
+ "ee303a8376130f1f": {
+  "t": 1786078703.2528644,
+  "title": "From 2 hours to 40 minutes: how I built a multi-platform publishing pipeline",
+  "url": "https://dev.to/mage0535/from-2-hours-to-40-minutes-how-i-built-a-multi-platform-publishing-pipeline-3k99"
+ },
+ "6559fb0ef315d496": {
+  "t": 1786078703.2528653,
+  "title": "[aquasecurity/trivy] v0.69.2",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.69.2"
+ },
+ "b423554e4445b133": {
+  "t": 1786078703.2528656,
+  "title": "An End-to-End Threat Model for the Quantum-as-a-Service Pipeline",
+  "url": "https://arxiv.org/abs/2608.05836v1"
+ },
+ "e7fe572866d00f4b": {
+  "t": 1786078703.2528658,
+  "title": "On the Figures of Merit for Quantum Software Security: Toward a Benchmarking Rubric",
+  "url": "https://arxiv.org/abs/2608.05831v1"
+ },
+ "8b094d7bee749462": {
+  "t": 1786078703.2528663,
+  "title": "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents",
+  "url": "https://arxiv.org/abs/2608.05884v1"
+ },
+ "503cfdcc021f0768": {
+  "t": 1786078703.2528663,
+  "title": "Six stable kernels with a security fix",
+  "url": "https://lwn.net/Articles/1087567/"
+ },
+ "3de556082178a522": {
+  "t": 1786078703.2528665,
+  "title": "[fluxcd/flux2] v2.9.3",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.9.3"
+ },
+ "7fa7a62d1ac4e35e": {
+  "t": 1786078703.2528667,
+  "title": "[bridgecrewio/checkov] 3.3.5",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.5"
+ },
+ "ad4843ddcca81d2b": {
+  "t": 1786078703.252867,
+  "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+  "url": "https://provenmetal.com"
+ },
+ "530e2564e6370677": {
+  "t": 1786078703.2528672,
+  "title": "Build a Custom Prometheus Exporter with Python",
+  "url": "https://dev.to/qingluan/build-a-custom-prometheus-exporter-with-python-2oi6"
+ },
+ "491f9a6c0157f3c5": {
+  "t": 1786078703.2528677,
+  "title": "[anchore/syft] v1.48.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.48.0"
+ },
+ "bae4380422016945": {
+  "t": 1786078703.252868,
+  "title": "[fluxcd/flux2] v2.8.7",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.8.7"
+ },
+ "03fa64d1e2cf00af": {
+  "t": 1786078703.2528682,
+  "title": "[bridgecrewio/checkov] 3.3.7",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.7"
+ },
+ "a712ee1a186e14d5": {
+  "t": 1786078703.2528684,
+  "title": "ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution",
+  "url": "https://arxiv.org/abs/2608.05790v1"
+ },
+ "dc9807927c14deda": {
+  "t": 1786078703.2528684,
+  "title": "Security updates for Thursday",
+  "url": "https://lwn.net/Articles/1087489/"
+ },
+ "f7df21461d1dd69b": {
+  "t": 1786078703.252869,
+  "title": "[$] Examining other network namespaces using BPF",
+  "url": "https://lwn.net/Articles/1085896/"
+ },
+ "e661a78022461b78": {
+  "t": 1786078703.2528691,
+  "title": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
+  "url": "https://arxiv.org/abs/2608.05944v1"
+ },
+ "c4b2f65143bf19c3": {
+  "t": 1786078703.2528691,
+  "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+  "url": "https://arxiv.org/abs/2608.05141v1"
+ },
+ "2cbad1f56dbffc83": {
+  "t": 1786078755.2741446,
+  "title": "Runtime Supply Chain Verification using the Node Resource Interface (NRI)",
+  "url": "https://www.cncf.io/blog/2026/07/30/runtime-supply-chain-verification-using-the-node-resource-interface-nri/"
+ },
+ "f90885ac97af8b99": {
+  "t": 1786078755.2741463,
+  "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+  "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/"
+ },
+ "f03bf99136f8caf0": {
+  "t": 1786078755.2741466,
+  "title": "Building a Custom Metrics Exporter for Kubernetes",
+  "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/"
+ },
+ "89c52b929d604166": {
+  "t": 1786078755.274147,
+  "title": "I got tired of bloated $10k/yr vulnerability scanners, so I built a free lightweight alternative mapping NVD & CISA KEV (CVE Radar)",
+  "url": "https://www.reddit.com/r/devsecops/comments/1veneg5/i_got_tired_of_bloated_10kyr_vulnerability/"
+ },
+ "e5e77b63a67505b0": {
+  "t": 1786078755.2741473,
+  "title": "Intel 471 warns of expanding software supply chain attacks",
+  "url": "https://www.reddit.com/r/devsecops/comments/1ve2dbq/intel_471_warns_of_expanding_software_supply/"
+ },
+ "37b6d512187119ab": {
+  "t": 1786078755.2741477,
+  "title": "[opentofu/opentofu] v1.12.5",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.5"
+ },
+ "28e740345e54d3d0": {
+  "t": 1786078755.2741485,
+  "title": "[opentofu/opentofu] v1.11.13",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.13"
+ },
+ "27173c9d24ec3a2a": {
+  "t": 1786078755.2741492,
+  "title": "[opentofu/opentofu] v1.12.4",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.4"
+ },
+ "80f867cdbbe2539a": {
+  "t": 1786078755.2741497,
+  "title": "[opentofu/opentofu] v1.11.12",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.12"
+ },
+ "aea73a13cc2b33f0": {
+  "t": 1786078755.27415,
+  "title": "[opentofu/opentofu] v1.11.11",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.11"
+ },
+ "a35cc6e1e603341a": {
+  "t": 1786078755.2741504,
+  "title": "[opentofu/opentofu] v1.12.3",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.3"
+ },
+ "2ba54674430ae9e1": {
+  "t": 1786078755.2741506,
+  "title": "[opentofu/opentofu] v1.11.10",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.10"
+ },
+ "d65ceeae5c37c0ca": {
+  "t": 1786078755.2741508,
+  "title": "[opentofu/opentofu] v1.12.2",
+  "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.2"
+ },
+ "31047802df8a4dd3": {
+  "t": 1786078755.274151,
+  "title": "Kubernetes v1.36: PSI Metrics for Kubernetes Graduates to GA",
+  "url": "https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/"
+ },
+ "17c72b6ebe609e67": {
+  "t": 1786078755.2741513,
+  "title": "Kubernetes v1.36: Tiered Memory Protection with Memory QoS",
+  "url": "https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/"
+ },
+ "30ee2b6e2ca16a11": {
+  "t": 1786078755.2741516,
+  "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
+  "url": "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/"
+ },
+ "830c76b5e440943b": {
+  "t": 1786078755.274152,
+  "title": "I built a generic DevSecOps pipeline that scans any Git repository with a single Jenkins job",
+  "url": "https://www.reddit.com/r/devsecops/comments/1veerjm/i_built_a_generic_devsecops_pipeline_that_scans/"
+ },
+ "1da9e21edb9dc04a": {
+  "t": 1786078755.2741523,
+  "title": "Kubernetes v1.36: Staleness Mitigation and Observability for Controllers",
+  "url": "https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/"
+ },
+ "3e04db352ab76920": {
+  "t": 1786078755.2741525,
+  "title": "Cortex completes OSTIF security audit",
+  "url": "https://www.cncf.io/blog/2026/08/03/cortex-completes-ostif-security-audit/"
+ },
+ "fd2d8dba63ec0a93": {
+  "t": 1786078755.2741528,
+  "title": "What are your thoughts on future of AppSec ?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vgrldl/what_are_your_thoughts_on_future_of_appsec/"
+ },
+ "5c204ce557439738": {
+  "t": 1786078755.274153,
+  "title": "Taming Dependabot: A 2026 Guide to Grouping, Cooldowns, and Cutting PR Noise",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vgxjwv/taming_dependabot_a_2026_guide_to_grouping/"
+ },
+ "8d780a63c192690a": {
+  "t": 1786078755.2741532,
+  "title": "Avoiding the next NPM worm",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vff542/avoiding_the_next_npm_worm/"
+ },
+ "91c8d1a7112da925": {
+  "t": 1786078755.2741532,
+  "title": "Software supply chain security vendor allegedly breached",
+  "url": "https://www.reddit.com/r/devsecops/comments/1ve3v3u/software_supply_chain_security_vendor_allegedly/"
+ },
+ "6d2f4f8b47e036c7": {
+  "t": 1786078755.2741535,
+  "title": "Kubernetes upgrades don\u2019t have to break things: How EKS is making cluster lifecycle management simpler and safer",
+  "url": "https://thenewstack.io/eks-kubernetes-upgrade-rollback/"
+ },
+ "ff2188998ce763e7": {
+  "t": 1786078755.2741537,
+  "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+  "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/"
+ },
+ "7c5d1d4fde00358a": {
+  "t": 1786078755.274154,
+  "title": "Kubernetes v1.37 Sneak Peek",
+  "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/"
+ },
+ "961ab28b71928700": {
+  "t": 1786078755.2741556,
+  "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
+  "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/"
+ },
+ "a5345af5b4fccdae": {
+  "t": 1786078755.2741559,
+  "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
+  "url": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/"
+ },
+ "f793143fd1e8ce9f": {
+  "t": 1786078755.274156,
+  "title": "Introducing the Cluster API plugin for Headlamp",
+  "url": "https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/"
+ },
+ "b4e38df735afdc9c": {
+  "t": 1786078755.2741563,
+  "title": "Inspect Volcano workloads faster with Headlamp",
+  "url": "https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/"
+ },
+ "2099df3c23ebccff": {
+  "t": 1786078755.2741566,
+  "title": "See your serverless: introducing the Headlamp plugin for Knative",
+  "url": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/"
+ },
+ "09e668d5235a2106": {
+  "t": 1786078755.2741566,
+  "title": "Spotlight on SIG Storage",
+  "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/"
+ },
+ "7ec1f3ff32d99a55": {
+  "t": 1786078755.2741568,
+  "title": "From Kubernetes Dashboard to Headlamp: Understanding the Transition",
+  "url": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/"
+ },
+ "2a035d542ccb20e0": {
+  "t": 1786078755.274157,
+  "title": "Kubernetes v1.36: New Metric for Route Sync in the Cloud Controller Manager",
+  "url": "https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/"
+ },
+ "87c3bc8e9e9b80c5": {
+  "t": 1786078755.2741573,
+  "title": "Kubernetes v1.36: Mixed Version Proxy Graduates to Beta",
+  "url": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/"
+ },
+ "edb100764fae8f7f": {
+  "t": 1786078755.2741575,
+  "title": "Kubernetes v1.36: Advancing Workload-Aware Scheduling",
+  "url": "https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/"
+ },
+ "596d436bfb801478": {
+  "t": 1786078755.2741578,
+  "title": "Kubernetes v1.36: Moving Volume Group Snapshots to GA",
+  "url": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/"
+ },
+ "d35c6780716f22ac": {
+  "t": 1786078755.274158,
+  "title": "Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA",
+  "url": "https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/"
+ },
+ "79c65d151ee0f904": {
+  "t": 1786078755.2741582,
+  "title": "Kubernetes v1.36: Server-Side Sharded List and Watch",
+  "url": "https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/"
+ },
+ "ca4247752d2c8936": {
+  "t": 1786078755.2741582,
+  "title": "Kubernetes v1.36: Declarative Validation Graduates to GA",
+  "url": "https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/"
+ },
+ "04f5505e33ed0a13": {
+  "t": 1786078755.2741585,
+  "title": "Kubernetes v1.36: Admission Policies That Can't Be Deleted",
+  "url": "https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/"
+ },
+ "667a0b939c8d1ce0": {
+  "t": 1786078755.274159,
+  "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
+  "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/"
+ },
+ "b449802d2c0cc6e5": {
+  "t": 1786078755.2741592,
+  "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+  "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/"
+ },
+ "e1aa4ff082e5416b": {
+  "t": 1786078755.2741592,
+  "title": "Kubernetes v1.36: Mutable Pod Resources for Suspended Jobs (beta)",
+  "url": "https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/"
+ },
+ "414ab1bcf883c17b": {
+  "t": 1786078755.2741594,
+  "title": "Kubernetes v1.36: Fine-Grained Kubelet API Authorization Graduates to GA",
+  "url": "https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/"
+ },
+ "761a7f201b46e5c8": {
+  "t": 1786078755.2741597,
+  "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+  "url": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/"
+ },
+ "8356fd52609064e3": {
+  "t": 1786078755.2741597,
+  "title": "SELinux Volume Label Changes goes GA (and likely implications in v1.37)",
+  "url": "https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/"
+ },
+ "8ce264941e35d675": {
+  "t": 1786078755.27416,
+  "title": "Kubernetes v1.36: \u30cf\u30eb (Haru)",
+  "url": "https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/"
+ },
+ "28eb6a3d5211b6dd": {
+  "t": 1786078755.2741601,
+  "title": "Kubernetes v1.36 Sneak Peek",
+  "url": "https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/"
+ },
+ "cbf0ebe337661280": {
+  "t": 1786078755.2741604,
+  "title": "Announcing Ingress2Gateway 1.0: Your Path to Gateway API",
+  "url": "https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/"
+ },
+ "13c7dd6049ab2513": {
+  "t": 1786078755.2741604,
+  "title": "Securing Production Debugging in Kubernetes",
+  "url": "https://kubernetes.io/blog/2026/03/18/securing-production-debugging-in-kubernetes/"
+ },
+ "1e9eb070f30c1fec": {
+  "t": 1786078755.2741606,
+  "title": "The Invisible Rewrite: Modernizing the Kubernetes Image Promoter",
+  "url": "https://kubernetes.io/blog/2026/03/17/image-promoter-rewrite/"
+ },
+ "aeff2e33e6325aad": {
+  "t": 1786078755.2741609,
+  "title": "Announcing the AI Gateway Working Group",
+  "url": "https://kubernetes.io/blog/2026/03/09/announcing-ai-gateway-wg/"
+ },
+ "dbb39cc3c6a11eec": {
+  "t": 1786078755.274161,
+  "title": "Introducing Node Readiness Controller",
+  "url": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/"
+ },
+ "0af5ca0d0b08ae19": {
+  "t": 1786078755.274161,
+  "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
+  "url": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/"
+ },
+ "4130a264bd629e6b": {
+  "t": 1786078755.2741616,
+  "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+  "url": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/"
+ },
+ "a6ad9d88af6f0289": {
+  "t": 1786078755.2741616,
+  "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
+  "url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/"
+ },
+ "46adf38dc945e59c": {
+  "t": 1786078755.2741618,
+  "title": "How teams manage ML artifacts like Docker containers",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vgptoo/how_teams_manage_ml_artifacts_like_docker/"
+ },
+ "f90658913cdd245a": {
+  "t": 1786078755.2741623,
+  "title": "Anyone actually checking for overprivileged AI agent connections before they ship?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vfo5k7/anyone_actually_checking_for_overprivileged_ai/"
+ },
+ "ddc12f113b9bdd5a": {
+  "t": 1786078755.2741623,
+  "title": "Looking for testers and contributors for SafeAI \u2013 an OSS helping secure AI agents before they reach production",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vdtor6/looking_for_testers_and_contributors_for_safeai/"
+ },
+ "47db062f91ba9ae4": {
+  "t": 1786078792.2907572,
+  "title": "[gitleaks/gitleaks] v8.27.0",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.0"
+ },
+ "635280c9fb700d36": {
+  "t": 1786078792.2907588,
+  "title": "Scaling Kubernetes pods with KEDA based on Amazon SQS queue depth",
+  "url": "https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/"
+ },
+ "4cfc4b4f73bf828a": {
+  "t": 1786078792.2907593,
+  "title": "Your Kubernetes health checks are accidentally waking your services. Here\u2019s the fix.",
+  "url": "https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/"
+ },
+ "042dc8e4210c0cff": {
+  "t": 1786078792.2907596,
+  "title": "Say goodbye to K8s GPU pain: How DRA changes everything",
+  "url": "https://thenewstack.io/kubernetes-dra-gpu-scheduling/"
+ },
+ "768301d929621522": {
+  "t": 1786078792.2907603,
+  "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
+  "url": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/"
+ },
+ "f2a6e1e099581cea": {
+  "t": 1786078792.2907608,
+  "title": "Announcing etcd v3.7.0",
+  "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/"
+ },
+ "0224674a0f0a0689": {
+  "t": 1786078792.290761,
+  "title": "Open source maintainership in the age of AI",
+  "url": "https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/"
+ },
+ "ad3e30a65767a1f4": {
+  "t": 1786078792.290762,
+  "title": "Spotlight on WG Device Management",
+  "url": "https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/"
+ },
+ "23050b9cbb838f49": {
+  "t": 1786078792.2907624,
+  "title": "Announcing etcd 3.7.0-beta.0",
+  "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/"
+ },
+ "f1bcd12ffee40cb9": {
+  "t": 1786078792.2907627,
+  "title": "Gateway API v1.5: Moving features to Stable",
+  "url": "https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/"
+ },
+ "cebba54e1e324dec": {
+  "t": 1786078792.2907634,
+  "title": "Running Agents on Kubernetes with Agent Sandbox",
+  "url": "https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/"
+ },
+ "0628f872714a46b8": {
+  "t": 1786078792.2907636,
+  "title": "Before You Migrate: Five Surprising Ingress-NGINX Behaviors You Need to Know",
+  "url": "https://kubernetes.io/blog/2026/02/27/ingress-nginx-before-you-migrate/"
+ },
+ "ef6ccc25573a0bde": {
+  "t": 1786078792.2907639,
+  "title": "Spotlight on SIG Architecture: API Governance",
+  "url": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/"
+ },
+ "7409dcb6627d1440": {
+  "t": 1786078792.2907643,
+  "title": "Headlamp in 2025: Project Highlights",
+  "url": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/"
+ },
+ "fba25e9909d5473a": {
+  "t": 1786078792.2907646,
+  "title": "Observing the Quantum Compiler through Automatic Experiment Tracking for Qiskit",
+  "url": "https://arxiv.org/abs/2608.05041v1"
+ },
+ "8ebba203926e131e": {
+  "t": 1786078792.2907648,
+  "title": "OpenCost 1.121.0: First-of-a-kind Kubernetes inference cost tracking",
+  "url": "https://www.cncf.io/blog/2026/08/05/opencost-1-121-0-first-of-a-kind-kubernetes-inference-cost-tracking/"
+ },
+ "2dbeb1949cd0492b": {
+  "t": 1786078792.2907653,
+  "title": "You can\u2019t debug what you can\u2019t see \u2014 Observability for AI Agents",
+  "url": "https://www.cncf.io/blog/2026/08/04/you-cant-debug-what-you-cant-see-observability-for-ai-agents/"
+ },
+ "9bcaa9dc2c3c014e": {
+  "t": 1786078792.2907658,
+  "title": "Welcome CoHDI to the CNCF: Evolving Kubernetes into composable disaggregated infrastructures",
+  "url": "https://www.cncf.io/blog/2026/07/28/welcome-cohdi-to-the-cncf-evolving-kubernetes-into-composable-disaggregated-infrastructures/"
+ },
+ "db9f8b6a8433e309": {
+  "t": 1786078792.290766,
+  "title": "Experimenting with Gateway API using kind",
+  "url": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/"
+ },
+ "aeaada02bd6da251": {
+  "t": 1786078792.2907662,
+  "title": "GitHub Actions and Pages are experiencing degraded availability",
+  "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74"
+ },
+ "1ea0615e0e8bd4b6": {
+  "t": 1786078792.290767,
+  "title": "[bridgecrewio/checkov] 3.3.9",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.9"
+ },
+ "02c83d1a1cd838ef": {
+  "t": 1786078792.2907672,
+  "title": "[bridgecrewio/checkov] 3.3.8",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.8"
+ },
+ "530fbc04e68d807c": {
+  "t": 1786078792.2907674,
+  "title": "[bridgecrewio/checkov] 3.3.6",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.6"
+ },
+ "d3d8923e7fedf906": {
+  "t": 1786078792.2907677,
+  "title": "[bridgecrewio/checkov] 3.3.2",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.2"
+ },
+ "daad60454cac6075": {
+  "t": 1786078792.290768,
+  "title": "[fluxcd/flux2] v2.8.6",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.8.6"
+ },
+ "3591d71557f2103b": {
+  "t": 1786078792.2907681,
+  "title": "A Sound Translation from Tamarin to ProVerif: Enabling Comparative Analysis",
+  "url": "https://arxiv.org/abs/2608.06315v1"
+ },
+ "0c55a11336217e49": {
+  "t": 1786078792.2907684,
+  "title": "Game Hopping in Lean",
+  "url": "https://arxiv.org/abs/2608.06261v1"
+ },
+ "5cc8772f490a9ae1": {
+  "t": 1786078792.2907689,
+  "title": "Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era",
+  "url": "https://arxiv.org/abs/2608.06211v1"
+ },
+ "e0f855bcff229cf0": {
+  "t": 1786078792.290769,
+  "title": "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture",
+  "url": "https://arxiv.org/abs/2608.06130v1"
+ },
+ "bc0aadb990609329": {
+  "t": 1786078792.2907693,
+  "title": "dfence: Fine-Grained Speculation Barriers for Efficient and Effective Hardware-Software Protection in the Spectre Era (Extended Version)",
+  "url": "https://arxiv.org/abs/2608.06124v1"
+ },
+ "317ea07bb0355eaa": {
+  "t": 1786078792.2907696,
+  "title": "A Note on the Influence of a Zero Length Nonce on GCM and GMAC",
+  "url": "https://arxiv.org/abs/2608.06061v1"
+ },
+ "b909a28ddb99da98": {
+  "t": 1786078792.2907703,
+  "title": "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+  "url": "https://arxiv.org/abs/2608.05909v1"
+ },
+ "b07db0e98c8ef427": {
+  "t": 1786078792.2907703,
+  "title": "Tool Demo: Topology analysis with GPML for detection of cyberattacks in Water Distribution Networks",
+  "url": "https://arxiv.org/abs/2608.05902v1"
+ },
+ "91e4d0b63876079e": {
+  "t": 1786078792.2907705,
+  "title": "RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety",
+  "url": "https://arxiv.org/abs/2608.05870v1"
+ },
+ "7ddf2816943183ee": {
+  "t": 1786078792.2907708,
+  "title": "Quantum One-Way Functions and Related Cryptographic Primitives",
+  "url": "https://arxiv.org/abs/2608.05754v1"
+ },
+ "29d2b3bf0a80c0be": {
+  "t": 1786078792.290771,
+  "title": "ABC: Numerical Data Collection under Local Differential Privacy without Prior Knowledge",
+  "url": "https://arxiv.org/abs/2608.05737v1"
+ },
+ "4d9db3e4a85c106d": {
+  "t": 1786078792.2907712,
+  "title": "Algebraic Cryptanalytic Extraction on Hard-Label Neural Networks",
+  "url": "https://arxiv.org/abs/2608.05736v1"
+ },
+ "42c62797071a13b1": {
+  "t": 1786078792.2907715,
+  "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+  "url": "https://arxiv.org/abs/2608.05695v1"
+ },
+ "d636ce61b0e6ad4b": {
+  "t": 1786078792.2907717,
+  "title": "Breaking Customized LLMs for Coding: Automated Red Teaming for Instruction Backdoor Attacks",
+  "url": "https://arxiv.org/abs/2608.05659v1"
+ },
+ "4e9b5290b1a967ab": {
+  "t": 1786078792.290772,
+  "title": "Enhancing Anomaly Resilience in Research Networks: A Large-Scale Forecasting Benchmark for Dynamic Security Baselining",
+  "url": "https://arxiv.org/abs/2608.05605v1"
+ },
+ "8d07c432e2c68302": {
+  "t": 1786078792.2907722,
+  "title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
+  "url": "https://arxiv.org/abs/2608.05578v1"
+ },
+ "4cc46afce3ef56d1": {
+  "t": 1786078792.2907724,
+  "title": "When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems",
+  "url": "https://arxiv.org/abs/2608.05563v1"
+ },
+ "7613cfd5101d3559": {
+  "t": 1786078792.2907727,
+  "title": "A Self-Explainable Deep Architecture for Security Applications",
+  "url": "https://arxiv.org/abs/2608.05552v1"
+ },
+ "af02707d09d9dc6e": {
+  "t": 1786078792.2907727,
+  "title": "Behavioral Residualization for Unsupervised Intrusion Detection in Automotive CAN Networks",
+  "url": "https://arxiv.org/abs/2608.05548v1"
+ },
+ "5839a3f9aff292c3": {
+  "t": 1786078792.290773,
+  "title": "PromptShield Home: Ambient Multimodal Prompt Injection Defense for Smart-Home Agents",
+  "url": "https://arxiv.org/abs/2608.05495v1"
+ },
+ "ccf458ee3f776227": {
+  "t": 1786078792.2907732,
+  "title": "Exploring Privacy Leakage and Data Disclosure Violations in the MacOS Application Ecosystem",
+  "url": "https://arxiv.org/abs/2608.05474v1"
+ },
+ "5deb3e7ed75c2a59": {
+  "t": 1786078792.2907734,
+  "title": "Quantifying Bitcoin Network Resilience Through Critical Scenario Discovery: A Dual-Layer Framework for Discovering Contentious Fork Conditions in Decentralized Consensus",
+  "url": "https://arxiv.org/abs/2608.05461v1"
+ },
+ "e3321f20d9ec51a6": {
+  "t": 1786078792.2907739,
+  "title": "Robust Context-Aware Detection of Malicious Instructions in Text",
+  "url": "https://arxiv.org/abs/2608.05430v1"
+ },
+ "cf3b56ca4c1a3bfb": {
+  "t": 1786078792.2907739,
+  "title": "S12X Patch Diffing with QBinDiff",
+  "url": "https://arxiv.org/abs/2608.05350v1"
+ },
+ "e81badae3ea1ab75": {
+  "t": 1786078792.2907743,
+  "title": "The Trust-Free Aggregation Layer of the Unicity Infrastructure",
+  "url": "https://arxiv.org/abs/2608.05316v1"
+ },
+ "02e66a1b6ee809bd": {
+  "t": 1786078792.2907746,
+  "title": "eMicro: Real-Time Multi-Hop Access Control for Microservices with eBPF",
+  "url": "https://arxiv.org/abs/2608.05300v1"
+ },
+ "95bfe5a9f919c292": {
+  "t": 1786078792.2907763,
+  "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+  "url": "https://arxiv.org/abs/2608.05108v1"
+ },
+ "57423308af0a5ecd": {
+  "t": 1786078792.2907765,
+  "title": "Hardware Design and Security in the Era of Chiplets and LLMs",
+  "url": "https://arxiv.org/abs/2608.05063v1"
+ },
+ "e72ceb31f068f4cc": {
+  "t": 1786078792.2907767,
+  "title": "Kerckhoffs-Compliant Watermarking for Physical Design IP Protection: From Placement to Routing",
+  "url": "https://arxiv.org/abs/2608.05055v1"
+ },
+ "f823d8955a8d75d6": {
+  "t": 1786078792.2907772,
+  "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+  "url": "https://arxiv.org/abs/2608.05045v1"
+ },
+ "1f32e7c889371704": {
+  "t": 1786078792.2907774,
+  "title": "Private Direct Preference Optimization for LLM Alignment",
+  "url": "https://arxiv.org/abs/2608.05040v1"
+ },
+ "8ab9f07ea5fb309e": {
+  "t": 1786078792.2907774,
+  "title": "When Do PEFT Adaptations Leak Structure? Measuring Black-Box Structural Bounds in Public-Base Model Services",
+  "url": "https://arxiv.org/abs/2608.05036v1"
+ },
+ "91fa7c295cbaadb6": {
+  "t": 1786078792.2907777,
+  "title": "An Emerging Retail Portfolio Management Application: Personalized, Tax-Aware Reinforcement Learning with Natural Language Goals",
+  "url": "https://arxiv.org/abs/2608.05255v1"
+ },
+ "a4cbfa33ce8a1742": {
+  "t": 1786078792.290778,
+  "title": "Towards Decentralized Searcher Competition in MEV Markets",
+  "url": "https://arxiv.org/abs/2608.05011v1"
+ },
+ "af05554b5d63f295": {
+  "t": 1786078792.2907782,
+  "title": "The Hidden Life of Public Safety Communications Signals: A Comparative Security Analysis of TETRA, TETRAPOL, and P25",
+  "url": "https://arxiv.org/abs/2608.05247v1"
+ },
+ "77331d0e80e18d97": {
+  "t": 1786078885.0876536,
+  "title": "GitHub Actions OIDC: Eliminating Long-Lived Credentials from Your CI/CD Pipeline",
+  "url": "https://dev.to/aloknecessary/github-actions-oidc-eliminating-long-lived-credentials-from-your-cicd-pipeline-gmg"
+ },
+ "0f3140ee6753157f": {
+  "t": 1786078885.087655,
+  "title": "Serverless platform driven CPU loadbalancing",
+  "url": "https://arxiv.org/abs/2608.05633v1"
+ },
+ "3f338bcf49e1e671": {
+  "t": 1786078885.0876558,
+  "title": "Your AI agent\u2019s next tool call may be valid but wrong. AWS\u2019s Dogwood promises to fix that.",
+  "url": "https://thenewstack.io/aws-dogwood-agent-policies/"
+ },
+ "93c10706d9282fe1": {
+  "t": 1786078885.0876563,
+  "title": "I ran SafeAI against the public CrewAI examples repository. Here's why I think projects like this are valuable.",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vfp6gb/i_ran_safeai_against_the_public_crewai_examples/"
+ },
+ "049eb927d9de541b": {
+  "t": 1786078885.0876565,
+  "title": "We found a production server that hadn't been patched in 14 months. It wasn't in any of our tools",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vg35f8/we_found_a_production_server_that_hadnt_been/"
+ },
+ "7c523eaf0a5b082e": {
+  "t": 1786078885.0876567,
+  "title": "Built an AppSec tool for a problem I hit constantly. How do you actually land design partners?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vgn792/built_an_appsec_tool_for_a_problem_i_hit/"
+ },
+ "d522afb88521679e": {
+  "t": 1786078885.0876572,
+  "title": "Vulnerability Management tool",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vftxj1/vulnerability_management_tool/"
+ },
+ "00aa6bd530004c8d": {
+  "t": 1786078885.087658,
+  "title": "Should we walkaway now - Built a platform that helps engineering teams output dataflow as a byproduct of their code development, plus their code compliance posture against privacy and security framewo",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vg2o7s/should_we_walkaway_now_built_a_platform_that/"
+ },
+ "099a7166b4338332": {
+  "t": 1786078885.0876584,
+  "title": "Data Encryption at rest advantages?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vfy53w/data_encryption_at_rest_advantages/"
+ },
+ "16d869e1a971ae91": {
+  "t": 1786078885.0876591,
+  "title": "How much attention is harness engineering getting?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vfkekb/how_much_attention_is_harness_engineering_getting/"
+ },
+ "d0e1a3f5ecccaa94": {
+  "t": 1786078885.0876596,
+  "title": "Before the first prompt: Code execution paths in trusted coding-agent projects",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vf9yfm/before_the_first_prompt_code_execution_paths_in/"
+ },
+ "b383b2fe2bc83c27": {
+  "t": 1786078885.0876598,
+  "title": "A dependency firewall gives your scanner better inputs",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vf6i5a/a_dependency_firewall_gives_your_scanner_better/"
+ },
+ "4ac8661057775a5c": {
+  "t": 1786078885.08766,
+  "title": "ENISA's Single Reporting Platform isn't fully operational 38 days before Article 14 starts. Here's what to build right now while you wait.",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vf3n60/enisas_single_reporting_platform_isnt_fully/"
+ },
+ "d6d111125a509739": {
+  "t": 1786078885.0876603,
+  "title": "Consile: what I learned from a founder's first real security audit",
+  "url": "https://www.reddit.com/r/devsecops/comments/1veyw32/consile_what_i_learned_from_a_founders_first_real/"
+ },
+ "cb44fbabca0f375b": {
+  "t": 1786078885.0876606,
+  "title": "What we're seeing: agentic coding tools are quietly exploding \"shadow SaaS\" and identity sprawl",
+  "url": "https://www.reddit.com/r/devsecops/comments/1ve62fy/what_were_seeing_agentic_coding_tools_are_quietly/"
+ },
+ "9c13f7316e22e90d": {
+  "t": 1786078885.0876608,
+  "title": "AI governance is now an engineering problem",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vec3dk/ai_governance_is_now_an_engineering_problem/"
+ },
+ "94334c153a7be8a1": {
+  "t": 1786078885.087661,
+  "title": "200 new CVEs per day. Amazon confirmed axios was compromised for a full year before detection. Article 14 says \"becomes aware.\" How does this hold up in enforcement?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vdj58n/200_new_cves_per_day_amazon_confirmed_axios_was/"
+ },
+ "33a34f51a28b6b45": {
+  "t": 1786078885.0876613,
+  "title": "why not mythos scan on public or private GitHub project?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vdt1rz/why_not_mythos_scan_on_public_or_private_github/"
+ },
+ "432a59a21a50b102": {
+  "t": 1786078885.087662,
+  "title": "LitmusChaos Q1-Q2 2026 update: community, contributions, and project progress",
+  "url": "https://www.cncf.io/blog/2026/08/06/litmuschaos-q1-q2-2026-update-community-contributions-and-project-progress/"
+ },
+ "a509e3dab0108a66": {
+  "t": 1786078885.0876627,
+  "title": "Designing APIs for agents",
+  "url": "https://thenewstack.io/designing-apis-for-agents/"
+ },
+ "73c8ffc8560590fa": {
+  "t": 1786078885.0876632,
+  "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+  "url": "https://scalex.dev/blog/ai-agent-permissions-stats/"
+ },
+ "e2534454fee9a8eb": {
+  "t": 1786078885.0876632,
+  "title": "[$] Bringing BPF to binfmt_misc",
+  "url": "https://lwn.net/Articles/1086947/"
+ },
+ "9c90665c0ef26620": {
+  "t": 1786078885.0876634,
+  "title": "Rust Coreutils 0.10 released",
+  "url": "https://lwn.net/Articles/1087490/"
+ },
+ "42c7cc6d2c47ee37": {
+  "t": 1786078885.087664,
+  "title": "[$] LWN.net Weekly Edition for August 6, 2026",
+  "url": "https://lwn.net/Articles/1086134/"
+ },
+ "1d25f6cffeb6bed7": {
+  "t": 1786078885.087664,
+  "title": "b4 0.16.0 released",
+  "url": "https://lwn.net/Articles/1087388/"
+ },
+ "2ffd287daa7ff880": {
+  "t": 1786078885.0876641,
+  "title": "[$] FUSE status and plans",
+  "url": "https://lwn.net/Articles/1086336/"
+ },
+ "ada9243678489b33": {
+  "t": 1786078885.0876644,
+  "title": "Nelson: rust-lang/rust is adopting an LLM policy",
+  "url": "https://lwn.net/Articles/1087326/"
+ },
+ "d8f9a9b3da9be615": {
+  "t": 1786078885.0876646,
+  "title": "Security updates for Wednesday",
+  "url": "https://lwn.net/Articles/1087318/"
+ },
+ "b473b9c0a9574ad1": {
+  "t": 1786078885.0876646,
+  "title": "An LLM agent attempts to compromise a project on GitHub",
+  "url": "https://lwn.net/Articles/1087162/"
+ },
+ "da970c272ddc69e5": {
+  "t": 1786078885.0876648,
+  "title": "[$] Fedora considers conflict-of-interest policy",
+  "url": "https://lwn.net/Articles/1086488/"
+ },
+ "718f00f8bf0ab833": {
+  "t": 1786078885.087665,
+  "title": "Another npm worm",
+  "url": "https://lwn.net/Articles/1087108/"
+ },
+ "6fdd9129fdfbda32": {
+  "t": 1786078885.0876653,
+  "title": "[$] The beginning of a process-builder API",
+  "url": "https://lwn.net/Articles/1086330/"
+ },
+ "5606173431bf3a64": {
+  "t": 1786078885.0876656,
+  "title": "Security updates for Tuesday",
+  "url": "https://lwn.net/Articles/1087068/"
+ },
+ "552661ae1bc021ee": {
+  "t": 1786078885.087666,
+  "title": "Kubeflow SDK evolution- One million downloads and counting",
+  "url": "https://www.cncf.io/blog/2026/08/03/kubeflow-sdk-evolution-one-million-downloads-and-counting/"
+ },
+ "23be61ba1a7a91f1": {
+  "t": 1786078885.087666,
+  "title": "Lima v2.2: Windows guests and TPM 2.0 emulation",
+  "url": "https://www.cncf.io/blog/2026/07/28/lima-v2-2-windows-guests-and-tpm-2-0-emulation/"
+ },
+ "3c7fd21dedc76398": {
+  "t": 1786078885.0876663,
+  "title": "GPT-5.6 Sol just got better in one place and stayed the same everywhere else",
+  "url": "https://thenewstack.io/gpt-sol-chatgpt-split/"
+ },
+ "40e816b9530fc11a": {
+  "t": 1786078885.0876665,
+  "title": "Why AI tools know nothing about your company \u2014 until now",
+  "url": "https://thenewstack.io/cloudflare-os-agentic-workspace-security/"
+ },
+ "697efa82c8ae977e": {
+  "t": 1786078885.0876667,
+  "title": "Free agents: How AWS Kiro could untie agents from editors",
+  "url": "https://thenewstack.io/kiro-agent-client-protocol/"
+ },
+ "db18426321b0c54a": {
+  "t": 1786078885.0876667,
+  "title": "The blank-check AI coding era is dead. Here\u2019s what comes next.",
+  "url": "https://thenewstack.io/microsoft-copilot-token-budgets/"
+ },
+ "edc6aa45ae42c2ae": {
+  "t": 1786078885.087667,
+  "title": "Why Todoist says less AI can deliver more",
+  "url": "https://thenewstack.io/doist-ai-automation-code/"
+ },
+ "2ecd9025d694e0b0": {
+  "t": 1786078885.0876672,
+  "title": "\u201cJust rewrite it\u201d: What platform teams really think about modernization",
+  "url": "https://thenewstack.io/nutanix-dual-native-architecture/"
+ },
+ "87d9589c10fc928f": {
+  "t": 1786078885.0876675,
+  "title": "Anthropic recommends a git worktree per agent. Your runtime infra makes that a problem.",
+  "url": "https://thenewstack.io/agent-native-runtime-branching/"
+ },
+ "55ded6867230871e": {
+  "t": 1786078885.0876677,
+  "title": "Google\u2019s four AI departures: \u201cWe wanted to build something differently\u201d",
+  "url": "https://thenewstack.io/deepmind-discovery-loop-departures/"
+ },
+ "e2e276a073e9d4ee": {
+  "t": 1786078885.087668,
+  "title": "The 800 mistakes that could reshape Meta\u2019s AI coding strategy",
+  "url": "https://thenewstack.io/meta-metacode-engineer-training/"
+ },
+ "241ab25c45f2a225": {
+  "t": 1786078885.0876682,
+  "title": "Every software company will become a dev tools company",
+  "url": "https://thenewstack.io/platform-engineering-ai-harness/"
+ },
+ "e714f7a3b6acd36f": {
+  "t": 1786078885.0876684,
+  "title": "CSPM adoption jumped 60%. Tickets stayed open.",
+  "url": "https://thenewstack.io/cloud-security-triage-cadence/"
+ },
+ "c28ba51c10423f9a": {
+  "t": 1786078885.0876687,
+  "title": "Today\u2019s Codex will feel \u201cprimitive\u201d by fall \u2014 and its own team\u2019s roadmap backs it up",
+  "url": "https://thenewstack.io/openai-codex-cloud-evolution/"
+ },
+ "d10ed5b563cbbe70": {
+  "t": 1786078885.0876687,
+  "title": "OpenAI\u2019s Astra just proved 10 long-standing math and science theorems. The tokens cost $2,000.",
+  "url": "https://thenewstack.io/openai-astra-math-cost/"
+ },
+ "1ea14badd8721cb3": {
+  "t": 1786078885.087669,
+  "title": "Claude, Gemini, and GPT-5 can handle every SDLC task. Almost none of them should.",
+  "url": "https://thenewstack.io/ai-software-delivery-architecture/"
+ },
+ "094d36e80e03a602": {
+  "t": 1786078885.0876691,
+  "title": "Alibaba Qwen3.8-Max reactions: \u201cAn API business model wearing an open source jacket\u201d",
+  "url": "https://thenewstack.io/alibaba-qwen3-8-max-reactions/"
+ },
+ "c444e2f809e9470a": {
+  "t": 1786078885.0876691,
+  "title": "Nvidia\u2019s NOOA makes an agent one Python class",
+  "url": "https://thenewstack.io/nvidia-nooa-agent-framework/"
+ },
+ "ee01c27a311ba510": {
+  "t": 1786078885.0876696,
+  "title": "Astro\u2019s GitHub issue backlog is heading to zero for the first time in 5 years. Now Cloudflare is open-sourcing the tool that did it.",
+  "url": "https://thenewstack.io/cloudflare-astro-triage-bot/"
+ },
+ "57be023ba162cb49": {
+  "t": 1786078885.0876698,
+  "title": "AI agents can create database sprawl issues. YugabyteDB\u2019s solution is more agents!",
+  "url": "https://thenewstack.io/yugabytedb-agentic-postgres-scaling/"
+ },
+ "0764a410587e02ca": {
+  "t": 1786078885.08767,
+  "title": "Apple\u2019s bug bounty limit reveals a problem no one knows how to solve yet",
+  "url": "https://thenewstack.io/apple-ai-bug-report-caps/"
+ },
+ "94150c80ec46b86b": {
+  "t": 1786078885.08767,
+  "title": "Alibaba\u2019s AI coded for 16 days straight and every commit is on GitHub",
+  "url": "https://thenewstack.io/qwen-autonomous-coding-audit/"
+ },
+ "2581632bb2c669b1": {
+  "t": 1786078885.0876703,
+  "title": "DeepSeek\u2019s smaller model just outperformed its own flagship",
+  "url": "https://thenewstack.io/deepseek-v4-flash-open-weights/"
+ },
+ "69518fa258996234": {
+  "t": 1786078885.0876706,
+  "title": "What Claude\u2019s real-world breaches reveal about AI safety tests",
+  "url": "https://thenewstack.io/anthropic-claude-containment-failure/"
+ },
+ "0e4f192f472b6298": {
+  "t": 1786078885.0876706,
+  "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
+  "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7"
+ },
+ "e97b7c7166a8cec9": {
+  "t": 1786078885.0876708,
+  "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+  "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/"
+ },
+ "aaf2c2d3290eb923": {
+  "t": 1786078885.087671,
+  "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+  "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/"
+ },
+ "68179885daf236a2": {
+  "t": 1786079010.1348746,
+  "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+  "url": "https://www.aleksagordic.com/blog/vllm"
+ },
+ "23a5b058f19625db": {
+  "t": 1786079010.1348767,
+  "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+  "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm"
+ },
+ "3e4cc4771b97aa99": {
+  "t": 1786079010.134877,
+  "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+  "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+ },
+ "f555ad11b779a765": {
+  "t": 1786079010.1348782,
+  "title": "Quake \u2013 30th Anniversary Update",
+  "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update"
+ },
+ "e77f0e9b650ab6cd": {
+  "t": 1786079010.1348786,
+  "title": "Herdr is joining Y Combinator. The runtime stays open",
+  "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/"
+ },
+ "3ffe3cfbc0e18f68": {
+  "t": 1786079010.1348789,
+  "title": "Can you reverse engineer an ASIC?",
+  "url": "https://blog.janestreet.com/can-you-reverse-engineer-an-asic/"
+ },
+ "62e91c4db26e2803": {
+  "t": 1786079010.1348794,
+  "title": "My phone detects going on a run as \u201csomeone snatching my phone and running off\u201d",
+  "url": "https://mastodon.gamedev.place/@rygorous/117047697255584965"
+ },
+ "d26c5fa9e5878969": {
+  "t": 1786079010.13488,
+  "title": "Improving GPT\u20115.6 Sol in ChatGPT, expanding GPT\u20115.6 Luna access for free users",
+  "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+ },
+ "195a58ef647df495": {
+  "t": 1786079010.1348805,
+  "title": "Taste Is All That's Left",
+  "url": "https://notashelf.dev/posts/taste-is-all-thats-left"
+ },
+ "7cfe03fe094884bb": {
+  "t": 1786079010.1348813,
+  "title": "Show HN: The Channels SDK \u2013 Bring Any Agent to Any Channel (Slack, MS Teams)",
+  "url": "https://github.com/CopilotKit/channels-sdk"
+ },
+ "aff8a95e81223df2": {
+  "t": 1786079010.1348815,
+  "title": "Almost no skill required to cook a steak",
+  "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/"
+ },
+ "e1f7b7a3fe8656e7": {
+  "t": 1786079010.1348825,
+  "title": "Mario Meets Pareto",
+  "url": "https://www.mayerowitz.io/blog/mario-meets-pareto"
+ },
+ "04a63704128e0491": {
+  "t": 1786079010.134883,
+  "title": "Scientists discover Kelvin-Helmholtz Instability on the surface of the Sun",
+  "url": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/"
+ },
+ "04a0851f35e5385e": {
+  "t": 1786079010.1348832,
+  "title": "Truemetrics (YC S23) Is Hiring in Berlin \u2013 GTM Lead",
+  "url": "https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead"
+ },
+ "ef786d8fdf131df5": {
+  "t": 1786079010.1348836,
+  "title": "Legacy Migration: The Strangler Fig Pattern in Laravel \ud83d\udd70\ufe0f",
+  "url": "https://dev.to/iprajapatiparesh/legacy-migration-the-strangler-fig-pattern-in-laravel-1pp4"
+ },
+ "ad7622477cb151ba": {
+  "t": 1786079010.1348844,
+  "title": "Top 5 Sites for Buying Spotify Accounts In Bulk In ...",
+  "url": "https://dev.to/lyducminhkb3bw/top-5-sites-for-buying-spotify-accounts-in-bulk-in--57k4"
+ },
+ "00efbb144c585303": {
+  "t": 1786079010.1348848,
+  "title": "Fix Suspended Stock Data Gaps in Daily Backtests Using Free Stock APIs",
+  "url": "https://dev.to/kels180/fix-suspended-stock-data-gaps-in-daily-backtests-using-free-stock-apis-12il"
+ },
+ "183c7f5c8e1e001a": {
+  "t": 1786079010.1348855,
+  "title": "The Gap Between \"We Have Backups\" and \"We Have a Plan\"",
+  "url": "https://dev.to/eservers/the-gap-between-we-have-backups-and-we-have-a-plan-19m2"
+ },
+ "4558c8f60da696f9": {
+  "t": 1786079010.134886,
+  "title": "Where to Buy Verified OnlyFans Accounts in 2026",
+  "url": "https://dev.to/lyducminhkb3bw/where-to-buy-verified-onlyfans-accounts-in-2026-26k"
+ },
+ "63d04c8a2b45b1e7": {
+  "t": 1786079010.1348867,
+  "title": "Random Forest Is Horizontal Scaling for Predictions",
+  "url": "https://dev.to/nishant_banginwar_80b7dc5/random-forest-is-horizontal-scaling-for-predictions-3dd3"
+ },
+ "b628f69563d6316f": {
+  "t": 1786079010.1348872,
+  "title": "Best 2 Websites To Buy Old LinkedIn Accounts",
+  "url": "https://dev.to/lyducminhkb3bw/best-2-websites-to-buy-old-linkedin-accounts-1hi7"
+ },
+ "98a56456d5c7fe02": {
+  "t": 1786079010.1348877,
+  "title": "SIP 503 Service Unavailable \u2014 Carrier & Server-Side Fixes",
+  "url": "https://dev.to/moisi_trungu_31647b7ac300/sip-503-service-unavailable-carrier-server-side-fixes-pea"
+ },
+ "791ab000683ddb98": {
+  "t": 1786079065.4106274,
+  "title": "Clickhouse is winning the Observability Wars",
+  "url": "https://matduggan.com/clickhouse-is-winning-the-observability-wars/"
+ },
+ "426effc04a05d30e": {
+  "t": 1786079065.4106288,
+  "title": "The feedback loops behind Kubernetes",
+  "url": "https://planetscale.com/blog/the-feedback-loops-behind-kubernetes"
+ },
+ "cadb80f671c515cb": {
+  "t": 1786079065.410629,
+  "title": "What job interviews taught me about Kubernetes",
+  "url": "https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/"
+ },
+ "a6031e70189f83d4": {
+  "t": 1786079065.41063,
+  "title": "Infrastructure Gravity & Domain Engineering",
+  "url": "https://jackdanger.com/infrastructure-gravity/"
+ },
+ "7277f1df38e9267c": {
+  "t": 1786079065.4106307,
+  "title": "Proxmox officially supports Arm, with some caveats",
+  "url": "https://www.jeffgeerling.com/blog/2026/proxmox-ve-arm-official/"
+ },
+ "c65c18527599f326": {
+  "t": 1786079065.410631,
+  "title": "How Compiler Explorer Runs on AWS in 2026",
+  "url": "https://xania.org/202608/how-compiler-explorer-runs-on-aws"
+ },
+ "44df92a0ddeb9b59": {
+  "t": 1786079065.4106314,
+  "title": "Tests for a PDF",
+  "url": "https://blog.lvmbdv.dev/posts/tests-for-a-pdf/"
+ },
+ "0d88446019bc7405": {
+  "t": 1786079065.4106321,
+  "title": "Sovereign Tech Fellowship for Rust maintenance (June-July 2026 report)",
+  "url": "https://kobzol.github.io/rust/2026/08/03/stf-june-july-2026.html"
+ },
+ "eb7d52b69cff1188": {
+  "t": 1786079065.4106328,
+  "title": "Wheels, Bottles and Images",
+  "url": "https://nesbitt.io/2026/07/30/wheels-bottles-images.html"
+ },
+ "ff3689debb92d38e": {
+  "t": 1786079065.4106336,
+  "title": "Using Nagios for small business infrastructure monitoring",
+  "url": "https://tech.chrishardie.com/2026/nagios-small-business-infrastructure-monitoring/"
+ },
+ "96a00d879a8fe4e0": {
+  "t": 1786079065.410634,
+  "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
+  "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html"
+ },
+ "c267c2f1f89a153a": {
+  "t": 1786079065.4106345,
+  "title": "A deep dive into my Forgejo setup",
+  "url": "https://a.l3x.in/blog/welcome-to-my-forge/"
+ },
+ "d1563170ccde9d58": {
+  "t": 1786079065.4106348,
+  "title": "The dailyprog puzzle safety net",
+  "url": "https://blog.lvmbdv.dev/posts/the-puzzle-safety-net/"
+ },
+ "8b26dc1dadb6ce67": {
+  "t": 1786079065.4106352,
+  "title": "Package Management as Org Chart",
+  "url": "https://nesbitt.io/2026/07/10/package-management-as-org-chart.html"
+ },
+ "d994d9b5a8bae2ea": {
+  "t": 1786079065.4106355,
+  "title": "A batch job, in The Elm Architecture",
+  "url": "https://cekrem.github.io/posts/elm-run-batch-job/"
+ },
+ "82890a9eaffcc291": {
+  "t": 1786079065.4106357,
+  "title": "I Don't Maintain My Homelab",
+  "url": "https://cleberg.net/blog/homelab-maintenance.html"
+ },
+ "39146b91ca947a9b": {
+  "t": 1786079065.4106362,
+  "title": "Automating the Rubber Stamp: What If an Agent Ran Your Deployment Gate?",
+  "url": "https://mattvanbird.co.uk/article/ai-deployment-agent"
+ },
+ "d64a850e2d473dd3": {
+  "t": 1786079065.4106364,
+  "title": "OpenFeature - Standardizing Feature Flagging for Everyone",
+  "url": "https://openfeature.dev/"
+ },
+ "2b206d06318a1844": {
+  "t": 1786079065.410637,
+  "title": "sekaictf 2026 infra writeup",
+  "url": "https://blog.es3n1n.eu/posts/sekaictf-2026-infra-writeup/"
+ },
+ "e6ea006c96edb5a4": {
+  "t": 1786079065.4106371,
+  "title": "Spindle's new microVM engine",
+  "url": "https://blog.tangled.org/spindle-microvm/"
+ },
+ "eeab9bcc68b54bdb": {
+  "t": 1786079065.4106374,
+  "title": "How PgBouncer Works",
+  "url": "https://www.augusteo.com/blog/how-pgbouncer-works/"
+ },
+ "2048b40b4ca53713": {
+  "t": 1786079065.4106374,
+  "title": "I am dreading our LLM-written incident report future",
+  "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/"
+ },
+ "78b05aa98b045ce1": {
+  "t": 1786079065.4106376,
+  "title": "mgmt: next generation distributed, event-driven, parallel config management",
+  "url": "https://github.com/purpleidea/mgmt"
+ },
+ "fdd8d1f91dc5ddaf": {
+  "t": 1786079065.4106383,
+  "title": "pyinfra \u2014 agentless infrastructure automation, in plain Python",
+  "url": "https://pyinfra.com"
+ },
+ "8ca59e989436d5e6": {
+  "t": 1786079065.4106386,
+  "title": "Service Bindings - A Better Way to Connect Apps to Databases",
+  "url": "https://openrun.dev/blog/service-binding/"
+ }
+}

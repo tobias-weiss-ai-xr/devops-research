@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite it as below."
+title: "DevSecOps Research"
+authors:
+  - family-names: Weiß
+    given-names: Tobias
+    orcid: 0000-0000-0000-0000
+    email: weissto@hrz.uni-marburg.de
+date-released: "2026-01-01"
+license: MIT

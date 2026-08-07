@@ -1,0 +1,186 @@
+# DevSecOps / DevOps news ingestion sources.
+#
+# Each source resolves to either:
+#   - an RSS/Atom feed  : {"type": "rss", "url": "..."}
+#   - an arXiv API query: {"type": "arxiv", "categories": ["cs.CR","cs.SE"], "max": 50}
+#   - a GitHub releases feed for a repo ("type": "github", "repo": "owner/name")
+#
+# `category` is a coarse bucket used in the digest:
+#   arxiv-paper | blog | changelog | discussion
+# `weight` boosts relevance scoring for higher-trust sources.
+
+sources:
+  # ---------- Papers (arXiv / OpenAlex style) ----------
+  - name: arxiv-cs-cr         # security/privacy (DevSecOps relevant)
+    type: arxiv
+    categories: ["cs.CR"]
+    max: 40
+    category: paper
+    weight: 2.0
+    min_topics: 1          # drop papers with no DevSecOps keyword hits
+
+  - name: arxiv-cs-se          # software engineering / DevOps tooling
+    type: arxiv
+    categories: ["cs.SE", "cs.DC", "cs.NI"]
+    max: 60
+    category: paper
+    weight: 1.6
+    min_topics: 1
+
+  # ---------- Tooling / changelog feeds ----------
+  - name: github-releases-tools
+    type: github
+    repos:
+      - "kubernetes/kubernetes"
+      - "hashicorp/terraform"
+      - "opentofu/opentofu"
+      - "open-policy-agent/opa"
+      - "anchore/syft"
+      - "gitleaks/gitleaks"
+      - "aquasecurity/trivy"
+      - "bridgecrewio/checkov"
+      - "argoproj/argo-cd"
+      - "fluxcd/flux2"
+      - "crossplane/crossplane"
+    category: changelog
+    weight: 1.2
+
+  # ---------- Discussions / news ----------
+  - name: lwn
+    type: rss
+    url: "https://lwn.net/headlines/rss"
+    category: discussion
+    weight: 2.0
+
+  - name: hn-frontpage
+    type: rss
+    url: "https://hnrss.org/frontpage"
+    category: discussion
+    weight: 1.4
+    min_topics: 1          # keep only DevSecOps-relevant HN items
+
+  - name: reddit-devsecops
+    type: rss
+    url: "https://www.reddit.com/r/devsecops/.rss"
+    category: discussion
+    weight: 1.4
+    delay: 6
+
+  - name: reddit-devops
+    type: rss
+    url: "https://www.reddit.com/r/devops/.rss"
+    category: discussion
+    weight: 1.2
+    delay: 6
+
+  - name: lobsteers
+    type: rss
+    url: "https://lobste.rs/t/devops.rss"
+    category: discussion
+    weight: 1.5
+
+  - name: cncf-blog
+    type: rss
+    url: "https://www.cncf.io/blog/feed/"
+    category: discussion
+    weight: 1.6
+
+  - name: newstack
+    type: rss
+    url: "https://thenewstack.io/feed/"
+    category: discussion
+    weight: 1.6
+
+  - name: kubernetes-blog
+    type: rss
+    url: "https://kubernetes.io/feed.xml"
+    category: discussion
+    weight: 1.5
+
+# ----------------- Keyword classification -----------------
+# Items matching these keywords are tagged with the given topic label.
+# A match also boosts relevance score.
+keywords:
+  cicd:
+    - "ci/cd"
+    - "continuous integration"
+    - "continuous delivery"
+    - "github actions"
+    - "gitlab ci"
+    - "jenkins"
+    - "build pipeline"
+  iac:
+    - "terraform"
+    - "ansible"
+    - "cloudformation"
+    - "pulumi"
+    - "open tofu"
+    - "infrastructure as code"
+    - "crossplane"
+  containers:
+    - "kubernetes"
+    - "k8s"
+    - "docker"
+    - "containerd"
+    - "podman"
+    - "helm"
+    - "argocd"
+    - "istio"
+    - "microservice"
+    - "serverless"
+    - "cloud native"
+    - "container"
+  security:
+    - "devsecops"
+    - "vulnerabilit"
+    - "cve"
+    - "supply chain"
+    - "sbom"
+    - "sast"
+    - "dast"
+    - "sca"
+    - "secrets"
+    - "zero trust"
+    - "fuzz"
+    - "software security"
+    - "secure coding"
+  ai-security:
+    - "prompt injection"
+    - "llm security"
+    - "agent security"
+    - "ai agent"
+    - "mcp"
+  policycode:
+    - "policy as code"
+    - "opa"
+    - "rego"
+    - "gatekeeper"
+    - "kyverno"
+    - "opa"
+  observability:
+    - "observability"
+    - "telemetry"
+    - "prometheus"
+    - "grafana"
+    - "opentelemetry"
+    - "tracing"
+    - "metrics"
+    - "slo"
+  gitops:
+    - "gitops"
+    - "continuous deployment"
+    - "progressive delivery"
+    - "canary"
+  platform:
+    - "platform engineering"
+    - "idp"
+    - "backstage"
+    - "developer portal"
+    - "internal developer platform"
+
+# How long (days) an item is "fresh" for recency scoring.
+fresh_window_days: 3
+# Discard items with relevance score below this.
+min_score: 0.4
+# Cap total items emitted in the digest.
+max_digest_items: 60
