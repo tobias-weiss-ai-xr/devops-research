@@ -59,6 +59,30 @@ Add/edit feeds and keywords in **`config/sources.yml`** — no code changes need
 bash scripts/setup.sh         # create .venv, install deps, install crontab (daily 07:00)
 ```
 
+## Paper search (research corpus)
+
+In addition to the daily news digest, this repo maintains a curated research
+corpus in `papers.yaml` (plus `papers.json` / `statistics.json` exports),
+following the same house pattern as the sibling `*-research` repos.
+
+```bash
+# arXiv discovery — 94 DevSecOps taxonomy queries, last N months,
+# dedup by arXiv ID/title, checkpoint every 10 queries
+python3 scripts/fetch/fetch_new_papers.py --months 12 --dry-run   # preview
+python3 scripts/fetch/fetch_openalex.py  --months 36            # OpenAlex pass
+
+python3 scripts/validate_papers.py               # structure + taxonomy checks
+python3 scripts/analysis/generate_analysis.py    # saturation, counts, themes
+```
+
+Taxonomy (category in `papers.yaml`): `security`, `cicd`, `iac`, `containers`,
+`policycode`, `observability`, `gitops`, `platform`, `ai-security` — matching
+the keyword groups in `config/sources.yml`. Subcategory refines by theme
+(review / theory / method / application / systems / evaluation / …).
+
+Bulk refreshes: `--from Q --to Q` resume partial runs; both fetchers append
+and checkpoint, so interrupted runs never lose progress.
+
 Manual equivalent:
 
 ```bash

@@ -1433,5 +1433,305 @@
   "t": 1786079065.4106386,
   "title": "Service Bindings - A Better Way to Connect Apps to Databases",
   "url": "https://openrun.dev/blog/service-binding/"
+ },
+ "6363b980b131c711": {
+  "t": 1786292935.171601,
+  "title": "How to produce a container sboms without transitive dependencies or how do I remove them from existing container sboms ?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vhvtkn/how_to_produce_a_container_sboms_without/"
+ },
+ "78721cd0453a81b3": {
+  "t": 1786292935.1716032,
+  "title": "AVE, an open ID scheme for behavioral vulnerabilities in AI agents",
+  "url": "https://www.reddit.com/r/devsecops/comments/1viiiry/ave_an_open_id_scheme_for_behavioral/"
+ },
+ "b7139ff46011bfc4": {
+  "t": 1786292935.1716037,
+  "title": "SAST false positives are not a tuning problem, they are a trust problem",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vhu9k4/sast_false_positives_are_not_a_tuning_problem/"
+ },
+ "265d9c851be69baa": {
+  "t": 1786292935.1716042,
+  "title": "You can\u2019t manage risk you can\u2019t consistently name: why agentic AI security needed its own CVE-style vocabulary",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vc2rxz/you_cant_manage_risk_you_cant_consistently_name/"
+ },
+ "ca2cb3dcce3bcb6e": {
+  "t": 1786292935.171605,
+  "title": "Has anyone actually reduced manual pentesting without increasing risk?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vb9kdv/has_anyone_actually_reduced_manual_pentesting/"
+ },
+ "21367c72d62de4cf": {
+  "t": 1786292935.1716058,
+  "title": "Stable kernel releases for Friday with a single bug fix",
+  "url": "https://lwn.net/Articles/1087743/"
+ },
+ "e2653b7f0afba50e": {
+  "t": 1786292935.1716065,
+  "title": "NPM supply chain attack round six and we are still yolo installing straight from the registry",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vj3yex/npm_supply_chain_attack_round_six_and_we_are/"
+ },
+ "68be1d3968466e1a": {
+  "t": 1786292935.1716077,
+  "title": "Platform Engineering ROI: What it costs to build your own platform",
+  "url": "https://thenewstack.io/real-cost-diy-platform/"
+ },
+ "41c4259256e7fd49": {
+  "t": 1786292935.1716087,
+  "title": "Zenity or NeuralTrust for protecting AI agents?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vbrumg/zenity_or_neuraltrust_for_protecting_ai_agents/"
+ },
+ "fc78fdf24b472552": {
+  "t": 1786292935.1716092,
+  "title": "How should n8n AI workflow security checks behave in CI?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vc1wwj/how_should_n8n_ai_workflow_security_checks_behave/"
+ },
+ "6421c0b0ecea32d4": {
+  "t": 1786292935.1716096,
+  "title": "The Software Stewardship Lab launches",
+  "url": "https://lwn.net/Articles/1087812/"
+ },
+ "013af46bf3777b28": {
+  "t": 1786292935.17161,
+  "title": "Does Kubernetes DRA Replace HAMi?",
+  "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/"
+ },
+ "4cacbfff547cdd56": {
+  "t": 1786292935.1716106,
+  "title": "Shadow AI in CI/CD: Threat-modeling the path from developer laptop to Kubernetes",
+  "url": "https://www.cncf.io/blog/2026/08/07/shadow-ai-in-ci-cd-threat-modeling-the-path-from-developer-laptop-to-kubernetes/"
+ },
+ "d8a4c240a59f3cc0": {
+  "t": 1786292935.171611,
+  "title": "OrchestraBench exposes where multi-agent failures actually cascade",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vickb8/orchestrabench_exposes_where_multiagent_failures/"
+ },
+ "f565a62e57bb2d89": {
+  "t": 1786292935.1716118,
+  "title": "How often do you guys try new appsec products?",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vdgun8/how_often_do_you_guys_try_new_appsec_products/"
+ },
+ "a27d6b12ddaca7b9": {
+  "t": 1786292935.1716125,
+  "title": "Open-Sourcing Xpsd: LLM-Driven Reachability Triage for Dependency Vulnerabilities (SARIF Output)",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vdahtv/opensourcing_xpsd_llmdriven_reachability_triage/"
+ },
+ "58ab5f7ac8f5866d": {
+  "t": 1786292935.1716132,
+  "title": "Comparing DSPM vendors",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vcw7yq/comparing_dspm_vendors/"
+ },
+ "61466bdb31ad2c8b": {
+  "t": 1786292935.1716137,
+  "title": "Where .env Went Wrong",
+  "url": "https://www.reddit.com/r/devsecops/comments/1vbzfyj/where_env_went_wrong/"
+ },
+ "a4e1870212428b5e": {
+  "t": 1786292935.171614,
+  "title": "[fluxcd/flux2] v2.9.4",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.9.4"
+ },
+ "3c4401a2ac0f3041": {
+  "t": 1786292935.1716142,
+  "title": "Why your KubeVirt VMs can\u2019t move between clusters \u2014 and how EVPN fixes it",
+  "url": "https://thenewstack.io/kubevirt-evpn-vm-migration/"
+ },
+ "ba01a42c87bb8ab9": {
+  "t": 1786292935.1716146,
+  "title": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents",
+  "url": "https://marketnow.site/"
+ },
+ "0c1552232bcd5ace": {
+  "t": 1786292935.171615,
+  "title": "[bridgecrewio/checkov] 3.3.1",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.1"
+ },
+ "b4706eb45fedcb1d": {
+  "t": 1786292935.1716156,
+  "title": "[$] Changes in shadow-utils password-expiration features",
+  "url": "https://lwn.net/Articles/1086949/"
+ },
+ "f9ceb14ab9436212": {
+  "t": 1786292935.171616,
+  "title": "LightDM lives: version 1.33.0 released",
+  "url": "https://lwn.net/Articles/1087759/"
+ },
+ "ace64285942d1779": {
+  "t": 1786292935.1716166,
+  "title": "Security updates for Friday",
+  "url": "https://lwn.net/Articles/1087742/"
+ },
+ "301448dec249cf83": {
+  "t": 1786292935.1716173,
+  "title": "Coding agents can be evaluated. We just have to evaluate the work.",
+  "url": "https://thenewstack.io/evaluating-coding-agents-framework/"
+ },
+ "868e137e776b2b30": {
+  "t": 1786292935.1716177,
+  "title": "AI coding got faster. Why didn\u2019t engineering?",
+  "url": "https://thenewstack.io/ai-productivity-measurement-gap/"
+ },
+ "dc8f18468691dbe0": {
+  "t": 1786292935.171618,
+  "title": "AI adoption isn\u2019t the same as AI usage",
+  "url": "https://thenewstack.io/ai-adoption-versus-usage/"
+ },
+ "6df2d8700b0cd3a2": {
+  "t": 1786292935.1716187,
+  "title": "Five AI rivals just backed a shared plugin standard. Here\u2019s why it matters for developers.",
+  "url": "https://thenewstack.io/agent-plugins-open-standard/"
+ },
+ "b9628507af60f62e": {
+  "t": 1786292935.1716194,
+  "title": "AI skills start on laptops. Enterprises inherit the mess.",
+  "url": "https://thenewstack.io/speakeasy-enterprise-agent-skills/"
+ },
+ "f5afa9b6b7a3eb89": {
+  "t": 1786292935.1716197,
+  "title": "Auto Mode will soon be the default in Claude Code \u2014 because humans can\u2019t be trusted",
+  "url": "https://thenewstack.io/claude-code-auto-mode/"
+ },
+ "7145911fcf64963f": {
+  "t": 1786292935.17162,
+  "title": "The AI model OpenAI won\u2019t release yet \u2014 and what it found in testing",
+  "url": "https://thenewstack.io/openai-astra-cybersecurity-delay/"
+ },
+ "f8254db9cc321651": {
+  "t": 1786292935.1716204,
+  "title": "The npm attack that turned provenance attestations into camouflage",
+  "url": "https://thenewstack.io/npm-supply-chain-worm-attack/"
+ },
+ "c2eed7159755f1af": {
+  "t": 1786292935.1716208,
+  "title": "Meta\u2019s new coding agent is cheap (but it\u2019ll cost you your data).",
+  "url": "https://thenewstack.io/meta-muse-code/"
+ },
+ "d1345230b9143f17": {
+  "t": 1786292935.1716216,
+  "title": "Coinbase, Shopify and Ramp all built their own coding agents. All three still pay Anthropic.",
+  "url": "https://thenewstack.io/enterprise-ai-agent-harness/"
+ },
+ "16ae14f4926231b9": {
+  "t": 1786292935.1716218,
+  "title": "The \u201cAI kill switch\u201d assumes you know what you are trying to shut down",
+  "url": "https://thenewstack.io/ai-kill-switch-infrastructure/"
+ },
+ "8600ec3a45e8267a": {
+  "t": 1786292935.1716225,
+  "title": "[anchore/syft] v1.50.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.50.0"
+ },
+ "79f0d36e5a11fcfc": {
+  "t": 1786292935.171623,
+  "title": "[anchore/syft] v1.49.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.49.0"
+ },
+ "6a55a8d26044be07": {
+  "t": 1786292935.1716235,
+  "title": "[anchore/syft] v1.46.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.46.0"
+ },
+ "e5ec914c4303f205": {
+  "t": 1786292935.171624,
+  "title": "[anchore/syft] v1.45.1",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.45.1"
+ },
+ "71e9cb5ffab40773": {
+  "t": 1786292935.1716242,
+  "title": "[anchore/syft] v1.45.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.45.0"
+ },
+ "962d85e6ba461d4d": {
+  "t": 1786292935.1716247,
+  "title": "[anchore/syft] v1.44.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.44.0"
+ },
+ "d6b382e366a0e264": {
+  "t": 1786292935.171625,
+  "title": "[anchore/syft] v1.43.0",
+  "url": "https://github.com/anchore/syft/releases/tag/v1.43.0"
+ },
+ "1b0abcae70741440": {
+  "t": 1786292935.1716254,
+  "title": "[gitleaks/gitleaks] v8.30.1",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.1"
+ },
+ "6256a2a3e1a95de5": {
+  "t": 1786292935.1716256,
+  "title": "[gitleaks/gitleaks] v8.30.0",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.0"
+ },
+ "63124bb78995df43": {
+  "t": 1786292935.1716266,
+  "title": "[gitleaks/gitleaks] v8.29.1",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.29.1"
+ },
+ "65ded65c9637bd06": {
+  "t": 1786292935.171627,
+  "title": "[gitleaks/gitleaks] v8.29.0",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.29.0"
+ },
+ "a6fbda2047c795fc": {
+  "t": 1786292935.1716275,
+  "title": "[gitleaks/gitleaks] v8.28.0",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.28.0"
+ },
+ "bba5239e1ca6f355": {
+  "t": 1786292935.171628,
+  "title": "[gitleaks/gitleaks] v8.27.2",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.2"
+ },
+ "a289fe4a5e0f815e": {
+  "t": 1786292935.1716285,
+  "title": "[gitleaks/gitleaks] v8.27.1",
+  "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.1"
+ },
+ "4d26e55bd58a8f9f": {
+  "t": 1786292935.171629,
+  "title": "[aquasecurity/trivy] v0.73.0",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.73.0"
+ },
+ "cd37a28c3aa71a9a": {
+  "t": 1786292935.1716294,
+  "title": "[aquasecurity/trivy] v0.72.0",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.72.0"
+ },
+ "647ece558650f315": {
+  "t": 1786292935.17163,
+  "title": "[aquasecurity/trivy] v0.71.2",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.71.2"
+ },
+ "41857e31d3b3cfa5": {
+  "t": 1786292935.1716301,
+  "title": "[aquasecurity/trivy] v0.71.1",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.71.1"
+ },
+ "6acce03bb89ac333": {
+  "t": 1786292935.1716304,
+  "title": "[aquasecurity/trivy] v0.71.0",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.71.0"
+ },
+ "eca61c524833e6b4": {
+  "t": 1786292935.171634,
+  "title": "[aquasecurity/trivy] v0.70.0",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.70.0"
+ },
+ "d6acfce697c6b9dd": {
+  "t": 1786292935.1716342,
+  "title": "[aquasecurity/trivy] v0.69.3",
+  "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.69.3"
+ },
+ "4cd7668d50386f05": {
+  "t": 1786292935.1716344,
+  "title": "[bridgecrewio/checkov] 3.3.0",
+  "url": "https://github.com/bridgecrewio/checkov/releases/tag/3.3.0"
+ },
+ "db7a177bd37c8957": {
+  "t": 1786292935.1716347,
+  "title": "[fluxcd/flux2] v2.9.2",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.9.2"
+ },
+ "2ead56c4692761b3": {
+  "t": 1786292935.171635,
+  "title": "[fluxcd/flux2] v2.9.1",
+  "url": "https://github.com/fluxcd/flux2/releases/tag/v2.9.1"
  }
 }
