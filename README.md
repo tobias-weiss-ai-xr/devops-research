@@ -80,6 +80,17 @@ Taxonomy (category in `papers.yaml`): `security`, `cicd`, `iac`, `containers`,
 the keyword groups in `config/sources.yml`. Subcategory refines by theme
 (review / theory / method / application / systems / evaluation / …).
 
+The corpus is DevOps-strict: LLM / AI-agent papers are only kept when they
+carry DevOps context (code, pipelines, CI/CD, IaC, Kubernetes, supply chain,
+agent tooling, AIOps, …). Papers without it are archived to
+`papers-general.yaml` instead of polluting the corpus.
+
+```bash
+# DevOps-relevance pass (LLM/AI papers w/o DevOps context -> archive)
+python3 scripts/reclassify_papers.py --dry-run   # preview
+python3 scripts/reclassify_papers.py             # apply
+```
+
 Bulk refreshes: `--from Q --to Q` resume partial runs; both fetchers append
 and checkpoint, so interrupted runs never lose progress.
 

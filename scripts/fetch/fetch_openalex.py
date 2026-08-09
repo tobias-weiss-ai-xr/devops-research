@@ -30,6 +30,7 @@ from fetch_new_papers import (  # noqa: E402
     QUERIES,
     append_papers,
     classify_subcategory,
+    devops_filter,
     load_existing_papers,
 )
 
@@ -229,6 +230,8 @@ def main():
         for work in search_openalex(terms, args.months, per_page=args.per_page):
             entry = to_entry(work, category, hint)
             if not entry:
+                continue
+            if not devops_filter(entry):
                 continue
             key = dedup_key(entry)
             if key[0] in existing_keys and key[1] in existing_keys[key[0]]:

@@ -122,17 +122,22 @@ QUERIES = [
     ('cat:cs.SE AND abs:"developer portal"', "platform", "systems"),
     ('cat:cs.SE AND abs:"developer experience"', "platform", "application"),
     ('cat:cs.SE AND abs:"platform team"', "platform", "application"),
-    # --- AI / LLM security ---
-    ('cat:cs.CR AND abs:"prompt injection"', "ai-security", "method"),
-    ('cat:cs.CR AND abs:"LLM" AND abs:"security"', "ai-security", "method"),
-    ('cat:cs.CR AND abs:"large language model" AND abs:"security"', "ai-security", "method"),
-    ('cat:cs.CR AND abs:"AI agent" AND abs:"security"', "ai-security", "method"),
-    ('cat:cs.CR AND abs:"agentic" AND abs:"security"', "ai-security", "method"),
-    ('cat:cs.CR AND all:"Model Context Protocol"', "ai-security", "systems"),
+    # --- AI / LLM security (DevOps-anchored: LLM/AI papers are only kept
+    # when they touch code, pipelines, infra, supply chains or agent tooling) ---
+    ('cat:cs.CR AND abs:"prompt injection" AND (abs:"code" OR abs:"software" OR abs:"tool")', "ai-security", "method"),
+    ('cat:cs.CR AND abs:"prompt injection" AND abs:"agent" AND (abs:"workflow" OR abs:"automation" OR abs:"deployment")', "ai-security", "method"),
     ('cat:cs.CR AND abs:"LLM" AND abs:"software supply chain"', "ai-security", "systems"),
-    ('cat:cs.CR AND abs:"LLM" AND abs:"vulnerability"', "ai-security", "method"),
-    ('cat:cs.CR AND abs:"AI" AND abs:"threat"', "ai-security", "method"),
-    ('cat:cs.SE AND abs:"AI coding assistant" AND abs:"security"', "ai-security", "application"),
+    ('cat:cs.CR AND abs:"LLM" AND abs:"vulnerability" AND (abs:"code" OR abs:"software" OR abs:"repository")', "ai-security", "method"),
+    ('cat:cs.CR AND abs:"large language model" AND abs:"vulnerability" AND (abs:"code" OR abs:"software")', "ai-security", "method"),
+    ('cat:cs.SE AND (abs:"AI coding assistant" OR abs:"coding assistant") AND abs:"security"', "ai-security", "application"),
+    ('cat:cs.SE AND abs:"LLM" AND abs:"code review"', "ai-security", "application"),
+    ('cat:cs.CR AND all:"Model Context Protocol" AND (abs:"security" OR abs:"attack" OR abs:"integration" OR abs:"tool")', "ai-security", "systems"),
+    ('cat:cs.SE AND abs:"AI" AND (abs:"pipeline" OR abs:"continuous integration" OR all:"CI/CD")', "ai-security", "method"),
+    ('cat:cs.CR AND abs:"AI agent" AND abs:"security" AND (abs:"tool" OR abs:"automation" OR abs:"deployment" OR abs:"platform")', "ai-security", "method"),
+    ('cat:cs.CR AND abs:"agent" AND abs:"supply chain"', "ai-security", "systems"),
+    ('cat:cs.CR AND abs:"LLM" AND (abs:"deployment" OR abs:"runtime" OR abs:"cloud") AND abs:"security"', "ai-security", "systems"),
+    ('cat:cs.SE AND abs:"LLM" AND abs:"DevSecOps"', "ai-security", "method"),
+    ('cat:cs.SE AND (abs:"AIOps" OR abs:"agentic operations")', "ai-security", "application"),
     # --- DevOps practices / empirical ---
     ('cat:cs.SE AND abs:"DevOps" AND abs:"security"', "security", "method"),
     ('cat:cs.SE AND abs:"DevOps" AND abs:"survey"', "security", "review"),
@@ -161,6 +166,96 @@ CATEGORIES = {
     "security", "cicd", "iac", "containers", "policycode",
     "observability", "gitops", "platform", "ai-security",
 }
+
+# ---- DevOps-relevance filter (shared with scripts/reclassify_papers.py) ----
+# LLM/AI-agent papers are only allowed into the corpus when they carry
+# DevOps context. Kept here (the house pattern) so both the fetch scripts
+# and the reclassification pass use identical rules.
+
+LLM_SIGNALS = [
+    "llm", "large language model", "gpt-", "gpt4", "gpt 4", "chatgpt", "copilot",
+    "prompt injection", "jailbreak", "model context protocol", "mcp",
+    "ai agent", "ai agents", "agentic", "autonomous agent", "multi-agent",
+    "multi agent", "ai assistant", "ai coding", "code assistant",
+    "foundation model", "foundation models", "ai-generated", "ai generated",
+    "ai-powered", "ai powered", "ai-driven", "ai driven", "llm-based",
+    "llm based", "llm-powered", "llm powered", "aiops", "ai-ops",
+    "ai-assisted", "ai assisted",]
+
+DEVOPS_STRONG = [
+    "ci/cd", "continuous integration", "continuous delivery", "continuous deployment",
+    "github actions", "gitlab", "jenkins", "devsecops", "devops", "sre",
+    "site reliability", "infrastructure as code", "terraform", "ansible",
+    "policy as code",
+    "kubernetes", "k8s", "docker", "container", "containerization",
+    "orchestration", "serverless", "microservice", "cloud", "cloud-native",
+    "cloud native", "observability", "telemetry", "opentelemetry",
+    "distributed tracing", "gitops", "progressive delivery", "canary",
+    "deployment", "deploy", "release engineering", "software supply chain",
+    "supply chain", "sbom", "software bill of materials", "dependency",
+    "package manager", "package registry", "software signing", "provenance",
+    "code review", "code generation", "code completion", "coding assistant",
+    "code assistant", "static analysis", "secure coding", "software composition",
+    "runtime security", "sandbox", "plugin", "extension", "ide",
+    "developer tool", "platform engineering", "internal developer platform",
+    "idp", "backstage", "incident response", "security operations", "soc",
+    "workflow automation", "build pipeline", "build system", "release process",
+    "aops", "agentic operations", "software engineering", "software development",
+    "open source software", "open-source software", "code repository",
+    "source code", "software deployment", "model deployment", "mlops",
+]
+
+# Medium: weak-ish context; two of these (or one + one strong) suffice.
+DEVOPS_MEDIUM = [
+    "software", "code", "repository", "developer", "programmer", "program",
+    "tool", "runtime", "build", "release", "automation", "workflow",
+    "vulnerability", "vulnerabilities", "cve", "exploit", "attack surface",
+    "malware", "security testing", "penetration testing", "fuzzing",
+    "secrets", "application security", "secure development", "software quality",
+    "open source", "maintainer", "commit", "pull request", "api",
+    "logging", "log analysis", "log anomaly", "log parsing",
+]
+
+
+def _norm(text: str) -> str:
+    """Lowercase and normalize - and / to spaces so 'policy-as-code' matches
+    'policy as code', 'ci/cd' matches 'ci cd', etc."""
+    return re.sub(r"[\s-]+", " ", re.sub(r"[-/]", " ", text.lower()))
+
+
+def _word_re(tokens: list[str]) -> re.Pattern:
+    """Case-insensitive regex with word boundaries (avoids 'ide' in 'idea',
+    'build' in 'rebuilding', 'soc' in 'society'). Tokens are normalized like
+    the text (hyphens/slashes -> spaces) so 'gpt-4' matches 'gpt 4'."""
+    normed = [_norm(t) for t in tokens]
+    return re.compile(
+        r"|".join(r"\b" + re.escape(s) + r"\b" for s in normed), re.I
+    )
+
+
+llm_re = _word_re(LLM_SIGNALS)
+strong_re = _word_re(DEVOPS_STRONG)
+medium_re = _word_re(DEVOPS_MEDIUM)
+
+
+def is_llm_paper(p) -> bool:
+    text = _norm(f"{p.get('title','')} {p.get('abstract','')}")
+    return bool(llm_re.search(text))
+
+
+def devops_relevance(p) -> tuple[bool, int, int]:
+    """Return (relevant, n_strong, n_medium) for LLM papers."""
+    text = _norm(f"{p.get('title','')} {p.get('abstract','')}")
+    strong = len(set(strong_re.findall(text)))
+    medium = len(set(medium_re.findall(text)))
+    relevant = strong >= 1 or medium >= 2
+    return relevant, strong, medium
+
+
+def devops_filter(entry) -> bool:
+    """True when the entry may enter the corpus: either not an LLM/AI paper,
+    or an LLM/AI paper with DevOps context."""
+    return not is_llm_paper(entry) or devops_relevance(entry)[0]
 
 
 def classify_subcategory(title, abstract):
@@ -375,6 +470,10 @@ def main():
             entry["subcategory"] = force_sub or classify_subcategory(
                 entry.get("title", ""), entry.get("abstract", "")
             )
+            # DevOps-relevance gate: LLM/AI papers without DevOps context
+            # never enter the corpus (same rule as scripts/reclassify_papers.py)
+            if not devops_filter(entry):
+                continue
             all_new.append(entry)
             by_id[arxiv_id] = entry
             titles_lower.append(title_lower)
