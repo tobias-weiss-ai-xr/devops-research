@@ -205,15 +205,17 @@ DEVOPS_STRONG = [
     "source code", "software deployment", "model deployment", "mlops",
 ]
 
-# Medium: weak-ish context; two of these (or one + one strong) suffice.
+# Medium: DevOps-adjacent context — specific enough to imply a DevSecOps
+# domain when ≥2 are present. Generic CS terms (software, code, tool, api,
+# vulnerability, program, developer) are intentionally EXCLUDED because they
+# match nearly every paper and made the threshold trivially satisfiable.
 DEVOPS_MEDIUM = [
-    "software", "code", "repository", "developer", "programmer", "program",
-    "tool", "runtime", "build", "release", "automation", "workflow",
-    "vulnerability", "vulnerabilities", "cve", "exploit", "attack surface",
-    "malware", "security testing", "penetration testing", "fuzzing",
-    "secrets", "application security", "secure development", "software quality",
-    "open source", "maintainer", "commit", "pull request", "api",
-    "logging", "log analysis", "log anomaly", "log parsing",
+    "repository", "maintainer", "commit", "pull request",
+    "runtime", "build", "release", "automation", "workflow",
+    "cve", "attack surface", "malware", "security testing",
+    "penetration testing", "fuzzing", "secrets",
+    "application security", "secure development", "software quality",
+    "open source", "logging", "log analysis", "log anomaly", "log parsing",
 ]
 
 

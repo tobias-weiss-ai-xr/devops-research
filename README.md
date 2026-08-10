@@ -85,6 +85,13 @@ carry DevOps context (code, pipelines, CI/CD, IaC, Kubernetes, supply chain,
 agent tooling, AIOps, …). Papers without it are archived to
 `papers-general.yaml` instead of polluting the corpus.
 
+The relevance gate runs **at ingest time** in both `fetch_new_papers.py` and
+`fetch_openalex.py` (shared `devops_filter()` from `fetch_new_papers.py`,
+imported by `reclassify_papers.py` — house pattern).  LLM signals are matched
+with word boundaries and hyphen/slash normalisation; generic CS terms
+(`software`, `code`, `tool`, `api`, `vulnerability`) are excluded from the
+medium-signal list to prevent false positives.
+
 ```bash
 # DevOps-relevance pass (LLM/AI papers w/o DevOps context -> archive)
 python3 scripts/reclassify_papers.py --dry-run   # preview

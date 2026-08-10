@@ -487,13 +487,6 @@ papers:
     subcategory: security
     authors: ["Shree Hari Bittugondanahalli Indra Kumar", "Lilia Rodrigues Sampaio", "André Martin"]
     abstract: "Open-source libraries are widely used by software developers to speed up the development of products, however, they can introduce security vulnerabilities, leading to incidents like Log4Shell. With th..."
-  - title: "Taint-Style Vulnerability Detection and Confirmation for Node.js Packages Using LLM Agent Reasoning"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.20179v1"
-    category: security
-    subcategory: security
-    authors: ["Ronghao Ni", "Mihai Christodorescu", "Limin Jia"]
-    abstract: "The rapidly evolving Node$.$js ecosystem currently includes millions of packages and is a critical part of modern software supply chains, making vulnerability detection of Node$.$js packages increasin..."
   - title: "Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.02357v2"
@@ -1446,13 +1439,6 @@ papers:
     subcategory: theory
     authors: ["Ignacio Peyrano"]
     abstract: "Enterprise software engineering is shifting away from deterministic CRUD/REST architectures toward AI-native systems where large language models act as cognitive orchestrators. This transition introdu..."
-  - title: "Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP Enforcement Architecture"
-    date: "2026-08"
-    url: "https://arxiv.org/abs/2608.06130v1"
-    category: security
-    subcategory: theory
-    authors: ["Leo Sambrook", "Sampo Sovio"]
-    abstract: "AI agents performing cryptographic operations (signing Git commits, authenticating API calls, issuing certificates) currently store private keys in software-accessible locations: plaintext files, envi..."
   - title: "Architecting Trust: A Framework for Secure IoT Systems Through Trusted Execution and Semantic Middleware"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.10762v1"
@@ -1516,13 +1502,6 @@ papers:
     subcategory: security
     authors: ["Philip Sjösvärd", "Hongyu Jin", "Panos Papadimitratos"]
     abstract: "The Domain Name System (DNS) is involved in practically all web activity, translating easy-to-remember domain names into Internet Protocol (IP) addresses. Due to its central role on the Internet, DNS ..."
-  - title: "Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.07191v2"
-    category: security
-    subcategory: security
-    authors: ["Yuxu Ge"]
-    abstract: "Autonomous agents powered by large language models introduce a class of execution-layer vulnerabilities -- prompt injection, retrieval poisoning, and uncontrolled tool invocation -- that existing guar..."
   - title: "Validating Threat Modeling Results with the Help of Vulnerable Test Applications"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.23695v1"
@@ -1726,13 +1705,6 @@ papers:
     subcategory: theory
     authors: ["Tharindu Lakshan Yasarathna", "Nhien-An Le-Khac"]
     abstract: "Integrating SDN and the IoT enhances network control and flexibility. DL-based AAD systems improve security by enabling real-time threat detection in SDN-IoT networks. However, these systems remain vu..."
-  - title: "\"Digital Camouflage\": The LLVM Challenge in LLM-Based Malware Detection"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.16671v1"
-    category: security
-    subcategory: theory
-    authors: ["Ekin Böke", "Simon Torka"]
-    abstract: "Large Language Models (LLMs) have emerged as promising tools for malware detection by analyzing code semantics, identifying vulnerabilities, and adapting to evolving threats. However, their reliabilit..."
   - title: "Hephaestus: Toward a Cybersecurity AI Scientist"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.29981v1"
@@ -1838,13 +1810,6 @@ papers:
     subcategory: theory
     authors: ["Emmanuel Dare Alalade", "Ashraf Matrawy"]
     abstract: "Previous studies on PTA have focused on analyzing privacy threats based on the potential areas of occurrence and their likelihood of occurrence. However, an in-depth understanding of the threat actors..."
-  - title: "Mapping the Exploitation Surface: A 10,000-Trial Taxonomy of What Makes LLM Agents Exploit Vulnerabilities"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.04561v1"
-    category: security
-    subcategory: theory
-    authors: ["Charafeddine Mouzouni"]
-    abstract: "LLM agents with tool access can discover and exploit security vulnerabilities. This is known. What is not known is which features of a system prompt trigger this behaviour, and which do not. We presen..."
   - title: "Privacy-Preserving EHR Data Transformation via Geometric Operators: A Human-AI Co-Design Technical Report"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.22954v1"
@@ -2028,13 +1993,6 @@ papers:
     subcategory: theory
     authors: ["Sebastian Neef", "Luca Jungnickel", "Antonio Benjamin Buchholz"]
     abstract: "Large Language Models (LLMs) have emerged as a promising tool for automated vulnerability detection, yet their effectiveness on web-specific vulnerabilities remains to be explored. This work benchmark..."
-  - title: "A Systematic Study of Code Obfuscation Against LLM-based Vulnerability Detection"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.16538v1"
-    category: security
-    subcategory: security
-    authors: ["Xiao Li", "Yue Li", "Hao Wu"]
-    abstract: "As large language models (LLMs) are increasingly adopted for code vulnerability detection, their reliability and robustness across diverse vulnerability types have become a pressing concern. In tradit..."
   - title: "A Ground-Truth-Based Evaluation of Vulnerability Detection Across Multiple Ecosystems"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.21111v1"
@@ -2042,13 +2000,6 @@ papers:
     subcategory: security
     authors: ["Peter Mandl", "Paul Mandl", "Martin Häusl"]
     abstract: "Automated vulnerability detection tools are widely used to identify security vulnerabilities in software dependencies. However, the evaluation of such tools remains challenging due to the heterogeneou..."
-  - title: "ParaVul: A Parallel Large Language Model and Retrieval-Augmented Framework for Smart Contract Vulnerability Detection"
-    date: "2025-10"
-    url: "https://arxiv.org/abs/2510.17919v1"
-    category: security
-    subcategory: theory
-    authors: ["Tenghui Huang", "Jinbo Wen", "Jiawen Kang"]
-    abstract: "Smart contracts play a significant role in automating blockchain services. Nevertheless, vulnerabilities in smart contracts pose serious threats to blockchain security. Currently, traditional detectio..."
   - title: "Zero-Shot Vulnerability Detection in Low-Resource Smart Contracts Through Solidity-Only Training"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.21058v3"
@@ -2063,13 +2014,6 @@ papers:
     subcategory: theory
     authors: ["Aymen Lassoued", "Nacef Mbarek", "Bechir Dardouri"]
     abstract: "Vulnerability detection in C programs is a critical challenge in software security. Although large language models (LLMs) achieve strong detection performance, their multi-billion-parameter scale make..."
-  - title: "VULSOLVER: Vulnerability Detection via LLM-Driven Constraint Solving"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2509.00882v5"
-    category: security
-    subcategory: security
-    authors: ["Xiang Li", "Yueci Su", "Jiahao Liu"]
-    abstract: "Traditional vulnerability detection methods rely heavily on predefined rule matching, which often fails to capture vulnerabilities accurately. With the rise of large language models (LLMs), leveraging..."
   - title: "Reinforcement Learning for Software Vulnerability Analysis: A Systematic Review with Emphasis on C/C++ Source Code and Static Analysis"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.28403v1"
@@ -2077,13 +2021,6 @@ papers:
     subcategory: review
     authors: ["Bruno Caro-Vásquez", "Carola Figueroa-Flores", "Gastón Marquez"]
     abstract: "Vulnerability detection in C/C++ software remains a major security challenge due to code complexity, manual memory management, and the limitations of traditional static analysis. Reinforcement Learnin..."
-  - title: "LISA Technical Report: An Agentic Framework for Smart Contract Auditing"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.24698v1"
-    category: security
-    subcategory: security
-    authors: ["Izaiah Sun", "Daniel Tan", "Andy Deng"]
-    abstract: "We present LISA, an agentic smart contract vulnerability detection framework that combines rule-based and logic-based methods to address a broad spectrum of vulnerabilities in smart contracts. LISA le..."
   - title: "Towards Compositional Generalization in LLMs for Smart Contract Security: A Case Study on Reentrancy Vulnerabilities"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.06914v1"
@@ -2098,13 +2035,6 @@ papers:
     subcategory: security
     authors: ["Miles Farmer", "Ekincan Ufuktepe", "Anne Watson"]
     abstract: "Large Language Models (LLMs) have emerged as a popular choice in vulnerability detection studies given their foundational capabilities, open source availability, and variety of models, but have limite..."
-  - title: "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.07533v1"
-    category: security
-    subcategory: security
-    authors: ["Yuzhou Nie", "Hongwei Li", "Chengquan Guo"]
-    abstract: "We propose VulnLLM-R, the~\\emph{first specialized reasoning LLM} for vulnerability detection. Our key insight is that LLMs can reason about program states and analyze the potential vulnerabilities, ra..."
   - title: "Efficient Software Vulnerability Detection Using Transformer-based Models"
     date: "2026-03"
     url: "https://arxiv.org/abs/2604.00112v1"
@@ -2112,13 +2042,6 @@ papers:
     subcategory: security
     authors: ["Sameer Shaik", "Zhen Huang", "Daniela Stan Raicu"]
     abstract: "Detecting software vulnerabilities is critical to ensuring the security and reliability of modern computer systems. Deep neural networks have shown promising results on vulnerability detection, but th..."
-  - title: "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.30587v1"
-    category: security
-    subcategory: security
-    authors: ["Asif Shahriar", "Hongyu Cai", "Hadjer Benkraouda"]
-    abstract: "Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics th..."
   - title: "Deep Learning-based Binary Analysis for Vulnerability Detection in x86-64 Machine Code"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.09157v1"
@@ -2147,13 +2070,6 @@ papers:
     subcategory: security
     authors: ["Avilash Rath", "Weiliang Qi", "Youpeng Li"]
     abstract: "Graph-based models learn rich code graph structural information and present superior performance on various code analysis tasks. However, the robustness of these models against adversarial example att..."
-  - title: "AVIATOR: Towards AI-Agentic Vulnerability Injection Workflow for High-Fidelity, Large-Scale Code Security Dataset"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2508.20866v6"
-    category: security
-    subcategory: theory
-    authors: ["Amine Lbath", "Massih-Reza Amini", "Aurelien Delaitre"]
-    abstract: "The increasing complexity of software systems and the sophistication of cyber-attacks have underscored the need for reliable automated software vulnerability detection. Data-driven approaches using de..."
   - title: "Distilling Lightweight Language Models for C/C++ Vulnerabilities"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.06645v1"
@@ -2168,13 +2084,6 @@ papers:
     subcategory: security
     authors: ["Qilong Wu", "Taoran Li", "Tianyang Zhou"]
     abstract: "AI-for-Code (AI4Code) systems are reshaping software engineering, with tools like GitHub Copilot accelerating code generation, translation, and vulnerability detection. Alongside these advances, howev..."
-  - title: "Code-Augur: Agentic Vulnerability Detection via Specification Inference"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.18619v1"
-    category: security
-    subcategory: security
-    authors: ["Zhengxiong Luo", "Mehtab Zafar", "Dylan Wolff"]
-    abstract: "The advent of agentic vulnerability detection is already becoming a watershed moment for software security. Audits conducted entirely by autonomous LLM agents are uncovering critical vulnerabilities i..."
   - title: "CLEAR: Causal Context-Based Agentic Reasoning for Vulnerability Detection"
     date: "2026-08"
     url: "https://arxiv.org/abs/2608.03134v1"
@@ -2189,13 +2098,6 @@ papers:
     subcategory: security
     authors: ["Wenxin Tang", "Wenbin Li", "Junliang Liu"]
     abstract: "Software vulnerability detection plays a critical role in ensuring system security, where real-world auditing requires not only determining whether a function is vulnerable but also pinpointing the sp..."
-  - title: "VerilogLAVD: LLM-Aided Rule Generation for Vulnerability Detection in Verilog"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2508.13092v3"
-    category: security
-    subcategory: security
-    authors: ["Xiang Long", "Yingjie Xia", "Xiyuan Chen"]
-    abstract: "Timely detection of hardware vulnerabilities during the early design stage is critical for reducing remediation costs. Existing early detection techniques often require specialized security expertise,..."
   - title: "Data and Context Matter: Towards Generalizing AI-based Software Vulnerability Detection"
     date: "2025-08"
     url: "https://arxiv.org/abs/2508.16625v2"
@@ -2203,13 +2105,6 @@ papers:
     subcategory: security
     authors: ["Rijha Safdar", "Danyail Mateen", "Syed Taha Ali"]
     abstract: "AI-based solutions demonstrate remarkable results in identifying vulnerabilities in software, but research has consistently found that this performance does not generalize to unseen codebases. In this..."
-  - title: "Dissecting the Black Box: Circuit-Level Analysis of LLM Vulnerability Detection"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.29901v1"
-    category: security
-    subcategory: security
-    authors: ["Syafiq Al Atiiq", "Chun Zhou", "Christian Gehrmann"]
-    abstract: "Large language models (LLMs) can detect software vulnerabilities, but how do they actually identify vulnerable code? We address this question using mechanistic interpretability; analyzing the internal..."
   - title: "A Large Scale Study of AI-based Binary Function Similarity Detection Techniques for Security Researchers and Practitioners"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.01180v1"
@@ -2217,13 +2112,6 @@ papers:
     subcategory: security
     authors: ["Jingyi Shi", "Yufeng Chen", "Yang Xiao"]
     abstract: "Binary Function Similarity Detection (BFSD) is a foundational technique in software security, underpinning a wide range of applications including vulnerability detection, malware analysis. Recent adva..."
-  - title: "Knowdit: Agentic Smart Contract Vulnerability Detection with Auditing Knowledge Summarization"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.26270v2"
-    category: security
-    subcategory: security
-    authors: ["Ziqiao Kong", "Wanxu Xia", "Chong Wang"]
-    abstract: "Smart contracts govern billions of dollars in decentralized finance (DeFi), yet automated vulnerability detection remains challenging because many vulnerabilities are tightly coupled with project-spec..."
   - title: "MulVuln: Enhancing Pre-trained LMs with Shared and Language-Specific Knowledge for Multilingual Vulnerability Detection"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.04397v1"
@@ -2259,13 +2147,6 @@ papers:
     subcategory: theory
     authors: ["Chinmay Pushkar", "Sanchit Kabra", "Dhruv Kumar"]
     abstract: "Large Language Models (LLMs) have demonstrated significant potential in automated software security, particularly in vulnerability detection. However, existing benchmarks primarily focus on isolated, ..."
-  - title: "Multi-Agent Taint Specification Extraction for Vulnerability Detection"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.10865v1"
-    category: security
-    subcategory: security
-    authors: ["Jonah Ghebremichael", "Saastha Vasan", "Saad Ullah"]
-    abstract: "Static Application Security Testing (SAST) tools using taint analysis are widely viewed as providing higher-quality vulnerability detection results compared to traditional pattern-based approaches. Ho..."
   - title: "Enhancing Continual Learning for Software Vulnerability Prediction: Addressing Catastrophic Forgetting via Hybrid-Confidence-Aware Selective Replay for Temporal LLM Fine-Tuning"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.23834v1"
@@ -2308,13 +2189,6 @@ papers:
     subcategory: security
     authors: ["Christopher Simon Liu", "Fan Wang", "Patrick Gould"]
     abstract: "Fault Injection is the study of observing how systems behave under unusual stress, environmental or otherwise. In practice, fault injection involves testing the limits of computer systems and finding ..."
-  - title: "When Labels Are Scarce: A Systematic Mapping of Label-Efficient Code Vulnerability Detection"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2604.00079v1"
-    category: security
-    subcategory: security
-    authors: ["Noor Khalal", "Chakib Fettal", "Lazhar Labiod"]
-    abstract: "Machine-learning-based code vulnerability detection (CVD) has progressed rapidly, from deep program representations to pretrained code models and LLM-centered pipelines. Yet dependable vulnerability l..."
   - title: "Toward Quantum-Safe Software Engineering: A Vision for Post-Quantum Cryptography Migration"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.05759v2"
@@ -2329,13 +2203,6 @@ papers:
     subcategory: security
     authors: ["Zhihao Li", "Zimo Ji", "Tao Zheng"]
     abstract: "Cryptographic algorithms are fundamental to modern security, yet their implementations frequently harbor subtle logic flaws that are hard to detect. We introduce CryptoScope, a novel framework for aut..."
-  - title: "Zer0n: An AI-Assisted Vulnerability Discovery and Blockchain-Backed Integrity Framework"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.07019v1"
-    category: security
-    subcategory: security
-    authors: ["Harshil Parmar", "Pushti Vyas", "Prayers Khristi"]
-    abstract: "As vulnerability research increasingly adopts generative AI, a critical reliance on opaque model outputs has emerged, creating a \"trust gap\" in security automation. We address this by introducing Zer0..."
   - title: "LLM-Driven SAST-Genius: A Hybrid Static Analysis Framework for Comprehensive and Actionable Security"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.15433v3"
@@ -2343,20 +2210,6 @@ papers:
     subcategory: security
     authors: ["Vaibhav Agrawal", "Kiarash Ahi"]
     abstract: "This report examines the synergy between Large Language Models (LLMs) and Static Application Security Testing (SAST) to improve vulnerability discovery. Traditional SAST tools, while effective for pro..."
-  - title: "RustMizan: A Compilable, Contamination-Aware Benchmarking Framework for Rust Vulnerabilities"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.04729v1"
-    category: security
-    subcategory: security
-    authors: ["Tarek Elsayed", "Shiping Yang", "Eunsong Koh"]
-    abstract: "LLM agents are increasingly applied to vulnerability analysis, but existing benchmarks have not kept pace. They typically rely on small non-compilable snippets, focus on binary classification (vulnera..."
-  - title: "All You Need Is A Fuzzing Brain: An LLM-Powered System for Automated Vulnerability Detection and Patching"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.07225v1"
-    category: security
-    subcategory: security
-    authors: ["Ze Sheng", "Qingxiao Xu", "Jianwei Huang"]
-    abstract: "Our team, All You Need Is A Fuzzing Brain, was one of seven finalists in DARPA's Artificial Intelligence Cyber Challenge (AIxCC), placing fourth in the final round. During the competition, we develope..."
   - title: "TPSQLi: Test Prioritization for SQL Injection Vulnerability Detection in Web Applications"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.10920v1"
@@ -2364,13 +2217,6 @@ papers:
     subcategory: theory
     authors: ["Guan-Yan Yang", "Farn Wang", "You-Zong Gu"]
     abstract: "The rapid proliferation of network applications has led to a significant increase in network attacks. According to the OWASP Top 10 Projects report released in 2021, injection attacks rank among the t..."
-  - title: "Tailored Prompts, Targeted Protection: Vulnerability-Specific LLM Analysis for Smart Contracts"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.03697v1"
-    category: security
-    subcategory: security
-    authors: ["Xing Zhang", "Keyu Zhang", "Taohong Zhu"]
-    abstract: "Smart contracts on blockchains are prone to diverse security vulnerabilities that can lead to significant financial losses due to their immutable nature. Existing detection approaches often lack flexi..."
   - title: "Smart Contract Security Beyond Detection"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.09124v2"
@@ -2434,20 +2280,6 @@ papers:
     subcategory: security
     authors: ["Jingxiao Yang", "Ping He", "Tianyu Du"]
     abstract: "Recent advances in software vulnerability detection have been driven by Language Model (LM)-based approaches. However, these models remain vulnerable to adversarial attacks that exploit lexical and sy..."
-  - title: "From Trace to Line: LLM Agent for Real-World OSS Vulnerability Localization"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2510.02389v3"
-    category: security
-    subcategory: security
-    authors: ["Haoran Xi", "Minghao Shao", "Brendan Dolan-Gavitt"]
-    abstract: "Large language models show promise for vulnerability discovery, yet prevailing methods inspect code in isolation, struggle with long contexts, and focus on coarse function- or file-level detections th..."
-  - title: "AgenticVM: Agentic AI for Adaptive Software Vulnerability Management"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.01739v1"
-    category: security
-    subcategory: theory
-    authors: ["Asrul Arifin", "Hussain Ahmad", "Yiyao Zhang"]
-    abstract: "As software systems grow in scale and complexity, vulnerability management is increasingly strained by high alert volumes, fragmented toolchains, and manual triage processes. We introduce AgenticVM, a..."
   - title: "LLMs as Firmware Experts: A Runtime-Grown Tree-of-Agents Framework"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.18438v1"
@@ -2511,13 +2343,6 @@ papers:
     subcategory: security
     authors: ["Oleksandr Mostovyi", "Denys Symonov"]
     abstract: "This paper proposes an explainable digital twin for vulnerability detection in AArch64 machine code without access to source code. The digital twin reproduces the concrete execution of a program and p..."
-  - title: "Ethereum NFT Smart Contracts: Knowledge-Guided Vulnerability Detection with LLM and Code Slicing"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.21983v1"
-    category: security
-    subcategory: security
-    authors: ["Deyu Yang", "Rundong Wei", "Xiaoqi Li"]
-    abstract: "Ethereum non-fungible tokens (NFTs) implement ownership, transfer, authorization, and metadata operations through smart contracts, making contract vulnerabilities a direct risk to digital assets. Exis..."
   - title: "SecureBERT 2.0: Advanced Language Model for Cybersecurity Intelligence"
     date: "2025-09"
     url: "https://arxiv.org/abs/2510.00240v2"
@@ -2553,20 +2378,6 @@ papers:
     subcategory: security
     authors: ["Luca Ferrari", "Marco Alecci", "Jordan Samhi"]
     abstract: "Android applications (apps) developers increasingly rely on code obfuscation techniques to hinder reverse engineering and protect intellectual property. However, obfuscation also reduces the effective..."
-  - title: "CyberChainBench: Can AI Agents Secure Smart Contracts Against Real-World On-Chain Vulnerabilities?"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.26216v1"
-    category: security
-    subcategory: security
-    authors: ["Jintao Huang", "Fengqing Jiang", "Radha Poovendran"]
-    abstract: "We present CyberChainBench, a benchmark for evaluating LLM-based agents on smart contract security across three complementary tasks: vulnerability detection, exploit generation, and patch synthesis. B..."
-  - title: "VULPO: Context-Aware Vulnerability Detection via On-Policy LLM Optimization"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.11896v3"
-    category: security
-    subcategory: security
-    authors: ["Youpeng Li", "Fuxun Yu", "Weiliang Qi"]
-    abstract: "Large language models (LLMs) have recently shown strong potential in vulnerability detection (VD). However, accurately detecting vulnerabilities in real-world repositories requires reasoning over comp..."
   - title: "CrossCommitVuln-Bench: A Dataset of Multi-Commit Python Vulnerabilities Invisible to Per-Commit Static Analysis"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.21917v1"
@@ -2595,13 +2406,6 @@ papers:
     subcategory: security
     authors: ["Xiaoxue Ren", "Penghao Jiang", "Kaixin Li"]
     abstract: "Web applications are prime targets for cyberattacks as gateways to critical services and sensitive data. Traditional penetration testing is costly and expertise-intensive, making it difficult to scale..."
-  - title: "MAS-SZZ: Multi-Agentic SZZ Algorithm for Vulnerability-Inducing Commit Identification"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.24398v1"
-    category: security
-    subcategory: security
-    authors: ["Sicong Cao", "Jinxuan Xu", "Le Yu"]
-    abstract: "Accurate vulnerability-inducing commit identification serves as a foundation for a series of software security tasks, such as vulnerability detection and affected version analysis. A straightforward s..."
   - title: "Exposing and Defending Membership Leakage in Vulnerability Prediction Models"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.08291v1"
@@ -2707,13 +2511,6 @@ papers:
     subcategory: security
     authors: ["Manisha Mukherjee", "Vincent J. Hellendoorn"]
     abstract: "Large Language Models (LLMs) are increasingly deployed for code generation in high-stakes software development, yet their limited transparency in security reasoning and brittleness to evolving vulnera..."
-  - title: "LLM-CSEC: Empirical Evaluation of Security in C/C++ Code Generated by Large Language Models"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.18966v1"
-    category: security
-    subcategory: security
-    authors: ["Muhammad Usman Shahid", "Chuadhry Mujeeb Ahmed", "Rajiv Ranjan"]
-    abstract: "The security of code generated by large language models (LLMs) is a significant concern, as studies indicate that such code often contains vulnerabilities and lacks essential defensive programming con..."
   - title: "Compile-time Security Analysis and Optimization of Sensitive String Producers"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.16561v1"
@@ -2749,13 +2546,6 @@ papers:
     subcategory: application
     authors: ["Changhee Shin", "Bom Kim", "Seungsoo Lee"]
     abstract: "Serverless computing is increasingly adopted for AI-driven workloads due to its automatic scaling and pay-as-you-go model. However, its function-based architecture creates significant security risks, ..."
-  - title: "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories"
-    date: "2025-10"
-    url: "https://arxiv.org/abs/2510.26103v1"
-    category: security
-    subcategory: security
-    authors: ["Maximilian Schreiber", "Pascal Tippe"]
-    abstract: "This paper presents a comprehensive empirical analysis of security vulnerabilities in AI-generated code across public GitHub repositories. We collected and analyzed 7,703 files explicitly attributed t..."
   - title: "SecureFixAgent: A Hybrid LLM Agent for Automated Python Static Vulnerability Repair"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.16275v1"
@@ -2819,13 +2609,6 @@ papers:
     subcategory: security
     authors: ["Alioune Diallo", "Anta Diop", "Abdoul Kader Kabore"]
     abstract: "Android's open-source nature facilitates widespread smartphone accessibility, particularly in price-sensitive markets. System and vendor applications that come pre-installed on budget Android devices ..."
-  - title: "Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.10338v1"
-    category: security
-    subcategory: security
-    authors: ["Yi Liu", "Weizhe Wang", "Ruitao Feng"]
-    abstract: "The rise of AI agent frameworks has introduced agent skills, modular packages containing instructions and executable code that dynamically extend agent capabilities. While this architecture enables po..."
   - title: "Residual Risk Analysis in Benign Code: How Far Are We? A Multi-Model Semantic and Structural Similarity Approach"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.21051v1"
@@ -2959,13 +2742,6 @@ papers:
     subcategory: security
     authors: ["Sandesh More", "Sneha Sudhakaran", "Marco Carvalho"]
     abstract: "Consumer unmanned aerial vehicles (UAVs) have evolved into capable computing platforms, yet their embedded firmware remains largely inaccessible to the security community. Entry-level models, in parti..."
-  - title: "SeedSmith: LLM-Driven Seed Synthesis for Directed Fuzzing"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.08949v2"
-    category: security
-    subcategory: mechanism
-    authors: ["Junmin Zhu", "Siyu Liu", "Jie Hu"]
-    abstract: "Directed fuzzing steers fuzzers toward user-defined sink functions to identify vulnerabilities, but it frequently fails to trigger crashes even after long campaigns. We identify two challenges that pr..."
   - title: "LiteRSan: Lightweight Memory Safety Via Rust-specific Program Analysis and Selective Instrumentation"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.16389v1"
@@ -2987,13 +2763,6 @@ papers:
     subcategory: security
     authors: ["Narayanaswami Natraj Bharadwaj", "Dhivya Chandramouleeswaran"]
     abstract: "LLMs are increasingly used for code generation in critical infrastructure, yet the security effect of domain-specific prompting is understudied. We present SecDrift, a benchmark measuring sector-condi..."
-  - title: "MPC-Patch-Bench: Security-Aware LLM Code Patch for Multi-Party Computation"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.11416v1"
-    category: security
-    subcategory: development
-    authors: ["Yukuan Zhang", "Mengxin Zheng", "Qian Lou"]
-    abstract: "Repository-level benchmarks for evaluating Large Language Model (LLM) code repair on Secure Multi-Party Computation (MPC) software do not yet exist, and directly transplanting general-purpose benchmar..."
   - title: "Beyond Permissions: A Configuration-Aware Empirical Assessment of Privacy Exposure in Children-Oriented and General-Audience Mobile Gaming Apps"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.10877v2"
@@ -3015,20 +2784,6 @@ papers:
     subcategory: security
     authors: ["Nahum Korda", "Gadi Evron"]
     abstract: "Automated vulnerability discovery in large codebases remains challenging: traditional static analysis produces high false-positive rates, while dynamic approaches such as fuzzing require substantial i..."
-  - title: "Strategic Heterogeneous Multi-Agent Architecture for Cost-Effective Code Vulnerability Detection"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.21282v1"
-    category: security
-    subcategory: theory
-    authors: ["Zhaohui Geoffrey Wang"]
-    abstract: "Automated code vulnerability detection is critical for software security, yet existing approaches face a fundamental trade-off between detection accuracy and computational cost. We propose a heterogen..."
-  - title: "Representation Matters: An Empirical Study of Program Representations for LLM Vulnerability Reasoning"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.25356v1"
-    category: security
-    subcategory: security
-    authors: ["Andrew Stoltman", "Johnathan Tang", "Haipeng Cai"]
-    abstract: "Large Language Models (LLMs) are increasingly used for automated vulnerability detection, but it remains unclear how program structure and semantics should be represented for LLM-based reasoning. Most..."
   - title: "Signal-Based Malware Classification Using 1D CNNs"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.06548v2"
@@ -3050,13 +2805,6 @@ papers:
     subcategory: security
     authors: ["Kyler Katz", "Sara Moshtari", "Ibrahim Mujhid"]
     abstract: "Sensitive Information Exposure (SIEx) vulnerabilities (CWE-200) remain a persistent and under-addressed threat across software systems, often leading to serious security breaches. Existing detection t..."
-  - title: "Malaika: Understanding Malware through Tri-Grounded Agentic Reasoning"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.09179v1"
-    category: security
-    subcategory: security
-    authors: ["Xingzhi Qian", "Xinran Zheng", "Yiling He"]
-    abstract: "Recent LLM-based systems have shown promising capabilities for security-focused code analysis. Malware understanding, however, poses a distinct challenge: analysts must reconstruct high-level maliciou..."
   - title: "Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.03081v1"
@@ -3127,13 +2875,6 @@ papers:
     subcategory: theory
     authors: ["Anagha Athavale", "Samuel Teuber", "Matteo Maffei"]
     abstract: "The robustness of deep neural networks (DNNs) is critical in security-sensitive applications, where small input perturbations should not alter model predictions. This property is commonly formalized a..."
-  - title: "Beyond Detection: Agentic Attack Synthesis and Simulation for Smart Contracts"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.15673v1"
-    category: security
-    subcategory: theory
-    authors: ["Xianhao Zhang", "Jing Sun", "Zijian Zhang"]
-    abstract: "Smart contract vulnerabilities pose severe financial risks, yet existing security tools largely stop at vulnerability detection, offering limited support for explaining whether reported flaws are expl..."
   - title: "RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety"
     date: "2026-08"
     url: "https://arxiv.org/abs/2608.05870v1"
@@ -3274,13 +3015,6 @@ papers:
     subcategory: method
     authors: ["Mohamed Tarek Ibn ziad", "Christos Kozyrakis"]
     abstract: "GPUs play an increasingly important role in modern software. However, the heterogeneous host-device execution model and expanding software stacks make GPU programs prone to memory-safety and concurren..."
-  - title: "Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.08616v1"
-    category: security
-    subcategory: development
-    authors: ["Nils Loose", "Nico Winkel", "Kristoffer Hempel"]
-    abstract: "Coverage-guided fuzzing has proven effective for software testing, but targeting library code requires specialized fuzz harnesses that translate fuzzer-generated inputs into valid API invocations. Man..."
   - title: "ThreadFuzzer: Fuzzing Framework for Thread Protocol"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.17283v2"
@@ -3295,13 +3029,6 @@ papers:
     subcategory: systems
     authors: ["Fatemeh Moradihaghighi", "Zihao Zhan", "Yanan Guo"]
     abstract: "As IoT and embedded devices proliferate across various domains, securing their firmware has become critical. Fuzzing offers a systematic approach to uncovering vulnerabilities in firmware, and coverag..."
-  - title: "PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.20555v2"
-    category: security
-    subcategory: security
-    authors: ["Momoko Shiraishi", "Yinzhi Cao", "Takahiro Shinagawa"]
-    abstract: "Command-line interface (CLI) fuzzing tests programs by mutating both command-line options and input file contents, thus enabling discovery of vulnerabilities that only manifest under specific option-i..."
   - title: "APFuzz: Towards Automatic Greybox Protocol Fuzzing"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.21892v1"
@@ -3344,13 +3071,6 @@ papers:
     subcategory: security
     authors: ["Yu-De Lin", "Nils Ole Tippenhauer"]
     abstract: "Fuzz testing is a popular approach to the security testing of proprietary software. Efficient testing strategies rely on execution feedback to guide the input generation process, particularly when the..."
-  - title: "HarnessAgent: Scaling Automatic Fuzzing Harness Construction with Tool-Augmented LLM Pipelines"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.03420v3"
-    category: security
-    subcategory: security
-    authors: ["Kang Yang", "Yunhang Zhang", "Zichuan Li"]
-    abstract: "Large language model (LLM)-based techniques have achieved notable progress in generating harnesses for program fuzzing. However, applying them to arbitrary functions (especially internal functions) \\t..."
   - title: "FuzzBox: Blending Fuzzing into Emulation for Binary-Only Embedded Targets"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.05643v1"
@@ -3372,20 +3092,6 @@ papers:
     subcategory: application
     authors: ["Mathew Duong", "Michael Chesser", "Guy Farrelly"]
     abstract: "Monolithic Firmware is widespread. Unsurprisingly, fuzz testing firmware is an active research field with new advances addressing the unique challenges in the domain. However, understanding and evalua..."
-  - title: "Locus: Agentic Predicate Synthesis for Directed Fuzzing"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2508.21302v3"
-    category: security
-    subcategory: security
-    authors: ["Jie Zhu", "Chihao Shen", "Ziyang Li"]
-    abstract: "Directed fuzzing aims to find program inputs that lead to specified target program states. It has broad applications, such as debugging system crashes, confirming reported bugs, and generating exploit..."
-  - title: "Multi-Agent Collaborative Fuzzing with Continuous Reflection for Smart Contracts Vulnerability Detection"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.12164v1"
-    category: security
-    subcategory: security
-    authors: ["Jie Chen", "Liangmin Wang"]
-    abstract: "Fuzzing is a widely used technique for detecting vulnerabilities in smart contracts, which generates transaction sequences to explore the execution paths of smart contracts. However, existing fuzzers ..."
   - title: "ZIMPAF &amp; RedPhuzz: High-fidelity Web Application Fuzzing via Branch, Language Construct, and Function Call Monitoring"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.25012v1"
@@ -3449,13 +3155,6 @@ papers:
     subcategory: security
     authors: ["Lichao Wu", "Mohamadreza Rostami", "Huimin Li"]
     abstract: "Modern hardware systems, driven by demands for high performance and application-specific functionality, have grown increasingly complex, introducing large surfaces for bugs and security-critical vulne..."
-  - title: "FuzzySQL: Uncovering Hidden Vulnerabilities in DBMS Special Features with LLM-Driven Fuzzing"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.19490v2"
-    category: security
-    subcategory: security
-    authors: ["Yongxin Chen", "Zhiyuan Jiang", "Chao Zhang"]
-    abstract: "Traditional database fuzzing techniques primarily focus on syntactic correctness and general SQL structures, leaving critical yet obscure DBMS features, such as system-level modes (e.g., GTID), progra..."
   - title: "Thinking More, Harnessing Better: State Machine Guided Harness Automatic Generation with Project Digestion and Workflow Decomposition"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.07007v1"
@@ -3484,13 +3183,6 @@ papers:
     subcategory: security
     authors: ["Jinwoo Kim", "Minjae Seo", "Eduard Marin"]
     abstract: "Distributed SDN (Software-Defined Networking) controllers have rapidly become an integral element of Wide Area Networks (WAN), particularly within SD-WAN, providing scalability and fault-tolerance for..."
-  - title: "PBFuzz: Agentic Directed Fuzzing for PoV Generation"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.04611v2"
-    category: security
-    subcategory: security
-    authors: ["Haochen Zeng", "Andrew Bao", "Jiajun Cheng"]
-    abstract: "Proof-of-Vulnerability (PoV) input generation is a critical task in software security and supports downstream applications such as path generation and validation. Generating a PoV input requires solvi..."
   - title: "Towards the Systematic Testing of Regular Expression Engines"
     date: "2026-02"
     url: "https://arxiv.org/abs/2603.00311v1"
@@ -3498,13 +3190,6 @@ papers:
     subcategory: security
     authors: ["Berk Çakar", "Dongyoon Lee", "James C. Davis"]
     abstract: "Software engineers use regular expressions (regexes) across a wide range of domains and tasks. To support regexes, software projects must integrate a regex engine, whether provided natively by the lan..."
-  - title: "SDLLMFuzz: Dynamic-static LLM-assisted greybox fuzzing for structured input programs"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.17750v1"
-    category: security
-    subcategory: security
-    authors: ["Yihao Zou", "Tianming Zheng", "Futai Zou"]
-    abstract: "Fuzzing has become a widely adopted technique for vulnerability discovery, yet it remains ineffective for structured-input programs due to strict syntactic constraints and limited semantic awareness. ..."
   - title: "SimFuzz: Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.11838v1"
@@ -3561,13 +3246,6 @@ papers:
     subcategory: security
     authors: ["Jianming Chen", "Yawen Wang", "Junjie Wang"]
     abstract: "Tool-calling text-to-image (T2I) agents can plan and execute multi-step tool chains to accomplish complex generation and editing queries. However, this capability introduces a new safety attack surfac..."
-  - title: "Hybrid Fuzzing with LLM-Guided Input Mutation and Semantic Feedback"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.03995v1"
-    category: security
-    subcategory: security
-    authors: ["Shiyin Lin"]
-    abstract: "Software fuzzing has become a cornerstone in automated vulnerability discovery, yet existing mutation strategies often lack semantic awareness, leading to redundant test cases and slow exploration of ..."
   - title: "Quality-Assured Fuzz Harness Generation via the Four Principles Framework"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.21824v1"
@@ -3589,13 +3267,6 @@ papers:
     subcategory: security
     authors: ["George Andronchik", "Pavel Lokhmakov"]
     abstract: "This paper reads six engine-level measurements together -- 1.1 host attack surface, 1.2 information leakage, 1.3 defense-in-depth stackability, 1.4 public CVE history, 1.5 patch cadence, and 1.6 upstr..."
-  - title: "SeedAIchemy: LLM-Driven Seed Corpus Generation for Fuzzing"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.12448v1"
-    category: security
-    subcategory: method
-    authors: ["Aidan Wen", "Norah A. Alzahrani", "Jingzhi Jiang"]
-    abstract: "We introduce SeedAIchemy, an automated LLM-driven corpus generation tool that makes it easier for developers to implement fuzzing effectively. SeedAIchemy consists of five modules which implement diff..."
   - title: "Automatic, Expressive, and Scalable Fuzzing with Stitching"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.18689v1"
@@ -3617,13 +3288,6 @@ papers:
     subcategory: security
     authors: ["Dimitri Kokkonis", "Michaël Marcozzi", "Stefano Zacchiroli"]
     abstract: "Code-level backdoors-stealthy code changes that grant hidden privileges via secret triggers-pose a persistent threat to opensource software. Known attempts to inject such backdoors into widely used pr..."
-  - title: "Semantic-Aware Fuzzing: An Empirical Framework for LLM-Guided, Reasoning-Driven Input Mutation"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.19533v1"
-    category: security
-    subcategory: theory
-    authors: ["Mengdi Lu", "Steven Ding", "Furkan Alaca"]
-    abstract: "Security vulnerabilities in Internet-of-Things devices, mobile platforms, and autonomous systems remain critical. Traditional mutation-based fuzzers -- while effectively explore code paths -- primaril..."
   - title: "ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.12614v1"
@@ -3638,13 +3302,6 @@ papers:
     subcategory: security
     authors: ["Andrew Bao", "Haochen Zeng", "Peng Chen"]
     abstract: "One-day vulnerabilities pose significant risks due to delayed or incomplete patch adoption. Generating proof-of-concept (PoC) inputs is therefore essential for assessing real-world impact. The key cha..."
-  - title: "FuzzingBrain V2: A Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.21779v1"
-    category: security
-    subcategory: security
-    authors: ["Ze Sheng", "Zhicheng Chen", "Qingxiao Xu"]
-    abstract: "Software vulnerabilities pose critical security threats, with nearly 50,000 CVEs reported in 2025. While Large Language Models (LLMs) show promise for automated vulnerability detection, three key chal..."
   - title: "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.08566v2"
@@ -3736,13 +3393,6 @@ papers:
     subcategory: systems
     authors: ["Mohd Ruhul Ameen", "Md Takrim Ul Alam", "Akif Islam"]
     abstract: "Static Application Security Testing tools help developers find security vulnerabilities before release, but they often produce many false positives. This increases manual review effort, reduces develo..."
-  - title: "Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2601.00042v2"
-    category: security
-    subcategory: security
-    authors: ["Manish Bhatt", "Adrian Wood", "Idan Habler"]
-    abstract: "Production LLM agents with tool-using capabilities require security testing despite their safety training. We adapt Go-Explore to evaluate GPT-4o-mini across 28 experimental runs spanning six research..."
   - title: "STAF: Leveraging LLMs for Automated Attack Tree-Based Security Test Generation"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.20190v1"
@@ -3785,13 +3435,6 @@ papers:
     subcategory: development
     authors: ["Derek Yohn", "Luke Flancher", "Mirajul Islam"]
     abstract: "This paper explores the value of agentic AI tools for cybersecurity purposes. We evaluate the efficacy of a general-purpose GenAI Large Language Model- (GenAI-) based agent when powered by three diffe..."
-  - title: "TitanCA: Lessons from Orchestrating LLM Agents to Discover 100+ CVEs"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.17860v2"
-    category: security
-    subcategory: security
-    authors: ["Ting Zhang", "Yikun Li", "Chengran Yang"]
-    abstract: "Software vulnerabilities remain one of the most persistent threats to modern digital infrastructure. While static application security testing (SAST) tools have long served as the first line of defens..."
   - title: "Towards a Blockchain-Based CI/CD Framework to Enhance Security in Cloud Environments"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.16087v1"
@@ -3813,13 +3456,6 @@ papers:
     subcategory: security
     authors: ["Shae McFadden", "Myles Foley", "Elizabeth Bates"]
     abstract: "Deep Reinforcement Learning (DRL) has achieved remarkable success in domains requiring sequential decision-making, motivating its application to cybersecurity problems. However, transitioning DRL from..."
-  - title: "Snyk VulnBench JS 1.0: Can LLMs Find the Same Bugs Twice?"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.15762v1"
-    category: security
-    subcategory: security
-    authors: ["Liran Tal", "Johannes Kloos", "Arsenii Rudich"]
-    abstract: "We ran 300 repeated vulnerability-finding scans to measure how repeatable agentic large language model (LLM) security review is on the same JavaScript code, prompt, and benchmark harness. The headline..."
   - title: "Learn, Check, Test -- Security Testing Using Automata Learning and Model Checking"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.22215v2"
@@ -3946,13 +3582,6 @@ papers:
     subcategory: security
     authors: ["Fabian Bäumer", "Marcus Brinkmann", "Maximilian Radoy"]
     abstract: "Administrators and developers use SSH client keys and signatures for authentication, for example, to access internet backbone servers or to commit new code on platforms like GitHub. However, unlike se..."
-  - title: "Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.07939v2"
-    category: security
-    subcategory: security
-    authors: ["Katsuaki Nakano", "Reza Fayyazi", "Shanchieh Jay Yang"]
-    abstract: "Recent advances in Large Language Models (LLMs) have driven interest in automating cybersecurity penetration testing workflows, offering the promise of faster and more consistent vulnerability assessm..."
   - title: "APT-Agent: Automated Penetration Testing using Large Language Models"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.24949v1"
@@ -3988,13 +3617,6 @@ papers:
     subcategory: security
     authors: ["Víctor Mayoral-Vilches", "Stefan Rass", "Martin Pinzger"]
     abstract: "Cybersecurity superintelligence -- artificial intelligence exceeding the best human capability in both speed and strategic reasoning -- represents the next frontier in security. This paper documents t..."
-  - title: "AutoPentester: An LLM Agent-based Framework for Automated Pentesting"
-    date: "2025-10"
-    url: "https://arxiv.org/abs/2510.05605v1"
-    category: security
-    subcategory: theory
-    authors: ["Yasod Ginige", "Akila Niroshan", "Sajal Jain"]
-    abstract: "Penetration testing and vulnerability assessment are essential industry practices for safeguarding computer systems. As cyber threats grow in scale and complexity, the demand for pentesting has surged..."
   - title: "Agentic AI for Cyber Resilience: A New Security Paradigm and Its System-Theoretic Foundations"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.22883v1"
@@ -4044,13 +3666,6 @@ papers:
     subcategory: systems
     authors: ["Frank Li"]
     abstract: "Tool-augmented LLM agents introduce security risks that extend beyond user-input filtering, including indirect prompt injection through fetched content, unsafe tool execution, credential leakage, and ..."
-  - title: "Autonomous Action Runtime Management(AARM):A System Specification for Securing AI-Driven Actions at Runtime"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.09433v1"
-    category: security
-    subcategory: theory
-    authors: ["Herman Errico"]
-    abstract: "As artificial intelligence systems evolve from passive assistants into autonomous agents capable of executing consequential actions, the security boundary shifts from model outputs to tool execution. ..."
   - title: "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.11790v2"
@@ -4065,20 +3680,6 @@ papers:
     subcategory: security
     authors: ["Hamed Alimohammadi", "Samara Mayhoub", "Sotiris Chatzimiltis"]
     abstract: "Securing the near-real-time (near-RT) control operations in Open Radio Access Networks (Open RAN) is increasingly critical, yet remains insufficiently addressed, as new runtime threats target the cont..."
-  - title: "From CVE Entries to Verifiable Exploits: An Automated Multi-Agent Framework for Reproducing CVEs"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.01835v2"
-    category: security
-    subcategory: security
-    authors: ["Saad Ullah", "Praneeth Balasubramanian", "Wenbo Guo"]
-    abstract: "High-quality datasets of real-world vulnerabilities and their corresponding verifiable exploits are crucial resources in software security research. Yet such resources remain scarce, as their creation..."
-  - title: "CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security Vulnerability"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.03012v3"
-    category: security
-    subcategory: security
-    authors: ["Xianzhen Luo", "Jingyuan Zhang", "Shiqi Zhou"]
-    abstract: "Evaluating and improving the security capabilities of code agents requires high-quality, executable vulnerability tasks. However, existing works rely on costly, unscalable manual reproduction and suff..."
   - title: "A Systematic Approach to Predict the Impact of Cybersecurity Vulnerabilities Using LLMs"
     date: "2025-08"
     url: "https://arxiv.org/abs/2508.18439v2"
@@ -4114,13 +3715,6 @@ papers:
     subcategory: security
     authors: ["Benjamin M. Ampel", "Sagar Samtani"]
     abstract: "We introduce HackerSignal, a benchmark for temporal out-of-distribution cyber threat intelligence (CTI) and cross-source CVE linkage. HackerSignal aggregates 7.45 million exact-deduplicated documents ..."
-  - title: "HoF-Bench: Rediscovering Real AI-Discovered CVEs Without Frontier Models"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.27030v1"
-    category: security
-    subcategory: security
-    authors: ["Petr Simecek", "Elnaz Babayeva", "Jiri Balhar"]
-    abstract: "LLM-based analyzers have begun finding real vulnerabilities in mature open-source projects: AISLE's analyzer is credited with more than 280 CVEs across 78 projects, including OpenSSL, curl, and GnuTLS..."
   - title: "Turning CVEs into Educational Labs:Insights and Challenges"
     date: "2025-08"
     url: "https://arxiv.org/abs/2509.10488v1"
@@ -4163,13 +3757,6 @@ papers:
     subcategory: security
     authors: ["Alexander V. Kozachok", "Stanislav G. Vyugov", "Shamil G. Magomedov"]
     abstract: "Host intrusion detection systems (HIDS) based on system-call traces are typically trained and evaluated against individual Common Vulnerabilities and Exposures (CVE) instances. In operational settings..."
-  - title: "Automated Vulnerability Validation and Verification: A Large Language Model Approach"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.24037v2"
-    category: security
-    subcategory: security
-    authors: ["Alireza Lotfi", "Charalampos Katsis", "Elisa Bertino"]
-    abstract: "Software vulnerabilities remain a critical security challenge, providing entry points for attackers into enterprise networks. Despite advances in security practices, the lack of high-quality datasets ..."
   - title: "CVE-TTP KG: Knowledge Graph Linking Software Vulnerabilities to Attack Behaviors"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.31557v2"
@@ -4247,13 +3834,6 @@ papers:
     subcategory: security
     authors: ["Sidnei Barbieri", "Ágney Lopes Roth Ferraz", "Lourenço Alves Pereira Júnior"]
     abstract: "Structured Cyber Threat Intelligence (CTI) increasingly supports adversary emulation, detection evaluation, and cyber range design, yet each workflow still requires a target System Under Test (SUT) wh..."
-  - title: "Mapping CVEs to MITRE ATT&amp;CK Techniques: A Curated Gold-Set Classifier and the Limits of LLM-Assisted Label Expansion"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.25572v1"
-    category: security
-    subcategory: security
-    authors: ["Cédric Bonhomme", "Alexandre Dulaunoy"]
-    abstract: "We present a reproducible pipeline for mapping Common Vulnerabilities and Exposures (CVEs) to MITRE ATT&amp;CK Enterprise techniques from free-text vulnerability descriptions. Rather than relying on t..."
   - title: "Dynamic Risk Assessment by Bayesian Attack Graphs and Process Mining"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.18080v1"
@@ -4282,13 +3862,6 @@ papers:
     subcategory: theory
     authors: ["Eireann Leverett", "Jeroen van der Ham-de Vos"]
     abstract: "We present a constructive proof that a single C program, the \\emph{Vulnerability Factory}, admits a countably infinite set of distinct, independently CVE-assignable software vulnerabilities. We formal..."
-  - title: "When to Trust the Map: Confidence-Aware LLM Routing for Automotive CVE-to-ATM Mapping"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.18684v1"
-    category: security
-    subcategory: security
-    authors: ["Heeyun Heo", "Sangmin Park", "Huy Kang Kim"]
-    abstract: "Public CVE descriptions report the technical conditions and impact of vulnerabilities, whereas the Auto-ISAC Automotive Threat Matrix (ATM) expresses an adversary's tactics and techniques. Because the..."
   - title: "Multi-Class vs. Multi-Label BERT for CVE-to-CWE Mapping: How Taxonomy Structure Shapes the Errors"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.07573v1"
@@ -4338,13 +3911,6 @@ papers:
     subcategory: theory
     authors: ["Luat Do", "Jiao Yin", "Jinli Cao"]
     abstract: "The rapid growth of software vulnerabilities has turned cyber threat intelligence analysis into a challenging data mining problem over heterogeneous and continuously changing sources. Public repositor..."
-  - title: "Synthesizing Multi-Agent Harnesses for Vulnerability Discovery"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.20801v1"
-    category: security
-    subcategory: security
-    authors: ["Hanzhi Liu", "Chaofan Shou", "Xiaonan Liu"]
-    abstract: "LLM agents have begun to find real security vulnerabilities that human auditors and automated fuzzers missed for decades, in source-available targets where the analyst can build and instrument the cod..."
   - title: "Bridging the Gap Between Security Metrics and Key Risk Indicators: An Empirical Framework for Vulnerability Prioritization"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.12450v1"
@@ -4380,13 +3946,6 @@ papers:
     subcategory: review
     authors: ["Bhagya Chembakottu", "Martin P. Robillard"]
     abstract: "Developers rely on online tutorials to learn web application security, but tutorial quality varies. We reviewed 132 free security tutorials to examine topic coverage, authorship, and technical depth. ..."
-  - title: "VulnRepairEval: An Exploit-Based Evaluation Framework for Assessing Large Language Model Vulnerability Repair Capabilities"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.03331v1"
-    category: security
-    subcategory: security
-    authors: ["Weizhe Wang", "Wei Ma", "Qiang Hu"]
-    abstract: "The adoption of Large Language Models (LLMs) for automated software vulnerability patching has shown promising outcomes on carefully curated evaluation sets. Nevertheless, existing datasets predominan..."
   - title: "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.16175v1"
@@ -4394,13 +3953,6 @@ papers:
     subcategory: security
     authors: ["Md Erfan", "Ahmed Ryan", "Md Kamal Hossain Chowdhury"]
     abstract: "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, wh..."
-  - title: "NeuroLog: Reasoning You Can Audit -- Neuro-Symbolic Vulnerability Discovery via LLM Facts, Datalog, and SMT"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2606.00669v1"
-    category: security
-    subcategory: security
-    authors: ["Sanjay Rawat"]
-    abstract: "Vulnerability discovery on C/C++ source asks the analyst to choose between heavyweight static analysers, which need a working build before a single query runs, and free-form LLMs, which read source re..."
   - title: "TaintRadar: Semantic-Aware Taint-Style Vulnerability Detection via Augmented Code Property Graphs"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.16456v1"
@@ -4492,13 +4044,6 @@ papers:
     subcategory: security
     authors: ["Coryan Wilson-Shah"]
     abstract: "Because of their ability to enable new forms of cryptanalysis, quantum computers pose a threat to the cryptographic algorithms that are widely used to secure contemporary computer systems. A practical..."
-  - title: "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents"
-    date: "2026-08"
-    url: "https://arxiv.org/abs/2608.05884v1"
-    category: security
-    subcategory: security
-    authors: ["Shayell Aharon Salomon Amir Shaked Matan Noga"]
-    abstract: "Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for ..."
   - title: "How Humans, Bots, and Agents Communicate About Vulnerabilities in Pull Requests"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.28125v1"
@@ -4541,13 +4086,6 @@ papers:
     subcategory: security
     authors: ["Felix Weissberg", "Lukas Pirch", "Erik Imgrund"]
     abstract: "Large language models (LLMs) excel in many tasks of software engineering, yet progress in leveraging them for vulnerability discovery has stalled in recent years. To understand this phenomenon, we inv..."
-  - title: "Chai: Agentic Discovery of Cryptographic Misuse Vulnerabilities"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.26933v1"
-    category: security
-    subcategory: security
-    authors: ["Corban Villa", "Sohee Kim", "Austin Chu"]
-    abstract: "AI-assisted vulnerability discovery has proven effective for bug classes like memory safety, where instrumentation confirms memory violations and efficiently filters false positives. Many dangerous vu..."
   - title: "Do Fine-Tuned LLMs Understand Vulnerabilities? An Investigation into the Semantic Trap"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.22655v3"
@@ -4583,13 +4121,6 @@ papers:
     subcategory: evaluation
     authors: ["Sandaru Jayawardana", "Sennur Ulukus", "Ming Ding"]
     abstract: "Collecting multidimensional user data is essential for extracting rich insights across various applications. Local Differential Privacy (LDP) has emerged as a de facto standard for mitigating privacy ..."
-  - title: "RAVEN: Agentic RAG for Automated Vulnerability Repair"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.22647v1"
-    category: security
-    subcategory: security
-    authors: ["Varun Gadey", "Zijie Liu", "Alexandra Dmitrienko"]
-    abstract: "Automated vulnerability repair has emerged as a promising direction to mitigate the growing number of software vulnerabilities. Recent advances in Large Language Models (LLMs) have further accelerated..."
   - title: "A Risk Manager for Intrusion Tolerant Systems: Enhancing HAL 9000 with New Scoring and Data Sources"
     date: "2025-08"
     url: "https://arxiv.org/abs/2508.13364v1"
@@ -4815,13 +4346,6 @@ papers:
     authors: ["Sen Fang", "Weiyuan Ding", "Zhezhen Cao"]
     abstract: "Large Language Models (LLMs) are increasingly adopted for vulnerability detection, yet their reasoning remains fundamentally unsound. We identify a root cause shared by both major mitigation paradigms..."
 
-  - title: "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.04460v2"
-    category: security
-    subcategory: security
-    authors: ["Tianneng Shi", "Robin Rheem", "Dongwei Jiang"]
-    abstract: "AI has the potential to transform cybersecurity by enabling systems that can autonomously detect, analyze, and remediate software vulnerabilities. However, existing cybersecurity evaluations of AI sys..."
   - title: "ARVO: Atlas of Reproducible Vulnerabilities for Open-Source Software"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.17283v2"
@@ -4829,13 +4353,6 @@ papers:
     subcategory: security
     authors: ["Xiang Mei", "Jordi Del Castillo", "Pulkit Singh Singaria"]
     abstract: "Achieving reproducibility, quantity, and diversity in vulnerability datasets has long been viewed as an inherent three-way trade-off, where improving one dimension often comes at the cost of the other..."
-  - title: "Transferable Self-Evolving Playbooks for Agentic Security Auditing"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.16420v1"
-    category: security
-    subcategory: security
-    authors: ["Ziyue Wang", "Cheuk Wang Maurice Ng", "Chenchen Yu"]
-    abstract: "An LLM agent for vulnerability discovery and validation is more than a model. It combines three components: an LLM for code analysis, an agent harness such as Codex or OpenCode for navigation, tool us..."
   - title: "Blockchain Communication Vulnerabilities"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.02661v1"
@@ -4878,13 +4395,6 @@ papers:
     subcategory: security
     authors: ["Simone Manoni", "Emanuele Parisi", "Riccardo Tedeschi"]
     abstract: "This work presents the first design, integration, and evaluation of the standard RISC-V extensions for Control-Flow Integrity (CFI). The Zicfiss and Zicfilp extensions aim at protecting the execution ..."
-  - title: "Natural Language based Specification and Verification"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.11315v1"
-    category: security
-    subcategory: theory
-    authors: ["Zhaorui Li", "Chengyu Song"]
-    abstract: "Recent frontier large language models (LLMs) have shown strong performance in identifying security vulnerabilities in large, mature open-source systems. As LLM-generated code becomes increasingly comm..."
   - title: "ZeroDayBench: Evaluating LLM Agents on Unseen Zero-Day Vulnerabilities for Cyberdefense"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.02297v1"
@@ -4906,13 +4416,6 @@ papers:
     subcategory: security
     authors: ["Ivana Clairine Irsan", "Ratnadira Widyasari", "Ting Zhang"]
     abstract: "Attacks can exploit zero-day or one-day vulnerabilities that are not publicly disclosed. To detect these vulnerabilities, security researchers monitor development activities in open-source repositorie..."
-  - title: "RealVuln: Benchmarking Rule-Based, General-Purpose LLM, and Security-Specialized Scanners on Real-World Code"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.13764v1"
-    category: security
-    subcategory: application
-    authors: ["John Pellew", "Faizan Raza"]
-    abstract: "How do security scanners perform on real-world code? We present RealVuln, the first open-source benchmark comparing Rule-Based SAST, General-Purpose LLMs, and Security-Specialized scanners on 26 inten..."
   - title: "Evaluating Cryptographic API Misuse Detectors for Go"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.24085v1"
@@ -5067,13 +4570,6 @@ papers:
     subcategory: security
     authors: ["Wei Shao", "Najmeh Nazari", "Behnam Omidi"]
     abstract: "Serverless computing has revolutionized cloud computing by offering users an efficient, cost-effective way to develop and deploy applications without managing infrastructure details. However, serverle..."
-  - title: "Multi-Agent Penetration Testing AI for the Web"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2508.20816v1"
-    category: security
-    subcategory: security
-    authors: ["Isaac David", "Arthur Gervais"]
-    abstract: "AI-powered development platforms are making software creation accessible to a broader audience, but this democratization has triggered a scalability crisis in security auditing. With studies showing t..."
   - title: "CacheTrap: Unveiling a Stealthier Gray-Box Trojan against LLMs"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.22681v2"
@@ -5844,13 +5340,6 @@ papers:
     subcategory: security
     authors: ["Yuqing Nie", "Chong Wang", "Guosheng Xu"]
     abstract: "Code Large Language Models (Code LLMs) have revolutionized software development but raised critical concerns regarding code provenance, copyright protection, and security. Existing code watermarking a..."
-  - title: "ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.03378v2"
-    category: security
-    subcategory: security
-    authors: ["Shihao Weng", "Yang Feng", "Jinrui Zhang"]
-    abstract: "Large Language Model (LLM) agents are increasingly deployed as task-oriented software systems that use runtime context to decide and act on behalf of users. This delegation model makes prompt injectio..."
   - title: "Proof of Cloud: Data Center Execution Assurance for Confidential VMs"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.12469v2"
@@ -6013,13 +5502,6 @@ papers:
     subcategory: security
     authors: ["Pien Rooijendijk", "Christoph Treude", "Mairieli Wessel"]
     abstract: "Vulnerability identifiers such as CVE, CWE, and GHSA are standardised references to known software security issues, yet their use in practice is not well understood. This paper compares vulnerability ..."
-  - title: "Security of LLM-generated Code: A Comparative Analysis"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.23091v1"
-    category: security
-    subcategory: application
-    authors: ["Srivathsan G Morkonda", "Mahmoud Selim", "Hala Assal"]
-    abstract: "The majority of software developers use or are planning to use Artificial Intelligence (AI) tools in their development processes. Their top reasons include improving productivity and faster learning. ..."
   - title: "LLMSniffer: Detecting LLM-Generated Code via GraphCodeBERT and Supervised Contrastive Learning"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.16058v1"
@@ -6048,13 +5530,6 @@ papers:
     subcategory: development
     authors: ["Amena Amro", "Manar H. Alalfi"]
     abstract: "As software development practices increasingly adopt AI-powered tools, ensuring that such tools can support secure coding has become critical. This study evaluates the effectiveness of GitHub Copilot'..."
-  - title: "RustAssure: Differential Symbolic Testing for LLM-Transpiled C-to-Rust Code"
-    date: "2025-10"
-    url: "https://arxiv.org/abs/2510.07604v1"
-    category: security
-    subcategory: application
-    authors: ["Yubo Bai", "Tapti Palit"]
-    abstract: "Rust is a memory-safe programming language that significantly improves software security. Existing codebases written in unsafe memory languages, such as C, must first be transpiled to Rust to take adv..."
   - title: "Weaponizing the Commons: A Taxonomy and Detection Framework of Abuse on GitHub"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.17909v1"
@@ -6069,13 +5544,6 @@ papers:
     subcategory: application
     authors: ["Hang Gao", "Tao Peng", "Baoquan Cui"]
     abstract: "Large Language Models (LLMs) have significantly advanced code analysis tasks, yet they struggle to detect malicious behaviors fragmented across files, whose intricate dependencies easily get lost in t..."
-  - title: "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.03262v2"
-    category: security
-    subcategory: security
-    authors: ["Songwen Zhao", "Danqing Wang", "Kexun Zhang"]
-    abstract: "Vibe coding is a new programming paradigm in which human engineers instruct large language model (LLM) agents to complete complex coding tasks with little supervision. Although vibe coding is increasi..."
   - title: "UCSC-NLP at SemEval-2026 Task 13: Multi-View Generalization and Diagnostic Analysis of Machine-Generated Code Detection"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.26990v1"
@@ -6083,13 +5551,6 @@ papers:
     subcategory: development
     authors: ["Kargi Chauhan", "Sadiba Nusrat Nur"]
     abstract: "With the rapid growth of large language models for code generation, distinguishing between human-written and AI-generated code has become increasingly critical for academic integrity, hiring evaluatio..."
-  - title: "How to Compare the Security of Code Written by Humans to LLM-generated Code"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2606.00186v2"
-    category: security
-    subcategory: development
-    authors: ["Jasmine Egli", "Rebecca Balebako"]
-    abstract: "Large language models (LLMs) are rapidly transforming how software is created and maintained. Comparing LLM-generated code against human-written standards is essential to determine whether these new t..."
   - title: "Assessing the Capability of Android Dynamic Analysis Tools to Combat Anti-Runtime Analysis Techniques"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.12551v1"
@@ -6167,13 +5628,6 @@ papers:
     subcategory: security
     authors: ["Maor Reuben", "Ido Mendel", "Or Feldman"]
     abstract: "Supply chain attacks significantly threaten software security with malicious code injections within legitimate projects. Such attacks are very rare but may have a devastating impact. Detecting spuriou..."
-  - title: "Towards Personalizing Secure Programming Education with LLM-Injected Vulnerabilities"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.13955v1"
-    category: security
-    subcategory: development
-    authors: ["Matthew Frazier", "Kostadin Damevski"]
-    abstract: "According to constructivist theory, students learn software security more effectively when examples are grounded in their own code. Generic examples often fail to connect with students' prior work, li..."
   - title: "BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.25248v1"
@@ -6181,13 +5635,6 @@ papers:
     subcategory: application
     authors: ["Zehua Zhang", "Ati Priya Bajaj", "Divij Handa"]
     abstract: "Automatically compiling open-source software (OSS) projects is a vital, labor-intensive, and complex task, which makes it a good challenge for LLM Agents. Existing methods rely on manually curated rul..."
-  - title: "Execution-State-Aware LLM Reasoning for Automated Proof-of-Vulnerability Generation"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.13574v1"
-    category: security
-    subcategory: security
-    authors: ["Haoyu Li", "Xijia Che", "Yanhao Wang"]
-    abstract: "Proof-of-Vulnerability (PoV) generation is a critical task in software security, serving as a cornerstone for vulnerability validation, false positive reduction, and patch verification. While directed..."
   - title: "Three Heads Are Better Than One: A Multi-perspective Reasoning Framework for Enhanced Vulnerability Detection"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.18153v1"
@@ -6244,13 +5691,6 @@ papers:
     subcategory: security
     authors: ["Wenchao Gu", "Yupan Chen", "Yanlin Wang"]
     abstract: "Software vulnerability detection has emerged as a significant concern in the field of software security recently, capturing the attention of numerous researchers and developers. Most previous approach..."
-  - title: "The Impact of Configuring Agentic AI Coding Tools on Build-vs-Buy Decisions: A Study Protocol"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.03907v1"
-    category: security
-    subcategory: application
-    authors: ["Jai Lal Lulla", "Matthias Galster", "Jie M. Zhang"]
-    abstract: "Agentic AI coding tools write code with increasing autonomy and in doing so decide when to import a library and when to implement functionality from scratch. These decisions, whether to build function..."
   - title: "Empirical Study of Code Large Language Models for Binary Security Patch Detection"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.06052v1"
@@ -6797,13 +6237,6 @@ papers:
     subcategory: application
     authors: ["Ömer Oktay Gültekin", "Alexander Berndt", "Jonathan Bell"]
     abstract: "Flaky tests pass and fail on the same code version, weakening the signal of test results and disrupting continuous integration (CI) pipelines. Code-based flakiness detectors report strong benchmark re..."
-  - title: "Understanding the Rejection of Fixes Generated by Agentic Pull Requests -- Insights from the AIDev Dataset"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.13468v1"
-    category: cicd
-    subcategory: mechanism
-    authors: ["Mahmoud Abujadallah", "Ali Arabat", "Mohammed Sayagh"]
-    abstract: "AI coding agents are increasingly used to generate pull requests (PRs) that propose code fixes in software projects. From a first exploration of the AIDev dataset, we find that 46.41\\% of the fixes pr..."
   - title: "Safety Factories - a Manifesto"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.08285v2"
@@ -6979,13 +6412,6 @@ papers:
     subcategory: application
     authors: ["Nicolas Weeger", "Jakob Winkler", "Annika Stiehl"]
     abstract: "Retrieval-augmented generation (RAG) systems are gaining traction in enterprise settings, yet stringent data protection regulations prevent many organizations from using cloud-based services, necessit..."
-  - title: "The Code Whisperer: LLM and Graph-Based AI for Smell and Vulnerability Resolution"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.13114v1"
-    category: cicd
-    subcategory: security
-    authors: ["Mohammad Baqar", "Raji Rustamov", "Alexander Hughes"]
-    abstract: "Code smells and software vulnerabilities both increase maintenance cost, yet they are often handled by separate tools that miss structural context and produce noisy warnings. This paper presents The C..."
   - title: "Cognitive Platform Engineering for Autonomous Cloud Operations"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.17542v1"
@@ -7028,13 +6454,6 @@ papers:
     subcategory: development
     authors: ["Fiorella Zampetti", "Federico Stocchetti", "Federica Razzano"]
     abstract: "Machine Learning (ML) Operations (MLOps) frameworks have been conceived to support developers and AI engineers in managing the lifecycle of their ML models. While such frameworks provide a wide range ..."
-  - title: "Correctness isnt Efficiency: Runtime Memory Divergence in LLM-Generated Code"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.01215v2"
-    category: cicd
-    subcategory: theory
-    authors: ["Prateek Rajput", "Yewei Song", "Abdoul Aziz Bonkoungou"]
-    abstract: "Large language models (LLMs) can generate programs that pass unit tests, but passing tests does not guarantee reliable runtime behavior. We find that different correct solutions to the same task can s..."
   - title: "ZeroFalse: Improving Precision in Static Analysis with LLMs"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.02534v1"
@@ -7540,13 +6959,6 @@ papers:
     subcategory: theory
     authors: ["Runzhou Wang", "Shenglin Zhang", "Wenwei Gu"]
     abstract: "Microservice root cause localization is fundamentally challenged by the inherent heterogeneity of cloud-native systems, which encompasses diverse observability data and multiple system entities. Exist..."
-  - title: "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.14703v1"
-    category: containers
-    subcategory: development
-    authors: ["Huiyun Peng", "Parth Vinod Patil", "Antonio Zhong Qiu"]
-    abstract: "Large language models and AI agents have recently shown promise in automating software performance optimization, but existing approaches predominantly rely on local, syntax-driven code transformations..."
   - title: "MicroRacer: Detecting Concurrency Bugs for Cloud Service Systems"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.05716v1"
@@ -8177,13 +7589,6 @@ papers:
     subcategory: theory
     authors: ["Ruwanga Konara", "Kasun De Zoysa", "Asanka Sayakkara"]
     abstract: "Recent years have seen many industrial implementations and much scholastic research, i.e., prototypes and theoretical frameworks, in Decentralized Identity Management Systems (DIDMS). It is safe to sa..."
-  - title: "Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.11893v1"
-    category: policycode
-    subcategory: theory
-    authors: ["Zimo Ji", "Daoyuan Wu", "Wenyuan Jiang"]
-    abstract: "Large Language Model (LLM)-based agent systems are increasingly deployed for complex real-world tasks but remain vulnerable to natural language-based attacks that exploit over-privileged tool use. Thi..."
   - title: "MuSimA: A Tool with Multi-modal Input for Generating Bespoke ABAC Datasets"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.10501v1"
@@ -8556,13 +7961,6 @@ papers:
     subcategory: security
     authors: ["Ben Dong", "Hui Feng", "Qian Wang"]
     abstract: "Modern generative agents such as OpenClaw - an open-source, self-hosted personal assistant with a community skill ecosystem, are gaining attention and are used pervasively. However, the openness and r..."
-  - title: "Do AI Coding Agents Log Like Humans? An Empirical Study"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.09409v1"
-    category: observability
-    subcategory: application
-    authors: ["Youssef Esseddiq Ouatiti", "Mohammed Sayagh", "Hao Li"]
-    abstract: "Software logging is essential for maintaining and debugging complex systems, yet it remains unclear how AI coding agents handle this non-functional requirement. While prior work characterizes human lo..."
   - title: "Theory of Code Space: Do Code Agents Understand Software Architecture?"
     date: "2026-02"
     url: "https://arxiv.org/abs/2603.00601v4"
@@ -8598,13 +7996,6 @@ papers:
     subcategory: development
     authors: ["Renyi Zhong", "Yintong Huo", "Wenwei Gu"]
     abstract: "Software logging is critical for system observability, yet developers face a dual crisis of costly overlogging and risky underlogging. Existing automated logging tools often overlook the fundamental w..."
-  - title: "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.22058v1"
-    category: observability
-    subcategory: theory
-    authors: ["Chengyan Ma", "Jieke Shi", "Ruidong Han"]
-    abstract: "Trusted Execution Environments (TEEs) provide hardware-enforced isolation that protects sensitive code and data from untrusted software. Despite their strong security guarantees, analyzing TEE applica..."
   - title: "SDVDiag: Multimodal Causal Discovery for Online Diagnosis in Software-defined Vehicles"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.15559v1"
@@ -8661,13 +8052,6 @@ papers:
     subcategory: theory
     authors: ["Krti Tallam"]
     abstract: "Enterprise AI backends increasingly admit heterogeneous execution requests across model deployment, inference, evaluation, data movement, and agentic workflows. In many systems, those requests arrive ..."
-  - title: "Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.01548v1"
-    category: observability
-    subcategory: systems
-    authors: ["Neeraj Bholani"]
-    abstract: "Tool-using LLM agents face a reliability-cost tradeoff: routing every decision through the LLM improves correctness but incurs high latency and inference cost, while pre-coded workflow graphs reduce c..."
   - title: "XTrace: A Non-Invasive Dynamic Tracing Framework for Android Applications in Production"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.21555v1"
@@ -8976,13 +8360,6 @@ papers:
     subcategory: security
     authors: ["Xinlong Zhao", "Tong Jia", "Minghua He"]
     abstract: "Log-based anomaly detection is an important task in ensuring the stability and reliability of software systems. One of the key problems in this task is the lack of labeled logs. Existing works usually..."
-  - title: "LLM-Enhanced Log Anomaly Detection: A Comprehensive Benchmark of Large Language Models for Automated System Diagnostics"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.12218v1"
-    category: observability
-    subcategory: security
-    authors: ["Disha Patel"]
-    abstract: "System log anomaly detection is critical for maintaining the reliability of large-scale software systems, yet traditional methods struggle with the heterogeneous and evolving nature of modern log data..."
   - title: "LogPurge: Log Data Purification for Anomaly Detection via Rule-Enhanced Filtering"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.14062v1"
@@ -9081,13 +8458,6 @@ papers:
     subcategory: security
     authors: ["WenYang Zhong", "Tutut Herawan"]
     abstract: "In recent years, with the development of big data technology, increasingly more companies use HDFS for data processing and storage. As a result, the maintenance of distributed file systems has become ..."
-  - title: "LLM4Log: A Systematic Review of Large Language Model-based Log Analysis"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2604.16359v2"
-    category: observability
-    subcategory: review
-    authors: ["Zeyang Ma", "Jinqiu Yang", "Tse-Hsun Chen"]
-    abstract: "Software systems generate massive, evolving, semi-structured logs that are central to reliability engineering and AIOps, yet difficult to analyze at scale under drift and limited labels. Recent advanc..."
   - title: "Walk the Talk: Is Your Log-based Software Reliability Maintenance System Really Reliable?"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.24352v1"
@@ -9243,13 +8613,6 @@ papers:
     subcategory: application
     authors: ["Mikel Robredo", "Matteo Esposito", "Fabio Palomba"]
     abstract: "Context. Code refactoring improves software quality without changing external behavior. Despite its advantages, its benefits are hindered by the considerable cost of time, resources, and continuous ef..."
-  - title: "Novice Developers Produce Larger Review Overhead for Project Maintainers while Vibe Coding"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.23905v1"
-    category: platform
-    subcategory: systems
-    authors: ["Syed Ammar Asdaque", "Imran Haider", "Muhammad Umar Malik"]
-    abstract: "AI coding agents allow software developers to generate code quickly, which raises a practical question for project managers and open source maintainers: can vibe coders with less development experienc..."
   - title: "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.10398v6"
@@ -9384,13 +8747,6 @@ papers:
     authors: ["Tezan Sahu", "Aritra Das", "Pankaj Mittal"]
     abstract: "Platform teams hosting agent-extensibility surfaces face a regression-economics paradox: every onboarding customer ships an evaluation set tuned to their domain, but the platform's regression set must..."
 
-  - title: "Are AI-assisted Development Tools Immune to Prompt Injection?"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.21642v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Charoes Huang", "Xin Huang", "Amin Milani Fard"]
-    abstract: "Prompt injection is listed as the number-one vulnerability class in the OWASP Top 10 for LLM Applications that can subvert LLM guardrails, disclose sensitive data, and trigger unauthorized tool use. D..."
   - title: "Investigating Detection and Obfuscation of Prompt Injection Attacks Against Software Reverse Engineering AI Agents"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.30677v1"
@@ -9426,13 +8782,6 @@ papers:
     subcategory: security
     authors: ["Hao Yang", "Zhuo Ma", "Yang Liu"]
     abstract: "Large vision-language models (LVLMs) have emerged as a powerful paradigm for multimodal intelligence, but their growing deployment also expands the attack surface of prompt injection. Despite this gro..."
-  - title: "MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.07131v3"
-    category: ai-security
-    subcategory: security
-    authors: ["Wenbo Guo", "Wei Zeng", "Chengwei Liu"]
-    abstract: "AI coding agents such as Claude Code and Gemini CLI increasingly extend themselves with third-party skills: markdown packages bundling natural-language instructions, executable scripts, and tool permi..."
   - title: "CapSeal: Capability-Sealed Secret Mediation for Secure Agent Execution"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.16762v1"
@@ -9461,13 +8810,6 @@ papers:
     subcategory: security
     authors: ["Ting-Chun Liu", "Ching-Yu Hsu", "Kuan-Yi Lee"]
     abstract: "Prompt injection attacks pose a significant challenge to the safe deployment of Large Language Models (LLMs) in real-world applications. While prompt-based detection offers a lightweight and interpret..."
-  - title: "Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks"
-    date: "2026-02"
-    url: "https://arxiv.org/abs/2602.20156v3"
-    category: ai-security
-    subcategory: security
-    authors: ["David Schmotz", "Luca Beurer-Kellner", "Sahar Abdelnabi"]
-    abstract: "LLM agents are evolving rapidly, powered by code execution, tools, and the recently introduced agent skills feature. Skills allow users to extend LLM applications with specialized third-party code, kn..."
   - title: "Large Language Models for Cyber Security"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.04508v1"
@@ -9482,13 +8824,6 @@ papers:
     subcategory: security
     authors: ["Jafar Isbarov", "Umid Suleymanov", "Ilia Shumailov"]
     abstract: "AI-powered agents are increasingly embedded in continuous integration and continuous delivery/deployment (CI/CD) pipelines to autonomously review pull requests (PRs), triage issues, and maintain codeb..."
-  - title: "TEMPLATEFUZZ: Fine-Grained Chat Template Fuzzing for Jailbreaking and Red Teaming LLMs"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.12232v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Qingchao Shen", "Zibo Xiao", "Lili Huang"]
-    abstract: "Large Language Models (LLMs) are increasingly deployed across diverse domains, yet their vulnerability to jailbreak attacks, where adversarial inputs bypass safety mechanisms to elicit harmful outputs..."
   - title: "Poster: ClawdGo: Endogenous Security Awareness Training for Autonomous AI Agents"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.24020v1"
@@ -9510,13 +8845,6 @@ papers:
     subcategory: security
     authors: ["Mohammad Fasha", "Faisal Abul Rub", "Nasim Matar"]
     abstract: "Large Language Models (LLMs) have emerged as a transformative and disruptive technology, enabling a wide range of applications in natural language processing, machine translation, and beyond. However,..."
-  - title: "Why LLMs Fail: A Failure Analysis and Partial Success Measurement for Automated Security Patch Generation"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.10072v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Amir Al-Maamari"]
-    abstract: "Large Language Models (LLMs) show promise for Automated Program Repair (APR), yet their effectiveness on security vulnerabilities remains poorly characterized. This study analyzes 319 LLM-generated se..."
   - title: "Like a Hammer, It Can Build, It Can Break: Large Language Model Uses, Perceptions, and Adoption in Cybersecurity Operations on Reddit"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.09998v2"
@@ -9692,13 +9020,6 @@ papers:
     subcategory: security
     authors: ["Yuchen Chen", "Wei Cheng", "Yuan Xiao"]
     abstract: "LLM-based systems increasingly incorporate long-term memory to improve cross-session continuity. However, once insecure coding preferences are stored, they may silently influence security-critical dec..."
-  - title: "Minimal Prompt Perturbations Lead to Code Vulnerabilities: Prompt Fragility and Hidden-State Signals in Coding LLMs"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.29737v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Alexander Sternfeld", "Andrei Kucharavy", "Ljiljana Dolamic"]
-    abstract: "LLM-based coding assistants are seeing rapid adoption, offering substantial gains in developer productivity. As organizations increasingly ship code these agents produce, the security of that code bec..."
   - title: "CIPHER: Cryptographic Insecurity Profiling via Hybrid Evaluation of Responses"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.01438v2"
@@ -9769,13 +9090,6 @@ papers:
     subcategory: security
     authors: ["Zhengyang Shan", "Jiayun Xin", "Yue Zhang"]
     abstract: "Code agents powered by large language models can execute shell commands on behalf of users, introducing severe security vulnerabilities. This paper presents a two-phase security analysis of the OpenCl..."
-  - title: "LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs"
-    date: "2026-08"
-    url: "https://arxiv.org/abs/2608.04907v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Ethen Santana", "Gabriel Gyaase", "Hao Zheng"]
-    abstract: "Hardware designs, like software, are susceptible to bugs that can introduce security vulnerabilities and create opportunities for malicious exploitation. Unlike software vulnerabilities, however, hard..."
   - title: "SynAT: Enhancing Security Knowledge Bases via Automatic Synthesizing Attack Tree from Crowd Discussions"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.05329v1"
@@ -9930,13 +9244,6 @@ papers:
     subcategory: mechanism
     authors: ["Hardik Goel"]
     abstract: "Tool-enabled AI agents are increasingly deployed in cloud-hosted environments and offered as services, where they perform side-effecting operations through privileged tools within execution environmen..."
-  - title: "Don't Make Models Guess Security and Safety: Symbolic Guardrails for Domain-Specific AI Agents"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.15579v2"
-    category: ai-security
-    subcategory: review
-    authors: ["Yining Hong", "Yining She", "Eunsuk Kang"]
-    abstract: "There is increasing interest in integrating AI agents that invoke tools into domain-specific commercial software, where unintended tool calls can cause serious security and safety incidents. This has ..."
   - title: "Understanding the (In)Security of Vibe-Coded Applications"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.23130v2"
@@ -9944,13 +9251,6 @@ papers:
     subcategory: security
     authors: ["Junquan Deng", "Zhiyu Fan", "Ruijie Meng"]
     abstract: "Recent advances in large language models (LLMs) have enabled vibe coding, an emerging software development paradigm in which users create applications primarily through natural-language interactions w..."
-  - title: "Evasive Intelligence: Lessons from Malware Analysis for Evaluating AI Agents"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.15457v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Simone Aonzo", "Merve Sahin", "Aurélien Francillon"]
-    abstract: "Artificial intelligence (AI) systems are increasingly adopted as tool-using agents that can plan, observe their environment, and take actions over extended time periods. This evolution challenges curr..."
   - title: "Understanding Human-AI Collaboration in Cybersecurity Competitions"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.20446v1"
@@ -9965,13 +9265,6 @@ papers:
     subcategory: security
     authors: ["Siyuan Li", "Peng Shu", "Churan Yu"]
     abstract: "Autonomous AI agent platforms differ substantially in architecture, security, tool integration, execution, autonomy, and deployment, yet the field lacks a common classification scheme for comparing th..."
-  - title: "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.11086v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Zhun Wang", "Nico Schiller", "Hongwei Li"]
-    abstract: "AI agents are rapidly gaining capabilities that could significantly reshape cybersecurity, making rigorous evaluation urgent. A critical capability is exploitation: turning a vulnerability, which is n..."
   - title: "A2AS: Agentic AI Runtime Security and Self-Defense"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.13825v1"
@@ -9986,13 +9279,6 @@ papers:
     subcategory: theory
     authors: ["Klaas Ole Kürtz"]
     abstract: "We undertake a comprehensive and structured synthesis of the drivers of human behavior in cybersecurity, focusing specifically on people within organizations (i.e., especially employees in companies),..."
-  - title: "Token-Flow Firewall: Semantic Runtime Auditing for Persistent AI Agents"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.08395v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Puji Wang", "Yingchen Zhang", "Ruqing Zhang"]
-    abstract: "Persistent AI agents extend large language models (LLMs) beyond single-turn interaction into long-lived software systems. Unlike traditional chat assistants, unsafe content in these agents can propaga..."
   - title: "Cross-Vendor Sola ISPM Benchmark: Evaluating Agentic AI for Federated Identity Security Reasoning"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.02674v1"
@@ -10000,13 +9286,6 @@ papers:
     subcategory: application
     authors: ["Eden Yavin", "Gal Engelberg", "Konstantin Koutsyi"]
     abstract: "The rapid proliferation of multi-cloud and SaaS platforms has transformed Identity Security Posture Management (ISPM) into a fundamentally cross-vendor challenge: critical misconfigurations and privil..."
-  - title: "Context Matters: Repository-Aware Security Analysis of the Agent Skill Ecosystem"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.16572v2"
-    category: ai-security
-    subcategory: security
-    authors: ["Florian Holzbauer", "David Schmidt", "Gabriel Gegenhuber"]
-    abstract: "Agent skills extend local AI agents, such as Claude Code and OpenClaw, with additional functionality. Their growing popularity has led to dedicated marketplaces resembling mobile app stores, as well a..."
   - title: "MAIF: Enforcing AI Trust and Provenance with an Artifact-Centric Agentic Paradigm"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.15097v2"
@@ -10049,20 +9328,6 @@ papers:
     subcategory: security
     authors: ["Ninghui Li", "Kaiyuan Zhang", "Kyle Polley"]
     abstract: "This article, a lightly adapted version of Perplexity's response to NIST/CAISI Request for Information 2025-0035, details our observations and recommendations concerning the security of frontier AI ag..."
-  - title: "Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.22489v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Charoes Huang", "Xin Huang", "Ngoc Phu Tran"]
-    abstract: "The Model Context Protocol (MCP) has rapidly emerged as a universal standard for connecting AI assistants to external tools and data sources. While MCP simplifies integration between AI applications a..."
-  - title: "Securing Multi-Tool AI Agent Chains With Dynamic, Real-Time Compositional Policies"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.03423v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Chris Schneider", "Kriti Faujdar", "Philipp Schoenegger"]
-    abstract: "Modern AI agent implementations such as frontier coding agents chain multiple tools at runtime that create a security surface that per-tool guardrails are unable to address, as individually permitted ..."
   - title: "Trusted AI Agents in the Cloud"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.05951v2"
@@ -10070,13 +9335,6 @@ papers:
     subcategory: application
     authors: ["Teofil Bodea", "Masanori Misono", "Julian Pritzi"]
     abstract: "AI agents powered by large language models are increasingly deployed as cloud services that autonomously access sensitive data, invoke external tools, and interact with other agents. However, these ag..."
-  - title: "Mako: A Self-Evolving Agentic Operating System (SE-AOS) for Autonomous Web Exploitation"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.11288v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Praneeth Narisetty", "Shiva Nagendra Babu Kore"]
-    abstract: "We introduce the Self-Evolving Agentic Operating System (SE-AOS): a new class of AI agent that treats exploit capability as a mutable, versioned kernel it extends at runtime, observing its own failure..."
   - title: "Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.07880v1"
@@ -10105,13 +9363,6 @@ papers:
     subcategory: theory
     authors: ["Dario Pasquini", "Michal Bazyli", "Taras Fedynyshyn"]
     abstract: "The use of agentic systems to perform offensive security operations has moved from a theoretical possibility to a commoditized capability. However, while the community has focused on creating more and..."
-  - title: "PoCo: Agentic Proof-of-Concept Exploit Generation for Smart Contracts"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.02780v3"
-    category: ai-security
-    subcategory: security
-    authors: ["Vivi Andersson", "Sofia Bobadilla", "Harald Hobbelhagen"]
-    abstract: "Smart contracts operate in a highly adversarial environment, where vulnerabilities can lead to substantial financial losses. Thus, smart contracts are subject to security audits. In auditing, proof-of..."
   - title: "Extending the Formalism and Theoretical Foundations of Cryptography to AI"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.02590v1"
@@ -10126,13 +9377,6 @@ papers:
     subcategory: review
     authors: ["Muhammad Tukur", "Hayatullahi B. Adeyemo", "Tao Chen"]
     abstract: "The emergence of Agentic AI systems, characterized by autonomous reasoning, multi-agent collaboration, tool orchestration, adaptive decision-making, and persistent memory, represents a fundamental shi..."
-  - title: "AgenticRepair: Multi-Faceted Program Context Engineering for Agentic Vulnerability Repair"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.29422v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Michael Fu", "Qiyue Mei", "Patanamon Thongtanunam"]
-    abstract: "Automated vulnerability repair aims to reduce the time and effort required to patch security flaws from a vulnerability triage report. Recent agentic AI approaches have shown promising results in auto..."
   - title: "MAGIQ: A Post-Quantum Multi-Agentic AI Governance System with Provable Security"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.06933v2"
@@ -10161,13 +9405,6 @@ papers:
     subcategory: development
     authors: ["Xinyi Wu", "Jiagui Chen", "Geng Hong"]
     abstract: "Web Agents are increasingly deployed to perform complex tasks in real web environments, yet their security evaluation remains fragmented and difficult to standardize. We present WebTrap Park, an autom..."
-  - title: "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.14860v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Viet K. Nguyen", "Mohammad I. Husain"]
-    abstract: "Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address. Although recent work by Unit 42 at Palo Alto Networks demonstrated that ChatGPT-4o successfully executes..."
   - title: "SkillTester: Benchmarking Utility and Security of Agent Skills"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.28815v1"
@@ -10182,20 +9419,6 @@ papers:
     subcategory: application
     authors: ["Haiyue Zhang", "Yi Nian", "Yue Zhao"]
     abstract: "What should a developer inspect before deploying an LLM agent: the model, the tool code, the deployment configuration, or all three? In practice, many security failures in agent systems arise not from..."
-  - title: "Antaeus: Hunting Repository-Level Logic Vulnerabilities via Context-Grounded LLM Reasoning"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.01138v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Michele Armillotta", "Nicolò Romandini", "Rebecca Montanari"]
-    abstract: "LLM-based vulnerability detectors have shown promising results in identifying memory-safety bugs and vulnerability classes whose violations can often be expressed through established security properti..."
-  - title: "Agentic Discovery and Validation of Android App Vulnerabilities"
-    date: "2025-08"
-    url: "https://arxiv.org/abs/2508.21579v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Ziyue Wang", "Liyi Zhou"]
-    abstract: "Existing Android vulnerability detection tools overwhelm teams with thousands of low-signal warnings yet uncover few true positives. Analysts spend days triaging these results, creating a bottleneck i..."
   - title: "AgentSOC: A Multi-Layer Agentic AI Framework for Security Operations Automation"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.20134v1"
@@ -10217,20 +9440,6 @@ papers:
     subcategory: theory
     authors: ["John M. Willis"]
     abstract: "Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool using agents into production, often on shared high performance computing clusters and cloud ..."
-  - title: "MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.18063v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Yi Ting Shen", "Kentaroh Toyoda", "Alex Leung"]
-    abstract: "The Model Context Protocol (MCP) introduces a structurally distinct attack surface that existing threat frameworks, designed for traditional software systems or generic LLM deployments, do not adequat..."
-  - title: "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.20920v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Herman Errico", "Jiquan Ngiam", "Shanita Sojan"]
-    abstract: "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows ac..."
   - title: "Attested Tool-Server Admission: A Security Extension to the Model Context Protocol"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.24248v2"
@@ -10238,13 +9447,6 @@ papers:
     subcategory: theory
     authors: ["Alfredo Metere"]
     abstract: "The Model Context Protocol (MCP) standardizes how a large-language-model (LLM) agent and an external tool server exchange messages, but not trust: a host reads a server's self-declared tool list and d..."
-  - title: "Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.17549v1"
-    category: ai-security
-    subcategory: theory
-    authors: ["Narek Maloyan", "Dmitry Namiot"]
-    abstract: "The Model Context Protocol (MCP) has emerged as a de facto standard for integrating Large Language Models with external tools, yet no formal security analysis of the protocol specification exists. We ..."
   - title: "SecureMCP: A Policy-Enforced LLM Data Access Framework for AIoT Systems via Model Context Protocol"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.05260v1"
@@ -10252,34 +9454,6 @@ papers:
     subcategory: security
     authors: ["Wonbae Kim", "Hee-Kyong Yoo"]
     abstract: "The deployment of Large Language Model (LLM)-generated SQL queries in Artificial Intelligence of Things (AIoT) systems introduces critical security risks, as prompt injection attacks can manipulate LL..."
-  - title: "VATS: Exploiting Implicit Authority in Error-Path Injection via Systematic Mutation"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.07992v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Harshil Patel", "Kunal Pai"]
-    abstract: "As the Model Context Protocol (MCP) standardizes tool-calling for autonomous agents, it introduces a critical, unexamined attack surface: the error-handling loop. We hypothesize that tool error messag..."
-  - title: "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.04785v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Chenglin Yang"]
-    abstract: "Modern AI agents execute real-world side effects through tool calls such as file operations, shell commands, HTTP requests, and database queries. A single unsafe action, including accidental deletion,..."
-  - title: "AIRGuard: Guarding Agent Actions with Runtime Authority Control"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.28914v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Suliu Qin", "Haomin Zhuang", "Yujun Zhou"]
-    abstract: "Tool-using language agents turn model decisions into external side effects: they read files, run scripts, call APIs, send messages, and invoke Model Context Protocol tools. This makes agent attacks di..."
-  - title: "Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.10955v2"
-    category: ai-security
-    subcategory: security
-    authors: ["Kaiyu Zhou", "Yongsen Zheng", "Yicheng He"]
-    abstract: "The agent--tool interaction loop is a critical attack surface for modern Large Language Model (LLM) agents. Existing denial-of-service (DoS) attacks typically function at the user-prompt or retrieval-..."
   - title: "STRIATUM-CTF: A Protocol-Driven Agentic Framework for General-Purpose CTF Solving"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.22577v1"
@@ -10308,13 +9482,6 @@ papers:
     subcategory: theory
     authors: ["Praneel Panchigar", "Torlach Rush", "Matthew Canabarro"]
     abstract: "Large Language Models (LLMs) consume vast quantities of human-generated content for both training and real-time inference, yet the creators of that content remain largely invisible in the value chain...."
-  - title: "Mitigating Taint-Style Vulnerabilities in MCP Servers via Security-Aware Tool Descriptions"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.07461v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Yang Shi", "Jiaheng Fu", "Yihe Huang"]
-    abstract: "Large language models (LLMs) are increasingly deployed as autonomous agents that interact with external tools and services via the Model Context Protocol (MCP), a standardized interface for dynamic to..."
   - title: "The Web4 Agent Economy: A Large-Scale Empirical Study of the Landscape, Challenges, and Opportunities"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.25876v1"
@@ -10322,13 +9489,6 @@ papers:
     subcategory: application
     authors: ["Yuhan Jin", "Shuohan Wu", "Chong Chen"]
     abstract: "The Internet is transitioning from Web3 toward Web4, where autonomous agents serve as independent economic actors. These agents can now hold crypto wallets, execute on-chain trades, and pay for extern..."
-  - title: "An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.30604v1"
-    category: ai-security
-    subcategory: systems
-    authors: ["George Fatouros", "Georgios Makridis", "George Kousiouris"]
-    abstract: "Regulated cybersecurity workflows lack a runtime substrate that enforces organization-level scope across retrieval, tool calls, memory, findings, reports, and audit while remaining model-agnostic and ..."
   - title: "MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.01241v2"
@@ -10350,20 +9510,6 @@ papers:
     subcategory: security
     authors: ["Bin Liu", "Yanjie Zhao", "Guoai Xu"]
     abstract: "Large language model (LLM) agents have demonstrated remarkable capabilities in software engineering and cybersecurity tasks, including code generation, vulnerability discovery, and automated testing. ..."
-  - title: "Towards Demystifying and Repairing LLM-in-the-Loop Vulnerabilities"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.28893v2"
-    category: ai-security
-    subcategory: security
-    authors: ["Yujie Ma", "Jialin Rong", "Chenxi Yang"]
-    abstract: "Large Language Models (LLMs) have been actively integrated into modern software systems as critical components, introducing a new type of software vulnerability, LLM-in-the-Loop (LiL) vulnerability, i..."
-  - title: "LLM-based Vulnerable Code Augmentation: Generate or Refactor?"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.08493v2"
-    category: ai-security
-    subcategory: security
-    authors: ["Dyna Soumhane Ouchebara", "Stéphane Dupont"]
-    abstract: "Vulnerability code-bases often suffer from severe imbalance, limiting the effectiveness of Deep Learning-based vulnerability classifiers. Data Augmentation could help solve this by mitigating the scar..."
   - title: "On the Effectiveness of Instruction-Tuning Local LLMs for Identifying Software Vulnerabilities"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.20062v1"
@@ -10385,13 +9531,6 @@ papers:
     subcategory: security
     authors: ["Zixuan Wu", "Cristina Nita-Rotaru"]
     abstract: "Large language models are increasingly deployed for security-sensitive tasks such as vulnerability detection and code review. Their reliance on natural-language context embedded in source code exposes..."
-  - title: "Security Vulnerability Patterns in AI-Generated Code: A Cross-Model Comparative Study"
-    date: "2026-07"
-    url: "https://arxiv.org/abs/2607.20713v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Shanna M. Kahn", "John D. Hastings"]
-    abstract: "LLM-based coding tools enable non-expert users to generate routine automation scripts that may enter enterprise workflows without meaningful security review. This study examines that risk directly. Co..."
   - title: "False Friends in the Shell: Unveiling the Emoticon Semantic Confusion in Large Language Models"
     date: "2026-01"
     url: "https://arxiv.org/abs/2601.07885v2"
@@ -10399,13 +9538,6 @@ papers:
     subcategory: security
     authors: ["Weipeng Jiang", "Xiaoyu Zhang", "Juan Zhai"]
     abstract: "Emoticons are widely used in digital communication to convey affective intent, yet their safety implications for Large Language Models (LLMs) remain largely unexplored. In this paper, we identify emot..."
-  - title: "Veritas: Grounding LLM Agents for Reliable Vulnerability Reasoning over Stripped Binaries"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.15097v3"
-    category: ai-security
-    subcategory: theory
-    authors: ["Xinran Zheng", "Alfredo Pesoli", "Marco Valleri"]
-    abstract: "Frontier LLM agents are increasingly capable of localizing suspicious code, but vulnerability reasoning requires more than access to program artifacts. An agent must carry forward the evidence that ac..."
   - title: "Prompting the Priorities: A First Look at Evaluating LLMs for Vulnerability Triage and Prioritization"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.18508v1"
@@ -10455,13 +9587,6 @@ papers:
     subcategory: application
     authors: ["Syed Md Mukit Rashid", "Abdullah Al Ishtiaq", "Kai Tu"]
     abstract: "Logical vulnerabilities in software stem from flaws in program logic rather than memory safety, which can lead to critical security failures. Although existing automated program repair techniques prim..."
-  - title: "Prompt Engineering vs. Fine-Tuning for LLM-Based Vulnerability Detection in Solana and Algorand Smart Contracts"
-    date: "2025-11"
-    url: "https://arxiv.org/abs/2511.11250v1"
-    category: ai-security
-    subcategory: security
-    authors: ["Biagio Boi", "Christian Esposito"]
-    abstract: "Smart contracts have emerged as key components within decentralized environments, enabling the automation of transactions through self-executing programs. While these innovations offer significant adv..."
   - title: "Favia: Forensic Agent for Vulnerability-fix Identification and Analysis"
     date: "2026-02"
     url: "https://arxiv.org/abs/2602.12500v1"
@@ -10749,13 +9874,6 @@ papers:
     subcategory: theory
     authors: ["Domenico Cotroneo", "Cristina Improta", "Pietro Liguori"]
     abstract: "As AI code assistants become increasingly integrated into software development workflows, understanding how their code compares to human-written programs is critical for ensuring reliability, maintain..."
-  - title: "Broken by Default: A Formal Verification Study of Security Vulnerabilities in AI-Generated Code"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.05292v2"
-    category: ai-security
-    subcategory: theory
-    authors: ["Dominik Blain", "Maxime Noiseux"]
-    abstract: "AI coding assistants are now used to generate production code in security-sensitive domains, yet the exploitability of their outputs remains unquantified. We address this gap with Broken by Default: a..."
   - title: "Benchmarking Correctness and Security in Multi-Turn Code Generation"
     date: "2025-10"
     url: "https://arxiv.org/abs/2510.13859v1"
@@ -10855,27 +9973,6 @@ papers:
     subcategory: development
     authors: ["Sogol Masoumzadeh", "Yufei Li", "Shane McIntosh"]
     abstract: "Monitoring issue tracker submissions is a crucial software maintenance activity. A key goal is the prioritization of high risk, security-related bugs. If such bugs can be recognized early, the risk of..."
-  - title: "TriFusion-LLM: Prior-Guided Multimodal Fusion with LLM Arbitration for Fine-grained Code Clone Detection"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.15004v1"
-    category: security
-    subcategory: application
-    authors: ["Mengdi Li", "Yuming Liu", "He Wang"]
-    abstract: "Code clone detection (CCD) supports software maintenance, refactoring, and security analysis. Although pre-trained models capture code semantics, most work reduces CCD to binary classification, overlo..."
-  - title: "A Taxonomy of Runtime Faults in Model Context Protocol Servers"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.05339v1"
-    category: security
-    subcategory: application
-    authors: ["Joshua Owotogbe", "Indika Kumara", "Willem-Jan van den Heuvel"]
-    abstract: "MCP (Model Context Protocol) enables LLMs (Large Language Models) to interact with external tools and data sources via a standardized protocol. Its rapid adoption in tool-augmented Artificial Intellig..."
-  - title: "Red Teaming Program Repair Agents: When Correct Patches can Hide Vulnerabilities"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.25894v1"
-    category: security
-    subcategory: security
-    authors: ["Simin Chen", "Yixin He", "Suman Jana"]
-    abstract: "LLM-based agents are increasingly deployed for software maintenance tasks such as automated program repair (APR). APR agents automatically fetch GitHub issues and use backend LLMs to generate patches ..."
   - title: "Bug Severity Prediction in Software Projects Using Supervised Machine Learning Models"
     date: "2026-01"
     url: "https://arxiv.org/abs/2603.00004v1"
@@ -10982,13 +10079,6 @@ papers:
     subcategory: application
     authors: ["Kaushal Bansal"]
     abstract: "AI-assisted code review tools typically operate as generic \"expert reviewer\" agents, producing homogeneous findings regardless of the analysis type needed. We present a system that constrains AI revie..."
-  - title: "FGDM: Reasoning Aware Multi-Agentic Framework for Software Bug Detection using Chain of Thought and Tree of Thought Prompting"
-    date: "2026-04"
-    url: "https://arxiv.org/abs/2604.24831v1"
-    category: iac
-    subcategory: development
-    authors: ["Srita Padmanabhuni", "Bhargavi Karuturi", "Jerusha Karen Indupalli"]
-    abstract: "Deep Learning methods are becoming prominent in automated software bug detection; however, they lack the global understanding of the given code. Consequently, their performance tends to degrade, espec..."
   - title: "Exploration Structure in LLM Agents for Multi-File Change Localization"
     date: "2026-06"
     url: "https://arxiv.org/abs/2606.11976v1"
@@ -11528,13 +10618,6 @@ papers:
     subcategory: application
     authors: ["James Nurdin", "Wei Liu", "Richard Mccreadie"]
     abstract: "Data analytics increasingly runs on distributed lakehouse systems, where platform operators must optimise monetary, resource, and environmental costs. Query Performance Prediction (QPP) helps to balan..."
-  - title: "Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2605.00827v1"
-    category: containers
-    subcategory: theory
-    authors: ["Abhinav Singh Parmar"]
-    abstract: "Large Language Model (LLM) agents increasingly interact with external systems through tool-calling protocols such as the Model Context Protocol (MCP). In prevailing architectures, the agent must reaso..."
   - title: "A scalable online machine learning approach for Stock Recommendation"
     date: "2026-07"
     url: "https://arxiv.org/abs/2607.23120v1"
@@ -12338,12 +11421,6 @@ papers:
     subcategory: security
     authors: ["Richard Barron"]
     abstract: "This paper presents SPECTER CLOUD BUSTER (NIGHTFALL T224), the world's first tool to execute coordinated simultaneous destruction across AWS, Azure, GCP, and Kubernetes infrastructure within a single ..."
-  - title: "GAAR: Runtime Governance for Scalable Agentic Retrieval and Tool- Orchestrated Enterprise AI Systems"
-    date: "2026-08"
-    url: "https://doi.org/10.21203/rs.3.rs-10541482/v1"
-    category: security
-    subcategory: systems
-    authors: ["A. Chatterjee"]
   - title: "Circular Economy Synergies and Trade-offs in Data Centres"
     date: "2026-08"
     url: "https://arxiv.org/abs/2608.04571"
@@ -12379,13 +11456,6 @@ papers:
     subcategory: development
     authors: ["Xiuli Zhu", "Wei Zhang", "Jie Yang"]
     abstract: "Abstract. To fulfill the current lack of scalable and efficient software systems for constructing and managing spatiotemporal knowledge graphs, this research develops an integrated system that support..."
-  - title: "A Closed-Loop Measurement Study of Runtime Governance in AI-Driven Smart Building Climate Control"
-    date: "2026-08"
-    url: "https://doi.org/10.3390/s26154921"
-    category: security
-    subcategory: mechanism
-    authors: ["Norkobil Saydirasulov Saydirasulovic", "D.A. Davronbekov", "Makhmudov Makhsum Mubashirovich"]
-    abstract: "Which runtime governance mechanisms reduce physical risk when a learned controller drives a building’s climate, and under what conditions? We develop a closed-loop software-in-the-loop testbed in whic..."
   - title: "A case study on a distributed IoT system for indoor disaster preparedness in operational environments"
     date: "2026-08"
     url: "https://doi.org/10.1016/j.future.2026.108747"
@@ -18468,13 +17538,6 @@ papers:
     subcategory: theory
     authors: [Peiran Wang, Ying Li, Yuan Tian]
     abstract: "LLM-based agents are increasingly deployed in high-stakes scenarios such as email management, financial transactions, and code execution, where they interact with the external world through tool calli..."
-  - title: "Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.09822v1"
-    category: ai-security
-    subcategory: security
-    authors: [Ben Kereopa-Yorke, Guillermo Diaz, Holly Wright]
-    abstract: "We define Oracle Poisoning, an attack class in which an adversary corrupts a structured knowledge graph that AI agents query at runtime via tool-use protocols, causing incorrect conclusions through co..."
   - title: "Prompt Injection as an Emerging Threat: Evaluating the Resilience of Large Language Models"
     date: "2025-11"
     url: "https://arxiv.org/abs/2511.01634v2"
@@ -18524,13 +17587,6 @@ papers:
     subcategory: security
     authors: [Renhua Ding, Xiao Yang, Zhengwei Fang]
     abstract: "Large Vision-Language Models (LVLMs) empower autonomous mobile agents, yet their security under realistic mobile deployment constraints remains underexplored. While agents are vulnerable to visual pro..."
-  - title: "SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.14154v1"
-    category: ai-security
-    subcategory: security
-    authors: [Youngduk Kim, Minkyoo Song, Seungwon Shin]
-    abstract: "Large language model (LLM) agents increasingly extend their capabilities at runtime by loading Agent Skills, which pair natural-language specifications (SKILL.md) with executable scripts and resources..."
   - title: "The Granularity Mismatch in Agent Security: Argument-Level Provenance Solves Enforcement and Isolates the LLM Reasoning Bottleneck"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.11039v1"
@@ -18566,13 +17622,6 @@ papers:
     subcategory: security
     authors: [Saeid Jamshidi, Arghavan Moradi Dakhel, Kawser Wazed Nafi]
     abstract: "Agentic large language model (LLM) systems can now execute actions, not only produce text. When model outputs trigger privileged operations such as shell commands, browser automation, or external tool..."
-  - title: "SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.15899v1"
-    category: ai-security
-    subcategory: security
-    authors: [Ismail Hossain, Sai Puppala, Md Jahangir Alam]
-    abstract: "Open-source LLM agent ecosystems are growing rapidly, yet the security of community-contributed skills - modular tool definitions that extend agent capabilities - remains largely unvetted. The gap we ..."
   - title: "The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents"
     date: "2026-04"
     url: "https://arxiv.org/abs/2604.10577v2"
@@ -18594,13 +17643,6 @@ papers:
     subcategory: security
     authors: [Qingyuan Li, Chenchen Yu, Chuanyi Li]
     abstract: "Vulnerabilities severely threaten software systems, making the timely application of security patches crucial for mitigating attacks. However, software vendors often silently patch vulnerabilities wit..."
-  - title: "PatchSeeker: Mapping NVD Records to their Vulnerability-fixing Commits with LLM Generated Commits and Embeddings"
-    date: "2025-09"
-    url: "https://arxiv.org/abs/2509.07540v1"
-    category: ai-security
-    subcategory: security
-    authors: [Huu Hung Nguyen, Anh Tuan Nguyen, Thanh Le-Cong]
-    abstract: "Software vulnerabilities pose serious risks to modern software ecosystems. While the National Vulnerability Database (NVD) is the authoritative source for cataloging these vulnerabilities, it often la..."
   - title: "Compartmentalization-Aware Automated Program Repair"
     date: "2026-03"
     url: "https://arxiv.org/abs/2603.09544v1"
@@ -18615,13 +17657,6 @@ papers:
     subcategory: security
     authors: [Hwiwon Lee, Jongseong Kim, Lingming Zhang]
     abstract: "LLM agents have been increasingly adopted for solving security tasks. However, existing evaluations usually require source code access, while commercial off-the-shelf (COTS) binaries dominate deployed..."
-  - title: "ESAA-Security: An Event-Sourced, Verifiable Architecture for Agent-Assisted Security Audits of AI-Generated Code"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.06365v1"
-    category: ai-security
-    subcategory: security
-    authors: [Elzo Brito dos Santos Filho]
-    abstract: "AI-assisted software generation has increased development speed, but it has also amplified a persistent engineering problem: systems that are functionally correct may still be structurally insecure. I..."
   - title: "A Systematic Evaluation of Parameter-Efficient Fine-Tuning Methods for the Security of Code LLMs"
     date: "2025-09"
     url: "https://arxiv.org/abs/2509.12649v1"
@@ -19364,13 +18399,6 @@ papers:
     subcategory: application
     authors: [Mohamed Essam, Kareem Wael, Azza Hassan]
     abstract: "Multi-agent AI systems are increasingly used to automate software engineering tasks including requirements analysis, architecture design, test generation, and traceability linking. When these agents o..."
-  - title: "A Dataset of Agentic AI Coding Tool Configurations"
-    date: "2026-05"
-    url: "https://arxiv.org/abs/2605.08435v1"
-    category: ai-security
-    subcategory: application
-    authors: [Matthias Galster, Seyedmoein Mohsenimofidi, Levi Böhme]
-    abstract: "Agentic AI coding tools such as Claude Code and OpenAI Codex execute multi-step coding tasks with limited human oversight. To steer these tools, developers create repository-level configuration artifa..."
   - title: "FVSpec: Real-World Property-Based Tests as Lean Challenges"
     date: "2026-05"
     url: "https://arxiv.org/abs/2606.01008v1"
@@ -19427,13 +18455,6 @@ papers:
     subcategory: application
     authors: [Mateen A. Abbasi, Tommi J. Mikkonen, Petri J. Ihantola]
     abstract: "The rapid adoption of Generative AI (GenAI) in the software development life cycle (SDLC) increases computational demand, which can raise the carbon footprint of development activities. At the same ti..."
-  - title: "\"Can you feel the vibes?\": An exploration of novice programmer engagement with vibe coding"
-    date: "2025-12"
-    url: "https://arxiv.org/abs/2512.02750v1"
-    category: ai-security
-    subcategory: application
-    authors: [Kiev Gama, Filipe Calegario, Victoria Jackson]
-    abstract: "Emerging alongside generative AI and the broader trend of AI-assisted coding, the term \"vibe coding\" refers to creating software via natural language prompts rather than direct code authorship. This a..."
   - title: "The Road of Adaptive AI for Precision in Cybersecurity"
     date: "2025-12"
     url: "https://arxiv.org/abs/2512.06048v1"
@@ -19560,13 +18581,6 @@ papers:
     subcategory: application
     authors: [Minbeom Kim, Lesly Miculicich, Bhavana Dalvi Mishra]
     abstract: "As AI agents move from chat interfaces to systems that read private data, call tools, and execute multi-step workflows, guardrails become a last line of defense against concrete deployment harms. In t..."
-  - title: "WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.06387v1"
-    category: ai-security
-    subcategory: security
-    authors: [Lin-Fa Lee, Yi-Yu Chang, Chia-Mu Yu]
-    abstract: "WebMCP is a newly emerging protocol that enables websites to expose tools directly to AI agents, bypassing traditional user interfaces and introducing new security risks. The dynamic exposure of agent..."
   - title: "ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree"
     date: "2026-05"
     url: "https://arxiv.org/abs/2606.01494v1"
@@ -19602,13 +18616,6 @@ papers:
     subcategory: security
     authors: [Yu-Ting Lin, Chia-Mu Yu]
     abstract: "Agent skills allow LLM-based coding agents to acquire domain-specific capabilities from third-party packages, but they also introduce a new supply-chain attack surface. We present PhantomSkill, an att..."
-  - title: "Execution Is the New Attack Surface: Survivability-Aware Agentic Crypto Trading with OpenClaw-Style Local Executors"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.10092v1"
-    category: ai-security
-    subcategory: theory
-    authors: [Ailiya Borjigin, Igor Stadnyk, Ben Bilski]
-    abstract: "OpenClaw-style agent stacks turn language into privileged execution: LLM intents flow through tool interception, policy gates, and a local executor. In parallel, skill marketplaces such as skills.sh m..."
   - title: "Under the Hood of SKILL.md: Semantic Supply-chain Attacks on AI Agent Skill Registry"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.11418v1"
@@ -19686,13 +18693,6 @@ papers:
     subcategory: application
     authors: [Chenghao Chen, Kailun Qin, Xiaolin Zhang]
     abstract: "Cloud-hosted transformer and large language model (LLM) inference creates a direct confidentiality problem: user prompts may contain sensitive code, business data, personal information, or regulated d..."
-  - title: "SecureClaw: Clawing Back Control of LLM Agents"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.09549v1"
-    category: ai-security
-    subcategory: security
-    authors: [Yuhan Ma, Stefan Schmid]
-    abstract: "Tool-using large language model (LLM) agents face two distinct security failures: unauthorized external actions and exposure of sensitive plaintext inside the runtime before any final output check can..."
   - title: "A Multi-Layer Cloud-IDS Pipeline with LLM and Adaptive Q-Learning Calibration"
     date: "2026-05"
     url: "https://arxiv.org/abs/2605.15889v1"
@@ -19861,13 +18861,6 @@ papers:
     subcategory: application
     authors: [Joanna Roy, Sven Hoelzel]
     abstract: "Trustworthy deployment of LLM-based agents in software systems requires evaluating how they perform on application-specific workflows, with enough granularity to localize where they succeed and fail. ..."
-  - title: "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents"
-    date: "2026-01"
-    url: "https://arxiv.org/abs/2601.20404v2"
-    category: ai-security
-    subcategory: application
-    authors: [Jai Lal Lulla, Seyedmoein Mohsenimofidi, Matthias Galster]
-    abstract: "AI coding agents such as Codex and Claude Code are increasingly used to autonomously contribute to software repositories. However, little is known about how repository-level configuration artifacts af..."
   - title: "ECLAIR: A Causally-Grounded AI Framework for Scientific Discovery in Empirical Software Engineering"
     date: "2026-08"
     url: "https://arxiv.org/abs/2608.02323v2"
@@ -19989,24 +18982,309 @@ papers:
     authors: [Zhiyang Chen, Tara Saba, Xun Deng]
     abstract: "Large Language Models have become critical to modern software development, but their reliance on uncurated web-scale datasets for training introduces a significant security risk: the absorption and re..."
 
-  - title: "Will the Agent Recuse, and Will It Stop? Measuring LLM-Agent Compliance with In-Band Governance Signals at the Access Door and Mid-Flight"
-    date: "2026-06"
-    url: "https://arxiv.org/abs/2606.06460v4"
-    category: security
+  - title: "Parathyroid hormone exposure frequency regulates spatiotemporal coupling during bone remodeling in a functional bone model"
+    date: "2026-08"
+    url: "https://doi.org/10.1038/s41598-026-65478-5"
+    category: ai-security
     subcategory: systems
-    authors: [Thamilvendhan Munirathinam]
-    abstract: "As autonomous LLM agents hold real credentials and operate infrastructure without a human in the loop, operators cannot tell an agent a resource is off-limits, or ask a running agent to stand down. We..."
-  - title: "Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.17419v1"
-    category: security
+    authors: [Ahmed Elsherbini, Naoki Tsuji, Tomoaki Sakamoto]
+    abstract: "Abstract Bone homeostasis is maintained by coupling, in which osteoclast-mediated bone resorption is followed by osteoblast-mediated bone formation at the same site. Parathyroid hormone (PTH), includi..."
+    venue: "Scientific Reports"
+  - title: "Live-attenuated <i>Toxoplasma gondii</i> RHΔ <i>ddx6</i> mutant establishes comprehensive immunity against acute, chronic, and congenital toxoplasmosis"
+    date: "2026-08"
+    url: "https://doi.org/10.1080/21505594.2026.2713823"
+    category: ai-security
+    subcategory: security
+    authors: [Zhenke Yang, Jinghui Wang, Junru Wu]
+    abstract: "Toxoplasma gondii is an obligate intracellular parasite causing severe disease in immunocompromised individuals and congenitally infected infants. Despite decades of research, no licensed human vaccin..."
+    venue: "Virulence"
+  - title: "The evolution of thyroid cancer diagnostics: Historical milestones and their impact on contemporary clinical practice"
+    date: "2026-08"
+    url: "https://doi.org/10.1007/s11154-026-10075-0"
+    category: ai-security
+    subcategory: systems
+    authors: [Aleksandra Wiktoria Bratborska, Anita Magowska, Marek Ruchała]
+    abstract: "Thyroid cancer represents the most prevalent malignancy of the endocrine system, with its incidence exhibiting a significant rise in recent years. Diagnostic methods have undergone profound evolution ..."
+    venue: "Reviews in Endocrine and Metabolic Disorders"
+  - title: "Senescent cell networks link matrix remodeling and vascular dysfunction in human fibroids"
+    date: "2026-08"
+    url: "https://doi.org/10.64898/2026.08.06.743362"
+    category: ai-security
+    subcategory: mechanism
+    authors: [Joscelyn C. Mejías, Nazmiye Celik, Sushma Nagaraj]
+    abstract: "Uterine fibroids (leiomyomas) are highly prevalent benign tumors defined by excessive extracellular matrix (ECM) deposition, altered vascular structure, and progressive tissue stiffening, yet the cell..."
+    venue: "bioRxiv (Cold Spring Harbor Laboratory)"
+  - title: "Antagonistic profiling of volatile and non-volatile secondary metabolites produced by Trichoderma asperellum towards pathogenic Fusarium oxysporum f. sp. cicero"
+    date: "2026-08"
+    url: "https://doi.org/10.24425/jppr.2026.2965"
+    category: ai-security
+    subcategory: systems
+    authors: [Bhushan P Birari, Sunil Ingle]
+    abstract: "Fungi of the genus Trichoderma are widely marketed as biocontrol agents against plant pathogens. However, some Trichoderma species may produce toxic secondary metabolites, underscoring the need for co..."
+    venue: "Journal of Plant Protection Research"
+  - title: "Structured peptides as vaccine antigens against infections"
+    date: "2026-08"
+    url: "https://doi.org/10.3389/fimmu.2026.1908831"
+    category: ai-security
+    subcategory: application
+    authors: [Claudia Trappetti, Hugo van Ingen, Mattia Falconi]
+    abstract: "The onset of a new infection by a pathogen requires a rapid and prompt response from the body. Here, we present a simple and effective strategy to stimulate antibody production by grafting immunogenic..."
+    venue: "Frontiers in Immunology"
+  - title: "Improving Student Perception and Confidence Using Programming in Manufacturing Engineering"
+    date: "2026-08"
+    url: "https://doi.org/10.24908/pceea.2026.21625"
+    category: ai-security
+    subcategory: development
+    authors: [Meet Upadhyay, Casey Keulen]
+    abstract: "Programming is increasingly integral to engineering education, yet students often struggle with its cognitive demands and unfamiliar logical frameworks. Python, with its intuitive syntax and practical..."
+    venue: "Proceedings of the Canadian Engineering Education Association (CEEA)"
+  - title: "Exogenous 24-Epibrassinolide Enhances Aluminum Tolerance in Oriental Melon (Cucumis melo var. makuwa), Involving a CmBES1–6–CmSTOP3/5 Regulatory Module"
+    date: "2026-08"
+    url: "https://doi.org/10.3390/horticulturae12080978"
+    category: ai-security
+    subcategory: security
+    authors: [Qiang Chen, Yukun Yu, Qianwei Xu]
+    abstract: "Aluminum (Al) toxicity severely limits crop growth in acidic soils. Although 24-epibrassinolide (EBR), a bioactive brassinosteroid analog, is known to regulate plant stress responses, its role in Al t..."
+    venue: "Horticulturae"
+  - title: "MigrationBench: Repository-Level Code Migration Benchmark from Java 8"
+    date: "2026-08"
+    url: "https://arxiv.org/abs/2505.09569"
+    category: ai-security
     subcategory: theory
-    authors: [Saikat Maiti]
-    abstract: "Autonomous AI agents powered by large language models are being deployed in production with capabilities including shell execution, file system access, database queries, and multi-party communication...."
-  - title: "CTI-REALM: Benchmark to Evaluate Agent Performance on Security Detection Rule Generation Capabilities"
-    date: "2026-03"
-    url: "https://arxiv.org/abs/2603.13517v2"
-    category: security
+    authors: [L.Q. Liu, X. M. Liu, Qiang Zhou]
+    abstract: "With the rapid advancement of powerful large language models (LLMs) in recent years, a wide range of software engineering tasks can now be addressed using LLMs, significantly enhancing productivity an..."
+  - title: "Secure Knowledge Retrieval for English-Teaching Agents: A Multi-Stage Auditing and Knowledge Purification Method"
+    date: "2026-08"
+    url: "https://doi.org/10.3390/bdcc10080262"
+    category: ai-security
+    subcategory: security
+    authors: [Jiming Yin, Xuan Xie, Shanyi Guo]
+    abstract: "English-teaching agents use external knowledge retrieval to update instructional content, broaden domain coverage, and personalize support beyond standalone large language models (LLMs). However, open..."
+    venue: "Big Data and Cognitive Computing"
+  - title: "Procurement adaptability in fast-changing environments: The case of automotive semiconductors and electronics"
+    date: "2026-08"
+    url: "https://doi.org/10.63959/chalmers.dt/5919"
+    category: ai-security
+    subcategory: application
+    authors: [José Garcia]
+    abstract: "This thesis explores how buying firms can adapt their procurement activities to shifts in their business environments, both within their supply network and in the broader industrial and macroeconomic ..."
+  - title: "Replication Package for Fairness Bugs Detection Empirical Study"
+    date: "2026-08"
+    url: "https://doi.org/10.5281/zenodo.19207802"
+    category: ai-security
+    subcategory: application
+    authors: [Anonymous]
+    abstract: "This is the replication package for the paper \"Fairness Bugs in LLMs for Medical QA: An Empirical Study via Metamorphic Testing\" (under review). The package provides all resources required to reproduc..."
+    venue: "Zenodo (CERN European Organization for Nuclear Research)"
+  - title: "IDEAFix: An Evaluation Framework for Creative Defixation Prompting in LLMs"
+    date: "2026-08"
+    url: "https://doi.org/10.5281/zenodo.19838005"
+    category: ai-security
+    subcategory: application
+    authors: [Anonymous until acceptance]
+    abstract: "Dataset Card for Dataset Name This dataset accompanies the paper: \"IDEAFix: An Evaluation Framework for Creative Defixation Prompting in LLMs,\" submitted to NeurIPS 2026. Dataset Details Dataset Descr..."
+    venue: "Zenodo (CERN European Organization for Nuclear Research)"
+  - title: "Feeling Heard by a Machine: The Psychology of Perceived Understanding in AI Conversations"
+    date: "2026-08"
+    url: "https://doi.org/10.67785/pjpp.2.166"
+    category: ai-security
+    subcategory: mechanism
+    authors: [Muhammad Muaavia Khalid, Binish Nawaz, Faiza Abdul Latif]
+    abstract: "The recent advancements in conversational artificial intelligence have developed systems that are able to mimic human conversation, which can create the perception of hearing or understanding from a m..."
+    venue: "Pakistan Journal of Positive Psychology"
+  - title: "Replication package for a study of calibrated positional uncertainty in gazetteer resolution"
+    date: "2026-08"
+    url: "https://doi.org/10.5281/zenodo.21850834"
+    category: ai-security
     subcategory: theory
-    authors: [Arjun Chakraborty, Sandra Ho, Adam Cook]
-    abstract: "CTI-REALM (Cyber Threat Real World Evaluation and LLM Benchmarking) is a benchmark designed to evaluate AI agents' ability to interpret cyber threat intelligence (CTI) and develop detection rules. The..."
+    authors: [Chenxi Guo, P. Scott, Matthew Russell]
+    abstract: "Code, derived result tables and figures replicating all quantitative results in an article currently under review at the Journal of Geovisualization and Spatial Analysis. The package contains the full..."
+    venue: "Zenodo (CERN European Organization for Nuclear Research)"
+  - title: "Análise estrutural de radiers e lajes sobre solo reforçados com macrofibras poliméricas"
+    date: "2026-08"
+    url: "https://doi.org/10.47236/2594-7036.2026.v10.2142"
+    category: ai-security
+    subcategory: method
+    authors: [Alcimar Araujo Milhomem, Gilson Marafiga Pedroso]
+    abstract: "O uso de radiers e lajes apoiadas sobre o solo demanda soluções eficientes para o controle de fissuração e aumento da capacidade de carga. O presente estudo realizou uma Revisão Sistemática da Literat..."
+    venue: "Revista Sítio Novo"
+  - title: "Evaluating Five Generative AI Chatbots for Myocarditis-Related Public Health Consultation: A Multidimensional Assessment of Safety, Accuracy, Empathy, Reliability, Quality, and Readability"
+    date: "2026-08"
+    url: "https://doi.org/10.21203/rs.3.rs-10228718/v1"
+    category: ai-security
+    subcategory: evaluation
+    authors: [Youyou Chen¹, Hui Ma, Huimin Wang]
+    venue: "Research Square"
+  - title: "Author response: Accumulation of neural state transitions in dorsomedial striatum predicts patch foraging decisions"
+    date: "2026-08"
+    url: "https://doi.org/10.7554/elife.111930.1.sa0"
+    category: ai-security
+    subcategory: systems
+    authors: [Elissa Sutlief, Shichen Zhang, Kate Forsberg]
+    abstract: "Activities with temporally distributed returns require deciding not only what to do, but when to stop. Although optimal foraging theory predicts that patch departure should depend on the total time in..."
+  - title: "Reviewer #1 (Public review): Accumulation of neural state transitions in dorsomedial striatum predicts patch foraging decisions"
+    date: "2026-08"
+    url: "https://doi.org/10.7554/elife.111930.1.sa3"
+    category: ai-security
+    subcategory: systems
+    authors: [Elissa Sutlief, Shichen Zhang, Kate Forsberg]
+    abstract: "Activities with temporally distributed returns require deciding not only what to do, but when to stop. Although optimal foraging theory predicts that patch departure should depend on the total time in..."
+  - title: "Accumulation of neural state transitions in dorsomedial striatum predicts patch foraging decisions"
+    date: "2026-08"
+    url: "https://doi.org/10.7554/elife.111930"
+    category: ai-security
+    subcategory: systems
+    authors: [Elissa Sutlief, Shichen Zhang, Kate Forsberg]
+    abstract: "Activities with temporally distributed returns require deciding not only what to do, but when to stop. Although optimal foraging theory predicts that patch departure should depend on the total time in..."
+    venue: "eLife"
+  - title: "BEYOND FLAKY TEST DETECTION: USING THE MODEL CONTEXT PROTOCOL FOR INTELLIGENT TEST FAILURE DIAGNOSIS IN CI/CD"
+    date: "2026-08"
+    url: "https://doi.org/10.65237/2336-3630-2026-8(1)-3"
+    category: ai-security
+    subcategory: review
+    authors: [Kateryna Horshchar]
+    abstract: "The article presents TeamCity QA Intelligence, a system for automated root cause diagnosis of test failures in continuous integration environments. Manual identification of failure causes remains one ..."
+    venue: "Middle European Scientific Bulletin"
+  - title: "Beyond Holistic Models: Systematic Component-level Benchmarking of Deep Multivariate Time-Series Forecasting"
+    date: "2026-08"
+    url: "https://arxiv.org/abs/2605.26562"
+    category: ai-security
+    subcategory: systems
+    authors: [Shuang Liang, Chaochuan Hou, Xu Yao]
+    abstract: "While previous research in multivariate time series forecasting has focused on developing complex holistic models, this work advocates for a shift toward a granular, component-level understanding of t..."
+  - title: "Mental Wellbeing at Sea: Active and Passive Speech Monitoring in a Maritime Setting"
+    date: "2026-08"
+    url: "https://doi.org/10.1007/s42979-026-05107-0"
+    category: ai-security
+    subcategory: application
+    authors: [Pascal Hecker, Monica Gonzalez-Machorro, Hesam Sagha]
+    abstract: "Abstract The mental wellbeing of seafarers is particularly at risk due to the harsh conditions of their work environment. Speech is a promising modality to assess mental wellbeing in an unobtrusive wa..."
+    venue: "SN Computer Science"
+  - title: "UNC93B1 drives IL-6/STAT3-dependent tumor–macrophage crosstalk and epithelial–mesenchymal transition in breast cancer"
+    date: "2026-08"
+    url: "https://doi.org/10.3389/fphar.2026.1887125"
+    category: ai-security
+    subcategory: systems
+    authors: [Xinpeng Li, Hua Hao]
+    abstract: "Background Lipid metabolic reprogramming is increasingly recognized as a driver of breast cancer progression; however, how lipid metabolism-associated risk states are translated into immune remodeling..."
+    venue: "Frontiers in Pharmacology"
+  - title: "Dual relevance of EIF2S1 in acute myeloid leukemia: linking poor prognosis to immune-metabolic states and leukemic cell fitness"
+    date: "2026-08"
+    url: "https://doi.org/10.3389/fonc.2026.1922910"
+    category: ai-security
+    subcategory: method
+    authors: [Xiaoying Hong, Yingying Huang, Wei Wu]
+    abstract: "Background Most transcriptomic studies in acute myeloid leukemia (AML) have focused on transcriptional regulation, whereas the clinical and biological relevance of translation initiation factors remai..."
+    venue: "Frontiers in Oncology"
+  - title: "Peer Review Report For: Multi capital disclosure and sustainability performance in Bangladeshi financial institutions using Deep Machine Learning [version 1; peer review: 1 approved]"
+    date: "2026-08"
+    url: "https://doi.org/10.5256/f1000research.202919.r501708"
+    category: ai-security
+    subcategory: theory
+    authors: [Md Qamruzzaman]
+    abstract: "Purpose This study empirically investigates the joint and independent effects of intellectual capital disclosure (ICD), human capital disclosure (HCD), and natural capital disclosure (NCD) on the sust..."
+  - title: "Short-term load forecasting under EU-AI Act Requirements in Safety-Critical Environments: Results from a 41-day live challenge on the aggregated German transmission-grid load"
+    date: "2026-08"
+    url: "https://arxiv.org/abs/2608.05018"
+    category: ai-security
+    subcategory: security
+    authors: [Thomas Bartz-Beielstein]
+    abstract: "Short-term load forecasting (STLF) play a vital role in the electric power industry. It serves infrastructure that European and German law designate as critical. Determinism, reproducibility, and audi..."
+    venue: "arXiv (Cornell University)"
+  - title: "A Monotone Redundancy-Aware Decision-Burden Method for Explainable Human Oversight in Human–Robot Collaboration"
+    date: "2026-08"
+    url: "https://doi.org/10.21203/rs.3.rs-10506135/v1"
+    category: ai-security
+    subcategory: mechanism
+    authors: [Seyma Yaman Kayadibi]
+    venue: "Research Square"
+  - title: "Beyond the hallmarks of cancer: enabling technologies reshaping cancer diagnosis, prevention, and treatment"
+    date: "2026-08"
+    url: "https://doi.org/10.3389/or.2026.1804447"
+    category: ai-security
+    subcategory: development
+    authors: [Sarfaraz K. Niazi]
+    abstract: "Cancer biology has been organized for 2 decades by the hallmarks framework, articulated in 2000 and most recently revised in 2026. The pace of technological change in oncology now requires reframing h..."
+    venue: "Oncology Reviews"
+  - title: "The Impact of Heavy Metals Exposure on Diabetic Foot Complications: A Systematic Review of Development, Progression, and Wound Healing"
+    date: "2026-08"
+    url: "https://doi.org/10.3390/toxics14080690"
+    category: ai-security
+    subcategory: review
+    authors: [Richard O. Machava, Bheki Thapelo Magunga, Simiso Ntuli]
+    abstract: "Diabetic foot ulcers (DFUs) constitute a significant global health burden; however, the influence of environmental heavy metals toxicity on their pathogenesis remains insufficiently investigated, part..."
+    venue: "Toxics"
+  - title: "Separating drug main effects from molecular personalization in cancer drug-sensitivity prediction: a harmonized GDSC∪CTRP and CCLE benchmark with permutation-controlled biomarker discovery"
+    date: "2026-08"
+    url: "https://doi.org/10.21203/rs.3.rs-10579394/v1"
+    category: ai-security
+    subcategory: evaluation
+    authors: [Yue Hao]
+    venue: "Research Square"
+  - title: "Transparency in Software Defect Prediction: A Dual Approach using Explainability and Tradeoff Analysis"
+    date: "2026-08"
+    url: "https://doi.org/10.21203/rs.3.rs-10576352/v1"
+    category: ai-security
+    subcategory: mechanism
+    authors: [Nitin Sai Bommi, Umamaheswara Sharma B, Atul Negi]
+    venue: "Research Square"
+  - title: "Projection Is Not Generation: Public Letters on Projection, Mediation, and Human Agency"
+    date: "2026-08"
+    url: "https://doi.org/10.5281/zenodo.20044372"
+    category: ai-security
+    subcategory: development
+    authors: [Stephen Garner]
+    abstract: "Projection Is Not GenerationPublic Letters on Metrics, Mediation, and Human Agency This six-part public-facing sequence examines the risks of mistaking projected representations for the generative sys..."
+    venue: "Zenodo (CERN European Organization for Nuclear Research)"
+  - title: "When leadership becomes epistemic: paradoxes of educational leadership in AI-mediated systems"
+    date: "2026-08"
+    url: "https://doi.org/10.3389/feduc.2026.1919644"
+    category: ai-security
+    subcategory: development
+    authors: [László Balázs]
+    abstract: "The growing presence of artificial intelligence in education does not merely introduce new tools; it fundamentally shifts the context that educational leadership must confront: the logic of informatio..."
+    venue: "Frontiers in Education"
+  - title: "Contextual Introduction to the Reading of Pope Leo XIV’s Encyclical Magnifica humanitas. Reconstructing the Conditions of Interpretation"
+    date: "2026-08"
+    url: "https://doi.org/10.14746/tim.2026.41.1.10"
+    category: ai-security
+    subcategory: method
+    authors: [Arkadiusz Wuwer]
+    abstract: "The article reconstructs the contexts that prepare the reading of Pope Leo XIV’s encyclical Magnifica humanitas. The analysis covers continuity with Rerum novarum, the teaching on human dignity, Catho..."
+    venue: "Teologia i Moralność"
+
+  - title: "Making OpenAPI Documentation Agent-Ready: Detecting Documentation and REST Smells with a Multi-Agent LLM System"
+    date: "2026-05"
+    url: "https://arxiv.org/abs/2605.14312v1"
+    category: containers
+    subcategory: application
+    authors: [Rayfran Rocha Lima, Davi G. Assunção Pinheiro, Thiago Medeiros de Menezes]
+    abstract: "The growing adoption of AI agents and the Model Context Protocol (MCP) has motivated organizations to expose existing REST APIs as agent-consumable tools. In our industrial context, this initiative ta..."
+  - title: "OpsMem: Dual-Memory Reasoning with Cross-Memory Resonance for Failure Diagnosis"
+    date: "2026-07"
+    url: "https://arxiv.org/abs/2607.11357v1"
+    category: containers
+    subcategory: application
+    authors: [Yongqian Sun, Rongchen Gao, Yu Luo]
+    abstract: "Failure diagnosis in modern software systems requires iterative evidence acquisition and hypothesis reasoning guided by operational experience. Existing LLM-based methods improve diagnosis through age..."
+  - title: "From Specification to Service: Accelerating API-First Development Using Multi-Agent Systems"
+    date: "2025-10"
+    url: "https://arxiv.org/abs/2510.19274v1"
+    category: containers
+    subcategory: systems
+    authors: [Saurabh Chauhan, Zeeshan Rasheed, Malik Abdul Sami]
+    abstract: "This paper presents a system that uses Large Language Models (LLMs)-based agents to automate the API-first development of RESTful microservices. This system helps to create an OpenAPI specification, g..."
+  - title: "SARC: A Governance-by-Architecture Framework for Agentic AI Systems"
+    date: "2026-05"
+    url: "https://arxiv.org/abs/2605.07728v1"
+    category: policycode
+    subcategory: theory
+    authors: [Gaston Besanson]
+    abstract: "Agentic AI systems increasingly act through tools, sub-agents, and external services, but governance controls are still commonly attached to prompts, dashboards, or post-hoc documentation. This create..."
+  - title: "AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent"
+    date: "2026-05"
+    url: "https://arxiv.org/abs/2605.28071v1"
+    category: policycode
+    subcategory: security
+    authors: [Jiaqi Luo, Songyang Peng, Jiarun Dai]
+    abstract: "LLM-based agents have recently attracted significant attention due to their ability to autonomously invoke relevant tools to accomplish complex tasks. However, recent studies have shown that these age..."

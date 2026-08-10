@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - Standardized repository: research-pipeline house (validate, stats, reports,
   BibTeX, tools) aligned with the sibling `*-research` repos.
 
+## [0.3.0] - 2026-08-09
+- Third iteration: arXiv partial run (40/98 queries before kill) added 410
+  candidates; post-fetch reclassify moved 375 + 145 more non-DevOps LLM
+  papers (corpus 2862 → 3272 → 2758).
+- **Tightened medium-signal list**: removed generic CS terms (`software`,
+  `code`, `tool`, `api`, `vulnerability`, `program`, `developer`) from
+  `DEVOPS_MEDIUM` — they matched nearly every paper and made the threshold
+  trivially satisfiable. Remaining mediums are genuinely DevOps-specific
+  (fuzzing, open source, automation, workflow, secrets, etc.).
+- Added `ai-assisted` / `ai assisted` to `LLM_SIGNALS`.
+- Archive now 814 papers (merged across 3 purge rounds).
+- `reclassify_papers.py` now merges into `papers-general.yaml` (dedup by
+  URL) instead of overwriting.
+
 ## [0.2.1] - 2026-08-09
 - Second fetch iteration (arXiv all queries + OpenAlex 36-month) added ~686
   candidate papers; post-fetch reclassify purged 465 non-DevOps LLM papers

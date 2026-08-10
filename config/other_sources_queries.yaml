@@ -1,0 +1,104 @@
+# Multi-source queries for devops research
+# Focus: CI/CD, GitOps, IaC, platform engineering reviews from conferences/journals
+
+# ── Security (already big, focus on reviews/benchmarks) ──
+- source: crossref
+  query: devops security survey
+  category: security
+  subcategory_hint: review
+- source: dblp
+  query: devsecops survey
+  category: security
+  subcategory_hint: review
+- source: dblp
+  query: supply chain attack software
+  category: security
+  subcategory_hint: application
+
+# ── AI security ──
+- source: crossref
+  query: adversarial machine learning survey
+  category: ai-security
+  subcategory_hint: review
+- source: dblp
+  query: AI security survey
+  category: ai-security
+  subcategory_hint: review
+- source: dblp
+  query: machine learning vulnerability
+  category: ai-security
+  subcategory_hint: mechanism
+
+# ── Containers ──
+- source: crossref
+  query: container orchestration survey
+  category: containers
+  subcategory_hint: review
+- source: dblp
+  query: docker kubernetes performance
+  category: containers
+  subcategory_hint: evaluation
+- source: dblp
+  query: container security survey
+  category: containers
+  subcategory_hint: review
+
+# ── CI/CD ──
+- source: dblp
+  query: continuous integration delivery survey
+  category: cicd
+  subcategory_hint: review
+- source: crossref
+  query: CI/CD pipeline survey
+  category: cicd
+  subcategory_hint: review
+
+# ── Observability ──
+- source: dblp
+  query: observability monitoring survey
+  category: observability
+  subcategory_hint: review
+- source: crossref
+  query: distributed tracing survey
+  category: observability
+  subcategory_hint: review
+
+# ── Policy as code ──
+- source: dblp
+  query: policy as code survey
+  category: policycode
+  subcategory_hint: review
+- source: crossref
+  query: infrastructure as code security
+  category: policycode
+  subcategory_hint: application
+
+# ── Infrastructure as Code ──
+- source: crossref
+  query: infrastructure as code survey
+  category: iac
+  subcategory_hint: review
+- source: dblp
+  query: terraform ansible survey
+  category: iac
+  subcategory_hint: review
+
+# ── Platform engineering ──
+- source: dblp
+  query: platform engineering survey
+  category: platform
+  subcategory_hint: review
+- source: crossref
+  query: internal developer platform
+  category: platform
+  subcategory_hint: development
+
+# ── GitOps ──
+- source: dblp
+  query: gitops survey
+  category: gitops
+  subcategory_hint: review
+- source: crossref
+  query: git operations continuous deployment
+  category: gitops
+  subcategory_hint: development
