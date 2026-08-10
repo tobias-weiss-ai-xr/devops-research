@@ -1,99 +1,113 @@
 {
   "metadata": {
-    "total_papers": 2758,
+    "total_papers": 3211,
     "generated": "2026-08-10",
     "taxonomy": {
       "categories": 9,
       "subcategories": 9,
       "total_cells": 81,
-      "filled_cells": 77,
-      "saturation": 95.1,
-      "empty_cells": 4
+      "filled_cells": 78,
+      "saturation": 96.3,
+      "empty_cells": 3
     }
   },
   "by_category": {
-    "security": 1285,
-    "cicd": 221,
-    "iac": 91,
-    "containers": 271,
-    "policycode": 104,
-    "observability": 185,
-    "gitops": 42,
-    "platform": 86,
-    "ai-security": 473
+    "security": 1298,
+    "cicd": 232,
+    "iac": 99,
+    "containers": 281,
+    "policycode": 115,
+    "observability": 222,
+    "gitops": 51,
+    "platform": 101,
+    "ai-security": 812
   },
   "by_subcategory": {
-    "theory": 501,
-    "mechanism": 88,
+    "theory": 575,
+    "mechanism": 93,
     "method": 155,
-    "application": 581,
-    "development": 259,
-    "systems": 216,
+    "application": 641,
+    "development": 293,
+    "systems": 228,
     "evaluation": 27,
-    "review": 89,
-    "security": 842
+    "review": 158,
+    "security": 1041
   },
   "by_year": {
-    "2025": 610,
-    "2026": 2148
+    "2000": 1,
+    "2015": 1,
+    "2016": 1,
+    "2018": 4,
+    "2019": 4,
+    "2020": 3,
+    "2021": 11,
+    "2022": 23,
+    "2023": 6,
+    "2024": 5,
+    "2025": 703,
+    "2026": 2438,
+    "unknown": 11
   },
   "by_cell": {
-    "security/security": 560,
+    "security/security": 561,
+    "ai-security/security": 353,
     "security/theory": 253,
-    "ai-security/security": 165,
-    "security/application": 150,
-    "ai-security/application": 114,
+    "ai-security/application": 154,
+    "security/application": 152,
+    "ai-security/theory": 152,
     "containers/application": 93,
     "security/development": 87,
-    "ai-security/theory": 83,
     "cicd/application": 80,
     "security/method": 74,
     "security/systems": 67,
-    "security/review": 54,
-    "observability/application": 54,
+    "security/review": 64,
+    "observability/application": 60,
     "containers/development": 47,
+    "observability/security": 45,
+    "ai-security/development": 45,
+    "observability/theory": 41,
+    "ai-security/systems": 41,
+    "policycode/application": 40,
     "cicd/theory": 38,
-    "observability/theory": 37,
     "containers/theory": 36,
-    "observability/security": 36,
-    "ai-security/development": 34,
-    "ai-security/systems": 34,
+    "ai-security/review": 33,
     "security/mechanism": 31,
-    "policycode/application": 30,
     "iac/application": 30,
+    "observability/development": 29,
     "cicd/security": 28,
     "cicd/systems": 28,
+    "platform/application": 26,
     "containers/systems": 25,
     "containers/security": 25,
-    "observability/development": 25,
-    "platform/application": 24,
+    "platform/development": 24,
     "policycode/theory": 23,
+    "observability/systems": 23,
     "cicd/development": 20,
-    "observability/systems": 19,
+    "containers/review": 20,
+    "ai-security/mechanism": 19,
     "containers/mechanism": 18,
     "cicd/method": 16,
+    "gitops/development": 16,
     "policycode/method": 15,
-    "platform/development": 14,
-    "ai-security/review": 14,
-    "ai-security/mechanism": 14,
+    "cicd/review": 14,
+    "platform/systems": 14,
+    "platform/theory": 14,
     "policycode/development": 13,
-    "platform/systems": 13,
-    "platform/theory": 13,
+    "observability/review": 13,
     "iac/systems": 12,
     "containers/method": 12,
     "iac/development": 12,
     "platform/method": 12,
+    "policycode/security": 11,
     "iac/security": 11,
-    "containers/review": 10,
-    "policycode/security": 10,
     "ai-security/method": 10,
     "iac/theory": 10,
     "security/evaluation": 9,
     "policycode/systems": 9,
     "gitops/systems": 9,
     "gitops/theory": 8,
+    "iac/review": 8,
     "iac/method": 7,
-    "gitops/development": 7,
     "platform/mechanism": 7,
     "gitops/application": 6,
     "iac/mechanism": 6,
@@ -104,12 +118,10 @@
     "observability/method": 5,
     "ai-security/evaluation": 5,
     "gitops/method": 4,
-    "cicd/review": 3,
     "cicd/evaluation": 3,
-    "observability/review": 3,
+    "platform/review": 3,
     "iac/evaluation": 3,
     "policycode/mechanism": 2,
-    "platform/review": 2,
     "gitops/review": 2,
     "policycode/review": 1,
     "policycode/evaluation": 1,
@@ -117,48 +129,68 @@
     "platform/security": 1
   },
   "recent_12m": {
-    "papers": 2758,
+    "papers": 3133,
     "by_category": {
-      "security": 1285,
+      "security": 1288,
       "cicd": 221,
-      "iac": 91,
-      "containers": 271,
-      "policycode": 104,
-      "observability": 185,
-      "gitops": 42,
-      "platform": 86,
-      "ai-security": 473
+      "iac": 92,
+      "containers": 272,
+      "policycode": 105,
+      "observability": 214,
+      "gitops": 43,
+      "platform": 95,
+      "ai-security": 803
     },
     "emerging_themes": [
       {
         "keyword": "llm",
-        "recent": 641,
-        "corpus": 641
+        "recent": 967,
+        "corpus": 970
       },
       {
         "keyword": "agentic",
-        "recent": 125,
-        "corpus": 125
+        "recent": 231,
+        "corpus": 231
+      },
+      {
+        "keyword": "ai agent",
+        "recent": 168,
+        "corpus": 168
+      },
+      {
+        "keyword": "mcp",
+        "recent": 146,
+        "corpus": 146
       },
       {
         "keyword": "supply chain",
-        "recent": 109,
-        "corpus": 109
+        "recent": 112,
+        "corpus": 113
+      },
+      {
+        "keyword": "prompt injection",
+        "recent": 100,
+        "corpus": 100
       },
       {
         "keyword": "fuzzing",
-        "recent": 94,
-        "corpus": 94
+        "recent": 99,
+        "corpus": 99
       },
       {
         "keyword": "kubernetes",
         "recent": 85,
-        "corpus": 85
+        "corpus": 90
       },
       {
-        "keyword": "ai agent",
-        "recent": 52,
-        "corpus": 52
+        "keyword": "cve",
+        "recent": 48,
+        "corpus": 48
+      },
+      {
+        "keyword": "continuous integration",
+        "recent": 46,
+        "corpus": 51
       },
       {
         "keyword": "serverless",
@@ -166,33 +198,21 @@
         "corpus": 46
       },
       {
-        "keyword": "continuous integration",
-        "recent": 45,
-        "corpus": 45
-      },
-      {
         "keyword": "observability",
         "recent": 44,
         "corpus": 44
-      },
-      {
-        "keyword": "cve",
-        "recent": 42,
-        "corpus": 42
-      },
-      {
-        "keyword": "sbom",
-        "recent": 33,
-        "corpus": 33
-      },
-      {
-        "keyword": "sbom",
-        "recent": 33,
-        "corpus": 33
       }
     ]
   },
   "venues": [
+    [
+      "International Journal of Science and Research (IJSR)",
+      9
+    ],
+    [
+      "CI/CD Pipeline Using Jenkins Unleashed",
+      9
+    ],
     [
       "Zenodo (CERN European Organization for Nuclear Research)",
       4
@@ -202,35 +222,27 @@
       4
     ],
     [
+      "SSRN Electronic Journal",
+      3
+    ],
+    [
+      "Introduction to Infrastructure as Code",
+      3
+    ],
+    [
+      "Practical Security for Agile and DevOps",
+      2
+    ],
+    [
+      "The American Journal of Engineering and Technology",
+      2
+    ],
+    [
+      "2018 SpaceOps Conference",
+      2
+    ],
+    [
       "Scientific Reports",
-      1
-    ],
-    [
-      "Virulence",
-      1
-    ],
-    [
-      "Reviews in Endocrine and Metabolic Disorders",
-      1
-    ],
-    [
-      "bioRxiv (Cold Spring Harbor Laboratory)",
-      1
-    ],
-    [
-      "Journal of Plant Protection Research",
-      1
-    ],
-    [
-      "Frontiers in Immunology",
-      1
-    ],
-    [
-      "Proceedings of the Canadian Engineering Education Association (CEEA)",
-      1
-    ],
-    [
-      "Horticulturae",
       1
     ]
   ],
@@ -256,11 +268,23 @@
       8
     ],
     [
-      "Zhuoran Tan",
-      6
+      "",
+      8
+    ],
+    [
+      "Wenbo Guo",
+      7
+    ],
+    [
+      "Xiaoqi Li",
+      7
     ],
     [
       "Yanjie Zhao",
+      7
+    ],
+    [
+      "Zhuoran Tan",
       6
     ],
     [
@@ -268,31 +292,19 @@
       6
     ],
     [
+      "Pranoday Dingare",
+      6
+    ],
+    [
       "Martin Monperrus",
       5
     ],
     [
+      "Petar Radanliev",
+      5
+    ],
+    [
       "Jeremy Singer",
-      5
-    ],
-    [
-      "\u00c1gney Lopes Roth Ferraz",
-      5
-    ],
-    [
-      "Xiaoqi Li",
-      5
-    ],
-    [
-      "Diego Kreutz",
-      5
-    ],
-    [
-      "Patanamon Thongtanunam",
-      5
-    ],
-    [
-      "Chong Wang",
       5
     ]
   ]
