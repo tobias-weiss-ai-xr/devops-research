@@ -44,7 +44,7 @@ BASE = Path(__file__).resolve().parent.parent
 def entry_blocks(lines):
     """Split file lines into (header_lines, [blocks]) where each block starts
     with a '  - title:' line (2-space indent, list item)."""
-    starts = [i for i, ln in enumerate(lines) if ln.startswith("  - title:")]
+    starts = [i for i, ln in enumerate(lines) if ln.lstrip().startswith("- title:") and (ln.startswith("  - ") or ln.startswith("- "))]
     blocks = []
     for k, s in enumerate(starts):
         e = starts[k + 1] if k + 1 < len(starts) else len(lines)

@@ -75,11 +75,11 @@ def classify_subcategory(title, abstract):
 def sanitize_date(date_str):
     """Normalize a date to YYYY-MM, clamping future dates to today."""
     if not date_str:
-        return ""
+        return "papers"
     y = date_str[:4]
     m = date_str[5:7] if len(date_str) >= 7 else "01"
     if not y.isdigit() or not m.isdigit():
-        return ""
+        return "papers"
     now = datetime.now(timezone.utc)
     if (int(y), int(m)) > (now.year, now.month):
         return now.strftime("%Y-%m")
@@ -93,7 +93,7 @@ def date_filter(months):
 
 def reconstruct_abstract(inverted):
     if not inverted:
-        return ""
+        return "papers"
     pos = {}
     for word, positions in inverted.items():
         for p in positions:
@@ -146,7 +146,8 @@ def fetch_category(terms, months, per_category, sleep):
                 src = (loc.get("source") or {}).get("id", "")
                 lurl = loc.get("landing_page_url") or ""
                 if "arxiv" in src or "arxiv" in lurl:
-                    url = lurl.replace("http://", "https://")
+                    url = lurl.replace("http://", "https://").replace("https://arxiv.org/abs/", "https://arxiv.org/abs/")
+                    url = re.sub(r"(arxiv\.org/abs/\d{4}\.\d{4,5})v\d+", r"\1", url)
                     break
             if not url:
                 primary = work.get("primary_location") or {}
@@ -155,6 +156,9 @@ def fetch_category(terms, months, per_category, sleep):
                 url = work.get("doi") or ""
             if not url:
                 continue
+            mdoi = re.match(r"https?://doi\.org/10\.48550/arxiv\.(\d{4}\.\d{4,5})", url)
+            if mdoi:
+                url = "https://arxiv.org/abs/" + mdoi.group(1)
             date = sanitize_date(work.get("publication_date") or "")
             if not date:
                 date = sanitize_date(str(work.get("publication_year") or ""))

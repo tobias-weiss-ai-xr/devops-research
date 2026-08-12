@@ -9852,3 +9852,19 @@ papers:
   abstract: AI coding agents such as Codex and Claude Code are increasingly used to
     autonomously contribute to software repositories. However, little is known about
     how repository-level configuration artifacts af...
+- title: 'From Concrete to Code: A Survey of AI-Driven Transportation Infrastructure,
+    Security, and Human Interaction'
+  date: 2026-04
+  url: https://doi.org/10.3390/s26072219
+  category: iac
+  subcategory: review
+  authors:
+  - Nuri Alperen Kose
+  - Kubra Kose
+  - Fan Liang
+  abstract: The transition to AI-driven Cyber–Physical Systems has fundamentally reshaped
+    transportation, introducing systemic risks that transcend traditional physical
+    boundaries. Unlike prior reviews focused on isolated technological domains, this
+    survey proposes a novel “End-to-End” analytical framework that
+  doi: 10.3390/s26072219
+  venue: Sensors

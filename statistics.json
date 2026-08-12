@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 3211,
+    "total_papers": 2840,
     "generated": "2026-08-10",
     "taxonomy": {
       "categories": 9,
@@ -12,26 +12,26 @@
     }
   },
   "by_category": {
-    "security": 1298,
+    "security": 1295,
     "cicd": 232,
-    "iac": 99,
-    "containers": 281,
-    "policycode": 115,
-    "observability": 222,
+    "iac": 98,
+    "containers": 278,
+    "policycode": 112,
+    "observability": 194,
     "gitops": 51,
-    "platform": 101,
-    "ai-security": 812
+    "platform": 97,
+    "ai-security": 483
   },
   "by_subcategory": {
-    "theory": 575,
-    "mechanism": 93,
+    "theory": 500,
+    "mechanism": 88,
     "method": 155,
-    "application": 641,
-    "development": 293,
-    "systems": 228,
+    "application": 589,
+    "development": 278,
+    "systems": 215,
     "evaluation": 27,
-    "review": 158,
-    "security": 1041
+    "review": 147,
+    "security": 841
   },
   "by_year": {
     "2000": 1,
@@ -44,71 +44,71 @@
     "2022": 23,
     "2023": 6,
     "2024": 5,
-    "2025": 703,
-    "2026": 2438,
+    "2025": 620,
+    "2026": 2150,
     "unknown": 11
   },
   "by_cell": {
-    "security/security": 561,
-    "ai-security/security": 353,
+    "security/security": 560,
     "security/theory": 253,
-    "ai-security/application": 154,
-    "security/application": 152,
-    "ai-security/theory": 152,
-    "containers/application": 93,
+    "ai-security/security": 165,
+    "security/application": 150,
+    "ai-security/application": 114,
+    "containers/application": 91,
     "security/development": 87,
+    "ai-security/theory": 83,
     "cicd/application": 80,
     "security/method": 74,
     "security/systems": 67,
     "security/review": 64,
-    "observability/application": 60,
+    "observability/application": 54,
     "containers/development": 47,
-    "observability/security": 45,
-    "ai-security/development": 45,
-    "observability/theory": 41,
-    "ai-security/systems": 41,
     "policycode/application": 40,
     "cicd/theory": 38,
+    "observability/theory": 37,
     "containers/theory": 36,
-    "ai-security/review": 33,
+    "observability/security": 36,
+    "ai-security/development": 34,
+    "ai-security/systems": 34,
     "security/mechanism": 31,
     "iac/application": 30,
-    "observability/development": 29,
     "cicd/security": 28,
     "cicd/systems": 28,
-    "platform/application": 26,
-    "containers/systems": 25,
     "containers/security": 25,
+    "observability/development": 25,
+    "containers/systems": 24,
+    "platform/application": 24,
     "platform/development": 24,
-    "policycode/theory": 23,
-    "observability/systems": 23,
+    "ai-security/review": 24,
+    "policycode/theory": 22,
     "cicd/development": 20,
     "containers/review": 20,
-    "ai-security/mechanism": 19,
+    "observability/systems": 19,
     "containers/mechanism": 18,
     "cicd/method": 16,
     "gitops/development": 16,
     "policycode/method": 15,
     "cicd/review": 14,
-    "platform/systems": 14,
-    "platform/theory": 14,
+    "ai-security/mechanism": 14,
     "policycode/development": 13,
-    "observability/review": 13,
+    "platform/systems": 13,
+    "platform/theory": 13,
+    "observability/review": 12,
     "iac/systems": 12,
     "containers/method": 12,
     "iac/development": 12,
     "platform/method": 12,
-    "policycode/security": 11,
     "iac/security": 11,
     "ai-security/method": 10,
     "iac/theory": 10,
     "security/evaluation": 9,
     "policycode/systems": 9,
+    "policycode/security": 9,
     "gitops/systems": 9,
     "gitops/theory": 8,
-    "iac/review": 8,
     "iac/method": 7,
     "platform/mechanism": 7,
+    "iac/review": 7,
     "gitops/application": 6,
     "iac/mechanism": 6,
     "gitops/security": 6,
@@ -129,53 +129,38 @@
     "platform/security": 1
   },
   "recent_12m": {
-    "papers": 3133,
+    "papers": 2762,
     "by_category": {
-      "security": 1288,
+      "security": 1285,
       "cicd": 221,
-      "iac": 92,
-      "containers": 272,
-      "policycode": 105,
-      "observability": 214,
+      "iac": 91,
+      "containers": 269,
+      "policycode": 102,
+      "observability": 186,
       "gitops": 43,
-      "platform": 95,
-      "ai-security": 803
+      "platform": 91,
+      "ai-security": 474
     },
     "emerging_themes": [
       {
         "keyword": "llm",
-        "recent": 967,
-        "corpus": 970
+        "recent": 636,
+        "corpus": 639
       },
       {
         "keyword": "agentic",
-        "recent": 231,
-        "corpus": 231
-      },
-      {
-        "keyword": "ai agent",
-        "recent": 168,
-        "corpus": 168
-      },
-      {
-        "keyword": "mcp",
-        "recent": 146,
-        "corpus": 146
+        "recent": 123,
+        "corpus": 123
       },
       {
         "keyword": "supply chain",
-        "recent": 112,
-        "corpus": 113
-      },
-      {
-        "keyword": "prompt injection",
-        "recent": 100,
-        "corpus": 100
+        "recent": 109,
+        "corpus": 110
       },
       {
         "keyword": "fuzzing",
-        "recent": 99,
-        "corpus": 99
+        "recent": 94,
+        "corpus": 94
       },
       {
         "keyword": "kubernetes",
@@ -183,9 +168,9 @@
         "corpus": 90
       },
       {
-        "keyword": "cve",
-        "recent": 48,
-        "corpus": 48
+        "keyword": "ai agent",
+        "recent": 51,
+        "corpus": 51
       },
       {
         "keyword": "continuous integration",
@@ -201,6 +186,21 @@
         "keyword": "observability",
         "recent": 44,
         "corpus": 44
+      },
+      {
+        "keyword": "cve",
+        "recent": 42,
+        "corpus": 42
+      },
+      {
+        "keyword": "sbom",
+        "recent": 33,
+        "corpus": 33
+      },
+      {
+        "keyword": "sbom",
+        "recent": 33,
+        "corpus": 33
       }
     ]
   },
@@ -272,19 +272,11 @@
       8
     ],
     [
-      "Wenbo Guo",
-      7
-    ],
-    [
-      "Xiaoqi Li",
-      7
+      "Zhuoran Tan",
+      6
     ],
     [
       "Yanjie Zhao",
-      7
-    ],
-    [
-      "Zhuoran Tan",
       6
     ],
     [
@@ -300,11 +292,19 @@
       5
     ],
     [
-      "Petar Radanliev",
+      "Jeremy Singer",
       5
     ],
     [
-      "Jeremy Singer",
+      "\u00c1gney Lopes Roth Ferraz",
+      5
+    ],
+    [
+      "Xiaoqi Li",
+      5
+    ],
+    [
+      "Diego Kreutz",
       5
     ]
   ]
