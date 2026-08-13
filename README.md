@@ -59,21 +59,33 @@ Add/edit feeds and keywords in **`config/sources.yml`** — no code changes need
 bash scripts/setup.sh         # create .venv, install deps, install crontab (daily 07:00)
 ```
 
-## GitHub research corpus (`repos.yaml`)
+## Research repo corpus (`repos.yaml`)
 
-Complementary to the paper corpus, this tracks 1 759 DevSecOps-relevant GitHub
-repositories across the same taxonomy. Discovered via `gh api` topic + keyword
-searches with star thresholds.
+Complementary to the paper corpus, this tracks DevSecOps-relevant repositories
+across the same taxonomy. All three fetchers share a ``repos_common.py`` module
+for relevance filtering, subcategory classification, YAML I/O, and entry
+normalisation.
 
 ```bash
-python3 scripts/fetch/fetch_github_repos.py --min-stars 100 --dry-run  # preview
-python3 scripts/fetch/fetch_github_repos.py --min-stars 100            # ingest
+# GitHub (gh CLI required)
+python3 scripts/fetch/fetch_github_repos.py --min-stars 100 --dry-run
+python3 scripts/fetch/fetch_github_repos.py --min-stars 100
+
+# GitLab (no CLI — pure REST API)
+python3 scripts/fetch/fetch_gitlab_repos.py --dry-run
+python3 scripts/fetch/fetch_gitlab_repos.py --min-stars 5
+python3 scripts/fetch/fetch_gitlab_repos.py --host https://gitlab.gwdg.de   # self-hosted
+
+# Codeberg (Gitea-compatible API)
+python3 scripts/fetch/fetch_codeberg_repos.py --dry-run
+python3 scripts/fetch/fetch_codeberg_repos.py --min-stars 5
 ```
 
-Taxonomy mirrors `papers.yaml`: `security` (442), `containers` (298), `cicd`
-(254), `iac` (232), `observability` (206), `ai-security` (119), `policycode`
-(73), `gitops` (72), `platform` (63).  Each entry includes stars, forks,
-language, topics, activity date, and license.
+All fetchers write to the shared ``repos.yaml`` (dedup by repo name, append-only).
+
+Taxonomy mirrors `papers.yaml`: `security`, `containers`, `cicd`, `iac`,
+`observability`, `ai-security`, `policycode`, `gitops`, `platform`.  Each entry
+includes stars, forks, language, topics, activity date, and license.
 
 ## Paper search (research corpus)
 

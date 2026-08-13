@@ -38497,3 +38497,356 @@ repos:
     created_at: "2025-01-22"
     open_issues: 103
     license: MIT
+
+  - name: "gitlab-org/gitlab"
+    url: https://gitlab.com/gitlab-org/gitlab
+    description: "GitLab is the open-source DevSecOps platform that provides a complete software development lifecycle toolchain including source control, CI/CD, security scanning, and project management in a single ap"
+    category: security
+    subcategory: systems
+    stars: 6114
+    forks: 12340
+    topics:
+      - hacktoberfest
+      - javascript
+      - ruby
+      - vue.js
+    pushed_at: "2026-08-13"
+    created_at: "2015-05-20"
+  - name: "crystal-forge/crystal-forge"
+    url: https://gitlab.com/crystal-forge/crystal-forge
+    description: "Crystal Forge builds secure, verifiable software ecosystems by embedding compliance, integrity, and trust into the entire lifecycle—from development to deployment. We empower organizations to evolve D"
+    category: security
+    subcategory: systems
+    stars: 11
+    forks: 0
+    pushed_at: "2026-08-13"
+    created_at: "2025-06-02"
+  - name: "digital-commons/devsecops/the-devsecops-toolbox"
+    url: https://gitlab.com/digital-commons/devsecops/the-devsecops-toolbox
+    category: security
+    subcategory: systems
+    stars: 6
+    forks: 3
+    pushed_at: "2026-08-12"
+    created_at: "2025-03-15"
+  - name: "components/secret-detection"
+    url: https://gitlab.com/components/secret-detection
+    description: "Secret Detection scans your repository to help prevent your secrets from being exposed."
+    category: security
+    subcategory: method
+    stars: 16
+    forks: 13
+    topics:
+      - dataset
+      - jobs
+      - report
+      - secret-detection
+      - static analysis
+    pushed_at: "2026-08-12"
+    created_at: "2023-12-12"
+  - name: "hoppr/hoppr-cop"
+    url: https://gitlab.com/hoppr/hoppr-cop
+    description: "__Hoppr-Cop__ is CLI and __Hoppr Plugin__ that generates high quality vulnerability information from a [cyclone-dx](https://cyclonedx.org/)\nSoftware Bill of Materials (SBOM) by aggregating data from "
+    category: security
+    subcategory: systems
+    stars: 8
+    forks: 7
+    topics:
+      - cybersecurity
+      - security
+      - supplychain
+      - vulnerabilities
+      - vulnerability scanning
+    pushed_at: "2026-08-03"
+    created_at: "2022-08-16"
+  - name: "gitlab-org/security-products/gemnasium-db"
+    url: https://gitlab.com/gitlab-org/security-products/gemnasium-db
+    description: "The GitLab Advisory Database (GLAD), used in GitLab Ultimate [Dependency Scanning](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/) and [Container Scanning](https://docs.gitl"
+    category: security
+    subcategory: systems
+    stars: 31
+    forks: 98
+    topics:
+      - Dependency Scanning
+      - Security Advisory
+      - hacktoberfest
+    pushed_at: "2026-08-13"
+    created_at: "2019-04-24"
+  - name: "Linaro/tuxmake"
+    url: https://gitlab.com/Linaro/tuxmake
+    description: "TuxMake provides portable and repeatable Linux kernel builds across a variety of architectures, toolchains, kernel configurations, and make targets."
+    category: cicd
+    subcategory: systems
+    stars: 36
+    forks: 2
+    topics:
+      - build
+      - clang
+      - docker
+      - gcc
+      - linux
+      - make
+      - podman
+    pushed_at: "2026-08-13"
+    created_at: "2020-05-26"
+  - name: "infor-cloud/martian-cloud/tharsis/tharsis-api"
+    url: https://gitlab.com/infor-cloud/martian-cloud/tharsis/tharsis-api
+    description: "Tharsis API is a remote Terraform backend that provides state management and a full execution environment for running Terraform modules. It also includes additional capabilities to facilitate the mana"
+    category: iac
+    subcategory: application
+    stars: 5
+    forks: 1
+    topics:
+      - martian-cloud
+      - terraform
+      - tharsis
+    pushed_at: "2026-08-13"
+    created_at: "2022-10-04"
+  - name: "hcs-company/hcs-openshift-install"
+    url: https://gitlab.com/hcs-company/hcs-openshift-install
+    description: "A set of Ansible plays and roles to automate an OpenShift 4.x UPI install (both OKD and OCP), and configure it afterwards.\nSupported installation methods:  HP ILO bare-metal,  VMWare VCenter, LibVirt"
+    category: iac
+    subcategory: application
+    stars: 21
+    forks: 17
+    pushed_at: "2026-08-13"
+    created_at: "2020-07-27"
+  - name: "score-p/scorep"
+    url: https://gitlab.com/score-p/scorep
+    description: "Scalable Performance Measurement Infrastructure for Parallel Codes\n\n[🔗](https://score-p.org \"Homepage\")\n[📧](mailto:support@score-p.org \"Support Mail\")\n[🔌](https://github.com/score-p/ \"Plugins\")\n["
+    category: iac
+    subcategory: application
+    stars: 15
+    forks: 9
+    pushed_at: "2026-08-12"
+    created_at: "2022-11-21"
+  - name: "slurpit.io/mockit"
+    url: https://gitlab.com/slurpit.io/mockit
+    description: "Mock'it is a configurable router/switch emulator designed for development and testing of infrastructure-as-code. For more information: https://slurpit.io"
+    category: iac
+    subcategory: application
+    stars: 11
+    forks: 6
+    topics:
+      - Network imitator
+      - Router imitator
+      - fake switch
+      - mockup
+      - virtual router
+    pushed_at: "2026-08-10"
+    created_at: "2023-10-24"
+  - name: "gitlab-org/security-products/analyzers/kics"
+    url: https://gitlab.com/gitlab-org/security-products/analyzers/kics
+    description: "GitLab Analyzer for Infrastructure as Code (IaC) projects that calls kics. This analyzer is written in Go using the command library shared by all analyzers."
+    category: iac
+    subcategory: application
+    stars: 6
+    forks: 14
+    topics:
+      - GL-Secure
+      - GL-Secure Analyzer
+      - SAST
+      - hacktoberfest
+    pushed_at: "2026-08-10"
+    created_at: "2021-10-21"
+  - name: "gitlab-org/cloud-native/gitlab-operator"
+    url: https://gitlab.com/gitlab-org/cloud-native/gitlab-operator
+    description: "Kubernetes Operator for GitLab Server"
+    category: containers
+    subcategory: systems
+    stars: 82
+    forks: 92
+    topics:
+      - Canonical
+      - infra-mgmt Managed
+    pushed_at: "2026-08-13"
+    created_at: "2020-05-20"
+  - name: "ongresinc/stackgres"
+    url: https://gitlab.com/ongresinc/stackgres
+    description: "StackGres Operator,  Full Stack PostgreSQL on Kubernetes\n\nhttps://stackgres.io"
+    category: containers
+    subcategory: systems
+    stars: 142
+    forks: 66
+    topics:
+      - PgBouncer
+      - babelfish for postgresql
+      - envoy
+      - java
+      - k8s
+      - kubernetes
+      - operator
+      - patroni
+      - postgresql
+      - postgresql extensions
+      - wal-g
+    pushed_at: "2026-08-13"
+    created_at: "2019-05-29"
+  - name: "gitlab-org/charts/gitlab"
+    url: https://gitlab.com/gitlab-org/charts/gitlab
+    description: "Cloud Native GitLab Helm Chart"
+    category: containers
+    subcategory: systems
+    stars: 450
+    forks: 755
+    topics:
+      - gitlab
+      - hacktoberfest
+      - helm
+      - k8s
+      - kubernetes
+    pushed_at: "2026-08-13"
+    created_at: "2017-08-01"
+  - name: "gitlab-org/charts/gitlab-runner"
+    url: https://gitlab.com/gitlab-org/charts/gitlab-runner
+    description: "Official Helm Chart for the GitLab Runner (https://gitlab.com/gitlab-org/gitlab-runner)"
+    category: containers
+    subcategory: systems
+    stars: 274
+    forks: 438
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-13"
+    created_at: "2018-05-09"
+  - name: "ska-telescope/sdp/ska-sdp-integration"
+    url: https://gitlab.com/ska-telescope/sdp/ska-sdp-integration
+    description: "Provides a Helm chart for deploying the SKA Science Data Processor and tests for the integrated sub-system."
+    category: containers
+    subcategory: systems
+    stars: 5
+    forks: 2
+    topics:
+      - SDP
+      - integration
+      - integration tests
+    pushed_at: "2026-08-13"
+    created_at: "2020-09-15"
+  - name: "dependabot-gitlab/chart"
+    url: https://gitlab.com/dependabot-gitlab/chart
+    description: "Helm chart for [dependabot-gitlab](https://gitlab.com/dependabot-gitlab/dependabot) deployment"
+    category: containers
+    subcategory: systems
+    stars: 13
+    forks: 28
+    topics:
+      - dependabot
+      - dependency updates
+      - helm
+      - kubernetes
+    pushed_at: "2026-08-13"
+    created_at: "2020-09-13"
+  - name: "thorchain/devops/node-launcher"
+    url: https://gitlab.com/thorchain/devops/node-launcher
+    description: "Helm Charts for deploying and managing a THORNode"
+    category: containers
+    subcategory: systems
+    stars: 21
+    forks: 77
+    pushed_at: "2026-08-13"
+    created_at: "2020-05-13"
+  - name: "gitlab-com/gl-infra/slackline"
+    url: https://gitlab.com/gitlab-com/gl-infra/slackline
+    description: "Slackline is a tiny bridge for customising Prometheus AlertManager alerts for Slack"
+    category: observability
+    subcategory: systems
+    stars: 14
+    forks: 2
+    topics:
+      - slack
+    pushed_at: "2026-08-13"
+    created_at: "2018-09-17"
+  - name: "gitlab-org/grafana-dashboards"
+    url: https://gitlab.com/gitlab-org/grafana-dashboards
+    description: "Grafana JSON dashboard files to help users get started with GitLab performance metrics.\n\nThis project is no longer being maintained. For GitLab.com dashboard examples see [our monitoring mixins](htt"
+    category: observability
+    subcategory: systems
+    stars: 134
+    forks: 50
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-07"
+    created_at: "2016-03-02"
+  - name: "Apocrathia/homelab"
+    url: https://gitlab.com/Apocrathia/homelab
+    description: "GitOps-managed Kubernetes homelab cluster on Talos Linux with Flux CD, 1Password secrets management, and production-like infrastructure for home services."
+    category: gitops
+    subcategory: systems
+    stars: 6
+    forks: 1
+    pushed_at: "2026-08-13"
+    created_at: "2025-02-19"
+  - name: "xrow-public/ci-tools"
+    url: https://gitlab.com/xrow-public/ci-tools
+    description: "Components for Kubernetes, OpenShift, GitOps, ArgoCD, Container, Red Hat. Also designed for self-hosted, hardend and disconnected enterprise environments."
+    category: gitops
+    subcategory: systems
+    stars: 6
+    forks: 8
+    pushed_at: "2026-08-13"
+    created_at: "2019-04-07"
+  - name: "ska-telescope/src/deployments/uksrc/ska-src-uksrc-cluster-gitops"
+    url: https://gitlab.com/ska-telescope/src/deployments/uksrc/ska-src-uksrc-cluster-gitops
+    description: "Configuration for deploying CAPI clusters on OpenStack via Flux."
+    category: gitops
+    subcategory: systems
+    stars: 5
+    forks: 0
+    pushed_at: "2026-08-13"
+    created_at: "2024-09-20"
+  - name: "uhurutec/stack/ustack"
+    url: https://gitlab.com/uhurutec/stack/ustack
+    description: "Gitops-based solution for Infrastructure as a Service"
+    category: gitops
+    subcategory: systems
+    stars: 7
+    forks: 1
+    pushed_at: "2026-08-13"
+    created_at: "2024-08-20"
+  - name: "gitlab-org/gitlab-environment-toolkit"
+    url: https://gitlab.com/gitlab-org/gitlab-environment-toolkit
+    description: "The GitLab Environment Toolkit (`GET`) is a set of opinionated [Terraform](https://www.terraform.io/) and [Ansible](https://www.ansible.com/) scripts to assist with deploying scaled GitLab environment"
+    category: platform
+    subcategory: systems
+    stars: 275
+    forks: 239
+    pushed_at: "2026-08-13"
+    created_at: "2019-09-13"
+  - name: "lx-industries/rmcp-actix-web"
+    url: https://gitlab.com/lx-industries/rmcp-actix-web
+    description: "An actix_web backend for the official Rust SDK for the Model Context Protocol (https://github.com/modelcontextprotocol/rust-sdk)"
+    category: ai-security
+    subcategory: systems
+    stars: 6
+    forks: 9
+    topics:
+      - actix-web
+      - mcp
+      - rust
+    pushed_at: "2026-08-13"
+    created_at: "2025-07-02"
+  - name: "lx-industries/rmcp-openapi"
+    url: https://gitlab.com/lx-industries/rmcp-openapi
+    description: "Expose OpenAPI definition endpoints as MCP tools using the official Rust SDK for the Model Context Protocol (https://github.com/modelcontextprotocol/rust-sdk)"
+    category: ai-security
+    subcategory: systems
+    stars: 12
+    forks: 5
+    topics:
+      - mcp
+      - openapi
+      - rust
+    pushed_at: "2026-08-13"
+    created_at: "2025-07-07"
+  - name: "fforster/gitlab-mcp"
+    url: https://gitlab.com/fforster/gitlab-mcp
+    description: "A Model Context Protocol (MCP) server for GitLab"
+    category: ai-security
+    subcategory: systems
+    stars: 85
+    forks: 36
+    topics:
+      - AI
+      - mcp
+      - model-context-protocol
+    pushed_at: "2026-08-13"
+    created_at: "2025-04-13"

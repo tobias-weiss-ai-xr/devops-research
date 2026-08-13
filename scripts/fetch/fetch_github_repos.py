@@ -16,17 +16,20 @@ Output: repos.yaml in the repo root (sibling to papers.yaml).
 
 import argparse
 import json
-import os
+import re
 import subprocess
 import sys
 import time
-from datetime import datetime, timezone
+from collections import Counter
 from pathlib import Path
 
-import yaml
-
-BASE = Path(__file__).resolve().parent.parent.parent
-REPOS_YAML = BASE / "repos.yaml"
+from repos_common import (
+    REPOS_YAML,
+    is_devops_repo,
+    normalize_entry,
+    load_existing_repos,
+    append_repos,
+)
 
 # ── Taxonomy queries ──────────────────────────────────────────────────────
 # Each query: (search_string, category, subcategory_hint)
@@ -108,40 +111,14 @@ GITHUB_QUERIES = [
 ]
 
 
-# ── Subcategory classification ─────────────────────────────────────────────
-
-SUBCATEGORY_RULES = [
-    ("review", ["survey", "benchmark", "comparison", "awesome", "collection", "curated"], True),
-    ("theory", ["framework", "specification", "standard", "rfc", "architecture", "model"], False),
-    ("security", ["vulnerability", "cve", "exploit", "malware", "threat", "attack", "hardening"], False),
-    ("application", ["cli", "tool", "scanner", "analyzer", "detector", "checker", "linter"], False),
-    ("development", ["sdk", "library", "api", "client", "wrapper", "binding"], False),
-    ("method", ["template", "boilerplate", "starter", "example", "demo", "playground"], False),
-    ("systems", ["platform", "engine", "orchestrator", "operator", "controller", "runtime", "daemon"], False),
-    ("evaluation", ["benchmark", "test-suite", "testbed", "evaluation", "metrics"], False),
-]
-SUBCATEGORY_FALLBACK = "application"
-
-
-def classify_subcategory(name, description, topics):
-    """Assign subcategory from repo name, description, and GitHub topics."""
-    text = f"{name} {description} {' '.join(topics)}".lower()
-    name_lower = name.lower()
-    for subcat, keywords, title_only in SUBCATEGORY_RULES:
-        haystack = name_lower if title_only else text
-        for kw in keywords:
-            if kw in haystack:
-                return subcat
-    return SUBCATEGORY_FALLBACK
-
-
 # ── GitHub API helpers ────────────────────────────────────────────────────
 
 def gh_search_repos(query, sort="stars", order="desc", per_page=30, page=1):
     """Search GitHub repos using `gh api`. Returns (items, total_count)."""
     cmd = [
         "gh", "api", "--method", "GET",
-        f"search/repositories?q={query}&sort={sort}&order={order}&per_page={per_page}&page={page}"
+        f"search/repositories?q={query}&sort={sort}&order={order}"
+        f"&per_page={per_page}&page={page}",
     ]
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
@@ -160,142 +137,21 @@ def gh_search_repos(query, sort="stars", order="desc", per_page=30, page=1):
         return [], 0
 
 
-def to_entry(item, category, subcategory_hint):
-    """Map a GitHub search result to a repos.yaml entry."""
-    name = item.get("full_name", "")
-    desc = (item.get("description") or "")[:200]
-    topics = item.get("topics", [])
+def github_to_raw(item):
+    """Map a GitHub API search result to a normalised raw dict."""
     return {
-        "name": name,
+        "name": item.get("full_name", ""),
         "url": item.get("html_url", ""),
-        "description": desc,
-        "category": category,
-        "subcategory": classify_subcategory(name, desc, topics),
+        "description": item.get("description") or "",
         "stars": item.get("stargazers_count", 0),
         "forks": item.get("forks_count", 0),
         "language": item.get("language") or "",
-        "topics": sorted(topics),
+        "topics": item.get("topics", []),
         "pushed_at": item.get("pushed_at", "")[:10],
         "created_at": item.get("created_at", "")[:10],
         "open_issues": item.get("open_issues_count", 0),
         "license": (item.get("license") or {}).get("spdx_id", ""),
     }
-
-
-# ── YAML I/O ─────────────────────────────────────────────────────────────
-
-def _yaml_str(s):
-    """Escape a string for a double-quoted YAML scalar."""
-    return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n")
-
-
-def format_yaml_entry(entry):
-    """Format a single repo entry as YAML lines."""
-    lines = [f'  - name: "{_yaml_str(entry["name"])}"']
-    lines.append(f'    url: {entry["url"]}')
-    if entry.get("description"):
-        lines.append(f'    description: "{_yaml_str(entry["description"])}"')
-    lines.append(f'    category: {entry["category"]}')
-    lines.append(f'    subcategory: {entry["subcategory"]}')
-    lines.append(f'    stars: {entry["stars"]}')
-    lines.append(f'    forks: {entry["forks"]}')
-    if entry.get("language"):
-        lines.append(f'    language: {entry["language"]}')
-    if entry.get("topics"):
-        lines.append(f'    topics:')
-        for t in entry["topics"]:
-            lines.append(f'      - {_yaml_str(t)}')
-    if entry.get("pushed_at"):
-        lines.append(f'    pushed_at: "{entry["pushed_at"]}"')
-    if entry.get("created_at"):
-        lines.append(f'    created_at: "{entry["created_at"]}"')
-    if entry.get("open_issues"):
-        lines.append(f'    open_issues: {entry["open_issues"]}')
-    if entry.get("license") and entry["license"] != "NOASSERTION":
-        lines.append(f'    license: {entry["license"]}')
-    return "\n".join(lines)
-
-
-def load_existing_repos(path):
-    """Load repos.yaml, return (names_set, entries_count)."""
-    if not path.exists():
-        return set(), 0
-    with open(path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
-    repos = data.get("repos", [])
-    names = {r.get("name", "").lower().strip() for r in repos}
-    return names, len(repos)
-
-
-def append_repos(path, entries):
-    """Append entries to repos.yaml, creating the file if needed."""
-    lines = []
-    if path.exists():
-        with open(path, "r", encoding="utf-8") as f:
-            content = f.read()
-        lines = content.rstrip("\n").split("\n")
-        # Remove trailing "repos:" if it's the only line
-        if lines == ["repos:"]:
-            lines = ["repos:"]
-        else:
-            lines.append("")  # blank separator
-    else:
-        lines = [
-            "# GitHub repositories relevant to DevSecOps research.",
-            "# Generated by scripts/fetch/fetch_github_repos.py",
-            f"# Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}",
-            "",
-            "repos:",
-        ]
-
-    for entry in entries:
-        lines.append(format_yaml_entry(entry))
-
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
-
-
-# ── DevOps relevance check (reuse signals) ──────────────────────────────
-
-def _norm(text):
-    import re
-    return re.sub(r"[\s-]+", " ", re.sub(r"[-/]", " ", text.lower()))
-
-# Minimal strong signals for repo classification (subset of fetch_new_papers)
-REPO_STRONG = [
-    "ci cd", "continuous integration", "continuous delivery", "github actions",
-    "gitlab ci", "jenkins", "devsecops", "devops", "sre",
-    "infrastructure as code", "terraform", "ansible", "pulumi",
-    "policy as code", "kubernetes", "k8s", "docker", "container",
-    "orchestration", "serverless", "microservice", "cloud native",
-    "observability", "opentelemetry", "prometheus", "grafana",
-    "distributed tracing", "gitops", "argo cd", "flux cd",
-    "progressive delivery", "backstage", "platform engineering",
-    "software supply chain", "sbom", "sast", "dast", "vulnerability",
-    "secret detection", "zero trust", "fuzzing", "open policy agent",
-    "kyverno", "gatekeeper", "helm", "istio", "crossplane",
-    "llm security", "ai agent security", "model context protocol",
-]
-
-def _word_re(tokens):
-    import re
-    normed = [_norm(t) for t in tokens]
-    parts = []
-    for s in normed:
-        words = s.split(" ")
-        escaped = [re.escape(w) for w in words]
-        if len(escaped) == 1:
-            parts.append(r"\b" + escaped[0] + r"\b")
-        else:
-            parts.append(r"\b" + " ".join(escaped))
-    return re.compile(r"|".join(parts), re.I)
-
-_re = _word_re(REPO_STRONG)
-
-def is_devops_repo(name, description, topics):
-    """Quick relevance check — gate out obviously irrelevant repos."""
-    text = _norm(f"{name} {description} {' '.join(topics)}")
-    return bool(_re.search(text))
 
 
 # ── Main ──────────────────────────────────────────────────────────────────
@@ -321,8 +177,6 @@ def main():
     # Adjust star thresholds in queries
     queries = []
     for q_str, cat, hint in GITHUB_QUERIES:
-        # Replace stars:>N with the user's min-stars if it's lower
-        import re
         q = re.sub(r'stars:>\d+', f'stars:>{args.min_stars}', q_str)
         queries.append((q, cat, hint))
 
@@ -330,10 +184,12 @@ def main():
 
     existing_names, existing_count = load_existing_repos(REPOS_YAML)
     print(f"Loaded {existing_count} existing repos from repos.yaml", flush=True)
-    print(f"Running {to_idx - args.from_idx + 1}/{len(queries)} queries (min-stars {args.min_stars})...", flush=True)
+    print(f"Running {to_idx - args.from_idx + 1}/{len(queries)} queries "
+          f"(min-stars {args.min_stars})...", flush=True)
 
     all_new = []
     total_results = 0
+    filtered_out = 0
 
     for qi, (query, category, hint) in enumerate(queries[args.from_idx:to_idx + 1], start=args.from_idx):
         print(f"\nQuery {qi + 1}/{len(queries)} [{category}] {query[:80]}", flush=True)
@@ -352,28 +208,35 @@ def main():
                 name = item.get("full_name", "")
                 if name.lower().strip() in existing_names:
                     continue
-                existing_names.add(name.lower().strip())
 
                 desc = item.get("description") or ""
                 topics = item.get("topics", [])
 
                 # Relevance gate
                 if not is_devops_repo(name, desc, topics):
+                    filtered_out += 1
                     continue
 
-                entry = to_entry(item, category, hint)
+                existing_names.add(name.lower().strip())
+                raw = github_to_raw(item)
+                entry = normalize_entry(raw, category, hint)
                 all_new.append(entry)
                 page_new += 1
 
-            print(f"  page {page}: {len(items)} results, {page_new} new repos", flush=True)
+            print(f"  page {page}: {len(items)} results, {page_new} new, "
+                  f"{len(items) - page_new - (0 if name in existing_names else 0)}"
+                  f" dup/filtered", flush=True)
 
             if len(items) < args.per_page:
-                break  # no more pages
+                break
 
         time.sleep(args.sleep)
 
     print(f"\n{'='*60}", flush=True)
-    print(f"Found {len(all_new)} new DevSecOps repos (across {total_results} total search results)", flush=True)
+    print(f"Found {len(all_new)} new DevSecOps repos "
+          f"(across {total_results} total search results)", flush=True)
+    if filtered_out:
+        print(f"Filtered out (irrelevant): {filtered_out}", flush=True)
 
     if not all_new:
         print("No new repos to add.", flush=True)
@@ -382,21 +245,30 @@ def main():
     if args.dry_run:
         print(f"\n--- Candidate repos (first 15) ---", flush=True)
         for e in all_new[:15]:
-            print(f"  [{e['category']}/{e['subcategory']}] ⭐{e['stars']} {e['name']}", flush=True)
+            print(f"  [{e['category']}/{e['subcategory']}] "
+                  f"⭐{e['stars']} {e['name']}", flush=True)
             print(f"    {e['description'][:100]}", flush=True)
         print(f"... and {max(0, len(all_new) - 15)} more", flush=True)
         print("\nDry run complete — no files modified.", flush=True)
         return
 
     append_repos(REPOS_YAML, all_new)
-    print(f"\nAppended {len(all_new)} repos to {REPOS_YAML.name}", flush=True)
+    print(f"\nAppended {len(all_new)} repos to repos.yaml", flush=True)
 
-    # Show category breakdown
-    from collections import Counter
     cats = Counter(e["category"] for e in all_new)
+    langs = Counter(e["language"] for e in all_new if e["language"])
+    total_stars = sum(e["stars"] for e in all_new)
+
     print("\nCategory breakdown:", flush=True)
     for cat, count in cats.most_common():
         print(f"  {cat:15} {count:4}", flush=True)
+
+    if langs:
+        print("\nTop languages:", flush=True)
+        for lang, count in langs.most_common(5):
+            print(f"  {lang:15} {count:4}", flush=True)
+
+    print(f"\nTotal new stars: {total_stars:,}", flush=True)
 
 
 if __name__ == "__main__":
