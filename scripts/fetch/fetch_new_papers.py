@@ -203,6 +203,8 @@ DEVOPS_STRONG = [
     "aops", "agentic operations", "software engineering", "software development",
     "open source software", "open-source software", "code repository",
     "source code", "software deployment", "model deployment", "mlops",
+    "slsa", "reproducible builds", "threat modeling", "detection engineering",
+    "secure software development", "secret detection",
 ]
 
 # Medium: DevOps-adjacent context — specific enough to imply a DevSecOps
@@ -226,13 +228,26 @@ def _norm(text: str) -> str:
 
 
 def _word_re(tokens: list[str]) -> re.Pattern:
-    """Case-insensitive regex with word boundaries (avoids 'ide' in 'idea',
-    'build' in 'rebuilding', 'soc' in 'society'). Tokens are normalized like
-    the text (hyphens/slashes -> spaces) so 'gpt-4' matches 'gpt 4'."""
+    """Case-insensitive regex with word boundaries.
+
+    Single-word tokens get \b on both sides (prevents 'ide' matching 'idea',
+    'build' matching 'rebuilding', 'soc' matching 'society').
+    Multi-word tokens get \b only at the start so 'supply chain' matches
+    'supply chains' and 'software supply chain' (plural trailing s).
+    Tokens are normalized (hyphens/slashes -> spaces) so 'gpt-4' matches
+    'gpt 4'.
+    """
     normed = [_norm(t) for t in tokens]
-    return re.compile(
-        r"|".join(r"\b" + re.escape(s) + r"\b" for s in normed), re.I
-    )
+    parts = []
+    for s in normed:
+        words = s.split(" ")
+        escaped = [re.escape(w) for w in words]
+        if len(escaped) == 1:
+            parts.append(r"\b" + escaped[0] + r"\b")
+        else:
+            # No trailing \b so plurals like 'supply chains' still match
+            parts.append(r"\b" + " ".join(escaped))
+    return re.compile(r"|".join(parts), re.I)
 
 
 llm_re = _word_re(LLM_SIGNALS)
@@ -258,6 +273,17 @@ def devops_filter(entry) -> bool:
     """True when the entry may enter the corpus: either not an LLM/AI paper,
     or an LLM/AI paper with DevOps context."""
     return not is_llm_paper(entry) or devops_relevance(entry)[0]
+
+
+def is_devops_paper(entry) -> bool:
+    """True when the entry carries DevOps context (regardless of LLM status).
+
+    Used by broad-semantic fetchers (OpenAlex) where search results are not
+    category-restricted. Unlike devops_filter (which lets non-LLM papers
+    through unconditionally), this gates ALL papers through the DevOps
+    relevance check.
+    """
+    return devops_relevance(entry)[0]
 
 
 def classify_subcategory(title, abstract):

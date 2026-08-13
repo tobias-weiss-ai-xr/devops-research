@@ -30,12 +30,12 @@ from fetch_new_papers import (  # noqa: E402
     QUERIES,
     append_papers,
     classify_subcategory,
-    devops_filter,
+    is_devops_paper,
     load_existing_papers,
 )
 
 OPENALEX_API = "https://api.openalex.org/works"
-MAILTO = os.environ.get("OPENALEX_MAILTO", "research@devops-research.local")
+MAILTO = os.environ.get("OPENALEX_MAILTO", "business@tobias-weiss.org")
 
 DOI_PATTERN = re.compile(r"10\.\d{4,9}/[^\s]+")
 
@@ -231,7 +231,7 @@ def main():
             entry = to_entry(work, category, hint)
             if not entry:
                 continue
-            if not devops_filter(entry):
+            if not is_devops_paper(entry):
                 continue
             key = dedup_key(entry)
             if key[0] in existing_keys and key[1] in existing_keys[key[0]]:
