@@ -59,6 +59,22 @@ Add/edit feeds and keywords in **`config/sources.yml`** — no code changes need
 bash scripts/setup.sh         # create .venv, install deps, install crontab (daily 07:00)
 ```
 
+## GitHub research corpus (`repos.yaml`)
+
+Complementary to the paper corpus, this tracks 1 759 DevSecOps-relevant GitHub
+repositories across the same taxonomy. Discovered via `gh api` topic + keyword
+searches with star thresholds.
+
+```bash
+python3 scripts/fetch/fetch_github_repos.py --min-stars 100 --dry-run  # preview
+python3 scripts/fetch/fetch_github_repos.py --min-stars 100            # ingest
+```
+
+Taxonomy mirrors `papers.yaml`: `security` (442), `containers` (298), `cicd`
+(254), `iac` (232), `observability` (206), `ai-security` (119), `policycode`
+(73), `gitops` (72), `platform` (63).  Each entry includes stars, forks,
+language, topics, activity date, and license.
+
 ## Paper search (research corpus)
 
 In addition to the daily news digest, this repo maintains a curated research
