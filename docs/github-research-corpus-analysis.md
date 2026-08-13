@@ -1,13 +1,15 @@
 # GitHub Research Corpus — Cross-Corpus Analysis
 
-> Generated: 2026-08-13 | Corpus: 1759 repos, 4421 papers
+> Generated: 2026-08-13 | Corpus: 1,850 repos (GitHub 1,788 + GitLab 29 + Codeberg 0)
+> Sources: GitHub Search API (56 queries), GitLab REST API (37 queries), Codeberg Gitea API (33 queries)
+> Focused additions: Proxmox (19 repos), OpenVox (14 repos), Kubernetes CNI/networking (10 repos)
 
 ## Overview
 
-The `repos.yaml` corpus tracks 1,759 DevSecOps-relevant GitHub repositories
-discovered via 56 topic+keyword queries across the same 9-category taxonomy
-as `papers.yaml`. This provides a complementary **tool/project** dimension
-alongside the **research paper** dimension.
+The `repos.yaml` corpus tracks DevSecOps-relevant repositories discovered
+from **three platforms** — GitHub, GitLab, and Codeberg — across the same
+9-category taxonomy as `papers.yaml`. This provides a complementary
+**tool/project** dimension alongside the **research paper** dimension.
 
 ## Category Balance
 
@@ -115,11 +117,82 @@ These tools have significant adoption but zero academic attention in the corpus:
 | 16K | 10K | tech-shrimp/docker_image_pusher | cicd |
 | 15K | 76K | grafana/grafana | observability |
 
+## Focused Ecosystems: Proxmox, OpenVox, Kubernetes
+
+### Proxmox VE (19 repos, 55,771 stars)
+
+Proxmox VE is the dominant open-source hypervisor for homelab and SME
+infrastructure. The corpus captures its full ecosystem:
+
+| Stars | Repo | Category | Role |
+|-------|------|----------|------|
+| 29K | community-scripts/ProxmoxVE | containers | Helper scripts (community edition) |
+| 15K | tteck/Proxmox | containers | Helper scripts suite |
+| 5K | ivanhao/pvetools | containers | All-in-one management tool |
+| 3K | Telmate/terraform-provider-proxmox | iac | Terraform provider |
+| 2K | bpg/terraform-provider-proxmox | iac | OpenTofu-compatible provider |
+| 2K | sablierapp/sablier | containers | On-demand container/VM start |
+| 2K | Weilbyte/PVEDiscordDark | containers | Dark theme for PVE web UI |
+| 1K | DerDanilo/proxmox-stuff | containers | Scripts and tweaks |
+| 1K | adminsyspro/proxcenter-ui | platform | Multi-cluster management UI |
+| 839 | sergelogvinov/proxmox-csi-plugin | containers | CSI storage plugin |
+| 686 | lae/ansible-role-proxmox | iac | Ansible role |
+
+**Proxmox + Kubernetes integration** is an emerging sub-ecosystem:
+ionos-cloud/cluster-api-provider-proxmox (469 ⭐), karmab/kcli (649 ⭐),
+sergelogvinov/proxmox-csi-plugin (839 ⭐), Caprox-eu/Proxmox-Kubernetes-Engine
+(239 ⭐), sergelogvinov/karpenter-provider-proxmox (130 ⭐).
+
+### OpenVox (14 repos, 435 stars)
+
+OpenVox is the modern open-source fork of Puppet for configuration management.
+All core components are tracked:
+
+| Stars | Repo | Category |
+|-------|------|----------|
+| 182 | OpenVoxProject/openvox | iac |
+| 56 | OpenVoxProject/openvox-server | iac |
+| 34 | OpenVoxProject/openvox-agent | iac |
+| 28 | OpenVoxProject/container-openvoxserver | containers |
+| 26 | OpenVoxProject/openvoxdb | iac |
+| 21 | voxpupuli/openvoxview | iac |
+| 21 | cvquesty/openvox-gui | iac |
+| 17 | slauger/openvox-operator | containers |
+
+**Note**: OpenVox repos have low star counts (< 200) despite being functional
+critical infrastructure. GitLab (4 repos: terraform-proxmox, ansible-proxmox,
+proxmox automation, K8s networking) and Codeberg returned no additional repos
+for Proxmox or OpenVox at the 5-star threshold.
+
+### Kubernetes Networking / CNI (104 kube* repos, 448K stars)
+
+Beyond the core kubernetes/kubernetes (124K ⭐), the corpus now tracks the
+Kubernetes networking sub-ecosystem:
+
+| Stars | Repo | Role |
+|-------|------|------|
+| 25K | cilium/cilium | eBPF networking, security, observability |
+| 7K | projectcalico/calico | Cloud-native networking + policy |
+| 6K | containernetworking/cni | Container Network Interface spec |
+| 3K | kubeovn/kube-ovn | SDN + cloud-native bridge |
+| 2K | antrea-io/antrea | OVS-based Kubernetes networking |
+| 2K | aws/amazon-vpc-cni-k8s | AWS VPC CNI plugin |
+| 2K | squat/kilo | WireGuard-based multi-cloud overlay |
+| 1K | ovn-kubernetes/ovn-kubernetes | OVN-based networking |
+| 669 | spidernet-io/spiderpool | Underlay/RDMA networking |
+| 537 | cni-genie/CNI-Genie | Multi-CNI plugin manager |
+
+**Research gap**: Cilium (25K stars) and Calico (7K stars) together power the
+majority of Kubernetes cluster networking, yet neither has dedicated academic
+performance evaluation papers in the corpus.
+
 ## Methodology
 
-- **Source**: GitHub Search API via `gh api` (56 queries, 2 pages each)
-- **Star threshold**: 100+ (main run), configurable via `--min-stars`
-- **Dedup**: by exact repo name (case-insensitive)
+- **GitHub**: Search API via `gh api` (56 queries, 2 pages each) + targeted
+  repo-by-repo fetching for Proxmox/OpenVox/CNI ecosystems
+- **GitLab**: REST API (37 queries, client-side star filtering, `order_by=last_activity_at`)
+- **Codeberg**: Gitea-compatible API (33 queries, client-side star filtering)
+- **Dedup**: by exact repo name (case-insensitive) across all platforms
 - **Classification**: keyword-based subcategory assignment from repo name + description + GitHub topics
-- **Relevance gate**: DevOps signal matching (shared signals with `fetch_new_papers.py`)
+- **Relevance gate**: DevOps signal matching (shared `REPO_STRONG` tokens in `repos_common.py`)
 - **Star thresholds for research gaps**: 3K+ stars with zero paper title/abstract mentions

@@ -38546,7 +38546,8 @@ repos:
     created_at: "2023-12-12"
   - name: "hoppr/hoppr-cop"
     url: https://gitlab.com/hoppr/hoppr-cop
-    description: "__Hoppr-Cop__ is CLI and __Hoppr Plugin__ that generates high quality vulnerability information from a [cyclone-dx](https://cyclonedx.org/)\nSoftware Bill of Materials (SBOM) by aggregating data from "
+    description: "__Hoppr-Cop__ is CLI and __Hoppr Plugin__ that generates high quality vulnerability information from a [cyclone-dx](https://cyclonedx.org/)
+\nSoftware Bill of Materials (SBOM) by aggregating data from "
     category: security
     subcategory: systems
     stars: 8
@@ -38604,7 +38605,8 @@ repos:
     created_at: "2022-10-04"
   - name: "hcs-company/hcs-openshift-install"
     url: https://gitlab.com/hcs-company/hcs-openshift-install
-    description: "A set of Ansible plays and roles to automate an OpenShift 4.x UPI install (both OKD and OCP), and configure it afterwards.\nSupported installation methods:  HP ILO bare-metal,  VMWare VCenter, LibVirt"
+    description: "A set of Ansible plays and roles to automate an OpenShift 4.x UPI install (both OKD and OCP), and configure it afterwards.
+\nSupported installation methods:  HP ILO bare-metal,  VMWare VCenter, LibVirt"
     category: iac
     subcategory: application
     stars: 21
@@ -38613,7 +38615,12 @@ repos:
     created_at: "2020-07-27"
   - name: "score-p/scorep"
     url: https://gitlab.com/score-p/scorep
-    description: "Scalable Performance Measurement Infrastructure for Parallel Codes\n\n[🔗](https://score-p.org \"Homepage\")\n[📧](mailto:support@score-p.org \"Support Mail\")\n[🔌](https://github.com/score-p/ \"Plugins\")\n["
+    description: "Scalable Performance Measurement Infrastructure for Parallel Codes
+\n
+\n[🔗](https://score-p.org \"Homepage\")
+\n[📧](mailto:support@score-p.org \"Support Mail\")
+\n[🔌](https://github.com/score-p/ \"Plugins\")
+\n["
     category: iac
     subcategory: application
     stars: 15
@@ -38663,7 +38670,9 @@ repos:
     created_at: "2020-05-20"
   - name: "ongresinc/stackgres"
     url: https://gitlab.com/ongresinc/stackgres
-    description: "StackGres Operator,  Full Stack PostgreSQL on Kubernetes\n\nhttps://stackgres.io"
+    description: "StackGres Operator,  Full Stack PostgreSQL on Kubernetes
+\n
+\nhttps://stackgres.io"
     category: containers
     subcategory: systems
     stars: 142
@@ -38757,7 +38766,9 @@ repos:
     created_at: "2018-09-17"
   - name: "gitlab-org/grafana-dashboards"
     url: https://gitlab.com/gitlab-org/grafana-dashboards
-    description: "Grafana JSON dashboard files to help users get started with GitLab performance metrics.\n\nThis project is no longer being maintained. For GitLab.com dashboard examples see [our monitoring mixins](htt"
+    description: "Grafana JSON dashboard files to help users get started with GitLab performance metrics.
+\n
+\nThis project is no longer being maintained. For GitLab.com dashboard examples see [our monitoring mixins](htt"
     category: observability
     subcategory: systems
     stars: 134
@@ -38850,3 +38861,1124 @@ repos:
       - model-context-protocol
     pushed_at: "2026-08-13"
     created_at: "2025-04-13"
+
+  - name: "community-scripts/ProxmoxVE"
+    url: https://github.com/community-scripts/ProxmoxVE
+    description: "Proxmox VE Helper-Scripts (Community Edition) "
+    category: containers
+    subcategory: systems
+    stars: 29251
+    forks: 2819
+    language: Shell
+    topics:
+      - alpine
+      - authentification
+      - container
+      - debian
+      - docker
+      - home-assistant
+      - home-automation
+      - homelab
+      - homelab-setup
+      - lxc
+      - network
+      - proxmox
+      - proxmox-ve
+      - scripts
+      - security
+      - self-hosted
+      - self-hosting
+      - smarthome
+      - ubuntu
+      - vm
+    pushed_at: "2026-08-13"
+    created_at: "2024-11-01"
+    open_issues: 14
+    license: MIT
+  - name: "tteck/Proxmox"
+    url: https://github.com/tteck/Proxmox
+    description: "Proxmox VE Helper-Scripts"
+    category: containers
+    subcategory: systems
+    stars: 15175
+    forks: 2513
+    language: Shell
+    topics:
+      - home-assistant
+      - home-automation
+      - homelab
+      - lxc
+      - proxmox
+      - scripts
+      - self-hosted
+      - vm
+    pushed_at: "2024-11-02"
+    created_at: "2021-11-30"
+    license: MIT
+  - name: "prometheus-pve/prometheus-pve-exporter"
+    url: https://github.com/prometheus-pve/prometheus-pve-exporter
+    description: "Exposes information gathered from Proxmox VE cluster for use by the Prometheus monitoring system"
+    category: observability
+    subcategory: systems
+    stars: 1431
+    forks: 137
+    language: Python
+    topics:
+      - prometheus
+      - prometheus-exporter
+      - proxmox
+      - proxmox-cluster
+      - proxmox-ve
+    pushed_at: "2026-08-12"
+    created_at: "2017-08-22"
+    open_issues: 38
+    license: Apache-2.0
+  - name: "ivanhao/pvetools"
+    url: https://github.com/ivanhao/pvetools
+    description: "proxmox ve tools script(debian9+ can use it).Including email, samba, NFS set zfs max ram, nested virtualization ,docker , pci passthrough etc. for english user,please look the end of readme."
+    category: containers
+    subcategory: application
+    stars: 5280
+    forks: 606
+    language: Shell
+    topics:
+      - proxmox
+      - proxmox-ve
+      - samba
+      - zfs
+    pushed_at: "2024-09-23"
+    created_at: "2019-09-18"
+    open_issues: 57
+    license: GPL-3.0
+  - name: "sablierapp/sablier"
+    url: https://github.com/sablierapp/sablier
+    description: "Start your containers on demand, shut them down automatically when there's no activity. Docker, Docker Swarm Mode, Podman, Kubernetes and Proxmox LXC compatible."
+    category: containers
+    subcategory: systems
+    stars: 2884
+    forks: 96
+    language: Go
+    topics:
+      - docker
+      - docker-swarm
+      - hacktoberfest
+      - kubernetes
+      - nginx
+      - plugin
+      - podman
+      - selfhosted
+      - traefik
+    pushed_at: "2026-08-12"
+    created_at: "2020-10-20"
+    open_issues: 67
+    license: AGPL-3.0
+  - name: "Weilbyte/PVEDiscordDark"
+    url: https://github.com/Weilbyte/PVEDiscordDark
+    description: "A Discord-like dark theme for the Proxmox Web UI."
+    category: containers
+    subcategory: application
+    stars: 2541
+    forks: 228
+    language: Sass
+    topics:
+      - dark-theme
+      - hacktoberfest
+      - proxmox
+      - proxmox-ve
+      - proxmoxve
+      - pve
+      - theme
+    pushed_at: "2023-03-04"
+    created_at: "2019-02-24"
+    open_issues: 14
+    license: MIT
+  - name: "PVE-Tools/PVE-Tools-9"
+    url: https://github.com/PVE-Tools/PVE-Tools-9
+    description: "面向 Proxmox VE 9.x 的一键运维脚本，覆盖 VM 生命周期运维、宿主机网络 / 防火墙 / IPv6、GPU / PCI 直通、系统维护与第三方生态集成。"
+    category: containers
+    subcategory: application
+    stars: 2065
+    forks: 240
+    language: Shell
+    topics:
+      - bash
+      - debian
+      - kvm
+      - pcie-pass-through
+      - proxmox
+      - pve
+      - qemu
+      - script
+      - virtualization
+      - zfs
+    pushed_at: "2026-07-28"
+    created_at: "2025-09-01"
+    open_issues: 1
+    license: GPL-3.0
+  - name: "pimox/pimox7"
+    url: https://github.com/pimox/pimox7
+    description: "Proxmox V7 for Raspberry Pi"
+    category: containers
+    subcategory: systems
+    stars: 1999
+    forks: 170
+    language: Shell
+    topics:
+      - proxmox
+      - raspberry-pi
+    pushed_at: "2024-01-08"
+    created_at: "2021-08-16"
+    open_issues: 107
+  - name: "Meliox/PVE-mods"
+    url: https://github.com/Meliox/PVE-mods
+    description: "Proxmox modifications"
+    category: containers
+    subcategory: application
+    stars: 1860
+    forks: 98
+    language: Shell
+    pushed_at: "2026-08-10"
+    created_at: "2023-04-24"
+    open_issues: 18
+  - name: "jiangcuo/pxvirt"
+    url: https://github.com/jiangcuo/pxvirt
+    description: "A fork of Proxmox VE for ARM and LoongArch architectures"
+    category: containers
+    subcategory: systems
+    stars: 1793
+    forks: 119
+    language: Shell
+    topics:
+      - arm
+      - loongarch64
+      - proxmox
+      - pve
+      - qemu
+      - riscv64
+      - virt
+    pushed_at: "2026-07-22"
+    created_at: "2023-06-04"
+    open_issues: 43
+    license: AGPL-3.0
+  - name: "PegaProx/project-pegaprox"
+    url: https://github.com/PegaProx/project-pegaprox
+    description: "The ultimate datacenter management solution for Proxmox VE and XCP-NG. Unified multi-cluster control, intelligent load balancing, and seamless cross-cluster VM migrations — all in one beautiful interf"
+    category: platform
+    subcategory: systems
+    stars: 1509
+    forks: 108
+    language: JavaScript
+    topics:
+      - backup-management
+      - cluster-management
+      - container-management
+      - datacenter
+      - high-availability
+      - load-balancing
+      - monitoring
+      - multi-cluster
+      - proxmox
+      - proxmox-ve
+      - self-hosted
+      - sysadmin
+      - virtualization
+      - vm-management
+      - web-dashboard
+    pushed_at: "2026-08-13"
+    created_at: "2026-01-18"
+    open_issues: 25
+    license: AGPL-3.0
+  - name: "LINBIT/linstor-server"
+    url: https://github.com/LINBIT/linstor-server
+    description: "High Performance Software-Defined Block Storage for container, cloud and virtualisation. Fully integrated with Docker, Kubernetes, Openstack, Proxmox etc."
+    category: containers
+    subcategory: systems
+    stars: 1279
+    forks: 93
+    language: Java
+    topics:
+      - block-storage
+      - cloud-native
+      - csi
+      - drbd
+      - high-availability
+      - high-performance
+      - k8s
+      - kubernetes
+      - linstor
+      - open-source
+      - operator
+      - persistent-storage
+      - sds
+      - software-defined-storage
+      - storage
+      - storage-orchestration
+      - zfs
+    pushed_at: "2026-08-13"
+    created_at: "2018-01-12"
+    open_issues: 201
+    license: GPL-3.0
+  - name: "isc30/ryzen-gpu-passthrough-proxmox"
+    url: https://github.com/isc30/ryzen-gpu-passthrough-proxmox
+    description: "Get the Ryzen processors with AMD Radeon 680M/780M integrated graphics or RDNA2/RDNA3 GPUs running with Proxmox, GPU passthrough and UEFI included."
+    category: containers
+    subcategory: application
+    stars: 1247
+    forks: 123
+    language: Batchfile
+    pushed_at: "2026-02-21"
+    created_at: "2023-10-12"
+    open_issues: 65
+  - name: "adminsyspro/proxcenter-ui"
+    url: https://github.com/adminsyspro/proxcenter-ui
+    description: "ProxCenter is an alternative to VMware vCenter for Proxmox environments. It provides a modern, intuitive web interface to manage multiple Proxmox VE clusters and Proxmox Backup Server instances from a"
+    category: platform
+    subcategory: systems
+    stars: 1152
+    forks: 64
+    language: TypeScript
+    topics:
+      - backup-management
+      - ceph
+      - cluster-management
+      - datacenter
+      - drs
+      - high-availability
+      - load-balancing
+      - monitoring
+      - pbs
+      - proxmox
+      - pve
+      - pve-cluster
+      - self-hosted
+      - sysadmin
+      - virtualization
+    pushed_at: "2026-08-13"
+    created_at: "2026-02-04"
+    open_issues: 53
+  - name: "Jamesits/pve-fake-subscription"
+    url: https://github.com/Jamesits/pve-fake-subscription
+    description: "Disables the \"No valid subscription\" dialog on all Proxmox products, all versions."
+    category: security
+    subcategory: application
+    stars: 1103
+    forks: 105
+    language: Python
+    topics:
+      - proxmox-backup-server
+      - proxmox-mail-gateway
+      - proxmox-ve
+    pushed_at: "2024-10-26"
+    created_at: "2019-04-17"
+    open_issues: 2
+  - name: "DerDanilo/proxmox-stuff"
+    url: https://github.com/DerDanilo/proxmox-stuff
+    description: "This is a collection of stuff that I wrote for Proxmox."
+    category: containers
+    subcategory: review
+    stars: 1322
+    forks: 230
+    language: Shell
+    pushed_at: "2026-07-02"
+    created_at: "2017-11-30"
+    open_issues: 1
+    license: MIT
+  - name: "ionos-cloud/cluster-api-provider-proxmox"
+    url: https://github.com/ionos-cloud/cluster-api-provider-proxmox
+    description: "Cluster API Provider for Proxmox VE (CAPMOX)"
+    category: containers
+    subcategory: systems
+    stars: 469
+    forks: 83
+    language: Go
+    topics:
+      - cluster-api
+      - kubernetes
+      - proxmox
+    pushed_at: "2026-08-13"
+    created_at: "2023-11-29"
+    open_issues: 110
+    license: Apache-2.0
+  - name: "karmab/kcli"
+    url: https://github.com/karmab/kcli
+    description: "Management tool for virtualization and kubernetes platforms"
+    category: containers
+    subcategory: systems
+    stars: 649
+    forks: 170
+    language: Python
+    topics:
+      - aws
+      - azure
+      - gcp
+      - hetzner-cloud
+      - hypershift
+      - ibm-cloud
+      - k3s
+      - kubeadm
+      - kubernetes
+      - kubevirt
+      - libvirt
+      - microshift
+      - openshift
+      - openstack
+      - ovirt
+      - proxmox
+      - rke2
+      - vsphere
+    pushed_at: "2026-08-13"
+    created_at: "2016-09-02"
+    open_issues: 4
+    license: Apache-2.0
+  - name: "sergelogvinov/proxmox-csi-plugin"
+    url: https://github.com/sergelogvinov/proxmox-csi-plugin
+    description: "Proxmox CSI Plugin"
+    category: containers
+    subcategory: systems
+    stars: 839
+    forks: 68
+    language: Go
+    topics:
+      - csi
+      - csi-driver
+      - csi-plugin
+      - k8s-sig-storage
+      - kubernetes
+      - proxmox
+      - proxmox-ve
+    pushed_at: "2026-08-05"
+    created_at: "2023-04-23"
+    open_issues: 18
+    license: Apache-2.0
+  - name: "sergelogvinov/proxmox-cloud-controller-manager"
+    url: https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    description: "Kubernetes cloud controller manager for Proxmox"
+    category: containers
+    subcategory: systems
+    stars: 336
+    forks: 30
+    language: Go
+    topics:
+      - cloud-providers
+      - controller-manager
+      - kubernetes
+      - proxmox
+      - proxmox-ve
+    pushed_at: "2026-08-06"
+    created_at: "2023-04-06"
+    open_issues: 3
+    license: Apache-2.0
+  - name: "sergelogvinov/terraform-talos"
+    url: https://github.com/sergelogvinov/terraform-talos
+    description: "Terraform examples to run Talos"
+    category: iac
+    subcategory: application
+    stars: 209
+    forks: 29
+    language: HCL
+    topics:
+      - azure
+      - gcp
+      - hetzner
+      - hybrid-cloud
+      - infrastructure-as-code
+      - k8s-at-home
+      - kubernetes
+      - multicloud
+      - openstack
+      - oracle
+      - packer
+      - proxmox
+      - scaleway
+      - talos
+      - talos-linux
+      - terraform
+    pushed_at: "2026-06-17"
+    created_at: "2021-05-29"
+    open_issues: 2
+    license: MIT
+  - name: "jedrw/kproximate"
+    url: https://github.com/jedrw/kproximate
+    description: "A Kubernetes node autoscaler for Proxmox"
+    category: containers
+    subcategory: systems
+    stars: 431
+    forks: 23
+    language: Go
+    pushed_at: "2026-05-17"
+    created_at: "2023-05-08"
+    open_issues: 1
+  - name: "khanh-ph/proxmox-kubernetes"
+    url: https://github.com/khanh-ph/proxmox-kubernetes
+    description: "Enables you to create a Kubernetes cluster on Proxmox VE with Terraform & Kubespray in a declarative manner."
+    category: containers
+    subcategory: systems
+    stars: 244
+    forks: 70
+    language: HCL
+    topics:
+      - ansible
+      - bare-metal
+      - homelab
+      - k8s
+      - kubernetes
+      - kubespray
+      - proxmox-ve
+      - terraform
+    pushed_at: "2025-01-23"
+    created_at: "2022-11-26"
+    open_issues: 7
+  - name: "Caprox-eu/Proxmox-Kubernetes-Engine"
+    url: https://github.com/Caprox-eu/Proxmox-Kubernetes-Engine
+    description: "PKE (Proxmox Kubernetes Engine) is a solution for automatically deploying and managing high available Kubernetes clusters directly on Proxmox VE environments. Transform your Proxmox infrastructure int"
+    category: containers
+    subcategory: systems
+    stars: 239
+    forks: 18
+    topics:
+      - cloud
+      - container
+      - homelab
+      - kubernetes
+      - proxmox
+    pushed_at: "2026-08-12"
+    created_at: "2025-07-13"
+    open_issues: 1
+    license: AGPL-3.0
+  - name: "sergelogvinov/karpenter-provider-proxmox"
+    url: https://github.com/sergelogvinov/karpenter-provider-proxmox
+    description: "Karpenter provider for Proxmox"
+    category: containers
+    subcategory: systems
+    stars: 130
+    forks: 12
+    language: Go
+    topics:
+      - karpenter
+      - kubernetes
+      - node-autoscaler
+      - proxmox
+      - proxmox-ve
+    pushed_at: "2026-08-01"
+    created_at: "2025-02-08"
+    open_issues: 13
+    license: Apache-2.0
+  - name: "k8s-proxmox/cluster-api-provider-proxmox"
+    url: https://github.com/k8s-proxmox/cluster-api-provider-proxmox
+    description: "Cluster API provider implementation for Proxmox VE"
+    category: containers
+    subcategory: systems
+    stars: 174
+    forks: 17
+    language: Go
+    topics:
+      - cluster-api
+      - cluster-api-provider-proxmox
+      - infrastructure-provider
+      - kubernetes
+      - kubernetes-cluster
+      - kubernetes-controller
+      - proxmox
+    pushed_at: "2026-04-27"
+    created_at: "2023-04-20"
+    open_issues: 25
+    license: Apache-2.0
+  - name: "dy2k/proxmox-kubernetes"
+    url: https://github.com/dy2k/proxmox-kubernetes
+    description: "Deploy Kubernetes on Proxmox Ubuntu LXCs and VMs"
+    category: containers
+    subcategory: systems
+    stars: 204
+    forks: 43
+    language: HCL
+    topics:
+      - ansible
+      - kubernetes
+      - proxmox
+      - terraform
+    pushed_at: "2020-10-04"
+    created_at: "2020-01-07"
+    open_issues: 1
+    license: MIT
+  - name: "zimmertr/TJs-Kubernetes-Service"
+    url: https://github.com/zimmertr/TJs-Kubernetes-Service
+    description: "Enable enthusiasts and administrators alike to easily provision highly available and production-ready Kubernetes clusters on Proxmox VE."
+    category: containers
+    subcategory: systems
+    stars: 557
+    forks: 82
+    language: HCL
+    topics:
+      - argocd
+      - cluster-api-provider-proxmox
+      - containerization
+      - docker
+      - kubernetes
+      - linux
+      - proxmox
+      - proxmox-ve
+      - qemu
+      - talos
+      - talosctl
+      - terraform
+      - virtualization
+    pushed_at: "2026-08-01"
+    created_at: "2018-10-20"
+    open_issues: 1
+    license: GPL-3.0
+  - name: "rcourtman/Pulse"
+    url: https://github.com/rcourtman/Pulse
+    description: "Monitoring for Proxmox, Docker, Kubernetes, TrueNAS, and vSphere that watches your infrastructure for you: smart alerts, AI patrols that catch silent failures, and verified fixes"
+    category: observability
+    subcategory: systems
+    stars: 6548
+    forks: 261
+    language: Go
+    topics:
+      - ai
+      - alerts
+      - dashboard
+      - docker
+      - docker-monitoring
+      - go
+      - homelab
+      - infrastructure-monitoring
+      - kubernetes
+      - monitoring
+      - proxmox
+      - proxmox-backup-server
+      - proxmox-mail-gateway
+      - proxmox-ve
+      - self-hosted
+      - solidjs
+      - truenas
+      - typescript
+      - vsphere
+      - webhooks
+    pushed_at: "2026-08-13"
+    created_at: "2025-02-14"
+    open_issues: 10
+    license: MIT
+  - name: "brettinternet/homeops"
+    url: https://github.com/brettinternet/homeops
+    description: "devops resources in my self-hosted homelab"
+    category: platform
+    subcategory: review
+    stars: 257
+    forks: 11
+    language: Shell
+    topics:
+      - homelab
+      - k8s-at-home
+      - kubernetes
+      - mediaserver
+      - proxmox
+      - selfhosted
+      - talos
+    pushed_at: "2025-06-17"
+    created_at: "2019-07-02"
+    open_issues: 82
+  - name: "OpenVoxProject/openvox"
+    url: https://github.com/OpenVoxProject/openvox
+    description: "OpenVox is the modern open source implementation of the world's most capable configuration management platform."
+    category: iac
+    subcategory: systems
+    stars: 182
+    forks: 61
+    language: Ruby
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-13"
+    created_at: "2024-10-17"
+    open_issues: 96
+    license: Apache-2.0
+  - name: "OpenVoxProject/openvox-server"
+    url: https://github.com/OpenVoxProject/openvox-server
+    description: "clone of puppetlabs/puppetserver"
+    category: iac
+    subcategory: systems
+    stars: 56
+    forks: 26
+    language: Clojure
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-13"
+    created_at: "2024-10-18"
+    open_issues: 30
+    license: Apache-2.0
+  - name: "OpenVoxProject/openvox-agent"
+    url: https://github.com/OpenVoxProject/openvox-agent
+    description: "clone of puppetlabs/puppet-agent"
+    category: iac
+    subcategory: systems
+    stars: 34
+    forks: 15
+    language: Ruby
+    pushed_at: "2025-09-05"
+    created_at: "2024-10-17"
+    open_issues: 8
+  - name: "OpenVoxProject/openvoxdb"
+    url: https://github.com/OpenVoxProject/openvoxdb
+    description: "clone of puppetlabs/puppetdb"
+    category: iac
+    subcategory: systems
+    stars: 26
+    forks: 16
+    language: Clojure
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-12"
+    created_at: "2024-10-17"
+    open_issues: 19
+    license: Apache-2.0
+  - name: "OpenVoxProject/container-openvoxserver"
+    url: https://github.com/OpenVoxProject/container-openvoxserver
+    description: "Container builds for the OpenVox server"
+    category: containers
+    subcategory: systems
+    stars: 28
+    forks: 23
+    language: Shell
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-13"
+    created_at: "2025-01-17"
+    open_issues: 30
+    license: AGPL-3.0
+  - name: "OpenVoxProject/container-openvoxdb"
+    url: https://github.com/OpenVoxProject/container-openvoxdb
+    description: "Container builds for the OpenVox DB"
+    category: containers
+    subcategory: systems
+    stars: 7
+    forks: 9
+    language: Shell
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-03"
+    created_at: "2025-01-24"
+    open_issues: 16
+    license: AGPL-3.0
+  - name: "OpenVoxProject/openvox-helm-chart"
+    url: https://github.com/OpenVoxProject/openvox-helm-chart
+    description: "clone of puppetlabs/puppetserver-helm-chart"
+    category: containers
+    subcategory: systems
+    stars: 11
+    forks: 12
+    language: Mustache
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-05-19"
+    created_at: "2024-10-18"
+    open_issues: 22
+    license: Apache-2.0
+  - name: "OpenVoxProject/openvox-release"
+    url: https://github.com/OpenVoxProject/openvox-release
+    description: "clone of puppetlabs/puppetlabs-release"
+    category: iac
+    subcategory: systems
+    stars: 8
+    forks: 5
+    language: Shell
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-05-07"
+    created_at: "2024-10-18"
+    open_issues: 7
+  - name: "voxpupuli/openvoxview"
+    url: https://github.com/voxpupuli/openvoxview
+    description: "OpenVox View - OpenVox Viewer Board"
+    category: iac
+    subcategory: application
+    stars: 21
+    forks: 15
+    language: Vue
+    topics:
+      - hacktoberfest
+    pushed_at: "2026-08-06"
+    created_at: "2025-02-05"
+    open_issues: 14
+    license: Apache-2.0
+  - name: "voxpupuli/openvox-ca"
+    url: https://github.com/voxpupuli/openvox-ca
+    description: "Puppet CA Reimagined in Golang"
+    category: security
+    subcategory: systems
+    stars: 5
+    forks: 1
+    language: Go
+    pushed_at: "2026-08-13"
+    created_at: "2026-02-20"
+    open_issues: 35
+  - name: "slauger/openvox-operator"
+    url: https://github.com/slauger/openvox-operator
+    description: "Kubernetes Operator for OpenVox - rootless container images and operator for running OpenVox (Puppet) environments on Kubernetes/OpenShift"
+    category: containers
+    subcategory: systems
+    stars: 17
+    forks: 4
+    language: Go
+    topics:
+      - containers
+      - kubernetes
+      - openshift
+      - openvox
+      - operator
+      - puppet
+      - rootless
+      - ubi9
+    pushed_at: "2026-08-13"
+    created_at: "2026-03-07"
+    open_issues: 33
+    license: Apache-2.0
+  - name: "cvquesty/openvox-gui"
+    url: https://github.com/cvquesty/openvox-gui
+    description: "OpenVox GUI - OpenVox Management Web Interface"
+    category: iac
+    subcategory: application
+    stars: 21
+    forks: 4
+    language: Python
+    pushed_at: "2026-08-13"
+    created_at: "2026-02-10"
+    open_issues: 2
+    license: Apache-2.0
+  - name: "cvquesty/openvox-lint"
+    url: https://github.com/cvquesty/openvox-lint
+    description: "Modern linter for Puppet code updated with recent developments in the Puppet language"
+    category: iac
+    subcategory: application
+    stars: 3
+    forks: 1
+    language: Ruby
+    pushed_at: "2026-05-24"
+    created_at: "2026-02-12"
+    open_issues: 4
+  - name: "Obmondo/LinuxAid"
+    url: https://github.com/Obmondo/LinuxAid
+    description: "LinuxAid.io is a Puppet/OpenVox based setup, to manage Linux servers on physical, VM and cloud instances."
+    category: platform
+    subcategory: systems
+    stars: 28
+    forks: 8
+    language: Puppet
+    topics:
+      - configuration-management
+      - obmondo
+      - openvox
+      - puppet
+    pushed_at: "2026-08-13"
+    created_at: "2024-06-18"
+    open_issues: 5
+    license: AGPL-3.0
+  - name: "Obmondo/linuxaid-cli"
+    url: https://github.com/Obmondo/linuxaid-cli
+    description: "linuxaid-cli handles openvox-agent setup"
+    category: iac
+    subcategory: application
+    stars: 11
+    forks: 4
+    language: Go
+    topics:
+      - config-mgmt
+      - linuxaid
+      - openvox
+      - puppet
+    pushed_at: "2026-08-12"
+    created_at: "2025-09-18"
+    open_issues: 1
+  - name: "antirek/openvox-sms"
+    url: https://github.com/antirek/openvox-sms
+    description: "OpenVox VoxStack GSM-gateway sms sender"
+    category: containers
+    subcategory: application
+    stars: 16
+    forks: 10
+    language: JavaScript
+    pushed_at: "2015-03-27"
+    created_at: "2015-01-22"
+    open_issues: 2
+    license: MIT
+  - name: "example42/pabawi"
+    url: https://github.com/example42/pabawi
+    description: "Web UI for classic infrastructure: Puppet, Bolt, Ansible, SSH and more"
+    category: iac
+    subcategory: application
+    stars: 19
+    forks: 4
+    language: TypeScript
+    topics:
+      - ansible
+      - bolt
+      - devops
+      - hiera
+      - infrastructure
+      - openvox
+      - puppet
+      - puppetdb
+      - ssh
+      - web-ui
+    pushed_at: "2026-07-15"
+    created_at: "2025-11-14"
+    open_issues: 7
+  - name: "awesome-puppet-org/awesome-puppet"
+    url: https://github.com/awesome-puppet-org/awesome-puppet
+    description: "An opinionated list of Puppet resources"
+    category: iac
+    subcategory: review
+    stars: 17
+    forks: 3
+    topics:
+      - awesome
+      - awesome-list
+      - openvox
+      - puppet
+    pushed_at: "2026-03-21"
+    created_at: "2024-11-05"
+    open_issues: 1
+    license: CC0-1.0
+  - name: "containernetworking/cni"
+    url: https://github.com/containernetworking/cni
+    description: "Container Network Interface - networking for Linux containers"
+    category: containers
+    subcategory: systems
+    stars: 6065
+    forks: 1154
+    language: Go
+    topics:
+      - containers
+      - docker
+      - kubernetes
+      - networking
+    pushed_at: "2026-08-13"
+    created_at: "2015-04-05"
+    open_issues: 155
+    license: Apache-2.0
+  - name: "kubeovn/kube-ovn"
+    url: https://github.com/kubeovn/kube-ovn
+    description: "A Bridge between SDN and Cloud Native (Project under CNCF)"
+    category: containers
+    subcategory: systems
+    stars: 2388
+    forks: 549
+    language: Go
+    topics:
+      - cni
+      - kubernetes
+      - kubernetes-networking
+      - network
+      - networking
+      - openvswitch
+      - overlay-network
+      - ovn
+      - ovs
+      - sdn
+    pushed_at: "2026-08-13"
+    created_at: "2019-03-22"
+    open_issues: 75
+    license: Apache-2.0
+  - name: "antrea-io/antrea"
+    url: https://github.com/antrea-io/antrea
+    description: "Kubernetes networking based on Open vSwitch"
+    category: containers
+    subcategory: systems
+    stars: 1807
+    forks: 492
+    language: Go
+    topics:
+      - cncf
+      - cni
+      - kubernetes
+      - networking
+      - security
+    pushed_at: "2026-08-13"
+    created_at: "2019-10-25"
+    open_issues: 203
+    license: Apache-2.0
+  - name: "ovn-kubernetes/ovn-kubernetes"
+    url: https://github.com/ovn-kubernetes/ovn-kubernetes
+    description: "A robust Kubernetes networking platform"
+    category: containers
+    subcategory: systems
+    stars: 1055
+    forks: 472
+    language: Go
+    topics:
+      - cni
+      - cni-plugin
+      - kubernetes
+      - kubernetes-networking
+      - networking
+      - sdn
+      - sdn-controller
+      - sdn-network
+    pushed_at: "2026-08-13"
+    created_at: "2016-08-11"
+    open_issues: 412
+    license: Apache-2.0
+  - name: "squat/kilo"
+    url: https://github.com/squat/kilo
+    description: "Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg)"
+    category: containers
+    subcategory: systems
+    stars: 2279
+    forks: 141
+    language: Go
+    topics:
+      - cni
+      - federation
+      - kubernetes
+      - multi-cloud
+      - multi-cluster
+      - networking
+      - vpn
+      - wireguard
+    pushed_at: "2026-08-11"
+    created_at: "2018-12-20"
+    open_issues: 94
+    license: Apache-2.0
+  - name: "gravitational/wormhole"
+    url: https://github.com/gravitational/wormhole
+    description: "Wireguard based overlay network CNI plugin for kubernetes"
+    category: containers
+    subcategory: systems
+    stars: 515
+    forks: 17
+    language: Go
+    pushed_at: "2023-06-28"
+    created_at: "2018-10-22"
+    license: Apache-2.0
+  - name: "aws/amazon-vpc-cni-k8s"
+    url: https://github.com/aws/amazon-vpc-cni-k8s
+    description: "Networking plugin repository for pod networking in Kubernetes using Elastic Network Interfaces on AWS"
+    category: containers
+    subcategory: systems
+    stars: 2451
+    forks: 831
+    language: Go
+    topics:
+      - cni-plugin
+      - kubernetes
+      - pod-networking
+    pushed_at: "2026-08-13"
+    created_at: "2017-10-19"
+    open_issues: 30
+    license: Apache-2.0
+  - name: "spidernet-io/spiderpool"
+    url: https://github.com/spidernet-io/spiderpool
+    description: "Underlay and RDMA network solution of the Kubernetes, for bare metal, VM and any public cloud"
+    category: containers
+    subcategory: systems
+    stars: 669
+    forks: 94
+    language: Go
+    topics:
+      - cloud-native
+      - cncf
+      - cni
+      - golang
+      - ipam
+      - kubernetes
+      - rdma
+    pushed_at: "2026-08-13"
+    created_at: "2022-03-07"
+    open_issues: 105
+    license: Apache-2.0
+  - name: "cni-genie/CNI-Genie"
+    url: https://github.com/cni-genie/CNI-Genie
+    description: "CNI-Genie for choosing pod network of your choice during deployment time. Supported pod networks - Calico, Flannel, Romana, Weave "
+    category: containers
+    subcategory: systems
+    stars: 537
+    forks: 119
+    language: Go
+    topics:
+      - cni
+      - cni-genie
+      - cni-plugin
+      - kubeadm
+      - kubernetes
+      - multiple-network
+      - vnf
+    pushed_at: "2025-02-25"
+    created_at: "2017-03-25"
+    open_issues: 42
+    license: Apache-2.0
+  - name: "FabEdge/fabedge"
+    url: https://github.com/FabEdge/fabedge
+    description: "Secure Edge Networking Solution Based On Kubernetes"
+    category: containers
+    subcategory: systems
+    stars: 529
+    forks: 58
+    language: Go
+    topics:
+      - cloud-native
+      - cncf
+      - cni
+      - iot
+      - ipsec
+      - k8s
+      - kubernetes
+      - multi-cluster
+      - operator
+      - sdn
+    pushed_at: "2026-07-10"
+    created_at: "2021-07-16"
+    open_issues: 2
+    license: Apache-2.0
+
+  - name: "joevizcara/terraform-proxmox"
+    url: https://gitlab.com/joevizcara/terraform-proxmox
+    description: "Creating and Managing Proxmox Virtual Environment using IaC and GitOps (Terraform and GitLab Runner)"
+    category: iac
+    subcategory: application
+    stars: 10
+    forks: 5
+    pushed_at: "2026-01-20"
+    created_at: "2025-07-27"
+  - name: "jlecomte/ansible/ansible-proxmox-collection"
+    url: https://gitlab.com/jlecomte/ansible/ansible-proxmox-collection
+    description: "⭐ **Ansible Proxmox modules, and Debops playbook and role.**"
+    category: iac
+    subcategory: application
+    stars: 5
+    forks: 1
+    topics:
+      - ansible
+      - debops
+      - proxmox
+      - ⭐
+    pushed_at: "2025-02-08"
+    created_at: "2022-05-27"
+  - name: "xavki/tutorials-terraform"
+    url: https://gitlab.com/xavki/tutorials-terraform
+    description: "Terraform from scratch: install, modules, Docker provider, networking, volumes, WordPress, Kubernetes provider, ingress. Xavki tutorials — https://youtu.be/_6AITxe5iVc"
+    category: containers
+    subcategory: systems
+    stars: 14
+    forks: 33
+    topics:
+      - devops
+      - docker
+      - kubernetes
+      - terraform
+    pushed_at: "2026-06-21"
+    created_at: "2020-06-23"
+  - name: "xavki/infrastructure-cloud-infomaniak"
+    url: https://gitlab.com/xavki/infrastructure-cloud-infomaniak
+    description: "Full cloud infrastructure on Infomaniak Public Cloud: Terraform, OpenStack CLI, networking, VPN, Kubernetes, Helm, Prometheus monitoring. Xavki tutorials."
+    category: containers
+    subcategory: systems
+    stars: 24
+    forks: 28
+    topics:
+      - ansible
+      - cloud
+      - consul
+      - grafana
+      - terraform
+      - victoriametrics
+    pushed_at: "2026-06-21"
+    created_at: "2024-02-28"
