@@ -62,6 +62,9 @@ def main():
                                     max_r=src.get("max", 40), weight=weight)
             elif src["type"] == "github":
                 raw = f.fetch_github_releases(src["repos"], source=name, weight=weight)
+            elif src["type"] == "cisa_kev":
+                raw = f.fetch_cisa_kev(src["url"], source=name,
+                                       category=category, weight=weight)
             else:
                 print(f"  [warn] unknown type for {name}: {src['type']}")
                 continue
@@ -70,6 +73,10 @@ def main():
             continue
 
         print(f"  {name}: {len(raw)} items")
+        max_items = src.get("max_items", 0)
+        if max_items and len(raw) > max_items:
+            raw = raw[:max_items]
+            print(f"    (capped to {max_items})")
         for it in raw:
             tags = clf.tags(it)
             score = clf.score(it, source_weight=weight)

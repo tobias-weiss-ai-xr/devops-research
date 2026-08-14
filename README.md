@@ -83,9 +83,62 @@ python3 scripts/fetch/fetch_codeberg_repos.py --min-stars 5
 
 All fetchers write to the shared ``repos.yaml`` (dedup by repo name, append-only).
 
+# CRAN (R packages)
+
+```bash
+# CRAN Task Views (primary — curated, enriched via crandb API)
+python3 scripts/fetch/fetch_cran_repos.py --task-views-only --dry-run
+python3 scripts/fetch/fetch_cran_repos.py --task-views-only
+
+# Full CRAN scan + Task Views (Phase 2 adds name/dependency filtering)
+python3 scripts/fetch/fetch_cran_repos.py --dry-run
+python3 scripts/fetch/fetch_cran_repos.py
+
+# Partial Task View run (index range)
+python3 scripts/fetch/fetch_cran_repos.py --from 0 --to 5 --dry-run
+```
+
+The CRAN fetcher discovers R packages from 20 DevSecOps-relevant Task Views
+(AnomalyDetection, NetworkAnalysis, MachineLearning, Cryptography, etc.)
+and enriches them via the crandb.r-pkg.org API for full Title/Description.
+Phase 2 scans the full PACKAGES index with strict name/dependency pre-filtering.
+
 Taxonomy mirrors `papers.yaml`: `security`, `containers`, `cicd`, `iac`,
 `observability`, `ai-security`, `policycode`, `gitops`, `platform`.  Each entry
 includes stars, forks, language, topics, activity date, and license.
+For CRAN packages, ``stars`` proxies reverse dependency count.
+
+# CNCF Landscape (canonical cloud-native tool map)
+
+```bash
+python3 scripts/fetch/fetch_cncf_landscape.py --dry-run
+python3 scripts/fetch/fetch_cncf_landscape.py
+```
+
+Pulls the curated CNCF Cloud Native Landscape
+(`landscape.yml`) and keeps the DevSecOps-relevant slices:
+`Security & Compliance`, `Key Management`, and `Observability`.  Only entries
+with a public repo are kept (pure-commercial vendor pages are skipped).  When
+`GITHUB_TOKEN` is set, each repo is enriched with stars/forks/license/language.
+
+# PyPI (Python packages)
+
+```bash
+python3 scripts/fetch/fetch_pypi_repos.py --dry-run
+python3 scripts/fetch/fetch_pypi_repos.py   # respects GITHUB_TOKEN for stars
+```
+
+PyPI hosts ~870k packages and has no public classifier-search endpoint, so
+this fetcher uses a curated seed list of well-known DevSecOps Python packages
+(SAST/SCA, SBOM/supply-chain, policy/compliance, IAM, observability, CICD)
+and enriches each via `https://pypi.org/pypi/{pkg}/json`.  This keeps API
+calls strictly bounded (one per seed package) instead of scanning the index.
+
+All fetchers from this section share ``scripts/fetch/repos_common.py`` for
+relevance filtering, subcategory classification, YAML I/O, entry
+normalisation, and GitHub star enrichment (``enrich_github``).
+Entries are tagged with a ``source`` field (e.g. ``cran-tv``, ``cncf-landscape:*``,
+``pypi``) for provenance.
 
 ## Paper search (research corpus)
 

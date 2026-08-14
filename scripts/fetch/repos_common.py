@@ -10,7 +10,10 @@ Usage (import only — not runnable directly):
     from repos_common import is_devops_repo, format_yaml_entry, ...
 """
 
+import os
 import re
+
+import requests
 import yaml
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,6 +31,8 @@ __all__ = [
     "load_existing_repos",
     "append_repos",
     "normalize_entry",
+    "enrich_github",
+    "repo_slug_from_url",
 ]
 
 BASE = Path(__file__).resolve().parent.parent.parent
@@ -142,29 +147,37 @@ def _yaml_str(s):
 
 
 def format_yaml_entry(entry):
-    """Format a single repo entry as YAML lines."""
-    lines = [f'  - name: "{_yaml_str(entry["name"])}"']
-    lines.append(f'    url: {entry["url"]}')
+    """Format a single repo entry as YAML lines.
+
+    NOTE: the sequence items must start at column 0 (``- name:``) to match
+    the existing repos.yaml format.  Using a 2-space indent here would be
+    parsed as a nested sequence inside the previous mapping, corrupting the
+    file on append.
+    """
+    lines = [f'- name: "{_yaml_str(entry["name"])}"']
+    lines.append(f'  url: {entry["url"]}')
     if entry.get("description"):
-        lines.append(f'    description: "{_yaml_str(entry["description"])}"')
-    lines.append(f'    category: {entry["category"]}')
-    lines.append(f'    subcategory: {entry["subcategory"]}')
-    lines.append(f'    stars: {entry["stars"]}')
-    lines.append(f'    forks: {entry["forks"]}')
+        lines.append(f'  description: "{_yaml_str(entry["description"])}"')
+    lines.append(f'  category: {entry["category"]}')
+    lines.append(f'  subcategory: {entry["subcategory"]}')
+    lines.append(f'  stars: {entry["stars"]}')
+    lines.append(f'  forks: {entry["forks"]}')
     if entry.get("language"):
-        lines.append(f'    language: {entry["language"]}')
+        lines.append(f'  language: {entry["language"]}')
     if entry.get("topics"):
-        lines.append(f'    topics:')
+        lines.append(f'  topics:')
         for t in entry["topics"]:
-            lines.append(f'      - {_yaml_str(t)}')
+            lines.append(f'    - {_yaml_str(t)}')
     if entry.get("pushed_at"):
-        lines.append(f'    pushed_at: "{entry["pushed_at"]}"')
+        lines.append(f'  pushed_at: "{entry["pushed_at"]}"')
     if entry.get("created_at"):
-        lines.append(f'    created_at: "{entry["created_at"]}"')
+        lines.append(f'  created_at: "{entry["created_at"]}"')
     if entry.get("open_issues"):
-        lines.append(f'    open_issues: {entry["open_issues"]}')
+        lines.append(f'  open_issues: {entry["open_issues"]}')
     if entry.get("license") and entry["license"] not in ("NOASSERTION", ""):
-        lines.append(f'    license: {entry["license"]}')
+        lines.append(f'  license: {entry["license"]}')
+    if entry.get("source"):
+        lines.append(f'  source: {entry["source"]}')
     return "\n".join(lines)
 
 
@@ -235,3 +248,71 @@ def normalize_entry(raw, category, subcategory_hint=None):
         "open_issues": int(raw.get("open_issues", 0) or 0),
         "license": raw.get("license") or "",
     }
+
+
+# ── GitHub enrichment ────────────────────────────────────────────────
+
+def repo_slug_from_url(url):
+    """Extract 'owner/repo' from a github/gitlab/codeberg url, or ''."""
+    if not url:
+        return ""
+    for host in ("github.com", "gitlab.com", "codeberg.org", "bitbucket.org"):
+        m = re.search(host + r"/([^/]+/[^/]+)", url, re.I)
+        if m:
+            return m.group(1)
+    return ""
+
+
+def enrich_github(entries, verbose=True):
+    """Populate stars/forks/license/language/… via the GitHub API.
+
+    Accepts a list of dicts (repos.yaml entry shaped).  Uses GITHUB_TOKEN when
+    present.  Updates entries in place; skips (gracefully) repos with no
+    github URL and any failures (rate limit, network, 404).
+    """
+    token = os.environ.get("GITHUB_TOKEN") or ""
+    headers = {"User-Agent": "Research-Corpus/1.0"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    repos = []
+    seen = set()
+    for e in entries:
+        slug = repo_slug_from_url(e.get("url", ""))
+        if slug and "/" in slug and slug not in seen:
+            seen.add(slug)
+            repos.append((slug, e))
+    if not repos:
+        return entries
+    if verbose:
+        print(f"[github] enriching {len(repos)} repos with stars...", flush=True)
+
+    for i, (slug, e) in enumerate(repos):
+        try:
+            resp = requests.get(
+                f"https://api.github.com/repos/{slug}",
+                headers=headers, timeout=20)
+            if resp.status_code == 403:
+                print(f"[github] rate limited at {i} — stopping enrichment",
+                      flush=True)
+                break
+            if resp.status_code == 404:
+                continue
+            resp.raise_for_status()
+            d = resp.json()
+            e["stars"] = int(d.get("stargazers_count", 0))
+            e["forks"] = int(d.get("forks_count", 0))
+            e["language"] = d.get("language") or e.get("language", "")
+            e["license"] = (d.get("license") or {}).get("spdx_id") \
+                or e.get("license", "")
+            e["pushed_at"] = (d.get("pushed_at") or "")[:10]
+            e["created_at"] = (d.get("created_at") or "")[:10]
+            e["open_issues"] = int(d.get("open_issues_count", 0))
+            e["topics"] = sorted(set(e.get("topics") or []) |
+                                 set(d.get("topics") or []))[:8]
+        except Exception as exc:  # noqa: BLE001
+            if verbose:
+                print(f"[github] {slug}: {exc}", flush=True)
+    if verbose:
+        print(f"[github] enrichment done", flush=True)
+    return entries

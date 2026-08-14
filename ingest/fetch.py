@@ -132,6 +132,49 @@ class Fetcher:
             ))
         return out
 
+    # ------------------------------------------- CISA KEV catalog (JSON)
+    def fetch_cisa_kev(self, url: str, *, source: str, category: str,
+                       weight: float) -> list[dict]:
+        """Fetch CISA Known Exploited Vulnerabilities (JSON).
+
+        Each vulnerability is a single actionable item: exploited in the
+        wild against known software.  Normalised to the item schema with
+        exploit metadata in ``extra``.
+        """
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "devsecops-digest"})
+            data = json.loads(urllib.request.urlopen(req, timeout=self.timeout).read())
+        except Exception as exc:  # noqa: BLE001
+            print(f"    (empty: {exc})")
+            return []
+
+        vulns = data.get("vulnerabilities", [])
+        out = []
+        for v in vulns:
+            cve = v.get("cveID", "")
+            if not cve:
+                continue
+            title = f"[KEV] {cve}: {v.get('vulnerabilityName', '')}"
+            summary = _norm(v.get("shortDescription", "")) or \
+                f"Actively exploited vulnerability in {v.get('vendorProject', '')} " \
+                f"{v.get('product', '')}."
+            out.append(_item(
+                source=source, label="CISA KEV", category=category,
+                weight=weight, title=title,
+                url=f"https://nvd.nist.gov/vuln/detail/{cve}",
+                summary=summary,
+                published=v.get("dateAdded", ""),
+                extra={
+                    "cve": cve,
+                    "vendor": v.get("vendorProject", ""),
+                    "product": v.get("product", ""),
+                    "required_action": v.get("requiredAction", ""),
+                    "due_date": v.get("dueDate", ""),
+                    "known_ransomware": v.get("knownRansomwareCampaignUse", ""),
+                },
+            ))
+        return out
+
     # -------------------------------------------------- GitHub releases
     def fetch_github_releases(self, repos, *, source, weight) -> list[dict]:
         out = []
