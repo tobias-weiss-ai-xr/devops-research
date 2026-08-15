@@ -373,7 +373,12 @@ def search_arxiv(query, months, start=0, max_results=100, max_retries=4):
 
 def _yaml_str(s: str) -> str:
     """Escape a string for a double-quoted YAML scalar."""
-    return s.replace("\\", "\\\\").replace('"', '\\"')
+    return (
+        s.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\n", "\\n")
+        .replace("\r", "\\r")
+    )
 
 
 def format_yaml_entry(entry, category, subcategory):
@@ -398,25 +403,26 @@ def format_yaml_entry(entry, category, subcategory):
 
 
 def append_papers(yaml_path, entries):
-    """Append entries to papers.yaml (creating it if needed)."""
-    # Seed file may be `papers: []` — convert to a block list before appending
+    """Append entries to papers.yaml (creating it if needed).
+
+    Uses proper YAML load/extend/dump so multi-line abstracts and special
+    characters in new entries never corrupt the file (raw text concat did).
+    """
     if yaml_path.exists():
-        text = yaml_path.read_text(encoding="utf-8").rstrip()
-        if text.endswith("papers: []"):
-            text = text[: -len("papers: []")].rstrip() + "\npapers:"
-        if not text.endswith("\n"):
-            text += "\n"
+        with open(yaml_path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
     else:
-        text = (
-            "# DevSecOps research paper corpus (auto-discovered from arXiv/OpenAlex).\n"
-            "# Categories: security | cicd | iac | containers | policycode |\n"
-            "#             observability | gitops | platform | ai-security\n"
-            "papers:"
-        )
-    entries_text = "\n".join(format_yaml_entry(e, e["category"], e["subcategory"])
-                             for e in entries)
+        data = {
+            "papers": [],
+            "_meta": {
+                "description": "DevSecOps research paper corpus (auto-discovered from arXiv/OpenAlex).",
+            },
+        }
+    papers = data.get("papers", [])
+    papers.extend(entries)
+    data["papers"] = papers
     with open(yaml_path, "w", encoding="utf-8") as f:
-        f.write(text + "\n" + entries_text + "\n")
+        yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False)
 
 
 def main():
