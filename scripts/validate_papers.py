@@ -9,9 +9,12 @@ Usage:
 import argparse
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import yaml
+
+TODAY = datetime.now()
 
 BASE = Path(__file__).resolve().parent.parent
 
@@ -72,6 +75,13 @@ def main():
                 warnings.append(f"{prefix}: no date for {p.get('title', '')[:60]}")
         if p.get("date") and not DATE_RE.match(str(p["date"])):
             errors.append(f"{prefix}: bad date '{p.get('date')}' (want YYYY-MM)")
+        else:
+            # QUALITY GATE: no future dates
+            _d = str(p.get("date", ""))
+            if len(_d) >= 7:
+                _y, _m = int(_d[:4]), int(_d[5:7])
+                if (_y, _m) > (TODAY.year, TODAY.month):
+                    errors.append(f"{prefix}: future date '{_d}' (cannot be after today {TODAY:%Y-%m})")
         cat = p.get("category")
         if cat not in CATEGORIES:
             errors.append(f"{prefix}: bad category '{cat}' (want one of {sorted(CATEGORIES)})")
