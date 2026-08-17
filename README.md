@@ -198,6 +198,51 @@ pip install -r requirements.txt
 `ingest/digest.summarize()` is a dependency-free, extractive placeholder. To use an LLM,
 replace the body with an API call and set the vendor env vars you have available
 (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, …).
+## 📊 Corpus Statistics
+
+**4,913 papers** across **9 categories**.  
+Sources: No source breakdown.  
+Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/devops-research).
+
+### Top categories
+
+| Category | Papers | Recent | |
+|----------|--------|--------|-|
+| security | **1,629** | 0 | ████████████ |
+| ai-security | **801** | 0 | █████░░░░░░░ |
+| containers | **521** | 0 | ███░░░░░░░░░ |
+| cicd | **408** | 0 | ███░░░░░░░░░ |
+| observability | **380** | 0 | ██░░░░░░░░░░ |
+| platform | **350** | 0 | ██░░░░░░░░░░ |
+| policycode | **342** | 0 | ██░░░░░░░░░░ |
+| iac | **293** | 0 | ██░░░░░░░░░░ |
+| gitops | **189** | 0 | █░░░░░░░░░░░ |
+
+
+### By year
+
+| Year | Papers | |
+|------|--------|-|
+| 2025 | 1,233 | █████░░░░░░░ |
+| 2026 | 2,674 | ████████████ |
+| unknown | 11 | ░░░░░░░░░░░░ |
+
+
+### Top venues
+
+| Venue | Papers |
+|-------|--------|
+| Zenodo (CERN European Organization for Nuclear Research) | 98 |
+| SSRN Electronic Journal | 39 |
+| International Journal of Science and Research (IJSR) | 19 |
+| Lecture notes in networks and systems | 18 |
+| Apress eBooks | 18 |
+| World Journal of Advanced Research and Reviews | 16 |
+| Open MIND | 15 |
+| IEEE Access | 13 |
+
+
+
 
 ## Output
 - `data/latest.md` — primary digest

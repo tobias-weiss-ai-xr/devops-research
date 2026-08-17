@@ -201,6 +201,8 @@ def main():
     parser.add_argument("--sleep", type=float, default=5.0)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--categories", default=None, help="Comma-separated subset of category keys")
+
+    parser.add_argument("--local", action="store_true", help="Run locally without modifying remote repos")
     args = parser.parse_args()
 
     yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
