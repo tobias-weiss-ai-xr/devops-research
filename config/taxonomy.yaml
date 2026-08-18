@@ -1,0 +1,388 @@
+topic:
+  name: devops-research  automated DevSecOps intelligence ingestion pipeline
+  short: devops
+  description: A small, dependency-light pipeline that pulls the latest DevSecOps
+    / DevOps tools,
+  openalex_mailto: research@tobias-weiss-ai-xr.de
+taxonomy:
+  categories:
+  - id: security
+    display: Security
+  - id: ai-security
+    display: Ai Security
+  - id: containers
+    display: Containers
+  - id: cicd
+    display: Cicd
+  - id: observability
+    display: Observability
+  - id: policycode
+    display: Policycode
+  - id: iac
+    display: Iac
+  - id: platform
+    display: Platform
+  - id: gitops
+    display: Gitops
+  - id: survey
+    display: Survey
+  - id: method
+    display: Method
+  subcategories:
+  - id: method
+    display: Method
+  - id: theory
+    display: Theory
+  - id: application
+    display: Application
+  - id: survey
+    display: Survey
+  - id: experiment
+    display: Experiment
+  - id: systems
+    display: Systems
+  - id: development
+    display: Development
+arxiv_queries:
+- query: abs:"devops security survey"
+  category: security
+  subcategory_hint: review
+- query: abs:"devsecops survey"
+  category: security
+  subcategory_hint: review
+- query: abs:"supply chain attack software"
+  category: security
+  subcategory_hint: application
+- query: abs:"adversarial machine learning survey"
+  category: ai-security
+  subcategory_hint: review
+- query: abs:"AI security survey"
+  category: ai-security
+  subcategory_hint: review
+- query: abs:"machine learning vulnerability"
+  category: ai-security
+  subcategory_hint: mechanism
+- query: abs:"container orchestration survey"
+  category: containers
+  subcategory_hint: review
+- query: abs:"docker kubernetes performance"
+  category: containers
+  subcategory_hint: evaluation
+- query: abs:"container security survey"
+  category: containers
+  subcategory_hint: review
+- query: abs:"continuous integration delivery survey"
+  category: cicd
+  subcategory_hint: review
+- query: abs:"CI/CD pipeline survey"
+  category: cicd
+  subcategory_hint: review
+- query: abs:"observability monitoring survey"
+  category: observability
+  subcategory_hint: review
+- query: abs:"distributed tracing survey"
+  category: observability
+  subcategory_hint: review
+- query: abs:"policy as code survey"
+  category: policycode
+  subcategory_hint: review
+- query: abs:"infrastructure as code security"
+  category: policycode
+  subcategory_hint: application
+- query: abs:"infrastructure as code survey"
+  category: iac
+  subcategory_hint: review
+- query: abs:"terraform ansible survey"
+  category: iac
+  subcategory_hint: review
+- query: abs:"platform engineering survey"
+  category: platform
+  subcategory_hint: review
+- query: abs:"internal developer platform"
+  category: platform
+  subcategory_hint: development
+- query: abs:"gitops survey"
+  category: gitops
+  subcategory_hint: review
+- query: abs:"git operations continuous deployment"
+  category: gitops
+  subcategory_hint: development
+other_sources_queries:
+- source: crossref
+  query: devops security survey
+  category: security
+  subcategory_hint: review
+- source: dblp
+  query: devsecops survey
+  category: security
+  subcategory_hint: review
+- source: dblp
+  query: supply chain attack software
+  category: security
+  subcategory_hint: application
+- source: crossref
+  query: adversarial machine learning survey
+  category: ai-security
+  subcategory_hint: review
+- source: dblp
+  query: AI security survey
+  category: ai-security
+  subcategory_hint: review
+- source: dblp
+  query: machine learning vulnerability
+  category: ai-security
+  subcategory_hint: mechanism
+- source: crossref
+  query: container orchestration survey
+  category: containers
+  subcategory_hint: review
+- source: dblp
+  query: docker kubernetes performance
+  category: containers
+  subcategory_hint: evaluation
+- source: dblp
+  query: container security survey
+  category: containers
+  subcategory_hint: review
+- source: dblp
+  query: continuous integration delivery survey
+  category: cicd
+  subcategory_hint: review
+- source: crossref
+  query: CI/CD pipeline survey
+  category: cicd
+  subcategory_hint: review
+- source: dblp
+  query: observability monitoring survey
+  category: observability
+  subcategory_hint: review
+- source: crossref
+  query: distributed tracing survey
+  category: observability
+  subcategory_hint: review
+- source: dblp
+  query: policy as code survey
+  category: policycode
+  subcategory_hint: review
+- source: crossref
+  query: infrastructure as code security
+  category: policycode
+  subcategory_hint: application
+- source: crossref
+  query: infrastructure as code survey
+  category: iac
+  subcategory_hint: review
+- source: dblp
+  query: terraform ansible survey
+  category: iac
+  subcategory_hint: review
+- source: dblp
+  query: platform engineering survey
+  category: platform
+  subcategory_hint: review
+- source: crossref
+  query: internal developer platform
+  category: platform
+  subcategory_hint: development
+- source: dblp
+  query: gitops survey
+  category: gitops
+  subcategory_hint: review
+- source: crossref
+  query: git operations continuous deployment
+  category: gitops
+  subcategory_hint: development
+openalex_queries:
+- category: security
+  query: devops security survey
+- category: security
+  query: devsecops survey
+- category: security
+  query: supply chain attack software
+- category: ai-security
+  query: adversarial machine learning survey
+- category: ai-security
+  query: AI security survey
+- category: ai-security
+  query: machine learning vulnerability
+- category: containers
+  query: container orchestration survey
+- category: containers
+  query: docker kubernetes performance
+- category: containers
+  query: container security survey
+- category: cicd
+  query: continuous integration delivery survey
+- category: cicd
+  query: CI/CD pipeline survey
+- category: observability
+  query: observability monitoring survey
+- category: observability
+  query: distributed tracing survey
+- category: policycode
+  query: policy as code survey
+- category: policycode
+  query: infrastructure as code security
+- category: iac
+  query: infrastructure as code survey
+- category: iac
+  query: terraform ansible survey
+- category: platform
+  query: platform engineering survey
+- category: platform
+  query: internal developer platform
+- category: gitops
+  query: gitops survey
+- category: gitops
+  query: git operations continuous deployment
+subcategory_keywords:
+- id: theory
+  keywords:
+  - theory
+  - theoretical
+  - proof
+  - convergence
+  - bound
+  - consistency
+  - asymptotic
+- id: method
+  keywords:
+  - method
+  - algorithm
+  - approach
+  - technique
+  - framework
+  - novel
+  - scheme
+- id: application
+  keywords:
+  - application
+  - applied
+  - real-world
+  - case study
+  - empirical
+- id: evaluation
+  keywords:
+  - benchmark
+  - evaluation
+  - comparison
+  - baseline
+  - empirical study
+- id: development
+  keywords:
+  - implementation
+  - software
+  - package
+  - library
+  - toolkit
+  - open-source
+- id: systems
+  keywords:
+  - system
+  - framework
+  - platform
+  - scalable
+  - distributed
+  - GPU
+  - parallel
+- id: survey
+  keywords:
+  - survey
+  - review
+  - literature
+  - tutorial
+  - overview
+  - taxonomy
+- id: experiment
+  keywords:
+  - experiment
+  - experimental
+  - simulation study
+  - numerical study
+  - synthetic
+relevance_keywords:
+- adversarial
+- ai security
+- ansible
+- attack
+- chain
+- cicd
+- code
+- container
+- containers
+- continuous
+- delivery
+- deployment
+- developer
+- devops
+- devsecops
+- distributed
+- docker
+- engineering
+- gitops
+- iac
+- infrastructure
+- integration
+- internal
+- kubernetes
+- learning
+- machine
+- monitoring
+- observability
+- operations
+- orchestration
+- performance
+- pipeline
+- platform
+- policy
+- policycode
+- security
+- software
+- supply
+- survey
+- terraform
+- tracing
+- vulnerability
+trend_keywords:
+- adversarial
+- ai security
+- ansible
+- attack
+- chain
+- cicd
+- code
+- container
+- containers
+- continuous
+- delivery
+- deployment
+- developer
+- devops
+- devsecops
+- distributed
+- docker
+- engineering
+- gitops
+- iac
+- infrastructure
+- integration
+- internal
+- kubernetes
+- learning
+- machine
+- monitoring
+- observability
+- operations
+- orchestration
+- performance
+- pipeline
+- platform
+- policy
+- policycode
+- security
+- software
+- supply
+- survey
+- terraform
+- tracing
+- vulnerability
