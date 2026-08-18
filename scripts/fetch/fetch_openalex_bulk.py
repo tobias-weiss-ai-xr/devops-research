@@ -121,7 +121,7 @@ def fetch_category(terms, months, per_category, sleep):
             try:
                 resp = requests.get(OPENALEX_API, params=params, timeout=30)
                 if resp.status_code == 429:
-                    wait = 15 * (attempt + 1)
+                    wait = 5 * (attempt + 1)
                     print(f"    rate-limited (429), waiting {wait}s...", flush=True)
                     time.sleep(wait)
                     continue
