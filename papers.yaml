@@ -65998,3 +65998,4294 @@ papers:
   - He Wang
   category: security
   subcategory: application
+- title: Cloud Security
+  date: 2026-08
+  url: https://doi.org/10.1201/9781003743101-11
+  category: security
+  subcategory: application
+  authors:
+  - Gopal Krishna Shyam
+  - Priyanka Bharti
+  abstract: This chapter talks of cloud security in the context of compliance, governance
+    and auditing as the fundamental principles of using clouds safely and responsibly.
+    It examines the issue of firms that are
+  venue: ''
+- title: 'From Assessment to Automation: DevOps Lifecycle Management for Secure Cloud
+    Migration and CICD Implementation'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20352308
+  category: security
+  subcategory: application
+  authors:
+  - Ramesh Krishna Mahimalur
+  - Mahendran Vasgam
+  - Devi Manoharan
+  abstract: The rapid adoption of cloud computing has compelled enterprises to rethink
+    traditional software delivery and operational models, particularly in the context
+    of security, scalability, and deployment ag
+  venue: Power System Technology
+- title: Bridging Security Compliance and DevOps Velocity in Enterprise Platforms
+  date: 2026-04
+  url: https://doi.org/10.36948/ijfmr.2026.v08i02.75741
+  category: security
+  subcategory: application
+  authors:
+  - Nadeem Siddiqui
+  abstract: As enterprise cloud adoption accelerates, the tension between innovation
+    and regulation continues to grow. For organizations operating in highly regulated
+    industries—such as finance, healthcare, gover
+  venue: International Journal For Multidisciplinary Research
+- title: Deployment, DevOps, and Automation
+  date: 2026-05
+  url: https://doi.org/10.4324/9781003729068-10
+  category: security
+  subcategory: application
+  authors:
+  - Sudheer Amgothu
+  abstract: As software systems become increasingly complex and distributed, deployment
+    and operational processes have grown in both importance and complexity. This chapter
+    explores how generative AI is revolutio
+  venue: Productivity Press eBooks
+- title: Security and Compliance for Cloud‐Native Applications
+  date: 2026-05
+  url: https://doi.org/10.1002/9781394382484.ch15
+  category: security
+  subcategory: application
+  authors:
+  - Vaishnavi Gudur
+  - Ashish Kattamuri
+  abstract: Cloud-native apps are revolutionizing the ways that businesses develop,
+    deploy, and scale digital services. The paradigm shift, nevertheless, identifies
+    new security and compliance issues emerging fro
+  venue: ''
+- title: 'AI-Enhanced CICD Governance for Regulated Cloud Applications: A Compliance-Aware
+    DevOps Framework'
+  date: 2026-05
+  url: https://doi.org/10.30574/ijsra.2026.19.2.1034
+  category: security
+  subcategory: application
+  authors:
+  - Swaminathan Vaidyanathan
+  abstract: AI-supported CI/CD for regulated cloud applications has become an important
+    area of research because modern delivery pipelines now function not only as engineering
+    infrastructure, but also as complian
+  venue: International Journal of Science and Research Archive
+- title: IMPLEMENTING ZERO-TRUST SECURITY MODELS IN THE CLOUD
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20566849
+  category: security
+  subcategory: application
+  authors:
+  - Supriya Sahoo
+  - Aloka Natha
+  - Nishanta Ranjan Nanda
+  abstract: As cybersecurity threats continue to rise, the Zero- Trust Security framework
+    has become an essential strategy for securing cloud environments. Unlike conventional
+    perimeter-based security models, Zer
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: AI-Powered Threat Intelligence Framework for Strengthening Cybersecurity
+    in Multi-Cloud and DevOps-Driven Enterprise Environments
+  date: 2026-04
+  url: https://doi.org/10.1109/qpain69676.2026.11545554
+  category: security
+  subcategory: application
+  authors:
+  - Vijay Krishna
+  - Siva Prasad Ponnuru
+  - Jyothi Chandra Nath
+  abstract: This paper proposes an AI-Driven Threat Intelligence Framework, which
+    can be used to promote cybersecurity in multi-cloud and DevOps-based enterprise
+    environments. The framework uses the Hybrid AI Thr
+  venue: ''
+- title: Amazon AWS Certified DevOps Engineer - Professional PDF
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18945130
+  category: security
+  subcategory: application
+  authors:
+  - CERTIFICATION EXAM
+  abstract: This PDF document titled "Amazon AWS Certified DevOps Engineer - Professional
+    PDF" serves as a comprehensive guide for individuals preparing for the AWS Certified
+    DevOps Engineer - Professional examin
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'ConfigWiz: Automating Privilege Configuration for Containerized Applications'
+  date: 2026-07
+  url: https://doi.org/10.1007/978-3-032-32767-3_8
+  category: security
+  subcategory: application
+  authors:
+  - Mohammad Kavousi
+  - Hui Xue
+  - Yan Chen
+  abstract: papers
+  venue: Lecture notes of the Institute for Computer Sciences, Social Informatics
+    and Telecommunications Engineering
+- title: Amazon AWS DevOps Engineer - Professional (DOP-C01) PDF
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18942349
+  category: security
+  subcategory: application
+  authors:
+  - CERTIFICATION EXAM
+  abstract: This PDF document serves as a comprehensive study guide for the Amazon
+    AWS DevOps Engineer - Professional (DOP-C01) certification. It includes in-depth
+    content covering key areas such as continuous de
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Enterprise Multi-Cloud Architecture: Design, Security, Automation, and Best
+    Practices'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21909073
+  category: security
+  subcategory: application
+  authors:
+  - Madhavan Babu
+  abstract: 'Enterprise Multi-Cloud Architecture: Design, Security, Automation, and
+    Best Practices is a practical guide to designing and operating enterprise-grade
+    multi-cloud environments across Microsoft Azure, '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: How to hire dedicated DevOps engineers for faster software delivery
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21457471
+  category: security
+  subcategory: application
+  authors:
+  - Ben Smith
+  abstract: VALiNTRY helps businesses hire dedicated DevOps engineers who can improve
+    software delivery through automation, CI/CD, cloud support, monitoring, and infrastructure
+    management. Its hiring process cove
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Deploying Microservices for an E-Commerce Website using Azure DevOps Pipeline
+  date: 2026-05
+  url: https://doi.org/10.22214/ijraset.2026.82286
+  category: security
+  subcategory: application
+  authors:
+  - Phanindra Reddy K
+  abstract: Modern e-commerce applications require high scalability, availability,
+    security, and rapid deployment capabilities to handle dynamic user traffic and
+    continuous feature updates. Traditional monolithic
+  venue: International Journal for Research in Applied Science and Engineering Technology
+- title: Amazon AWS Certified DevOps Engineer - Professional (DOP-C01) PDF
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18942348
+  category: security
+  subcategory: application
+  authors:
+  - CERTIFICATION EXAM
+  abstract: 'This PDF document titled "Amazon AWS Certified DevOps Engineer - Professional
+    (DOP-C01)" serves as a comprehensive guide for individuals preparing for the AWS
+    Certified DevOps Engineer certification. '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Spring Boot in the Era of Cloud-Native Development: Architecture, Performance,
+    and Security'
+  date: 2026-02
+  url: https://doi.org/10.59828/ijercs.v2i2.15
+  category: security
+  subcategory: application
+  authors:
+  - Arati Ravindra Nikam
+  abstract: The increasing complexity of enterprise application development has heightened
+    the demand for frameworks that deliver agility, reliability, and production readiness.
+    Spring Boot, as an extension of th
+  venue: ''
+- title: A Unified Meta Model for Converting Architecture Decisions Into DevOps Pipelines
+  date: 2026-04
+  url: https://doi.org/10.1002/spe.70077
+  category: security
+  subcategory: application
+  authors:
+  - Mamdouh Alenezi
+  - Mohammed Akour
+  abstract: 'ABSTRACT Background DevOps pipelines have become the primary vehicle
+    for operationalizing software architecture decisions; however, their design and
+    evolution remain largely ad hoc and tool‐specific. '
+  venue: Software Practice and Experience
+- title: 'A Holistic Approach to Legacy Modernization in Insurance: Integrating Application
+    Programming Interfaces, Data, Security, and DevOps into a Unified Transformation
+    Strategy'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20722343
+  category: security
+  subcategory: application
+  authors:
+  - Kalyana Sundaram Chidambaram
+  abstract: Insurance organizations depend on legacy core systems that, while historically
+    reliable, are structurally incompatible with the demands of modern digital operations,
+    including real-time data access, e
+  venue: Journal of International Crisis and Risk Communication Research
+- title: Cloud‐Native <scp>DevSecOps</scp> and Shift‐Left Security Practices
+  date: 2026-05
+  url: https://doi.org/10.1002/9781394382484.ch10
+  category: security
+  subcategory: application
+  authors:
+  - Jay Shah
+  - Garima Bajpai
+  abstract: Increasing technology capabilities to enable automation and interoperability
+    between systems through a centralized platform has enabled a DevOps methodology
+    to solve broader business change challenges
+  venue: ''
+- title: 'DevOps Techniques for Artificial Intelligence Development and Training :
+    A Human-Centered Approach to AI-Driven Operations'
+  date: 2026-04
+  url: https://doi.org/10.25673/123808
+  category: security
+  subcategory: application
+  authors:
+  - Kateryna Shulakova
+  - Liliia Bodnar
+  - Mykola Bodnar
+  abstract: The rapid integration of artificial intelligence technologies into software
+    engineering and cloud-native infrastructures has significantly transformed modern
+    operational practices and automation strat
+  venue: Digitalen Hochschulbibliothek Sachsen-Anhalt (Universitäts- und Landesbibliothek
+    Sachsen-Anhalt)
+- title: 'Cloud Courses Online: Best Programs for Cloud Career Growth'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20100416
+  category: security
+  subcategory: application
+  authors:
+  - Grras Solutions
+  abstract: As organizations all over the world move more and more to clouds for their
+    infrastructures, applications, and data, the demand for cloud experts continues
+    to grow. No matter what type of enterprise yo
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Explainable Agentic Decision Support for Project Governance in Agile–DevOps:
+    A Multi-Agent Governance Framework for Project Managers'
+  date: 2026-07
+  url: https://doi.org/10.21203/rs.3.rs-9834249/v1
+  category: security
+  subcategory: application
+  authors:
+  - Suresh Kandasamy
+  - Suresh Arumugam
+  - Cynthia Jayapal
+  abstract: papers
+  venue: Research Square
+- title: The AI Cloud Infrastructure Blueprint
+  date: 2026-03
+  url: https://doi.org/10.4324/9781003685609
+  category: security
+  subcategory: application
+  authors:
+  - Sairohith Thummarakoti
+  - Santosh Kumar Vududala
+  - Bhanuprakash Madupati
+  abstract: This book offers a comprehensive, practice-driven guide to designing and
+    managing robust AI cloud infrastructure systems for real-world applications. As
+    enterprises continue to adopt AI to enhance aut
+  venue: Productivity Press eBooks
+- title: 'Automating Regulatory Governance: A DevOps-Centric Framework for Secure
+    Large-Scale Data Migration under NYDFS 23 NYCRR 500'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19643215
+  category: security
+  subcategory: application
+  authors:
+  - Dharmendra Ahuja
+  abstract: 'With the increasingly adopted on-premise mainframe systems in the financial
+    services industry shifting towards the distributed public clouds infrastructures,
+    the issue of keeping pace with the strict '
+  venue: Computer Fraud & Security
+- title: A Review Of Software Development Practices In Cloud Systems
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20283501
+  category: security
+  subcategory: application
+  authors:
+  - Rina Sakamoto
+  abstract: Software development practices in cloud systems have evolved significantly
+    with the adoption of cloud computing technologies, enabling faster, scalable,
+    and more efficient application development. Clo
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Cloud Computing Courses for Beginners: Start Your Cloud Journey Today'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20069109
+  category: security
+  subcategory: application
+  authors:
+  - Grras Solutions
+  abstract: 'Cloud computing professionals are highly sought after in 2026 because
+    many organizations aim to switch to the cloud to operate effectively in the market.
+    As someone joining the technology sector, you '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Designing and Automating Scalable Cloud Infrastructure for Modern Software
+    Applications
+  date: 2026-05
+  url: https://doi.org/10.71097/ijsat.v17.i2.11318
+  category: security
+  subcategory: application
+  authors:
+  - Harika Sanugommula
+  abstract: Cloud infrastructure has become the backbone of modern software systems,
+    enabling organizations to build resilient, scalable, and secure applications while
+    reducing the operational overhead. This pape
+  venue: International Journal on Science and Technology
+- title: AI-Powered Recommendation System for Cost-Effective Monitoring and Self-Healing
+    Across Cloud Platforms
+  date: 2026-04
+  url: https://doi.org/10.55041/ijsrem59493
+  category: security
+  subcategory: application
+  authors:
+  - DR. SWATI JOSHI
+  - PHAPALE SAI
+  - PRATIK PADITKAR
+  abstract: Abstract - Modern cloud and DevOps environments have become increasingly
+    complex, making traditional infrastructure management approaches less effective.
+    Many organizations still rely heavily on manua
+  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
+- title: A Platform Engineering Maturity Model For Cloud- Native Enterprise Transformation
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19862165
+  category: security
+  subcategory: application
+  authors:
+  - Dharmendra Ahuja
+  abstract: Enterprises face significant challenges in transitioning from DevOps to
+    comprehensive platform engineering frameworks in cloud-native environments. While
+    organizations have successfully adopted contai
+  venue: Journal of International Crisis and Risk Communication Research
+- title: Linux-Foundation Linux Foundation Certified Kubernetes Security Specialist
+    PDF
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19001371
+  category: security
+  subcategory: application
+  authors:
+  - CERTIFICATION EXAM
+  abstract: 'This PDF document, titled "Linux Foundation Certified Kubernetes Security
+    Specialist PDF," serves as an essential resource for professionals seeking to
+    enhance their knowledge and skills in the realm '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: AI's "Hacky" Command-Line Fixes Are a Security Nightmare
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19335962
+  category: security
+  subcategory: application
+  authors:
+  - Daniel Rosehill
+  - Gemini 3.1 (Flash)
+  - Chatterbox TTS
+  abstract: 'Episode summary: AI tools like Claude CLI are transforming DevOps by
+    letting developers manage servers with natural language, but this speed comes
+    at a cost. We explore how "agentic" AI finds clever s'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Modernizing Mission-Critical Enterprise Systems: From Legacy Platforms to
+    Cloud-Native Architecture'
+  date: 2026-05
+  url: https://doi.org/10.47392/eclearnix.2026.b041
+  category: security
+  subcategory: application
+  authors:
+  - Swaminathan Vaidyanathan
+  abstract: 'Modernizing Mission-Critical Enterprise Systems: From Legacy Platforms
+    to Cloud-Native Architecture Objectives:1. Understand the core principles of modernizing
+    legacy systems and cloud-native architec'
+  venue: International Research Journal on Advanced Engineering and Management (IRJAEM)
+- title: 'Autonomous Platform Engineering: A Framework for Eliminating Human-Induced
+    Latency in Cloud Operations'
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18745553
+  category: security
+  subcategory: application
+  authors:
+  - Pradeep Kurra
+  abstract: Many enterprise cloud operations today still rely on human remediation
+    or ticketing, which can lead to increased time to resolution. This architectural
+    effort is to move enterprise cloud operations fr
+  venue: Journal of Information Systems Engineering & Management
+- title: Automatización de Arquitecturas Cloud con Terraform y Kubernetes
+  date: 2026-06
+  url: https://oa.upm.es/97424/
+  category: security
+  subcategory: application
+  authors:
+  - Jaime Rodriguez Lara
+  abstract: Este proyecto desarrolla un sistema inteligente integral para la automatización
+    de infraestructura en el entorno de IBM Cloud, diseñado para eliminar la barrera
+    técnica que suponen herramientas comple
+  venue: UPM Digital Archive (Technical University of Madrid)
+- title: 'Linux Administration Guide for Beginners: Essential Linux Commands, System
+    Management, Security, and Career Roadmap'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21358225
+  category: security
+  subcategory: application
+  authors:
+  - SterlingNext LLC
+  abstract: Linux is widely used in enterprise servers, cloud computing, DevOps, and
+    cybersecurity environments. This guide introduces the fundamentals of Linux administration,
+    including essential Linux commands,
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A Cloud-Native Modernization Framework for Enterprise Analytics and AI Platforms
+    on Microsoft Azure
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21307579
+  category: security
+  subcategory: application
+  authors:
+  - Prof. A S Pawar
+  abstract: Enterprise analytics and AI platforms often begin on-premises, where teams
+    retain control over hardware but face growing constraints in scalability, environment
+    consistency, and deployment automation.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A Cloud-Native Platform Model for Rapid Development and Continuous Deployment
+    of Enterprise Applications
+  date: 2026-02
+  url: https://doi.org/10.70528/ijlrp.v7.i2.1974
+  category: security
+  subcategory: application
+  authors:
+  - Ramesh Tangudu
+  abstract: The aim of this study is to propose a cloud-native platform model that
+    enables rapid development and continuous deployment of enterprise applications.
+    The research focuses on addressing challenges rel
+  venue: International Journal of Leading Research Publication.
+- title: 'The Convergence of Hyperautomation and Autonomous Remediation: Mitigating
+    Site Reliability Engineering Toil in Cloud-Native Ecosystems'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19491191
+  category: security
+  subcategory: application
+  authors:
+  - Jessica Killinpi
+  abstract: The rapid evolution of cloud-native architectures has necessitated a fundamental
+    shift in operational paradigms, moving away from manual intervention toward a
+    sophisticated state of autonomous self-he
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: The Importance of System Security in Application Design and Implementation
+    in 2026
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21929494
+  category: security
+  subcategory: application
+  authors:
+  - Abduqodirov Muzaffar
+  abstract: The Importance of System Security in Application Design and Implementation
+    in 2026 Muzaffar AbdukadirovSoftware Engineering · 2026 Abstract System security
+    has become a fundamental concern in modern a
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Designing Cloud Applications for Compatibility: A Case Study on Kubernetes
+    and OpenShift'
+  date: 2026-05
+  url: https://doi.org/10.34726/hss.2026.123042
+  category: security
+  subcategory: application
+  authors:
+  - Manuel Esberger
+  abstract: Der Übergang von monolithischen Architekturen zu Microservices hat Kubernetes
+    als praktikable Lösung für die Container-Orchestrierung etabliert, doch das Ökosystem
+    bleibt durch verschiedene Implementi
+  venue: reposiTUm (TU Wien)
+- title: 'Designing a cloud-native MLOps pipeline using Databricks: A case study in
+    industrial practice'
+  date: 2026-05
+  url: https://doi.org/10.1016/j.future.2026.108585
+  category: security
+  subcategory: application
+  authors:
+  - Sergio Moreschini
+  - Sandra Raitaniemi
+  - Elias Mäkelä
+  abstract: We present a engineering case study on the design and evolution of a cloud-native
+    MLOps pipeline in an industrial setting using Databricks. Motivated by the operational
+    and lifecycle challenges of dep
+  venue: Future Generation Computer Systems
+- title: Application and data modernization with generative AI &amp; cloud Infrastructure 
+  date: 2026-05
+  url: https://doi.org/10.7490/f1000research.1120551.1
+  category: security
+  subcategory: application
+  authors:
+  - tshingombe tshitadi
+  - tshingombe tshitadi
+  abstract: '<ns3:p> <ns3:bold>Abstract:</ns3:bold> This report establishes a comprehensive
+    pedagogical and technical framework for modernizing applications and data systems
+    through generative AI and cloud-native '
+  venue: ''
+- title: 'Next-Generation Enterprise Platforms: A Unified Approach to Cloud-Native
+    Design, CI/CD Automation and Secure Scalability'
+  date: 2026-05
+  url: https://doi.org/10.30574/ijsra.2026.19.2.1023
+  category: security
+  subcategory: application
+  authors:
+  - Yasmeen Syed
+  abstract: 'Aim: This paper aims to propose a unified framework for next-generation
+    enterprise platforms by integrating cloud-native architecture, CI/CD automation,
+    and secure scalability. The objective is to add'
+  venue: International Journal of Science and Research Archive
+- title: 'FROM MONOLITH TO INTELLIGENT MICROSERVICES: ENGINEERING PATTERNS FOR AI-AUGMENTED
+    CLOUD-NATIVE TRANSFORMATION'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20591057
+  category: security
+  subcategory: application
+  authors:
+  - AMIL USLU
+  abstract: Abstract The evolution of enterprise software systems has entered a new
+    phase, driven by the convergence of microservices architectures, cloud-native
+    technologies, and artificial intelligence. While t
+  venue: Journal of Hunan University Natural Sciences
+- title: 'Data Privacy Engineering in Cloud-Native Environments: Integrating DevPrivOps,
+    Risk Modeling, and Privacy-Enhancing Technologies'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.21514106
+  category: security
+  subcategory: application
+  authors:
+  - Srinivasa Rao Seetala
+  abstract: The rapid adoption of cloud-native architectures has fundamentally transformed
+    how modern applications are designed, developed, deployed, and scaled, enabling
+    unprecedented levels of agility, elastici
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'A Comprehensive Survey on Computer System Validation: Challenges, Regulatory
+    Compliance, Data Integrity, AI-Driven Validation, Cloud- Native Architectures,
+    and Future Intelligent Validation Ecosystems'
+  date: 2026-06
+  url: https://doi.org/10.55041/isjem07844
+  category: security
+  subcategory: application
+  authors:
+  - Saurabh Bhardwaj
+  - Dr. Ayush Kumar
+  abstract: Computer System Validation (CSV) has evolved into one of the most critical
+    operational and regulatory disciplines within modern digital enterprises. Organizations
+    operating in highly regulated sectors
+  venue: International Scientific Journal of Engineering and Management
+- title: CLOUDGUARD AI
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20320809
+  category: security
+  subcategory: application
+  authors:
+  - Deepthi Nair P
+  - Srimathi D
+  - Sriram G
+  abstract: 'CloudGuard AI is an intelligent cloud security and monitoring system
+    designed to detect, analyze, and automatically remediate cloud misconfigurations
+    using automation and Machine Learning techniques. '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Microsoft Architecting Microsoft Azure Solutions PDF
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19026565
+  category: security
+  subcategory: application
+  authors:
+  - CERTIFICATION EXAM
+  abstract: This PDF document titled "Microsoft Architecting Microsoft Azure Solutions"
+    serves as an essential guide for IT professionals, architects, and developers
+    aiming to design and implement solutions on th
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Git-Driven Workflow Practices for QA Automation Engineers in CI/CD Systems
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20360056
+  category: cicd
+  subcategory: application
+  authors:
+  - Chakhovich Tatsiana
+  abstract: A structured QA engineering framework for managing Git-based workflows
+    in CI/CD environments. The framework defines branching strategies, commit standards,
+    merge synchronization practices, and integra
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'From Automation to Autonomy: A Survey of Agentic Workflows in CI/CD Orchestration'
+  date: 2026-05
+  url: https://doi.org/10.33411/ijist/1813
+  category: cicd
+  subcategory: application
+  authors:
+  - Ali Amar
+  - Ibrahim Qaiser
+  - Ayesha Kanwal
+  abstract: Continuous Integration and Continuous Deployment (CI/CD) pipelines are
+    foundational to modern software delivery, yet remain reliant on rigid, pre-defined
+    scripts that lack the flexibility to handle un
+  venue: International Journal of Innovations in Science and Technology
+- title: A Stage-Oriented Attack Taxonomy and Threat Analysis for CI/CD Pipelines
+  date: 2026-06
+  url: https://doi.org/10.18280/ijsse.160620
+  category: cicd
+  subcategory: application
+  authors:
+  - Rian S. Al-Yozbaky
+  - Dujan B. Taha
+  - Rawaa Qasha
+  abstract: Modern software supply chains include CI/CD pipelines as key components.However,
+    CI/CD processes' automation, distributed environment, CI/CD's interaction with
+    third parties, and privileged identity a
+  venue: International Journal of Safety and Security Engineering
+- title: SAST IMPROVEMENTS USING LLM FOR CI/CD PIPELINES
+  date: 2026-04
+  url: https://doi.org/10.23939/ictee2026.01.152
+  category: cicd
+  subcategory: application
+  authors:
+  - V. Pavlyshyn
+  - Olena Krasko
+  abstract: This paper proposes and evaluates a hybrid LLM-SAST pipeline for integrating
+    Large Language Model (LLM)-based Static Application Security Testing (SAST) into
+    Continuous Integration and Continuous Deli
+  venue: Information and communication technologies electronic engineering
+- title: 'Automating Software Delivery in Digital Payments: Strategies for Effective
+    CI/CD Pipelines'
+  date: 2026-07
+  url: https://doi.org/10.64388/irev10i1-1720023
+  category: cicd
+  subcategory: application
+  authors:
+  - Awogbade Kehinde
+  - Asiyanbola Olaoluwa Ebenezer
+  - Iyiola Ifeoluwa Johnson
+  abstract: Digital payments ecosystems are an integral part of the financial services
+    landscape globally, allowing individuals and businesses to carry out online, secure,
+    instant payments through mobile apps, on
+  venue: Iconic Research and Engineering Journals
+- title: 'Securing CI/CD Pipelines: A DevSecOps Framework for Preventing Credential
+    Leaks and Misconfigurations'
+  date: 2026-08
+  url: https://doi.org/10.5815/ijwmt.2026.04.16
+  category: cicd
+  subcategory: application
+  authors:
+  - Akzhibek Amirova
+  abstract: Continuous Integration and Continuous Deployment (CI/CD) pipelines have
+    become fundamental to modern software engineering, enabling rapid and reliable
+    delivery of applications. However, their automati
+  venue: International Journal of Wireless and Microwave Technologies
+- title: 'The Role OF DevOps in Mobile Application Development: CI/CD Pipelines for
+    Faster Releases'
+  date: 2026-04
+  url: https://www.neliti.com/publications/713213/the-role-of-devops-in-mobile-application-development-ci-cd-pipelines-for-faster
+  category: cicd
+  subcategory: application
+  authors:
+  - C. R. (Carlos) Zafón
+  - J. (Juan) Goytisolo
+  abstract: In today's Fast-paced digital landscape, the demand for rapid, reliable,
+    and high-quality mobile application releases has never been greater. This article
+    explores the transformative role of DevOps pr
+  venue: Neliti
+- title: 'Integrating AI into DevSecOps: Enhancing CI/CD Security with Intelligent
+    Automation'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19091838
+  category: cicd
+  subcategory: application
+  authors:
+  - Achref Rhouma
+  abstract: This paper presents a practical framework for integrating Artificial Intelligence
+    (AI) into DevSecOps pipelines to enhance CI/CD security. It demonstrates AI-driven
+    vulnerability detection, anomaly-ba
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A Closed-Loop Agentic AI Framework for Self -Configuring, Self-Healing, and
+    Optimized CI/CD Automation
+  date: 2026-07
+  url: https://doi.org/10.22214/ijraset.2026.84054
+  category: cicd
+  subcategory: application
+  authors:
+  - A. Hitesh Reddy
+  - A. Jitendra
+  abstract: Static continuous integration and continuous delivery pipelines remain
+    difficult to adapt when repositories, dependencies, deployment targets, and operational
+    conditions change. Manual configuration a
+  venue: International Journal for Research in Applied Science and Engineering Technology
+- title: Automated Cloud Deployment Using CI/CD Pipeline
+  date: 2026-04
+  url: https://www.ijert.org/automated-cloud-deployment-using-cicd-pipeline
+  category: cicd
+  subcategory: application
+  authors:
+  - Sahil Ramteke
+  - Renuka Sahastrabudhe
+  - Bulbul Roy
+  abstract: The evolution of software delivery mechanisms has fundamentally transformed
+    how organizations manage infrastructure and deploy applications. This paper presents
+    the architecture, design decisions, imp
+  venue: Open MIND
+- title: Methodological Aspects of Integrating Security Processes into Continuous
+    Development Pipelines (CI/CD Security)
+  date: 2026-03
+  url: https://ijcjournal.org/InternationalJournalOfComputer/article/view/2503
+  category: cicd
+  subcategory: application
+  authors:
+  - Praveen Ravula
+  abstract: The article presents a theoretical and methodological analysis of integrating
+    security processes into continuous integration and continuous delivery pipelines.
+    The study consolidates DevSecOps models,
+  venue: Global Society of Scientific Research and Researchers - International Journal
+    of Computer
+- title: 'CI/CD Pipeline Failure Analyzer: Intelligent Build Failure Detection and
+    Root Cause Analysis'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20037549
+  category: cicd
+  subcategory: application
+  authors:
+  - Subasree S
+  - Christ Michael Jeniston S
+  - Harish M
+  abstract: This paper presents an intelligent CI/CD pipeline failure analyzer designed
+    to automatically detect, classify, and analyze build failures in continuous integration
+    and deployment workflows. The system
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'CI/CD Pipeline for MLOps: Real-Time Fire Detection Using YOLO and Computer
+    Vision'
+  date: 2026-07
+  url: https://doi.org/10.47392/irjaeh.2026.0611
+  category: cicd
+  subcategory: application
+  authors:
+  - Sinchana S
+  - H L Shilpa
+  - Meghana HR
+  abstract: Fire accidents pose severe threats to human life, industrial infrastructure,
+    public safety, and environmental resources. Conventional fire detection mechanisms
+    rely primarily on smoke sensors, heat de
+  venue: International Research Journal on Advanced Engineering Hub (IRJAEH)
+- title: Halchal E-Commerce Platform with CI/CD Pipeline and Automated Pricing System
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18901270
+  category: cicd
+  subcategory: application
+  authors:
+  - Hrishikesh Ashokkumar Nagargoje
+  - Devesh Surana
+  - Shreyash Hubale
+  abstract: Recent advancements in artificial intelligence have transformed digital
+    commerce systems, enabling intelligent automation for intelligent systems that
+    improve pricing strategies, inventory planning, a
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Optimizing Cloud-Native CI/CD Workflows Using DevOps Automation for Improved
+    Deployment Speed, Resilience, and Operational Efficiency Across Enterprises.
+  date: 2026-08
+  url: https://doi.org/10.55248/gengpi.07.0826.2420
+  category: cicd
+  subcategory: application
+  authors:
+  - Destiny Pwul
+  abstract: The rapid evolution of cloud computing has transformed enterprise software
+    development by enabling scalable infrastructure, distributed applications, microservices
+    architectures, and increasingly freq
+  venue: International Journal of Research Publication and Reviews
+- title: Designing Cloud-Native Automation Pipelines for Enterprise Platform Engineering
+  date: 2026-06
+  url: https://doi.org/10.55041/isjem07967
+  category: cicd
+  subcategory: application
+  authors:
+  - Nadeem Siddiqui
+  abstract: 'Abstract As organizations focus on building strong and secure digital
+    platforms, platform engineering plays a key role in helping developers work more
+    efficiently and keeping operations consistent. A '
+  venue: International Scientific Journal of Engineering and Management
+- title: 'Automated Secure DevOps: An Intelligent CI/CD Pipeline with SAST Integration
+    and Agentic AI-Based Vulnerability Patching'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19306635
+  category: cicd
+  subcategory: application
+  authors:
+  - Anuja Vadla
+  - Venu Pagindla
+  - Vaishnavi Padigela
+  abstract: The increasing complexity of software supply chains and the rising frequency
+    of security breaches necessitate robust securityintegration in CI/CD pipelines.
+    This paper presents an intelligent CI/CD pi
+  venue: International Journal of Engineering Research and Science & Technology
+- title: Integrating AI-Based Security and Reinforcement Learning-Driven Intrusion
+    Detection into CI/CD Pipelines for Secure Software Delivery
+  date: 2026-08
+  url: https://doi.org/10.70917/ijcisim-2026-4705
+  category: cicd
+  subcategory: application
+  authors:
+  - Ranjani Devi M
+  - Ramya H J
+  - Radhika R
+  abstract: The rapid adoption of Continuous Integration and Continuous Deployment
+    (CI/CD) pipelines has transformed modern software development by enabling frequent
+    releases, automated testing, and accelerated d
+  venue: International Journal of Computer Information Systems and Industrial Management
+    Applications
+- title: Automated Software Quality Assurance Using CI/CD Tools
+  date: 2026-02
+  url: https://doi.org/10.55041/ijsrem56830
+  category: cicd
+  subcategory: application
+  authors:
+  - Amol D. Wakhare
+  - Tanay D. Jaybhaye
+  abstract: Abstract - Modern software development environments require fast delivery
+    with the retention of high quality standards. Continuous Integration and Continuous
+    Delivery (CI/CD) pipelines have greatly en
+  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
+- title: CI/CD Best Practices for Secure and Reliable Digital Banking Platforms
+  date: 2026-07
+  url: https://doi.org/10.64388/irev10i1-1720026
+  category: cicd
+  subcategory: application
+  authors:
+  - Awogbade Kehinde
+  - Asiyanbola Olaoluwa Ebenezer
+  - Iyiola Ifeoluwa Johnson
+  abstract: In today's software landscape, Continuous Integration and Continuous Deployment
+    (CI/CD) are essential practices that allow companies to make their software updates
+    quickly and consistently without com
+  venue: Iconic Research and Engineering Journals
+- title: Devops Automation Pipeline Deployment using Infrastructure as Code (Iac)
+  date: 2026-05
+  url: https://doi.org/10.55041/ijcope.v2i5.125
+  category: cicd
+  subcategory: application
+  authors:
+  - Prof. A. Kannammal
+  - Saranya T
+  - Ezhulmalai S
+  abstract: The rapid adoption of cloud-native application delivery has intensified
+    the need for automated, reliable, and scalable software deployment solutions.
+    Conventional software deployment methods rely heav
+  venue: International Journal of Creative and Open Research in Engineering and Management
+- title: 'Implementing DevSecOps in CI/CD Pipelines for 3-Tier Web Applications: A
+    Security-First Approach Using Jenkins, SonarQube, Trivy, and Kubernetes'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20441671
+  category: cicd
+  subcategory: application
+  authors:
+  - Navneet Yadav
+  abstract: 'This paper presents the design and implementation of a comprehensive
+    DevSecOps CI/CD pipeline for a 3-tier web application comprising a React.js frontend,
+    Node.js backend API, and MySQL database. The '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Automating DO-178C Verification and Security Compliance in DevSecOps CI/CD
+    Pipelines for Safety Critical Avionics Software
+  date: 2026-06
+  url: https://doi.org/10.4271/2026-26-0717
+  category: cicd
+  subcategory: application
+  authors:
+  - Shashank Ravi Bhagwat
+  - Naveen Kumar Changappa
+  - Sunny Nath
+  abstract: '&lt;div class="section abstract"&gt;&lt;div class="htmlview paragraph"&gt;This
+    paper presents an automated framework for security compliance and quality assurance
+    in DevSecOps CI/CD pipelines, specifi'
+  venue: SAE technical papers on CD-ROM/SAE technical paper series
+- title: Hardware-in-the-Loop Testing in CI/CD for IoT Firmware Development
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19332629
+  category: cicd
+  subcategory: application
+  authors:
+  - Joud Mamelli
+  abstract: 'In modern Internet of Things (IoT) development, ensuring firmware reliability
+    is critical yet challenging: traditional embedded-system testing is labor-intensive
+    and error-prone, while purely software'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: AI-Driven Self-Healing Automation Pipelines for ContinuousIntegration and
+    Application Workflow Validation
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.21077267
+  category: cicd
+  subcategory: application
+  authors:
+  - H A Jayanth Jain
+  abstract: The architectural model of modern enterprise software delivery environments
+    with distributed microservices architectures and rapid development and deployment
+    processes is often incompatible with custo
+  venue: Journal of Information Systems Engineering & Management
+- title: A Unified Architectural Framework for Microservices Integrating DevOps, CI/CD,
+    and Runtime Orchestration
+  date: 2026-03
+  url: https://doi.org/10.30574/wjaets.2026.18.3.0128
+  category: cicd
+  subcategory: application
+  authors:
+  - Ramesh Tangudu
+  abstract: 'Aim: The primary aim of this research is to design a unified architectural
+    framework that seamlessly integrates microservices with DevOps practices, continuous
+    integration and continuous delivery pipe'
+  venue: World Journal of Advanced Engineering Technology and Sciences
+- title: 'Auto-Devops GPT: An Agentic AI Framework for Self-Healing CI/CD Pipelines
+    Using LLM-Based Root Cause Analysis and Reinforcement Learning'
+  date: 2026-07
+  url: https://doi.org/10.22214/ijraset.2026.84056
+  category: cicd
+  subcategory: application
+  authors:
+  - N. Vijay
+  - A. Jitendra
+  abstract: Continuous Integration and Continuous Deployment (CI/CD) pipelines are
+    essential for modern software delivery, but frequent failures in build, test,
+    dependency, configuration and deployment stages red
+  venue: International Journal for Research in Applied Science and Engineering Technology
+- title: Continuous Validation and Governance of EnterpriseOntologies Using SPARQL-Based
+    Automation Pipelines
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21705999
+  category: cicd
+  subcategory: application
+  authors:
+  - Itendra Kumar Singh
+  abstract: 'Enterprise ontologies constitute foundational knowledge infrastructure
+    for biomedical research, clinical informatics, regulatory science, and large-scale
+    data integration, yet the governance of these '
+  venue: Journal of Information Systems Engineering & Management
+- title: 'GitHub Actions Beyond CI/CD: What You''re Missing'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19812230
+  category: cicd
+  subcategory: application
+  authors:
+  - Daniel Rosehill
+  - Gemini 3.1 (Flash)
+  - Chatterbox TTS
+  abstract: 'Episode summary: Most developers treat GitHub Actions as a simple CI/CD
+    tool — push code, run tests, done. But under the hood, it''s a flexible orchestration
+    platform that can run scheduled cron jobs, '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Secure CI/CD Hardening with Jenkins, BitBucket and JFrog in Zero-Trust DevOps
+  date: 2026-07
+  url: https://doi.org/10.30574/ijsra.2026.20.1.1293
+  category: cicd
+  subcategory: application
+  authors:
+  - Ratan Raj Anandeshi
+  abstract: The idea of secure environments of continuous integration and continuous
+    delivery has emerged as an object of study due to the fact that current delivery
+    pipelines concentrate privileged automation, d
+  venue: International Journal of Science and Research Archive
+- title: Continuous Validation and Governance of Enterprise Ontologies Using SPARQL-Based
+    Automation Pipelines
+  date: 2026-07
+  url: https://doi.org/10.52783/jisem.v11i3s.15184
+  category: cicd
+  subcategory: application
+  authors:
+  - Itendra Kumar Singh
+  abstract: 'Enterprise ontologies constitute foundational knowledge infrastructure
+    for biomedical research, clinical informatics, regulatory science, and large-scale
+    data integration, yet the governance of these '
+  venue: Journal of Information Systems Engineering & Management
+- title: 'Autonomous DevOps Platforms: The Role of Generative AI in CI/CD Optimization
+    and Infrastructure Management'
+  date: 2026-03
+  url: https://doi.org/10.55454/rcsas.6.03.2026.002
+  category: cicd
+  subcategory: application
+  authors:
+  - Pruthvi Raj Seknametla
+  abstract: 'The convergence of large language model capabilities with established
+    DevOps toolchains has created a new category of platform engineering: autonomous
+    DevOps systems capable of interpreting natural la'
+  venue: The Review of Contemporary Scientific and Academic Studies
+- title: Deployio – AI-Powered Devops Automation Platform
+  date: 2026-06
+  url: https://doi.org/10.47392/irjaeh.2026.0538
+  category: cicd
+  subcategory: application
+  authors:
+  - Dr R Guru
+  - M. Anusuya
+  - Chaithanya S
+  abstract: In the era of cloud-native applications and continuous delivery, DevOps
+    automation has become a crucial part of the development process. However, the
+    process of establishing deployment workflows, whic
+  venue: International Research Journal on Advanced Engineering Hub (IRJAEH)
+- title: 'Integrating Jenkins with AIOps Platforms for Hybrid SAP Basis Automation:
+    A reference architecture'
+  date: 2026-04
+  url: https://doi.org/10.30574/ijsra.2026.19.1.0898
+  category: cicd
+  subcategory: application
+  authors:
+  - Anand Singh
+  abstract: The increasing complexity of SAP enterprise landscapes — spanning on-premises
+    NetWeaver stacks, cloud-deployed SAP S/4HANA systems, and Business Technology
+    Platform (BTP) environments — has created an
+  venue: International Journal of Science and Research Archive
+- title: 'AI/ML-Driven DevOps Automation: Transforming Software Delivery Through Intelligent
+    Automation'
+  date: 2026-08
+  url: https://doi.org/10.37547/tajet/volume08issue08-04
+  category: cicd
+  subcategory: application
+  authors:
+  - Basheer Ahmedu Basha
+  abstract: The integration of Artificial Intelligence (AI) and Machine Learning (ML)
+    is transforming DevOps, enabling it to become a predictive, intelligent, and adaptive
+    process across the software delivery lif
+  venue: The American Journal of Engineering And Technology
+- title: Automation and Artificial Intelligence in Quality Assurance
+  date: 2026-06
+  url: https://hdl.handle.net/10788/4889
+  category: cicd
+  subcategory: application
+  authors:
+  - Jecintha Amuldoss
+  abstract: The proposed dissertation explores the effects of artificial intelligence
+    (AI) and automation on the productivity of software Quality Assurance (QA) and
+    software quality in contemporary Agile/DevOps a
+  venue: eSource (Dublin Business School)
+- title: Understanding the Evolution of GitHub Actions Automation Workflows
+  date: 2026-05
+  url: https://orbi.umons.ac.be/handle/20.500.12907/56006
+  category: cicd
+  subcategory: application
+  authors:
+  - Pooya Rostami Mazrae
+  abstract: 'Social coding platforms such as GitHub have profoundly transformed collaborative
+    software development. Developers regularly contribute to numerous projects through
+    mechanisms like pull requests, code '
+  venue: ORBi UMONS
+- title: Building a Career in Cloud Engineering—From Automation to Architecture
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19861505
+  category: cicd
+  subcategory: application
+  authors:
+  - Mahesh Babu Jalukuri
+  abstract: Cloud engineering is now a foundational discipline that influences the
+    development of the design, provision, and governance of digital infrastructure
+    in modern organizations. The intersection of scrip
+  venue: Journal of Information Systems Engineering & Management
+- title: Parallel HPC workflow orchestration with Nextflow, supported by CI/CD and
+    containerization tools for global high resolution evaporation modelling
+  date: 2026-03
+  url: https://doi.org/10.5194/egusphere-egu26-5728
+  category: cicd
+  subcategory: application
+  authors:
+  - Joppe Massant
+  - Oscar M. Baez-Villanueva
+  - Kwint Delbaere
+  abstract: 'The Global Land Evaporation Amsterdam Model (GLEAM) estimates daily land
+    evaporation using a wide range Earth observation forcing datasets. In the project
+    GLEAM-HR funded by the European Space Agency '
+  venue: ''
+- title: 'Optimizing ROP Metrics and Reporting: Cloud Migration and Automation Strategies'
+  date: 2026-02
+  url: https://doi.org/10.55041/ijsrem56949
+  category: cicd
+  subcategory: application
+  authors:
+  - Venkat Sunil Kumar Indurthy
+  abstract: This document details a methodology to modernize your ETL (Extract/Transform/Load)
+    pipelines using automated processes, cloud conversion, and performance tracking
+    as appropriate for business goals. Th
+  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
+- title: Maven & Gradle Build Automation for Java Applications From Installation to
+    Production-Grade Builds — End-to-End
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19588221
+  category: cicd
+  subcategory: application
+  authors:
+  - Lokesh M. R
+  abstract: 'The manual is organised into three broad thematic modules: (i) Build
+    Automation using Apache Maven and Gradle (Programs 1–4), (ii) Jenkins CI/CD Pipeline
+    (iii)Ansible Configuration Management (Program'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'THE EVOLUTION OF TEST AUTOMATION IN HIGH REGULATORY CRITICALITY FINANCIAL
+    ENVIRONMENTS: A SYSTEMATIC LITERATURE REVIEW'
+  date: 2026-07
+  url: https://doi.org/10.51249/jid.v7i02.3085
+  category: cicd
+  subcategory: application
+  authors:
+  - Ricardo Polanski Alves
+  abstract: 'Context: The accelerating digitization of the financial sector, combined
+    with increasingly stringent regulatory requirements, particularly the PCI DSS
+    4.0.1 standard, has created an environment where '
+  venue: Journal of Interdisciplinary Debates
+- title: <scp>AI</scp> ‐Driven Cloud Services and Intelligence Automation
+  date: 2026-05
+  url: https://doi.org/10.1002/9781394382484.ch8
+  category: cicd
+  subcategory: application
+  authors:
+  - Prashanthi Matam
+  - Venkata Naga Kartik Pidatala
+  abstract: The combination of artificial intelligence (AI) and cloud computing is
+    changing how current IT systems are built, put into use, and run. This chapter
+    gives a full picture of AI-driven cloud services a
+  venue: ''
+- title: Cloud-Native AI and QA Automation in Financial Data Platforms
+  date: 2026-03
+  url: https://doi.org/10.47392/eclearnix.2026.002
+  category: cicd
+  subcategory: application
+  authors:
+  - Prasanth Sasidharan
+  abstract: Cloud-Native AI and QA Automation in Financial Data PlatformsObjectives:1.
+    Understand the foundational concepts of cloud-native AI and its significance in
+    financial dataplatforms.2. Design scalable, s
+  venue: International Research Journal on Advanced Engineering and Management (IRJAEM)
+- title: Intelligent detection and diagnosis of anomalies in software delivery pipelines
+  date: 2026-04
+  url: https://espace.etsmtl.ca/id/eprint/3899/1/A%C3%8FDASSSO_Henri.pdf
+  category: cicd
+  subcategory: application
+  authors:
+  - Henri Aïdasso
+  abstract: Modern organizations have widely adopted DevOps automation practices,
+    enabling them to deliver software versions quickly and frequently while ensuring
+    the quality of the code produced by developers. T
+  venue: Espace ÉTS (ETS)
+- title: Why Prosumer Automation Shatters at Scale
+  date: 2026-04
+  url: https://myweirdprompts.com/episode/prosumer-automation-scale-failure
+  category: cicd
+  subcategory: application
+  authors:
+  - Daniel Rosehill
+  - Gemini 3.1 (Flash)
+  - Chatterbox TTS
+  abstract: 'Episode summary: Prosumer automation tools are fantastic for getting
+    started, but they often crumble under the weight of real business demands. This
+    episode explores the critical inflection point wher'
+  venue: Open MIND
+- title: 'Identity Governance and Security Automation: A Technical Framework for Enterprise
+    Access Management'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18913468
+  category: cicd
+  subcategory: application
+  authors:
+  - Suneel Kumar Rawat
+  abstract: Enterprise landscapes need identity and access management systems that
+    can go beyond perimeter-based authentication models. Identity governance and security
+    automation are the converging disciplines o
+  venue: Computer Fraud & Security
+- title: 'Operationalizing Cloud Governance Through Infrastructure Automation: A Framework
+    for Scalable Compliance in Cloud Environments'
+  date: 2026-04
+  url: https://doi.org/10.71097/ijsat.v17.i2.11023
+  category: cicd
+  subcategory: application
+  authors:
+  - Nadeem Siddiqui
+  abstract: The rapid adoption of cloud computing has significantly transformed enterprise
+    infrastructure by enabling scalable, distributed, and highly dynamic computing
+    environments. However, this transformation
+  venue: International Journal on Science and Technology
+- title: 'Revolutionizing SQL Server Administration with dbatools: The Power of Automation
+    in Modern DBA Practices'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21679085
+  category: cicd
+  subcategory: application
+  authors:
+  - Siva Kumar Raju Bhupathiraju
+  abstract: 'The systematic nature of database administration in a large-scale SQL
+    Server environment, along with the need for repeatability and accuracy, makes
+    manual operational processes impractical. dbatools, '
+  venue: International Journal of Engineering Science and Information Technology
+- title: SSH Connection During Web Automation Testing
+  date: 2026-04
+  url: https://doi.org/10.25673/123844
+  category: cicd
+  subcategory: application
+  authors:
+  - Oleksii Cherkashyn
+  abstract: Web automated testing has become increasingly relevant as web applications
+    continue to grow in complexity and serve as critical components for businesses
+    and organizations. Ensuring the reliability of
+  venue: Digitalen Hochschulbibliothek Sachsen-Anhalt (Universitäts- und Landesbibliothek
+    Sachsen-Anhalt)
+- title: Adaptive Software Development Pipelines using ML-Enabled Code Intelligence
+    and Predictive Defect Analytics
+  date: 2026-03
+  url: https://doi.org/10.1109/icoeca68095.2026.11485564
+  category: cicd
+  subcategory: application
+  authors:
+  - Chowdooru Reshma
+  - C. Sivakumar
+  abstract: Modern development teams work in the business environments that has demanded
+    a rapid delivery without the reduction of reliability. This study has recognized
+    that the amount of source code is produced
+  venue: ''
+- title: 'Layered Security Architecture in Cloud-Native Enterprise Environments: From
+    Static Analysis Gates to AI-Driven Compliance Automation'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21266961
+  category: cicd
+  subcategory: application
+  authors:
+  - kowshik sakinala
+  abstract: The rapid migration of enterprise workloads to cloud-native architectures
+    has fundamentally transformed the cybersecurity landscape, rendering traditional
+    perimeter-based defense models inadequate for
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: GitOps and Infrastructure as Code
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21938483
+  category: iac
+  subcategory: application
+  authors:
+  - Safa Mostafa Safa Mohamed
+  abstract: papers
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Infrastructure as Compromise: Abusing Residual Trust in Infrastructure as
+    Code Tools'
+  date: 2026-06
+  url: https://doi.org/10.1145/3800506.3803500
+  category: iac
+  subcategory: application
+  authors:
+  - Ruining Yang
+  - Narong Chaiwut
+  - Nick Nikiforakis
+  abstract: Infrastructure as Code (IaC) has transformed the way developers deploy
+    and manage their infrastructure, enabling automated, reproducible, and version-controlled
+    builds. At the same time, developer err
+  venue: ''
+- title: Towards Mitigating Infrastructure-as-Code Security Smells
+  date: 2026-05
+  url: https://orbilu.uni.lu/handle/10993/68436
+  category: iac
+  subcategory: application
+  authors:
+  - Aicha War
+  abstract: R-AGR-3790 - LuxWays - part UL - BISSYANDE Tegawendé
+  venue: Open Repository and Bibliography (University of Luxembourg)
+- title: Evaluating Language Models on Infrastructure-as-Code Development
+  date: 2026-06
+  url: https://doi.org/10.1109/cloudsummit68932.2026.00021
+  category: iac
+  subcategory: application
+  authors:
+  - Natalia Tarasova
+  - Enrique Balp-Straffon
+  - Aleksei Iancheruk
+  abstract: papers
+  venue: ''
+- title: Terraform-Driven Infrastructure as Code in Financial Data Platforms
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.19165738
+  category: iac
+  subcategory: application
+  authors:
+  - Prasanth Sasidharan
+  abstract: Cloud-native and automated workflows, and Infrastructure as Code (IaC),
+    motivate an enormous change in financial services. IaC tools have also brought
+    in a number of tools, among them the important to
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Infrastructure as code for managing enterprise databricks lakehouse platforms
+  date: 2026-04
+  url: https://aaltodoc.aalto.fi/handle/123456789/144531
+  category: iac
+  subcategory: application
+  authors:
+  - Hung Duc Nguyen
+  abstract: Managing complex cloud data platforms like the Databricks Lakehouse often
+    leads to significant operational bottlenecks when relying on manual configuration
+    or fragmented scripting. This thesis address
+  venue: Aaltodoc (Aalto University)
+- title: 'Generative AI as an infrastructure copilot: automating Infrastructure-As-Code
+    across the DevSecOps lifecycle'
+  date: 2026-02
+  url: https://doi.org/10.1007/s10515-026-00600-5
+  category: iac
+  subcategory: application
+  authors:
+  - Matteo Esposito
+  - Mikel Robredo
+  - Alexander Bakhtin
+  abstract: Abstract Practitioners and researchers continuously focus on developing
+    automation strategies to cope with the exponentially demanding need for the timely
+    deployment of software projects in tight rele
+  venue: Automated Software Engineering
+- title: 'Fixed but Not Gone: A Longitudinal Study of Security Violations in Infrastructure-as-Code'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20172371
+  category: iac
+  subcategory: application
+  authors:
+  - Anonymouse
+  abstract: 'This repository contains the replication package for the paper *Fixed
+    but Not Gone: A Longitudinal Study of Security Violations in Infrastructure-as-Code*,
+    including all data, scripts, and documentati'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Automated Incident Management using Infrastructure-as-Code - code, datasets,
+    and analysis notebooks
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19047155
+  category: iac
+  subcategory: application
+  authors:
+  - Gökberk Gündüz Niyazi
+  - Florian Hofer
+  - Eduardo Guerra
+  abstract: 'Contains all code, datasets, and analysis notebooks for the work "Automated
+    Incident Management using Infrastructure-as-Code", whose abstract is described
+    below: Enterprises that manage their cloud sy'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Multicloud Security Assessment: A Benchmark Study of Infrastructure as Code
+    Scanners'
+  date: 2026-05
+  url: https://doi.org/10.62762/tisc.2026.777114
+  category: iac
+  subcategory: application
+  authors:
+  - Harry Roe
+  - Mandar Gogate
+  - Kia Dashtipour
+  abstract: Multicloud environments are becoming more common, often businesses will
+    have workloads across one or more of AWS, Azure and GCP, with each provider slightly
+    differing in security features and capabili
+  venue: ICCK Transactions on Information Security and Cryptography
+- title: 'ReTOSCA: Reverse Engineering Infrastructure-as-Code into TOSCA 2.0 Models'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19920687
+  category: iac
+  subcategory: application
+  authors:
+  - Fossati Stefano
+  - Mazza Dario
+  - Damian Andrew Tamburri
+  abstract: 'This repository contains the source code and replication package of the
+    tool presented in the paper "ReTOSCA: Reverse Engineering Infrastructure-as-Code
+    into TOSCA 2.0 Models". It includes all artifac'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Implementing Infrastructure as Code Using Ansible on Debian Server Administration
+  date: 2026-06
+  url: https://doi.org/10.59934/jaiea.v5i3.2576
+  category: iac
+  subcategory: application
+  authors:
+  - Elsahday Tambunan
+  - Anastasya Jesica Sidauruk
+  - Lotar Mateus Sinaga
+  abstract: The growth of cloud computing and virtualization has changed how IT infrastructure
+    is managed, moving from doing things by hand to using Infrastructure as Code (IaC)
+    methods. This study uses Ansible a
+  venue: Journal of Artificial Intelligence and Engineering Applications (JAIEA)
+- title: Using Infrastructure as Code to Provision Cloud Resources for Computational
+    Laboratories
+  date: 2026-03
+  url: https://doi.org/10.1021/acs.jchemed.6c00015
+  category: iac
+  subcategory: application
+  authors:
+  - Nicolas D. Winter
+  - Alexandra R. Richards
+  abstract: High Resolution Image Download MS PowerPoint Slide In this work we provide
+    an infrastructure as code (IaC) template for running computational laboratories
+    in the cloud to improve access to computation
+  venue: Journal of Chemical Education
+- title: 'R Code for Regional Analysis: Interactive Scenario Modeling of Public Transport
+    Infrastructure using Leaflet and GTFS Data 地域分析のためのRコード: LeafletとGTFSデータを用いた公共交通インフラのインタラクティブなシナリオ・モデリング'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20130390
+  category: iac
+  subcategory: application
+  authors:
+  - Yasutoshi Moteki
+  abstract: '地域分析のためのRコード: LeafletとGTFSデータを用いた公共交通インフラのインタラクティブなシナリオ・モデリング 1. 本プログラムの目的と着想の原点
+    (Overview of V3) 本プログラムは、愛知県知多郡東浦町のコミュニティバス「う・ら・ら」の静的GTFSデータを活用し、R言語およびLeafletを用いて、政策科学に基づく政策立案を支援するインタラクティブなシナリオ検討ツールの'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: LOW-CODE ENVIRONMENT FOR DESIGNING AND TESTING SECURITY POLICIES IN INFRASTRUCTURE-AS-CODE
+    DELIVERY PIPELINES
+  date: 2026-06
+  url: https://doi.org/10.58168/mist2026_1212-1218
+  category: iac
+  subcategory: application
+  authors:
+  - S. Tarlykov
+  - A. Tyunina
+  abstract: 'The paper addresses the formalization and automation of security policy
+    design within Infrastructure as Code under the DevSecOps paradigm. Limitations
+    of existing Policy-as-Code tools are analyzed. A '
+  venue: ''
+- title: 'DEVhaitam/Infrastructure-as-Code-IaC-Quality-Assurance-QA-SLR-: v2.0'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20538519
+  category: iac
+  subcategory: application
+  authors:
+  - El HAYANI Haitam
+  - Jolan Philippe
+  abstract: This release introduces a comprehensive set of scripts and resources to
+    support the systematic literature review (SLR) process for Infrastructure as Code
+    (IaC) Quality Assurance (QA). The key addition
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Cloud-Agnostic Infrastructure as Code: A Framework for Multi-Cloud Provisioning'
+  date: 2026-07
+  url: https://hdl.handle.net/10216/175476
+  category: iac
+  subcategory: application
+  authors:
+  - Alexandre Machado Leão da Silva Cunha
+  abstract: papers
+  venue: Open Repository of the University of Porto (University of Porto)
+- title: Infrastructure as Code con Terraform:progettazione e gestione di infrastrutture
+    IT automatizzate
+  date: 2026-03
+  url: https://amslaurea.unibo.it/view/cds/CDS8615/>,
+  category: iac
+  subcategory: application
+  authors:
+  - Emily Pedini
+  abstract: La tesi analizza l’applicazione del paradigma Infrastructure as Code (IaC)
+    alla progettazione e gestione automatizzata di infrastrutture IT virtualizzate,
+    attraverso l’utilizzo dello strumento Terrafo
+  venue: AMS Degree Thesis (University of Bologna)
+- title: 'DEVhaitam/Infrastructure-as-Code-IaC-Quality-Assurance-QA-SLR-: v1.0'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20379473
+  category: iac
+  subcategory: application
+  authors:
+  - El HAYANI Haitam
+  - Jolan Philippe
+  abstract: No description provided.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Semantic Transformer-Based Detection of Security Misconfigurations in Network
+    Configuration Infrastructure-as-Code
+  date: 2026-07
+  url: https://doi.org/10.14445/22312803/ijctt-v74i6p101
+  category: iac
+  subcategory: application
+  authors:
+  - Lakshmi Harika Akkireddy
+  - Naga Satya Praveen Kumar Yadati
+  - Vijayakumar Venganti
+  abstract: Network configuration infrastructure misconfigurations have emerged as
+    one of the leading causes of security breaches, yet existing rule-based and static
+    detection methods remain rigid and fail to gen
+  venue: International Journal of Computer Trends and Technology
+- title: 'Unfulfilled Promises: LLM-Based Detection of OS Compatibility Issues in
+    Infrastructure as Code'
+  date: 2026-06
+  url: https://doi.org/10.1145/3797097
+  category: iac
+  subcategory: application
+  authors:
+  - Georgios-Petros Drosos
+  - Georgios Alexopoulos
+  - Thodoris Sotiropoulos
+  abstract: Modern infrastructures rely on Infrastructure as Code (IaC) systems to
+    keep complex deployments consistent, reproducible, and scalable at production
+    scale. The reliability of these infrastructures, ho
+  venue: Proceedings of the ACM on software engineering.
+- title: Towards Scalable Network Configuration Management Through Infrastructure
+    as Code (IaC)
+  date: 2026-06
+  url: https://doi.org/10.1109/hpsr68369.2026.11615180
+  category: iac
+  subcategory: application
+  authors:
+  - Luis Marinho
+  - Marcos Madruga
+  - Ramon Fontes
+  abstract: papers
+  venue: ''
+- title: 'DEVhaitam/Infrastructure-as-Code-IaC-Quality-Assurance-QA-SLR-: v3.0'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21759003
+  category: iac
+  subcategory: application
+  authors:
+  - El HAYANI Haitam
+  - Jolan Philippe
+  abstract: This release refines the previous ones, there was addition of data generated
+    during the three snowballing iterations, as well as un update of the QGS construction,
+    and the final results with the lates
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Infrastructure as Code (IaC) Drift Detection: State Management Using Event
+    Driven Architecture'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19105072
+  category: iac
+  subcategory: application
+  authors:
+  - Arun Harikrishnan
+  abstract: Infrastructure as Code has become fundamental for modern cloud infrastructure
+    management, enabling declarative resource provisioning through version-controlled
+    configuration files. Traditional drift d
+  venue: Journal of Computational Analysis and Applications
+- title: AI-Driven Infrastructure as Code (IaC) for Intelligent Cloud Resource Provisioning
+    and Cost Optimization
+  date: 2026-05
+  url: https://doi.org/10.55248/gengpi.07.0526.d13207
+  category: iac
+  subcategory: application
+  authors:
+  - Pratik Gudagi
+  - Mr. Neelesh Anvekar
+  - Sakshi Sankpal
+  abstract: Cloud computing environments demand rapid, reliable, and cost-efficient
+    infrastructure provisioning to support modern digital services.Traditional Infrastructure
+    as Code (IaC) automates provisioning t
+  venue: International Journal of Research Publication and Reviews
+- title: Engineering a Standardized and Resilient Azure Cloud Foundation for Financial
+    Services Using Infrastructure as Code
+  date: 2026-06
+  url: https://doi.org/10.59256/indjcst.20260502066
+  category: iac
+  subcategory: application
+  authors:
+  - Sarngadharan Sandeep
+  abstract: The adoption of public cloud infrastructure within financial services
+    has accelerated the need for secure, standardized, automated, and highly resilient
+    enterprise architectures. However, decentralize
+  venue: Indian Journal of Computer Science and Technology
+- title: 'IaCSecBench: An Open Framework and Empirical Benchmark for Evaluating Infrastructure-as-Code
+    Security Gates'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21645017
+  category: iac
+  subcategory: application
+  authors:
+  - Manideep Chittineni
+  abstract: '1.0.0 (2026-07-28) Features add Bayut.com-inspired Search by Commute
+    and Regional Market Trends features (23a05a6) benchmark: expand IaCSecBench to
+    345 publication-grade research cases, self-contained'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Automatisation et sécurisation du provisionnement des infrastructures cloud
+    par une approche Infrastructure as Code
+  date: 2026-07
+  url: https://github.com/sam-irung/devsecops-iac-pipeline
+  category: iac
+  subcategory: application
+  authors:
+  - sam rumb
+  abstract: Ce travail de fin de cycle s'inscrit dans le contexte de la transformation
+    numérique et de l'adoption croissante du cloud computing. Il propose une approche
+    DevSecOps basée sur l'Infrastructure as Cod
+  venue: Open MIND
+- title: Intercomparison of run-time bias correction methods in LMDZ v6.3 - model
+    infrastructure and code
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20410139
+  category: iac
+  subcategory: application
+  authors:
+  - Aude Champouillon
+  abstract: 'This directory contains the model infrastructure and code used in the
+    article by Champouillon et al.: "Intercomparison of run-time bias correction methods
+    in LMDZ v6.3". It contains codes of the LMDZ '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Evaluating Security Policy Compliance in Infrastructure as Code Generated
+    by Large Language Models
+  date: 2026-03
+  url: https://doi.org/10.1109/isdfs69419.2026.11458930
+  category: iac
+  subcategory: application
+  authors:
+  - Ryo Hase
+  - Ye Wang
+  - Toshiaki Koike-Akino
+  abstract: papers
+  venue: ''
+- title: Automated Deployment and Monitoring of Cloud Instances Using AWS, Docker,
+    and Infrastructure as Code
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20958232
+  category: iac
+  subcategory: application
+  authors:
+  - Nitish Pattar
+  abstract: Cloud computing has become the backbone of modern IT infrastructure, yet
+    the manual provisioning, configuration, and monitoring of cloud instances remains
+    a time-consuming and error-prone process. Thi
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Artifact for InfraAPR: An Agent-Based Repair Framework for Cloud Infrastructure-as-Code
+    Programs'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19922561
+  category: iac
+  subcategory: application
+  authors:
+  - Quan Chen
+  abstract: papers
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Topology-Aware Vulnerability Prioritization on Automated Attack Graphs from
+    Infrastructure-as-Code
+  date: 2026-05
+  url: https://doi.org/10.3390/fi18060283
+  category: iac
+  subcategory: application
+  authors:
+  - Iulian Tiță
+  - Luca-Ionuț Corățu
+  - Mihai Cătălin Cujbă
+  abstract: Contemporary vulnerability management relies on the Common Vulnerability
+    Scoring System (CVSS) and the Exploit Prediction Scoring System (EPSS), both of
+    which evaluate Common Vulnerabilities and Expos
+  venue: Future Internet
+- title: Replication package for "Ensemble-Based Detection and Prioritization of Infrastructure
+    as Code Security Smells"
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.21033841
+  category: iac
+  subcategory: application
+  authors:
+  - Anonymous
+  abstract: 'To be able to use the replication package follow the steps: Install Docker
+    by following the instructions for your operating system described here. Run docker
+    load -i wiseyak.tar in the folder with the'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'R Code for Regional Analysis: Interactive Flow Mapping of Public Transport
+    Infrastructure using Leaflet and GTFS Data 地域分析のためのRコード:LeafletとGTFSデータを用いた公共交通インフラのインタラクティブな地図化(流線図)'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20116368
+  category: iac
+  subcategory: application
+  authors:
+  - Yasutoshi Moteki
+  abstract: 地域分析のためのRコード:LeafletとGTFSデータを用いた公共交通インフラのインタラクティブな地図化(流線図) 概要(Description)
+    1. 本プログラムの目的 本プログラムは、愛知県知多郡東浦町のコミュニティバス「う・ら・ら」の「静的GTFS(GTFS Static)」データを活用し、R言語およびLeafletを用いてインタラクティブな路線図・バス停マップを生成するための最小構成の
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Автоматизація керування конфігураціями комп’ютерних систем за допомогою Ansible
+    та підходу «Infrastructure as code»
+  date: 2026-05
+  url: https://doi.org/10.36910/6775-2524-0560-2026-63-16
+  category: iac
+  subcategory: application
+  authors:
+  - Н. В. Багнюк
+  - К.В. Мельник
+  - К.Я. Бортник
+  abstract: У статті розглянуто застосування інструменту Ansible та концепції Infrastructure
+    as Code (IaC) для автоматизації керування конфігураціями комп’ютерних систем у
+    сучасних ІТ-інфраструктурах підприємств.
+  venue: COMPUTER-INTEGRATED TECHNOLOGIES EDUCATION SCIENCE PRODUCTION
+- title: Developing an ontology-mediated semantic control method for improving the
+    reliability of LLM-generated Infrastructure-as-Code
+  date: 2026-06
+  url: https://doi.org/10.15587/2706-5448.2026.365453
+  category: iac
+  subcategory: application
+  authors:
+  - Ihor Bibichkov
+  - Olena Shevchenko
+  - Oleksandr Shevchenko
+  abstract: The object of research is an LLM-assisted process of Infrastructure-as-Code
+    (IaC) generation for cloud deployment. The problem is that large language models
+    can convert user requests into syntacticall
+  venue: Technology audit and production reserves
+- title: 'Designing a Production-Grade Kubernetes Platform on AWS: Infrastructure
+    as Code, GitOps, Observability, and High Availability'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.21975119
+  category: iac
+  subcategory: application
+  authors:
+  - Aleksandr Kalinskii
+  abstract: This technical report presents a reference architecture for designing
+    and operating a production-grade Kubernetes platform on Amazon Web Services. The
+    architecture uses Amazon EKS for container orches
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Artificial intelligence driven approach for securing backup data and enhancing
+    cyber resilience in sustainable smart infrastructure
+  date: 2026-03
+  url: https://doi.org/10.1038/s41598-026-37802-6
+  category: iac
+  subcategory: application
+  authors:
+  - B. V. Ravi Kumar
+  - Shilpi Gupta
+  - Rashmi Dwivedi
+  abstract: A crucial factor for smart cities, which are more vulnerable to cyber
+    threats, is Cyber Resilience (CR). Nevertheless, the conventional frameworks didn't
+    concentrate on assuring the Backup Data (BD) i
+  venue: Scientific Reports
+- title: 'Number Stations 2.0: Information-Theoretic Asynchronous Messaging via Public-Receive
+    SMS Infrastructure'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20042412
+  category: iac
+  subcategory: application
+  authors:
+  - AriaLabs Systems LLC
+  abstract: We present Number Stations 2.0, a covert messaging protocol that achieves
+    information-theoretic security by encrypting one-time-pad ciphertext into the
+    format of standard mobile-phone one-time passwor
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Replication package for A Unified Cross-Language Intermediate Representation
+    for Infrastructure-as-Code Smell Detection
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19246436
+  category: iac
+  subcategory: application
+  authors:
+  - Anonymous
+  abstract: 'General Description: This release includes the four IaC full dataset,
+    the four IaC oracle dataset, the code for IRIS described in the paper, and the
+    prompt used for the zero-shot LLM evaluation. All t'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'SecReviewAgent: Context-Aware Security Review of Infrastructure-as-Code
+    Using Persistent Architecture Memory'
+  date: 2026-07
+  url: https://doi.org/10.1109/icufn69619.2026.11628716
+  category: iac
+  subcategory: application
+  authors:
+  - Naga Krishna Reddy Muppidi
+  - Veera Ravindra Divi
+  - Sneha Gullapalli
+  abstract: papers
+  venue: ''
+- title: Формалізований метод оцінювання критичності змін Infrastructure as Code у
+    програмно-керованих мережах
+  date: 2026-03
+  url: https://doi.org/10.32515/2664-262x.2026.13(44).52-58
+  category: iac
+  subcategory: application
+  authors:
+  - Олександр Борисович Гуральник
+  - Олег Станіславович Савенко
+  abstract: Запропоновано формалізований підхід до оцінювання критичності змін конфігураційних
+    артефактів у програмно-керованих мережах. Критичність визначається як інтегральна
+    функція деградації зв’язності, дося
+  venue: Central Ukrainian Scientific Bulletin Technical Sciences
+- title: Replication package for A Unified Cross-Tool Intermediate Representation
+    for Infrastructure-as-Code Smell Detection
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21092356
+  category: iac
+  subcategory: application
+  authors:
+  - Anonymous
+  abstract: 'General Description: This release includes the five IaC full dataset,
+    the five IaC oracle dataset, the code for IRIS described in the paper, and the
+    prompt used for the zero-shot LLM evaluation. All t'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Risk-Calibrated Evidence Packages for AI-Assisted Infrastructure-as-Code
+    Review: Benchmark Data and Reproduction Script'
+  date: 2026-06
+  url: https://doi.org/10.17632/7fxbpcjryk.1
+  category: iac
+  subcategory: application
+  authors:
+  - ANJALI GARG
+  - Jay Garg
+  abstract: This dataset contains a controlled synthetic benchmark for evaluating
+    risk-calibrated evidence packages in AI-assisted infrastructure-as-code review.
+    The package includes 240 multi-cloud scenarios acr
+  venue: Mendeley Data
+- title: Artificial Intelligence and Agents-Powered Approach to the Cloud Resources
+    Management Underthe Paradigm of Infrastructure-as-Code
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21234868
+  category: iac
+  subcategory: application
+  authors:
+  - Ahmet Tunahan Cinsoy
+  - Marek Wiewiórka
+  abstract: This thesis presents a dual-metric pipeline measuring prompt-to-code coherence
+    and estimated infrastructure cost of LLM-generated Terraform configurations. Three
+    cost-effective models – Claude Haiku 4
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Zero‐Downtime Deployment Architecture Using Docker, Helm and Istio in Blockchain
+    Systems
+  date: 2026-08
+  url: https://doi.org/10.1002/9781394474264.ch6
+  category: containers
+  subcategory: application
+  authors:
+  - Chettaboina Hoyala
+  - Sirikonda SINDHUJA
+  - Sreeja POTLACHERUVU
+  abstract: This chapter provides an overview of an extensive study on how the combination
+    of Docker container orchestration, Kubernetes Helm Charts and Istio service mesh
+    can be used to create zero-downtime depl
+  venue: ''
+- title: 'Policy-as-Code in the Wild: A Taxonomy and Dataset for Open Policy Agent
+    from Github'
+  date: 2026-03
+  url: https://doi.org/10.1109/saner-c67878.2026.00038
+  category: policycode
+  subcategory: application
+  authors:
+  - Cal Önal
+  - Indika Kumara
+  - Filippo Scaramuzza
+  abstract: Policy-as-Code (PaC) enables the definition, management, and enforcement
+    of policies and regulations using source code, thereby supporting the application
+    of software engineering practices and tools t
+  venue: ''
+- title: 'From Data Governance Policies to Policy-as-Code: An LLM-Based Framework'
+  date: 2026-08
+  url: https://doi.org/10.1007/978-3-032-35043-5_4
+  category: policycode
+  subcategory: application
+  authors:
+  - Matteo Falconi
+  - Valeria Maria Fortina
+  - Marco Tonnarelli
+  abstract: papers
+  venue: Lecture notes in business information processing
+- title: 'Automated Security Validation in Healthcare DevSecOps: A Policy-as-Code
+    Implementation for Kubernetes Environments'
+  date: 2026-03
+  url: https://doi.org/10.1109/infoteh68759.2026.11477587
+  category: policycode
+  subcategory: application
+  authors:
+  - Sava Stanišić
+  - Željko Jovanović
+  - Borislav Đorđević
+  abstract: The growing digitization of healthcare systems introduces significant
+    security challenges, particularly in managing sensitive medical data across distributed
+    infrastructures. This paper presents a pra
+  venue: ''
+- title: An Evaluation Framework for LLM-Driven Regulatory-to-Policy-as-Code Translation
+    - Replication Package
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20399040
+  category: policycode
+  subcategory: application
+  authors:
+  - Bao Van Nguyen
+  abstract: 'Replication package for the evaluation framework. Contains: (1) a four-layer
+    LLM-driven regulatory-to-policy-as-code pipeline (input → RAG retrieval → two-stage
+    LLM generation → automated validation);'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 5G-TSN (m,k)-firm Elevation Policy (Source Code)
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19224731
+  category: policycode
+  subcategory: application
+  authors:
+  - Simon Egger
+  - Robin Laidig
+  - Heiko Geppert
+  abstract: papers
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'From Compliance to Continuous Assurance: Automating Cloud Governance with
+    Policy-as-Code'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19599604
+  category: policycode
+  subcategory: application
+  authors:
+  - Naresh Alapati
+  - Ramachander rao Thallada
+  abstract: papers
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'ReATest: enhancing policy-as-code workflows through automated test case
+    generation from Rego policies'
+  date: 2026-04
+  url: https://doi.org/10.21203/rs.3.rs-9109366/v1
+  category: policycode
+  subcategory: application
+  authors:
+  - Thanh-Binh Trinh
+  - Ngoc-Minh Le
+  abstract: papers
+  venue: Research Square
+- title: Healthcare Mechanisms from Policy-as-Code Search under Strategic Provider
+    Response
+  date: 2026-05
+  url: https://arxiv.org/abs/2605.30680
+  category: policycode
+  subcategory: application
+  authors:
+  - Zihan Wang
+  - Xiang Xu
+  - Hongyuan Zha
+  abstract: 'Healthcare mechanisms are inseparable from the strategic provider response
+    they induce: existing healthcare AI benchmarks hold this response fixed and so
+    cannot evaluate mechanisms by the equilibrium '
+  venue: arXiv (Cornell University)
+- title: Declarable Integration of NIST AI Risk Management into AI-driven ISMS through
+    Policy-as-Code
+  date: 2026-04
+  url: https://doi.org/10.24191/1pd5sq41
+  category: policycode
+  subcategory: application
+  authors:
+  - Dmitri Kharchevnikov
+  - Steven Robinett
+  abstract: This study proposes a unified framework for declarable cybersecurity risk
+    assessment in AI-driven Information Security Management Systems to enhance trust
+    and assurance through systematic mapping of N
+  venue: Journal of Information and Knowledge Management
+- title: 'Reusing Policy-as-Code Across CI/CD and Kubernetes Admission Control: An
+    Empirical Assessment of Governance Consistency'
+  date: 2026-07
+  url: https://doi.org/10.3390/computers15070453
+  category: policycode
+  subcategory: application
+  authors:
+  - Luís Nogueira
+  - Alice Resende
+  abstract: Cloud-native software-delivery pipelines increasingly rely on Policy-as-Code
+    (PaC) to automate security, compliance, and governance enforcement. Although Policy-as-Code
+    is widely adopted within Contin
+  venue: Computers
+- title: 'Policy-as-Code for AI Risk Governance: Translating AI Risk Frameworks into
+    Platform Guardrails'
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19072296
+  category: policycode
+  subcategory: application
+  authors:
+  - Lakshmi Priya Gopalsamy
+  abstract: The implementation of AI on the enterprise level presents a problem of
+    governance that cannot beaddressed by manual review processes at scale. Algorithm
+    bias, model misuse, data leakage, and operation
+  venue: Journal of Computational Analysis and Applications
+- title: 'Premise Currency: A Governance Framework for Policy-as-Code Rules with No
+    Recorded, Lost, or Expired Founding Basis'
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21162284
+  category: policycode
+  subcategory: application
+  authors:
+  - M Maruf Hossain
+  abstract: 'Every policy-as-code (PaC) rule that governs an autonomous system was
+    authored on a founding premise: an assumption about the operating conditions,
+    regulatory context, or risk profile that justified t'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Cadre operationnel de gouvernance dynamique Zero Trust / Policy-as-Code —
+    banc d'essai reproductible
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21219492
+  category: policycode
+  subcategory: application
+  authors:
+  - M. Krief
+  abstract: 'Replication package du memoire (Design Science Research) : artefact et
+    evaluation d''un cadre de gouvernance dynamique par le Policy/Security as Code
+    en contexte Zero Trust et open source. Banc d''essai'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'DevSecOps Aware in Healthcare: SBOM-Driven Supply-Chain Assurance (SLSA)
+    with Policy-Based Cost Guardrails and Continuous Security Validation'
+  date: 2026-02
+  url: https://doi.org/10.7753/ijcatr1308.1021
+  category: policycode
+  subcategory: application
+  authors:
+  - Nagarjuna Nellutla
+  abstract: Healthcare cloud systems must satisfy strict security and compliance controls
+    while operating under constrained budgets.Traditional DevSecOps pipelines improve
+    delivery velocity but often treat cost g
+  venue: International Journal of Computer Applications Technology and Research
+- title: 'DEFENSE-IN-DEPTH SECURITY ARCHITECTURE FOR KUBERNETES WORKLOADS: ZERO TRUST,
+    POLICY-AS-CODE, AND RUNTIME THREAT DETECTION'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20801706
+  category: policycode
+  subcategory: application
+  authors:
+  - Avneet Bansal
+  abstract: Kubernetes-native attack vectors — admission-time misconfiguration, compromised
+    workloadidentity, and post-deployment runtime exploitation — operate inside the
+    perimeter where traditionalnetwork-layer
+  venue: 工程科学与技术
+- title: 'Digital Era Islamic Education Policy: Formalizing Coding and AI Curricula
+    at MA Mambaul Ulum'
+  date: 2026-06
+  url: https://doi.org/10.65101/sgisci.v1i2.37
+  category: policycode
+  subcategory: application
+  authors:
+  - Muhammad Haidir Ali
+  - Abdussomad Abdussomad
+  abstract: 'The rapid integration of Artificial Intelligence within Islamic education
+    frequently triggers sociological and religious tensions concerning secular technological
+    determinism. This study investigates '
+  venue: Smart Journal of Global Islamic Studies and Social Science
+- title: Ground-Side Mission Plan Compilation with Policy-as-Code Guardrails for Cloud-Native
+    Satellite Platforms
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.14798
+  category: policycode
+  subcategory: application
+  authors:
+  - Hsiu-Chi Tsai
+  - Chan‐Jin Chung
+  abstract: Onboard cloud-native runtimes for satellites are emerging on multiple
+    tracks (ORCHIDE, Axiom Space's AxDCU-1, Kepler's Jetson nodes), but each assumes
+    that the workflow artifacts it executes arrive fr
+  venue: arXiv (Cornell University)
+- title: 'Zero-Trust Kubernetes: Designing Secure Cloud-Native Platforms Using Workload
+    Identity and Policy-as-Code'
+  date: 2026-05
+  url: https://doi.org/10.1109/ais69919.2026.11621798
+  category: policycode
+  subcategory: application
+  authors:
+  - Avinash Sabat
+  abstract: papers
+  venue: ''
+- title: 'AI-Driven Autonomous Health-Governed Cloud Infrastructure: A Framework for
+    Intelligent IaC, Policy-as-Code, and Safe Deployment Governance'
+  date: 2026-05
+  url: https://doi.org/10.47760/ijcsmc.2026.v15i05.006
+  category: policycode
+  subcategory: application
+  authors:
+  - Maheshbabu Dhanekula
+  - Rajesh Balaji
+  abstract: The swift advancement of cloud-native architectures, propelled by microservices,
+    dynamic infrastructure, and continuous delivery, has greatly heightened the complexity
+    of maintaining application relia
+  venue: International Journal of Computer Science and Mobile Computing
+- title: 'Semantically-enriched blockchain audit anchoring for policy-as-code governance
+    in heterogeneous cloud environments: implementation, evaluation, and regulatory
+    mapping'
+  date: 2026-06
+  url: https://doi.org/10.1007/s44443-026-00843-y
+  category: policycode
+  subcategory: application
+  authors:
+  - Rahul Nayak
+  - Madala Guru Brahmam
+  - Sachi Nandan Mohanty
+  abstract: Regulated organisations deploying workloads across multiple cloud providers
+    face a compliance verification problem that existing tools address only partially.
+    Policy-as-Code frameworks such as Open Po
+  venue: Journal of King Saud University - Computer and Information Sciences
+- title: 'Sixty years of EU forest policy discourse: An AI-assisted frame analysis
+    of policy documents'
+  date: 2026-07
+  url: https://doi.org/10.1016/j.forpol.2026.103880
+  category: policycode
+  subcategory: application
+  authors:
+  - Filip Aggestam
+  - Johanna Trummer
+  - Jerylee Wilkes‐Allemann
+  abstract: papers
+  venue: Forest Policy and Economics
+- title: 'A framework for developing university policies on generative AI governance:
+    a cross-national comparative study'
+  date: 2026-07
+  url: https://arxiv.org/abs/2504.02636
+  category: policycode
+  subcategory: application
+  authors:
+  - Ming Li
+  - Qin Xie
+  - Ariunaa Enkhtur
+  abstract: As generative AI (GAI) becomes increasingly embedded in higher education,
+    universities worldwide are developing policies to govern its ethical, pedagogical,
+    and institutional use. However, these polic
+  venue: Studies in Higher Education
+- title: Recursive Self-Improvement Stability under Endogenous Yardstick Drift
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.19044633
+  category: policycode
+  subcategory: application
+  authors:
+  - Takahashi, K
+  abstract: 'This paper develops a first-principles interface theory for recursive
+    self-improvement under endogenous yardstick drift: the setting in which a system
+    does not merely improve policies or code, but als'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Designing fully-automated AWS multi-account infrastructure using Terraform
+    with governance, policy-as-code, and centralized IAM boundaries
+  date: 2026-03
+  url: https://doi.org/10.55041/ijsrem57165
+  category: policycode
+  subcategory: application
+  authors:
+  - Sneha Palvai Sneha Palvai
+  abstract: papers
+  venue: INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT
+- title: Container Image Hardening Pipeline Vulnerability Scanning Policy Gates and
+    Runtime Efficiency in Production Kubernetes
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20026854
+  category: policycode
+  subcategory: application
+  authors:
+  - Ehtesham Junaid
+  abstract: The adoption of containerized applications and Kubernetes has improved
+    scalability but introduced significant security challenges such as vulnerable
+    images and runtime risks. This study proposes a Dev
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Decoding the Configuration of AI Coding Agents: Insights from Claude Code
+    Projects'
+  date: 2026-04
+  url: https://arxiv.org/abs/2511.09268
+  category: policycode
+  subcategory: application
+  authors:
+  - H. Santos
+  - Vı́tor Santos Costa
+  - João Eduardo Montandon
+  abstract: Agentic code assistants are a new generation of AI systems capable of
+    performing end-to-end software engineering tasks. While these systems promise
+    unprecedented productivity gains, their behavior and
+  venue: ''
+- title: Formalizing our commitment to code sharing
+  date: 2026-02
+  url: https://doi.org/10.1371/journal.pbio.3003678
+  category: policycode
+  subcategory: application
+  authors:
+  - Nonia Pariente
+  - Lauren Cadwallader
+  - on behalf of the PLOS Biology Staff Editors
+  abstract: In support of open science, PLOS Biology routinely asks authors to openly
+    share their research code before publication. We are now formalizing this practice
+    with a mandatory code-sharing policy and cl
+  venue: PLoS Biology
+- title: 'Replication Data for Police as Policymakers: How experiences with policy
+    implementation shape policy representation'
+  date: 2026-06
+  url: https://doi.org/10.7910/dvn/mhg3a9
+  category: policycode
+  subcategory: application
+  authors:
+  - Michael Sierra‐Arévalo
+  - José J. Alcocer
+  - Lauren Brown
+  abstract: 'This replication package contains all code and data needed to replicate
+    the quantitative results in "Police as Policymakers: How experiences with policy
+    implementation shape policy representation," pu'
+  venue: Harvard Dataverse
+- title: ODRL Policy Comparison Through Normalisation
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18862527
+  category: policycode
+  subcategory: application
+  authors:
+  - Jaime Osvaldo Salas Trejo
+  - Paolo Pareti
+  abstract: This code allows for the normalisation of ODRL policies containing Permissions
+    and Prohibitions in order to check for policy containment, equivalence or overlap.
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Policy gaps regarding social homecare in the context of end-of-life; a policy
+    document analysis
+  date: 2026-05
+  url: https://doi.org/10.1186/s12904-026-02143-8
+  category: policycode
+  subcategory: application
+  authors:
+  - Helene Elliott-Button
+  - Kasonde Mwaba
+  - Zana Bayley
+  abstract: ABSTRACT Background Social homecare workers (personal aides/assistants)
+    are crucial for people wishing to receive end-of-life care at home. Aim To determine
+    current UK social care policy priorities an
+  venue: BMC Palliative Care
+- title: Policy and Professional Organizations
+  date: 2026-08
+  url: https://doi.org/10.4037/ccn2026173
+  category: policycode
+  subcategory: application
+  authors:
+  - Yvette Conyers
+  - Sarah Miner
+  abstract: Health policy can be perceived as abstract, complex, and distant from
+    bedside care. For a lot of nurses, policy is something they are introduced to
+    briefly during school, but it does not lead to ongoi
+  venue: Critical Care Nurse
+- title: Runtime Policy Enforcement for MCP-Based LLM Agents
+  date: 2026-06
+  url: https://doi.org/10.3390/electronics15132829
+  category: policycode
+  subcategory: application
+  authors:
+  - Shanshan Wang
+  - Si Zhu
+  - R K Li
+  abstract: 'Tool-calling LLM agents are vulnerable to indirect prompt injection:
+    externally retrieved data can redirect tool calls without system-prompt access,
+    and prompt-level defences leave three harm classes '
+  venue: Electronics
+- title: Code Of Practice And Data Protection Policy (D5.2)
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20049922
+  category: policycode
+  subcategory: application
+  authors:
+  - Nathan Lea
+  - Tieneke Schaaij-Visser
+  - Robin Navest
+  abstract: IDERHA is a European public-private partnership launched in April 2023.
+    This pioneering project aims to create an open platform designed to enable connectivity,
+    access, sharing, use and reuse of digit
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'From Distribution to Contribution: Negotiating Justice Policies in Grassroots
+    FOSS Communities'
+  date: 2026-04
+  url: https://doi.org/10.1145/3772318.3791722
+  category: policycode
+  subcategory: application
+  authors:
+  - Philip Engelbutzeder
+  - L. G. Jahn
+  - Anton Ballmaier
+  abstract: Fairness is a recurring challenge in grassroots digital infrastructures,
+    where collective action depends on volunteer contributions. This paper presents
+    a study of Foodsharing.de, a grassroots FOSS pl
+  venue: ''
+- title: Multi-Agent Deep Reinforcement Learning for Coding-Aware and Energy-Balanced
+    Routing in Dynamic Drone Networks
+  date: 2026-03
+  url: https://doi.org/10.3390/drones10030184
+  category: policycode
+  subcategory: application
+  authors:
+  - Wu Yuhao
+  - Xiulin Qiu
+  - Bo Song
+  abstract: By incorporating opportunistic coding, network throughput is enhanced,
+    resulting in improved overall performance. However, applying this paradigm to
+    Flying Ad-hoc Networks (FANETS) faces significant c
+  venue: Drones
+- title: 'Wildfire risk and home prices: The case of California building codes'
+  date: 2026-05
+  url: https://doi.org/10.1016/j.jhe.2026.102139
+  category: policycode
+  subcategory: application
+  authors:
+  - Douglas H. Wrenn
+  abstract: papers
+  venue: Journal of Housing Economics
+- title: South African Grade R teachers’ perspectives on integrating coding and robotics
+    in early education
+  date: 2026-02
+  url: https://doi.org/10.15700/saje.v46n1a2606
+  category: policycode
+  subcategory: application
+  authors:
+  - Kayla Willemse
+  - Ronel Callaghan
+  abstract: The integration of coding and robotics has emerged as a groundbreaking
+    trend in early education. With this study we examined the perspectives of 10 South
+    African Grade R teachers over 4 months using a
+  venue: South African Journal of Education
+- title: iFEED Zambia extremes nutrition analysis code
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18760105
+  category: policycode
+  subcategory: application
+  authors:
+  - Stewart Jennings
+  - Richard Rigby
+  - Jennifer MacDiarmid
+  abstract: The R code iFEED_TNT.R produces the nutrition security results presented
+    in the publication "Adaptive policies balancing trade, productivity and cropland
+    increases can support Zambia’s nutrition secur
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Labour’s ‘Ming Vase Strategy’: the operational code of the Starmer leadership'
+  date: 2026-04
+  url: https://doi.org/10.1057/s41293-026-00305-z
+  category: policycode
+  subcategory: application
+  authors:
+  - Eric Shaw
+  abstract: Abstract The aim of this article is to provide an overview of the Labour
+    Party’s programmatic trajectory under Keir Starmer, a trajectory which helped
+    set the parameters for the often-contentious poli
+  venue: British Politics
+- title: 'Behavior-Bound Signatures: Cryptographic Policy Enforcement from Zero-Knowledge
+    Soundness'
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18811273
+  category: policycode
+  subcategory: application
+  authors:
+  - Y.Y.N. Li
+  abstract: 'Every standard signature scheme enforces one property: only the key holdercan
+    sign. What the key holder signs is unconstrained. Policy enforcement-- spending
+    limits, rate limits, access control -- liv'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: STUDY ON POLICIES, CODES AND REGULATIONS OF BIOFUELS
+  date: 2026-03
+  url: https://doi.org/10.56726/irjmets85186
+  category: policycode
+  subcategory: application
+  authors: []
+  abstract: papers
+  venue: International Research Journal of Modernization in Engineering Technology
+    and Science
+- title: Report on the Data and Code Availability Policy
+  date: 2026-05
+  url: https://doi.org/10.1257/pandp.116.905
+  category: policycode
+  subcategory: application
+  authors: []
+  abstract: papers
+  venue: AEA Papers and Proceedings
+- title: 'Context-Invariant Decision Policies: Data and Code'
+  date: 2026-04
+  url: https://osf.io/bp7kc
+  category: policycode
+  subcategory: application
+  authors:
+  - Dr. Samseer R H
+  abstract: This repository contains data and code for the study “Context-Invariant
+    Decision Policies,” examining the generalisation of exploration–exploitation decision
+    mechanisms across contextual variation.
+  venue: OSF Preprints (OSF Preprints)
+- title: 'AI Governance in Education: A Comparative Policy Analysis of China, Singapore,
+    and the European Union'
+  date: 2026-04
+  url: https://doi.org/10.20944/preprints202604.0157.v1
+  category: policycode
+  subcategory: application
+  authors:
+  - Md Shakib Hasan
+  - Mst Mosaddeka Naher Jabe
+  abstract: 'As the world embarks on an artificial intelligence revolution, governments
+    and supranational organizations are taking highly divergent approaches to regulation
+    in an effort to regulate the effects of '
+  venue: Preprints.org
+- title: 'Evolutionary Characteristics of Water Resource Governance Policies in China:
+    Based on a Quantitative Textual Analysis'
+  date: 2026-04
+  url: https://doi.org/10.3390/w18070862
+  category: policycode
+  subcategory: application
+  authors:
+  - Mei Wu
+  - Xiang’an Shen
+  - Zihan Hu
+  abstract: Water governance faces growing challenges from climate change, pollution,
+    and increasing demand, rendering policy evolution a critical research focus. This
+    study analyzes the evolutionary characterist
+  venue: Water
+- title: A Country That Never Sleeps? A Web Scrapping Analysis of the 24‐h Economy
+    Policy in Ghana
+  date: 2026-03
+  url: https://doi.org/10.1002/tie.70112
+  category: policycode
+  subcategory: application
+  authors:
+  - Pius Gamette
+  - Eric Shynada Loglo
+  - Francis Tawiah Anaisie
+  abstract: ABSTRACT In light of revitalizing Ghana's economic landscape through sustainable
+    job creation underpinned by 24‐h operations across all key sectors, the National
+    Democratic Congress proposed the ‘24‐h
+  venue: Thunderbird International Business Review
+- title: Availability of clinical trial individual patient data in the BMJ before
+    and after adoption of a stringent data-sharing policy, compared with recent rates
+    at other major medical journals
+  date: 2026-05
+  url: https://doi.org/10.64898/2026.05.15.26353284
+  category: policycode
+  subcategory: application
+  authors:
+  - Alison Avenell
+  - Dorothy Bishop
+  abstract: Abstract Background In 2024, the BMJ updated its data-sharing policy for
+    clinical trials, requiring open deposit of deidentified individual participant
+    data (IPD) before publication. We considered whe
+  venue: medRxiv
+- title: Advanced Deep Statistical Learning Approach for Forecasting Global Economic
+    Policy Uncertainty and Volatility
+  date: 2026-04
+  url: https://doi.org/10.1007/s10614-026-11350-7
+  category: policycode
+  subcategory: application
+  authors:
+  - Khder Alakkari
+  - Mostafa Abotaleb
+  - El-Sayed M. El-Kenawy M. El-Kenawy
+  abstract: papers
+  venue: Computational Economics
+- title: 'Pollinator-Friendly Policies in Brazil: History and Future Directions'
+  date: 2026-04
+  url: https://doi.org/10.1007/s13744-025-01355-6
+  category: policycode
+  subcategory: application
+  authors:
+  - Juliana Hipólito
+  - Carmen Sílvia Soares Pires
+  - Jeferson Gabriel da Encarnação Coutinho
+  abstract: This article reviews existing and proposed Brazilian policies aimed at
+    promoting the conservation and sustainable use of wild and managed pollinators.
+    Emphasis is placed on strategies for habitat cons
+  venue: Neotropical Entomology
+- title: 'Innovations and policies for climate-resilient food and water systems in
+    sub-Saharan Africa: a systematic review'
+  date: 2026-05
+  url: https://doi.org/10.3389/fsufs.2026.1796985
+  category: policycode
+  subcategory: application
+  authors:
+  - Lindiwe Maphalala
+  - Unathi Kolonasi
+  - Denver Naidoo
+  abstract: Sub-Saharan Africa’s food and water systems face increasing pressure from
+    the worsening impacts of climate change, necessitating the integration of technological
+    innovations and policy frameworks to b
+  venue: Frontiers in Sustainable Food Systems
+- title: 'MEMENTO: Memory-Guided Memetic Code-as-Policy Evolution'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.22832
+  category: policycode
+  subcategory: application
+  authors:
+  - Alkis Sygkounas
+  - Victor Aregbede
+  - Amy Loutfi
+  abstract: Long-horizon embodied tasks require policies that execute many dependent
+    actions before task success can be observed. Representing policies as executable
+    control pro- grams (code-as-policy) enables th
+  venue: arXiv (Cornell University)
+- title: 'Assessing AI policy and guideline progress within the South African public
+    higher education system: insights from documented policies'
+  date: 2026-04
+  url: https://doi.org/10.1007/s10209-026-01340-9
+  category: policycode
+  subcategory: application
+  authors:
+  - Mariam Jacobs-Basadien
+  - Shaun Pather
+  abstract: 'Abstract Recent years have witnessed transformative advancements in generative
+    artificial intelligence, with profound implications for higher education. As universities
+    increasingly integrate AI into '
+  venue: Universal Access in the Information Society
+- title: 'Reply on CEC1: Compliance with Code and Data Policy'
+  date: 2026-06
+  url: https://doi.org/10.5194/egusphere-2026-2532-ac2
+  category: policycode
+  subcategory: application
+  authors:
+  - Gudongze Li
+  abstract: <strong class="journal-contentHeaderColor">Abstract.</strong> Tracer transport
+    is a critical computational bottleneck in high-resolution atmospheric chemistry
+    models, where tens to hundreds of species
+  venue: ''
+- title: 'Replication Data and Code for: Credibility is Trade Policy'
+  date: 2026-05
+  url: https://doi.org/10.5683/sp3/qetyzo
+  category: policycode
+  subcategory: application
+  authors:
+  - Joseph B. Steinberg
+  abstract: The data and programs replicate tables and figures from "Credibility is
+    Trade Policy" by Steinberg. Please see the README file for additional details.
+  venue: Borealis
+- title: Code and Data for Adaptive Dynamic Policy Optimization
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21786407
+  category: policycode
+  subcategory: application
+  authors:
+  - Yiming Wei
+  abstract: 'This archive contains the Python source code, configuration files, processed
+    input data, and saved model outputs used to implement the reservoir simulation
+    and multi-objective optimization workflows. '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Code underlying the publication: Towards Optimal Policy Improvement'
+  date: 2026-06
+  url: https://doi.org/10.4121/7e3a0d93-620d-40e9-942e-50a1304e56e7.v1
+  category: policycode
+  subcategory: application
+  authors:
+  - Yaniv Oren
+  abstract: 'Research data for the paper Towards Optimal Policy Improvement, this
+    repository contains research code for studying uncertainty-aware policy improvement
+    operators in tabular reinforcement learning.It '
+  venue: 4TU.ResearchData
+- title: 'IAM Policy Autopilot: Static Analysis for Policy Generation from Application
+    Code (artifact)'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21706325
+  category: policycode
+  subcategory: application
+  authors:
+  - Antonio Filieri
+  - Larry Kennedy
+  - Kevin Luo
+  abstract: 'Artifact for the ASE 2026 Industry Showcase publication "IAM Policy Autopilot:
+    Static Analysis for Policy Generation from Application Code" (snapshot of the
+    official iam-autopilot repository https://g'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'AltReform Policy Predictor: Training Corpus and Reproducible Code'
+  date: 2026-06
+  url: https://doi.org/10.7910/dvn/1i8cvf
+  category: policycode
+  subcategory: application
+  authors:
+  - JOSEPH MCLEAN-ARTHUR
+  - ERIN MCGUIRE
+  abstract: Training corpus and supplementary code for the AltReform Policy Predictor,
+    a four-model machine learning ensemble (Logistic Regression, Random Forest, XGBoost,
+    SVM-RBF) for predicting criminal justice
+  venue: Harvard Dataverse
+- title: Differentiable acoustic propagation in ocean general circulation models for
+    variational state estimation
+  date: 2026-05
+  url: https://hdl.handle.net/2152/137119
+  category: observability
+  subcategory: application
+  authors:
+  - Ivana Escobar
+  - 0009-0008-2545-0143
+  abstract: Direct ocean observing systems provide the primary constraints on the
+    present understanding of the ocean state, but remain sparse in regions of strong
+    hydrographic variability and at depth. Pioneering
+  venue: Open MIND
+- title: 'Kubeflow for Healthcare: Zero-Touch Model Retraining in HIPAA-Compliant
+    Clouds'
+  date: 2026-03
+  url: https://doi.org/10.1109/i3ctcon68242.2026.11507172
+  category: gitops
+  subcategory: application
+  authors:
+  - S.G. Joshi
+  - Ramkumar Raju Djeabalaradjou
+  - RAMA KRISHNA KUMAR LINGAMGUNTA
+  abstract: Healthcare AI systems learn from previous data sets and models. This leads
+    to a slow but continuous change in past data. These changes affect the accuracy
+    and reliability of the model with time, which
+  venue: ''
+- title: 'DEVOPS E FINOPS EM AMBIENTES DE NUVEM: AUTOMAÇÃO, GOVERNANÇA E OTIMIZAÇÃO
+    DE CUSTOS NO CENÁRIO DO ROS 2.0'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20704130
+  category: gitops
+  subcategory: application
+  authors:
+  - Danillo Felipe Barboza dos Santos
+  - Luciano de Souza Cabal
+  abstract: O crescimento da computação em nuvem transformou a maneira como sistemas
+    são desenvolvidos e operados. Se antes o desafio estava em escalar aplicações,
+    hoje a preocupação se volta para como fazê-lo de
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Design and Implementation of a DevSecOps Lifecycle
+  date: 2026-07
+  url: https://doi.org/10.26258/heal.hua.7728
+  category: gitops
+  subcategory: application
+  authors:
+  - Βασίλειος Κουτσομπίνας Δημήτριος
+  - Vasileios Koutsompinas Dimitrios
+  abstract: 'The demand for rapid software delivery often leads to compromises in
+    security, with security checks postponed to the end of the development lifecycle.
+    This practice dramatically increases the cost of '
+  venue: Harokopio University
+- title: AI-PROGNOSIS_D4.4 / The AI-PROGNOSIS digital health ecosystem (MVP)
+  date: 2026-07
+  url: https://doi.org/10.5281/zenodo.21103398
+  category: gitops
+  subcategory: application
+  authors:
+  - John Zaras
+  abstract: Executive summary D4.4 ‘The AI-PROGNOSIS Digital Health Ecosystem (MVP)’
+    delivers the Minimum Viable Product (MVP) version of the AI-PROGNOSIS’ three applications,
+    i.e., mAI-Health, mAI-Care and mAI-I
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Omni-Omniversal AEON™
+  date: 2026-03
+  url: https://doi.org/10.5281/zenodo.18904335
+  category: gitops
+  subcategory: application
+  authors:
+  - Bidyut Mazumdar
+  abstract: 'Title:Omni-Omniversal AEON™ Eternal Grid — Version 15.0: Multi-Multiverse
+    Trillion-Node Production Canon Authors:Dr. B. Mazumdar, D.Sc. (Hon.), D.Litt.
+    (Hon.)Independent Research Scholar & Architect o'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: I Passed KCNA After I Stopped Studying in a Random Way
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19601925
+  category: gitops
+  subcategory: application
+  authors:
+  - Andrew James
+  abstract: I work in IT on the infrastructure side, mostly around cloud, Linux, deployment
+    pipelines, and the kind of operational work where you cannot hide behind theory
+    for very long. I had been seeing Kuberne
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Bacteriophage-Based Therapeutic, Diagnostic, and Biocontrol Platforms: Engineering,
+    Evidence, and Translational Challenges'
+  date: 2026-07
+  url: https://doi.org/10.3390/ijms27156615
+  category: platform
+  subcategory: application
+  authors:
+  - Nan Chen
+  - Yi Yang
+  - Yue Wang
+  abstract: 'Bacteriophages are being revisited as programmable platforms for therapy,
+    diagnostics, and biocontrol. Their value, however, depends on the setting. Therapeutic
+    phages must do more than lyse bacteria '
+  venue: International Journal of Molecular Sciences
+- title: A singular base-editing platform for polyfunctional multiplex engineering
+    of immune cells
+  date: 2026-07
+  url: https://doi.org/10.1016/j.ymthe.2026.07.033
+  category: platform
+  subcategory: application
+  authors:
+  - Joseph G. Skeate
+  - Nicholas J. Slipek
+  - Walker S. Lahr
+  abstract: Current methods to engineer antigen-specific receptors rely on randomly
+    integrating vectors or double-strand-break-induced targeted integration, both
+    of which pose safety risks. To implement an all-in
+  venue: Molecular Therapy
+- title: Delivery platforms for in vivo CAR-T engineering
+  date: 2026-08
+  url: https://doi.org/10.3389/fimmu.2026.1841160
+  category: platform
+  subcategory: application
+  authors:
+  - He Wang
+  - Guangmei Qiao
+  - Ming Ma
+  abstract: 'Ex vivo CAR-T changed cancer care, but its made-to-order manufacturing
+    keeps too many patients waiting. In vivo CAR-T takes a different path: deliver
+    the genetic blueprint to a patient’s own immune ce'
+  venue: Frontiers in Immunology
+- title: 'Engineering coordination-defined metal–phenolic networks: From molecular
+    self-assembly to system-level platforms for advanced tumor therapy'
+  date: 2026-03
+  url: https://doi.org/10.1016/j.rineng.2026.110087
+  category: platform
+  subcategory: application
+  authors:
+  - Ting Xu
+  - Wenfei Xu
+  - Shuxuan Zhu
+  abstract: • This review introduces recent advances in the design of MPN-based nanoplatforms.
+    • This review discusses the application of MPN-based nanoplatforms in tumor therapy.
+    • This review analyzes the chall
+  venue: Results in Engineering
+- title: '<i>In Vitro</i> Platforms in Bone Tissue Engineering: From Biological Foundations
+    to Advanced Models'
+  date: 2026-04
+  url: https://doi.org/10.1021/acsbiomaterials.5c01737
+  category: platform
+  subcategory: application
+  authors:
+  - Quoc-Cuong Nguyen
+  - Bayu Tri Murti
+  - Guo‐Chung Dong
+  abstract: Large bone defects and related diseases affect millions worldwide, while
+    conventional treatments such as autologous grafting remain limited by donor supply
+    and high complication rates. Bone tissue eng
+  venue: ACS Biomaterials Science & Engineering
+- title: Engineering Microbial Particles for Next‐Generation Biomedical Platforms
+  date: 2026-04
+  url: https://doi.org/10.1002/advs.202600012
+  category: platform
+  subcategory: application
+  authors:
+  - Yuting Li
+  - Yunjie Lu
+  - Ziyan Huang
+  abstract: Microbe-derived particles (MDPs), which include extracellular vesicles,
+    outer membrane vesicles, inclusion bodies, polysaccharide particles, and virus-like
+    particles, represent a rapidly expanding cat
+  venue: Advanced Science
+- title: Engineering Salvia miltiorrhiza hairy roots as a scalable platform for high-yield
+    production of paclitaxel and ginsenoside precursors
+  date: 2026-03
+  url: https://doi.org/10.1016/j.xplc.2026.101830
+  category: platform
+  subcategory: application
+  authors:
+  - Junjie Lin
+  - Wei Tzu Li
+  - Yang Liu
+  abstract: Plant-derived natural products offer a rich source of therapeutic agents.
+    However, sustainable and high-yield production remains a grand challenge. We engineered
+    Salvia miltiorrhiza hairy roots to pro
+  venue: Plant Communications
+- title: 'Printed electrochemical biosensors for microRNA detection: Materials innovation,
+    surface engineering, and integrated platform development'
+  date: 2026-02
+  url: https://doi.org/10.1016/j.electacta.2026.148527
+  category: platform
+  subcategory: application
+  authors:
+  - Muhammad Faizan
+  - Chi-Hsien Liu
+  - Mariyam Fatima
+  abstract: papers
+  venue: Electrochimica Acta
+- title: Predictive Quality Engineering in Distributed Data Platforms Using Machine
+    Learning
+  date: 2026-04
+  url: https://doi.org/10.1109/syscon66367.2026.11503610
+  category: platform
+  subcategory: application
+  authors:
+  - Jay Mehta
+  abstract: 'This article examines the role of predictive quality engineering in distributed
+    data platforms by applying machine learning techniques to telemetry data. Modern
+    software systems emit large volumes of '
+  venue: ''
+- title: '2D single-element materials: a platform for materials engineering and applications'
+  date: 2026-04
+  url: https://doi.org/10.1038/s41699-026-00695-0
+  category: platform
+  subcategory: application
+  authors:
+  - Carlo Grazianetti
+  - Christian Martella
+  - Alessandro Molle
+  abstract: This review presents a comprehensive overview about two-dimensional (2D)
+    elemental materials termed Xenes. It highlights their fundamental properties,
+    synthesis and encapsulation schemes, and the emer
+  venue: npj 2D Materials and Applications
+- title: 'Surface Fluorination Engineering of FeCo Prussian Blue Analogs with Boosted
+    Peroxidase-Like Activity and Selectivity: An Integrated Nanozyme-Membrane Sensing
+    Platform for Perfluorooctanesulfonate'
+  date: 2026-03
+  url: https://doi.org/10.1021/acs.analchem.5c07659
+  category: platform
+  subcategory: application
+  authors:
+  - Xu Zhu
+  - Ningning Liang
+  - Ziyang Zhang
+  abstract: Accurate and sensitive analysis of perfluorooctanesulfonate (PFOS) is
+    essential for environmental pollution traceability and risk assessment. Herein,
+    a surface fluorination engineering strategy was pr
+  venue: Analytical Chemistry
+- title: Induced pluripotent stem cells as platforms for engineering NK cell immunotherapies
+  date: 2026-05
+  url: https://doi.org/10.3389/fcell.2026.1810206
+  category: platform
+  subcategory: application
+  authors:
+  - Anna Jezierski
+  - Jez Huang
+  - Lea Desbiens
+  abstract: Human induced pluripotent stem cells (iPSCs) are transforming adoptive
+    cell therapy by combining unlimited self-renewal, broad differentiation potential,
+    and high amenability to genome engineering. Th
+  venue: Frontiers in Cell and Developmental Biology
+- title: A Multi-Platform Approach to Optimizing Depression Detection in Social Media
+    Through Feature Engineering and Contextual Analysis
+  date: 2026-02
+  url: https://doi.org/10.1007/s44196-026-01225-y
+  category: platform
+  subcategory: application
+  authors:
+  - Iqra Arshad
+  - Shahid Naseem
+  - Marwa Mussarat
+  abstract: Depression is a prevalent mental disorder that significantly affects the
+    well-being and normal functioning of individuals. The widespread use of social
+    media platforms such as Twitter (then X), Reddit
+  venue: International Journal of Computational Intelligence Systems
+- title: 'GYDE: A collaborative drug discovery platform for AI-powered protein design
+    and engineering'
+  date: 2026-03
+  url: https://doi.org/10.64898/2026.03.24.714039
+  category: platform
+  subcategory: application
+  authors:
+  - Thomas A. Down
+  - Mateusz Warowny
+  - April Walker
+  abstract: Abstract As computational tools and machine learning models for protein
+    sciences continue to advance and proliferate, bench scientists face increasing
+    technical challenges adopting these tools for spe
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: Engineering Yarrowia lipolytica as a next-generation biomanufacturing platform
+    for sustainable lignocellulosic biorefineries
+  date: 2026-05
+  url: https://doi.org/10.1016/j.biotechadv.2026.108920
+  category: platform
+  subcategory: application
+  authors:
+  - Yutao Zhong
+  - Xiaoyue Pan
+  - Aiqin Shi
+  abstract: papers
+  venue: Biotechnology Advances
+- title: Engineering MXene-based platforms for electrocatalytic CO2 and N2 reduction
+    reactions; synthesis, modification strategies, and mechanistic insights
+  date: 2026-06
+  url: https://doi.org/10.1016/j.jece.2026.123689
+  category: platform
+  subcategory: application
+  authors:
+  - Sami Ur Rahman
+  - Saeed Anwar
+  - A K M Abdun Noor
+  abstract: papers
+  venue: Journal of environmental chemical engineering
+- title: Predictive Reliability Engineering for Cloud Scale Business Intelligence
+    Platforms through Anomaly Detection Capacity Optimization and Proactive Support
+    Automation
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19474845
+  category: platform
+  subcategory: application
+  authors:
+  - Shujath Baig Mirza
+  abstract: Modern enterprises increasingly rely on large scale Business Intelligence
+    (BI) platforms deployed across distributed cloud infrastructures to generate real
+    time analytical insights for operational and
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Forge Steel: CareerConnect - An Intelligent Web-Based Interview Preparation
+    Platform for Engineering Students'
+  date: 2026-04
+  url: https://doi.org/10.46647/rdems0204009
+  category: platform
+  subcategory: application
+  authors:
+  - D. Sai Nisanth
+  - P. Sahil Kumar
+  - S. Vinay
+  abstract: The increasing demand for industry-ready graduates has exposed a critical
+    gap in accessible, integrated career preparation tools for engineering students.
+    Existing platforms address individual compone
+  venue: Research Digest on Engineering Management and Social Innovations
+- title: Advanced engineering of hydrogel platforms for cancer immunotherapy via distinct
+    administration routes
+  date: 2026-05
+  url: https://doi.org/10.1016/j.jconrel.2026.115036
+  category: platform
+  subcategory: application
+  authors:
+  - Xin Wang Mo
+  - Dong Kwang Min
+  - Jaeyun Kim
+  abstract: papers
+  venue: Journal of Controlled Release
+- title: 'Precision engineering for ocular gene therapy: Molecular tools, delivery
+    platforms, and disease applications'
+  date: 2026-05
+  url: https://doi.org/10.1016/j.edisc.2026.100040
+  category: platform
+  subcategory: application
+  authors:
+  - 孔令芸
+  - Changchang Xin
+  - Mingrui Cheng
+  abstract: Ocular gene therapy holds transformative potential for the treatment of
+    both hereditary and acquired eye diseases by addressing their underlying genetic
+    causes rather than merely alleviating symptoms.
+  venue: Eye Discovery
+- title: Re-Engineering CRISPR-Cas12a into a Multimodal Biosensing Platform with Programmable
+    Precursor crRNA
+  date: 2026-05
+  url: https://doi.org/10.1021/acs.analchem.6c01251
+  category: platform
+  subcategory: application
+  authors:
+  - Bangtian Xu
+  - Shu Tian
+  - Ning Yang
+  abstract: The CRISPR-Cas12a system has emerged as a powerful tool for molecular
+    diagnostics due to its trans-cleavage activity. However, its utility in point-of-care
+    testing is constrained by several inherent l
+  venue: Analytical Chemistry
+- title: 'Interfacial chemical engineering of Fe3O4/graphene oxide–hybrid PCL nanofibers:
+    Tunable structure–property relationships for potential tissue engineering platforms'
+  date: 2026-06
+  url: https://doi.org/10.1016/j.rechem.2026.103592
+  category: platform
+  subcategory: application
+  authors:
+  - Leyla Bagheri
+  - Moayad Hossaini Sadr
+  - Arta Armani
+  abstract: Engineering polymer nanofibers through controlled interfacial chemistry
+    provides an effective strategy for tailoring structure–property relationships
+    in hybrid organic–inorganic systems. In this study
+  venue: Results in Chemistry
+- title: An extracellular vesicle biogenesis-inspired engineering platform for efficient
+    protein delivery and therapeutic base editing
+  date: 2026-05
+  url: https://doi.org/10.64898/2026.05.18.721905
+  category: platform
+  subcategory: application
+  authors:
+  - Songpu Xie
+  - Qiangbing Yang
+  - Nazma Ilahibaks
+  abstract: Abstract Efficient and controllable delivery of genome-editing proteins
+    remains a central challenge for therapeutic translation of gene-editing technologies.
+    Extracellular vesicles (EVs) offer an attr
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+- title: Supramolecular coiled-coil peptide platform for site-specific antibody drug
+    conjugate engineering
+  date: 2026-03
+  url: https://doi.org/10.1038/s41467-026-70094-y
+  category: platform
+  subcategory: application
+  authors:
+  - A. Ringaci
+  - Ting‐Yu Shih
+  - Mark W. Grinstaff
+  abstract: Antibody conjugates play a central role across multiple healthcare sectors
+    with a prime example being antibody-drug conjugates (ADCs). Although widely used
+    lysine and hinge cysteine conjugation method
+  venue: Nature Communications
+- title: 'Pharmaceutical Engineering of Lipid-Based Nanocarriers for Cancer Nanomedicines:
+    From Doxorubicin to mRNA Platforms'
+  date: 2026-07
+  url: https://doi.org/10.1021/acsbiomaterials.6c00618
+  category: platform
+  subcategory: application
+  authors:
+  - Liam Gillman
+  - Djordji Suleski
+  - Mark E. Graham
+  abstract: Designing therapeutic payloads to deliver drug molecules to the desired
+    target site is challenging and requires effective, stable, and safe delivery systems
+    in cancer therapy. Lipid-based nanocarriers
+  venue: ACS Biomaterials Science & Engineering
+- title: 'Engineering the future of precision cancer immunotherapy: Integrating neoantigen
+    biology, engineered delivery platforms, and clinical translation.'
+  date: 2026-05
+  url: https://doi.org/10.1016/j.mtadv.2026.100808
+  category: platform
+  subcategory: application
+  authors:
+  - Muhammad Masood Ur Rauf Hiraj Khan
+  - M. Imad Khan Khalil
+  - Yunjing Zhuo
+  abstract: This review focuses on the field of precision cancer immunotherapy, systematically
+    describing the paradigm shift from traditional therapies to immune modulation
+    strategies, with an emphasis on integra
+  venue: Materials Today Advances
+- title: 'Engineering porous vaterite CaCO₃ nanostructures via alcohol–surfactant
+    coordination in co-precipitation: A facile route to tunable drug-carrier platforms'
+  date: 2026-03
+  url: https://doi.org/10.1016/j.colsurfb.2026.115592
+  category: platform
+  subcategory: application
+  authors:
+  - Seung-Yeon Kim
+  - Seung-Yeon Kim
+  - Min-Kyung Kang
+  abstract: papers
+  venue: Colloids and Surfaces B Biointerfaces
+- title: 'Membrane-anchoring engineering mediated the self-assembly of multifunctional
+    nanocarriers: An efficient platform for astaxanthin delivery'
+  date: 2026-02
+  url: https://doi.org/10.1016/j.colsurfb.2026.115569
+  category: platform
+  subcategory: application
+  authors:
+  - Jingyu Si
+  - Dandan Wang
+  - Yuming Wang
+  abstract: papers
+  venue: Colloids and Surfaces B Biointerfaces
+- title: 'Engineering bioavailability: Polysaccharide-protein-lipid delivery platforms
+    for postbiotic therapeutics in gastrointestinal and systemic disorders'
+  date: 2026-02
+  url: https://doi.org/10.1016/j.ijbiomac.2026.151123
+  category: platform
+  subcategory: application
+  authors:
+  - Ambreen Leghari
+  - Faiz Muhammad Khand
+  - Sheereen Laghari
+  abstract: papers
+  venue: International Journal of Biological Macromolecules
+- title: Engineering cellulose nanocrystal-regulated UiO-66 as a bifunctional platform
+    for enhanced fluoroquinolone antibiotic removal
+  date: 2026-06
+  url: https://doi.org/10.1016/j.cej.2026.178262
+  category: platform
+  subcategory: application
+  authors:
+  - Dongdong Liu
+  - Runkai Wang
+  - Huiqin Wang
+  abstract: papers
+  venue: Chemical Engineering Journal
+- title: A cascade-based In Vitro platform facilitates semi-rational engineering of
+    pyridoxine-5′-phosphate synthase
+  date: 2026-04
+  url: https://doi.org/10.1016/j.bej.2026.110218
+  category: platform
+  subcategory: application
+  authors:
+  - Yuyang Bai
+  - Hao He
+  - Shihao Xiang
+  abstract: papers
+  venue: Biochemical Engineering Journal
+- title: '<scp>PEGylated</scp> Chitosan Nanoparticles: Engineering Multifunctional
+    Platforms for Targeted Cervical and Lung Cancer Treatment'
+  date: 2026-03
+  url: https://doi.org/10.1111/cas.70361
+  category: platform
+  subcategory: application
+  authors:
+  - Prashant Kesharwani
+  - Nazim Nasir
+  - Shadma Wahab
+  abstract: Polymer-based nanocarriers have emerged as transformative platforms in
+    cancer nanomedicine, enabling controlled and site-specific delivery of therapeutic
+    agents. Among polysaccharide-derived materials
+  venue: Cancer Science
+- title: 'Molecular Mechanisms and Biomedical Applications of Ferritin Nanocages:
+    A Comprehensive Review of Self-Assembly, Engineering, and Multifunctional Delivery
+    Platforms'
+  date: 2026-05
+  url: https://doi.org/10.2147/ijn.s600409
+  category: platform
+  subcategory: application
+  authors:
+  - Fukang Gao
+  - Yu Wu
+  - Xinglin Chen
+  abstract: 'Abstract: Ferritin is a heteropolymer or homopolymer composed of 24 polypeptides
+    forming a cage-shaped sphere. Its main function is to maintain soluble and non-toxic
+    states of iron ions in the body. I'
+  venue: International Journal of Nanomedicine
+- title: Platform Engineering
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910
+  category: platform
+  subcategory: application
+  authors: []
+  abstract: 'Platform Engineering: Concepts, Challenges and Applications Stay at the
+    leading edge of modern infrastructure with this definitive guide to integrating
+    AI, blockchain, and cloud-native methodologies i'
+  venue: ''
+- title: 'Engineering biopolymer-based nanocarriers for cancer drug delivery: a system-level
+    comparison of chitosan, hemicellulose, and lignin platforms with focus on tumor
+    targeting, biodegradation, and immune modulation'
+  date: 2026-06
+  url: https://doi.org/10.3389/fbioe.2026.1794222
+  category: platform
+  subcategory: application
+  authors:
+  - L Wang
+  - Yi Liu
+  - Bowen Wei
+  abstract: The emergence of biopolymer-based nanocarriers offers a transformative
+    approach to cancer therapy, particularly in enhancing the efficacy and precision
+    of chemotherapeutic agents such as 5-fluorouraci
+  venue: Frontiers in Bioengineering and Biotechnology
+- title: 'Biosensing technologies for foodborne pathogen detection and healthcare:
+    principles, emerging materials, and intelligent platforms'
+  date: 2026-03
+  url: https://doi.org/10.1007/s00604-026-07976-x
+  category: platform
+  subcategory: application
+  authors:
+  - Purshottam J. Assudani
+  - Balakrishnan . P.
+  - Anny Leema A
+  abstract: Foodborne pathogens such as Escherichia coli (E. Coli), Salmonella, and
+    Listeria monocytogenes continue to pose a major potential threat to global public
+    health and therefore rapid, accurate, and fiel
+  venue: Microchimica Acta
+- title: Modulating Electronic Structure via Bimetallic D <i>-</i> Band Engineering
+    toward an Ultrasensitive Sensor Platform for Caffeic Acid in Food
+  date: 2026-07
+  url: https://doi.org/10.1021/acssensors.6c01305
+  category: platform
+  subcategory: application
+  authors:
+  - Caiyu Ge
+  - Q J Chen
+  - Jiejun Li
+  abstract: To overcome the poor conductivity of pure MOFs and the structural collapse
+    of MOF-derived carbons, this study constructed an electrochemical sensing interface
+    by integrating high-surface-area UiO-66-N
+  venue: ACS Sensors
+- title: Platform Engineering and Internal Developer Platforms
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20200638
+  category: platform
+  subcategory: application
+  authors:
+  - Safa Mohamed
+  - Safa Kamal
+  - Safa Mostafa
+  abstract: This article presents a comprehensive examination of platform engineering
+    and internal developer platforms, addressing the critical challenges and opportunities
+    at the intersection of architecture, ad
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Graphene-Skinned Fiber with Fine-Tunable Electrical Resistance via Radical
+    and Substrate Engineering for Electromagnetic-Thermal Fabric
+  date: 2026-03
+  url: https://doi.org/10.1007/s40820-026-02117-8
+  category: platform
+  subcategory: application
+  authors:
+  - Jie Liang
+  - Zhaochen Li
+  - Fang Ye
+  abstract: Abstract This work demonstrates a radical-manipulation strategy for synthesizing
+    graphene (Gr)-skinned SiO 2 fabric via low-pressure chemical vapor deposition
+    using methanol precursor. Controlled pyro
+  venue: Nano-Micro Letters
+- title: Platform Engineering for Cloud‐Native Applications
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch6
+  category: platform
+  subcategory: application
+  authors:
+  - P. Divya
+  - R. Parthiban
+  - S. Jayalakshmi
+  abstract: 'Increased reliance on cloud technology includes the proliferation of
+    cloud-native apps. This makes platform engineering an urgent necessity in modern
+    development and IT environments. As more and more '
+  venue: ''
+- title: Foundations of Modern Data Platform Engineering
+  date: 2026-03
+  url: https://doi.org/10.70593/978-93-7185-364-4_1
+  category: platform
+  subcategory: application
+  authors:
+  - Narendra Mangala
+  abstract: Modern organizations use data to drive decision-making and innovation.
+    For many, the use of such data is not an adjunct to business but is central to
+    business operations and delivery — becoming more o
+  venue: ''
+- title: Machine Learning and Automation in Platform Engineering
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch8
+  category: platform
+  subcategory: application
+  authors:
+  - R. Roselinkiruba
+  - M. Vasumathy
+  - J. Jude Moses Anto Devakanth
+  abstract: Current modern platform engineering, through platform engineering integration
+    of artificial intelligence (AI) and machine learning (ML), is transforming today's
+    approach to automation of procedures, a
+  venue: ''
+- title: Empowering Developer Productivity through Platform Engineering
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch1
+  category: platform
+  subcategory: application
+  authors:
+  - C. Saranya Jothi
+  - E. Surya
+  - M. Syed Rabiya
+  abstract: Platform engineering is one of the most recent transformative approaches
+    to software development toward streamlined, efficient, and scalable processes
+    and workflows, thus meeting organizations’ growin
+  venue: ''
+- title: Machine learning–empowered smartphone platforms for sustainable point-of-care
+    bacterial detection
+  date: 2026-04
+  url: https://doi.org/10.1016/j.talanta.2026.129901
+  category: platform
+  subcategory: application
+  authors:
+  - Rzgar Sirwan Raza
+  - Shilan Arif Fatah
+  - Sameera Sh. Mohammed Ameen
+  abstract: papers
+  venue: Talanta
+- title: The Impact of Platform Engineering on Developer Productivity
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch4
+  category: platform
+  subcategory: application
+  authors:
+  - K. Dhivya
+  - Matthew Olusegun Adigun
+  abstract: papers
+  venue: ''
+- title: AI-Native Platform Engineering for Physical AI
+  date: 2026-03
+  url: https://doi.org/10.6084/m9.figshare.31868917.v1
+  category: platform
+  subcategory: application
+  authors:
+  - Petteri Teikari
+  abstract: This presentation provides a comprehensive architecture specification
+    for an AI-native internal platform designed to support Physical AI applications
+    — autonomous unmanned aerial systems (UAS), ground
+  venue: Figshare
+- title: Platform Engineering for Adaptive Internal Developer Platforms with Golden
+    Paths
+  date: 2026-08
+  url: https://doi.org/10.20944/preprints202608.0465.v1
+  category: platform
+  subcategory: application
+  authors:
+  - Angela Carell
+  - Axel Koldewey
+  - Wilhelm Hasselbring
+  abstract: Platform engineering is a highly relevant topic for both, customers and
+    vendors when building and maintaining enterprise software. At adesso, a leading
+    IT services and consulting company, platform eng
+  venue: Preprints.org
+- title: Toward Platform Engineering, the Evolution of DevOps—A Systematic Mapping
+  date: 2026-04
+  url: https://doi.org/10.1002/smr.70108
+  category: platform
+  subcategory: application
+  authors:
+  - Yohan Guisao
+  - E M Fernando Suescún
+  - Paola Andrea Noreña Cardona
+  abstract: ABSTRACT The evolution of software development can be traced parallel
+    to the recent industrial revolutions, which have significantly changed modern
+    society. Recent advancements have transformed how so
+  venue: Journal of Software Evolution and Process
+- title: Platform Engineering for Scalable AI Deployments in Healthcare
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch12
+  category: platform
+  subcategory: application
+  authors:
+  - P. Kalpana
+  - T. Sangeetha
+  - S. Sharmila Devi
+  abstract: This project introduces an intelligent skincare monitoring system that
+    uses real-time facial analysis powered by convolutional neural networks to detect
+    common skin concerns such as acne, scars, and o
+  venue: ''
+- title: AI‐Driven Platform Engineering for Skin Disease Diagnosis
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch13
+  category: platform
+  subcategory: application
+  authors:
+  - R. Karthick Manoj
+  - S. Aasha Nandhini
+  - M. Batumalay
+  abstract: 'This chapter presents the platform engineering architecture that uses
+    state-of-the-art artificial intelligence to recognize and classify four prevalent
+    skin conditions: psoriasis, acne, eczema, and me'
+  venue: ''
+- title: 'Interfacial engineering of biochar–MOF–FeOx–CNT nanocomposites via tannic
+    acid functionalization: A robust wearable platform for real-time BTEX sensing
+    and PM2.5-bound heavy metal capture'
+  date: 2026-06
+  url: https://doi.org/10.1016/j.microc.2026.118574
+  category: platform
+  subcategory: application
+  authors:
+  - Vignesh Jagajeevan
+  - Vidhya Lakshmi Sivakumar
+  abstract: papers
+  venue: Microchemical Journal
+- title: The Role of Platform Engineering in DevOps Transformation—The Future of Software
+    Delivery
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch3
+  category: platform
+  subcategory: application
+  authors:
+  - S. Sharmila Devi
+  - T. Sangeetha
+  - Olukayode A. Oki
+  abstract: Platform engineering is a critical aspect of modern software development,
+    driving effectiveness, scalability, and productivity. By furnishing standardized
+    structure, services, and tools, it simplifies
+  venue: ''
+- title: Role of Platform Engineering in Achieving Scalable EV–ICE Production
+  date: 2026-04
+  url: https://doi.org/10.37285/ajmt.6.2.5
+  category: platform
+  subcategory: application
+  authors:
+  - Shubham Naarayan Kadam
+  abstract: Automakers are under increasing pressure to produce electric vehicles
+    (EVs) alongside traditional internal combustion engine (ICE) models, often within
+    the same manufacturing facilities. Platform engi
+  venue: ARAI Journal of Mobility Technology
+- title: Platform Engineering Approaches to Automated and Secretless Secrets Management
+  date: 2026-04
+  url: https://doi.org/10.1109/ickecs70176.2026.11528076
+  category: platform
+  subcategory: application
+  authors:
+  - Josephine Eskaline Joyce
+  - Ninad Kanchan
+  - Rakshith Padmanabha
+  abstract: papers
+  venue: ''
+- title: Cognitive Load as a First-Class Constraint in Enterprise Platform Engineering
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18813118
+  category: platform
+  subcategory: application
+  authors:
+  - Lakshmi Priya Gopalsamy
+  abstract: Traditional engineering of enterprise platforms has focused on minimizing
+    costs, achieving performance thresholds, meeting availability goals and security
+    compliance without taking into account a basi
+  venue: International Journal of Computational and Experimental Science and Engineering
+- title: Tetrazine-Mediated Bioorthogonally Activated Therapeutic (TBAT) Platforms
+  date: 2026-03
+  url: https://doi.org/10.1021/jacs.5c23084
+  category: platform
+  subcategory: application
+  authors:
+  - Jungryun Kim
+  - Jungryun Kim
+  - Snehasish Debnath
+  abstract: Bioorthogonal chemistry has broadened the chemical repertoire accessible
+    to biological systems by enabling selective transformations that operate orthogonally
+    to endogenous biochemical processes. Amon
+  venue: Journal of the American Chemical Society
+- title: An Overview of Current Advances in Blockchain Technology, Platform Engineering,
+    and DevOps and Their Implications
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch14
+  category: platform
+  subcategory: application
+  authors:
+  - R. Balaji Ganesh
+  - Dr.R.Deebalakshmi
+  - R. Thilagavathy
+  abstract: The way that businesses interacted with their clientele evolved in the
+    Internet era. Customers expect smooth and customized interactions across all touchpoints,
+    including social networks, smartphones,
+  venue: ''
+- title: 'Engineered Electrotherapy Platforms: Integrating Electroactive Materials
+    for Precision Cancer Therapy'
+  date: 2026-03
+  url: https://doi.org/10.1002/adma.72763
+  category: platform
+  subcategory: application
+  authors:
+  - Yichi Cai
+  - Shumin Sun
+  - Jihu Nie
+  abstract: ABSTRACT Inspired by endogenous physiological electric fields, electro‐mediated
+    therapeutic strategies represent promising approaches for targeted cancer therapy
+    owing to their deep tissue penetration
+  venue: Advanced Materials
+- title: 'Oncolytic Viruses in Cancer Immunotherapy: From Molecular Engineering to
+    Clinical Translation'
+  date: 2026-02
+  url: https://doi.org/10.3390/cells15050393
+  category: platform
+  subcategory: application
+  authors:
+  - Mohammad Fayyad‐Kazan
+  - Sarah Ayad Al-Tameemi
+  - Allal Ouhtit
+  abstract: Cancer immunotherapy has transformed modern oncology, yet durable responses
+    remain limited for many patients due to immune exclusion, adaptive resistance,
+    and tumor heterogeneity. Oncolytic viruses (O
+  venue: Cells
+- title: Applying Ensemble Deep Learning for Enhanced Security in Platform Engineering
+  date: 2026-06
+  url: https://doi.org/10.1002/9781394395910.ch10
+  category: platform
+  subcategory: application
+  authors:
+  - R. Saranya
+  - S.S. Uma
+  - T.S. Sivarani
+  abstract: Cyberattacks are becoming increasingly complicated, due to which it is
+    getting harder to reliably identify intrusions. Inability to eradicate any intrusion
+    might harm the reputation of security of ser
+  venue: ''
+- title: Platform Engineering and AI-Driven Innovation in Enterprise Risk Analytics
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18817843
+  category: platform
+  subcategory: application
+  authors:
+  - Naga Venkateswar Palaparthy
+  abstract: The evolution of enterprise risk management faces unprecedented challenges
+    from accelerating digitaltransformation, sophisticated cyber threats, and volatile
+    market conditions that exceed the capabili
+  venue: Journal of Computational Analysis and Applications
+- title: 'Project Atlas: A Case Study in Applied Data Platform Engineering'
+  date: 2026-07
+  url: https://doi.org/10.13140/rg.2.2.22176.96003
+  category: platform
+  subcategory: application
+  authors:
+  - Russell I Lancaster
+  abstract: papers
+  venue: ''
+- title: Terminal-Group Engineering to Amplify Asymmetric Electronic Interactions
+    in COFs for Enhanced Optoelectronic Performance
+  date: 2026-03
+  url: https://doi.org/10.1021/acs.nanolett.6c00477
+  category: platform
+  subcategory: application
+  authors:
+  - Zhongping Li
+  - Yuqiang Huang
+  - Yucheng Jin
+  abstract: Covalent organic frameworks (COFs) have emerged as highly promising platforms
+    for optoelectronic applications due to their tunable architecture, extended π-conjugation,
+    and adjustable electronic prope
+  venue: Nano Letters
+- title: 'Platform Engineering and Developer Experience: A Systematic Review of Concepts,
+    Benefits and Future Directions'
+  date: 2026-02
+  url: https://doi.org/10.30574/wjaets.2026.18.2.0112
+  category: platform
+  subcategory: application
+  authors:
+  - Harshad Pitkar
+  abstract: Platform engineering has been recognized as an important area of focus
+    to deal with the increasing complexity of software development environments. By
+    creating Internal Developer Platforms (IDPs) that
+  venue: World Journal of Advanced Engineering Technology and Sciences
+- title: 'Transforming Platform Engineering With Large Language Models: Evidence Mapping
+    And Future Perspectives'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.20630452
+  category: platform
+  subcategory: application
+  authors:
+  - Michael Reed
+  - Abigail Foster
+  - Victoria Stewart
+  abstract: Platform engineering has emerged as a critical discipline for managing
+    the growing complexity of modern cloud-native ecosystems, enabling organizations
+    to standardize infrastructure, streamline softwa
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Interdisciplinary Insights Into Modern Drug Delivery Platforms: Engineering,
+    Biology, And Medicine'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20796682
+  category: platform
+  subcategory: application
+  authors:
+  - Prerna Vijay Thete*, Sadhna Pandurang Thete, Vaishnavi Niranjan Vaidya, Sable
+    Rutuja Bhaurao, Mukund Mahadev Pache
+  abstract: The field of drug delivery has experienced a paradigm shift in recent
+    decades, driven by collaborations across engineering, biology, and medicine. Traditional
+    pharmaceutical formulations are being rep
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Multi-organ microphysiological systems : from platform engineering to metabolic
+    insight'
+  date: 2026-05
+  url: https://doi.org/10.69622/31820947.v1
+  category: platform
+  subcategory: application
+  authors:
+  - Jibbe Keulen
+  abstract: '&lt;p dir="ltr"&gt;Microphysiological systems aim to narrow the translational
+    gap between preclinical assays and human clinical outcomes by recreating tissue-tissue
+    interactions of the human body in m'
+  venue: ''
+- title: 'Toward Sustainable Paclitaxel Bioproduction: Plant Biology, Biosynthesis
+    and Platform Engineering'
+  date: 2026-06
+  url: https://doi.org/10.3390/plants15111741
+  category: platform
+  subcategory: application
+  authors:
+  - M Zhang
+  - Xing Xing
+  - Hongliang Zhu
+  abstract: Paclitaxel (Taxol), a taxane diterpenoid from Taxus species, is a clinically
+    important microtubule-stabilizing anticancer agent widely used in chemotherapy.
+    However, its supply remains limited by prec
+  venue: Plants
+- title: 'Intent-Driven Agentic CI/CD: A Contract-Based Platform Engineering Framework'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19774559
+  category: platform
+  subcategory: application
+  authors:
+  - Dhineshkumar Ganesan
+  abstract: This repository introduces Intent-Driven Agentic CI/CD — a novel platform
+    engineering paradigm in which application teams declare deployment intent via
+    a structured contract (contract.yml), and an aut
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'The Data Platform Engineering Framework: Building Governed and Production-Ready
+    Systems'
+  date: 2026-04
+  url: https://doi.org/10.5281/zenodo.19634912
+  category: platform
+  subcategory: application
+  authors:
+  - Narendra Mangala
+  abstract: '...............'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: A Unified Framework for Platform Engineering and Service Automation in Enterprise
+    Cloud Architecture
+  date: 2026-07
+  url: https://doi.org/10.1109/icicit69063.2026.11634008
+  category: platform
+  subcategory: application
+  authors:
+  - Baba Prasad Pendyala
+  - P. Praveen
+  abstract: papers
+  venue: ''
+- title: Zero-trust Conceptual Architecture for Secure Integration of Large Language
+    Models and Autonomous AI Agents
+  date: 2026-05
+  url: https://doi.org/10.1109/ichora69329.2026.11537001
+  category: ai-security
+  subcategory: application
+  authors:
+  - Oleksandr Kushnerov
+  - Vladyslav Sokol
+  - Оlena Akhiiezer
+  abstract: The rapid transition from passive large language models to autonomous
+    agent-based coding systems, including frameworks like Claude Code and OpenClaw,
+    has significantly accelerated software development
+  venue: ''
+- title: 'MCP safety audit: LLMs with the model context protocol allow major security
+    exploits'
+  date: 2026-06
+  url: https://doi.org/10.1117/12.3097390
+  category: ai-security
+  subcategory: application
+  authors:
+  - John T. Halloran
+  - Brandon Radosevich
+  - Gavin Black
+  abstract: 'To reduce development overhead and enable seamless integration between
+    potential components comprising any given generative AI application, the Model
+    Context Protocol (MCP) mcp:anthropic has recently '
+  venue: ''
+- title: Design and Empirical Evaluation of a Four-Layer AI Agent Architecture for
+    Automated Web Application Security Testing
+  date: 2026-04
+  url: https://doi.org/10.48084/etasr.16879
+  category: ai-security
+  subcategory: application
+  authors:
+  - Bakhytzhan Kulambayev
+  - Gulnar Astaubayeva
+  - Zhanna Mukanova
+  abstract: 'This study proposes a four-layer AI agent architecture for automating
+    routine web security operations, integrating Large Language Model (LLM) reasoning
+    with a hybrid Convolutional Neural Network-Long '
+  venue: Engineering Technology & Applied Science Research
+- title: 'Securing the Cognitive Layer: A Survey on Security Threats, Defenses, and
+    Privacy-Preserving Architectures for LLM-IoT Integration'
+  date: 2026-04
+  url: https://doi.org/10.3390/jcp6020063
+  category: ai-security
+  subcategory: application
+  authors:
+  - Ayan Joshi
+  - Sabur Baidya
+  abstract: The convergence of Large Language Models (LLMs) and Internet of Things
+    (IoT) systems has created a new class of intelligent applications across healthcare,
+    industrial automation, smart cities, and con
+  venue: Journal of Cybersecurity and Privacy
+- title: Self-Hosted Workflow Automation for AI-Based Cybersecurity Operation
+  date: 2026-03
+  url: https://doi.org/10.53735/cisse.v13i1.241
+  category: ai-security
+  subcategory: application
+  authors:
+  - Hareign Casaclang
+  - Bianca Ionescu
+  - Yoohwan Kim
+  abstract: Cybersecurity operations often involve repetitive tasks such as running
+    Nmap scans, analyzing logs, and performing Open-Source Intelligence (OSINT) investigations.
+    These processes are essential for ma
+  venue: Journal of The Colloquium for Information Systems Security Education
+- title: 'LLM Security and Safety: Insights from Homotopy-Inspired Prompt Obfuscation'
+  date: 2026-03
+  url: https://doi.org/10.3390/ai7030083
+  category: ai-security
+  subcategory: application
+  authors:
+  - Luis Eduardo Lazo Vera
+  - Hamed Jelodar
+  - Roozbeh Razavi-Far
+  abstract: In this study, we propose a homotopy-inspired prompt obfuscation framework
+    to enhance understanding of security and safety vulnerabilities in Large Language
+    Models (LLMs). By systematically applying c
+  venue: AI
+- title: 'AI-based Phishing Attacks on University Networks: A Systematic Literature
+    Review and Defense Framework'
+  date: 2026-03
+  url: https://doi.org/10.29103/jacka.v3i2.26650
+  category: ai-security
+  subcategory: application
+  authors:
+  - Saidamin Sajid
+  - Abdul Wajid Fazil
+  - Musawer Hakimi
+  abstract: Phishing continues to be a major issue not only affecting the internet
+    users but also being a big problem for the cybersecurity world; university networks
+    are the most probable attack targets due to t
+  venue: Journal of Advanced Computer Knowledge and Algorithms
+- title: 'The double-edged sword: LLM operations (LLMOps) security in the cloud- a
+    comprehensive review'
+  date: 2026-03
+  url: https://doi.org/10.1016/j.neucom.2026.133313
+  category: ai-security
+  subcategory: application
+  authors:
+  - Sijjad Ali
+  - Dhani Bux Talpur
+  - M. Zafri Humayun
+  abstract: papers
+  venue: Neurocomputing
+- title: Security and Privacy Implications of Microsoft 365 Copilot and GenAI Integration
+    in Enterprise Environments
+  date: 2026-06
+  url: https://doi.org/10.11648/j.ajist.20261002.11
+  category: ai-security
+  subcategory: application
+  authors:
+  - Pullaiah Vutla
+  - Triveni Yenugu
+  abstract: The introduction of Generative Artificial Intelligence (GenAI) into the
+    world of enterprise Software-as-a-Service (SaaS) is a crucial development in digital
+    transformation. As one of the highest-perfo
+  venue: American Journal of Information Science and Technology
+- title: 'SafeCodeRL: Security-Constrained Multi-Agent Reinforcement Learning for
+    Trustworthy LLM-Generated IoT/CPS Software'
+  date: 2026-06
+  url: https://doi.org/10.3390/s26113502
+  category: ai-security
+  subcategory: application
+  authors:
+  - Zhihua Wang
+  - Junfan Chen
+  - Zixiang Wei
+  abstract: Internet of Things (IoT), sensor-network, and cyber-physical system (CPS)
+    software increasingly relies on large language models (LLMs) and autonomous agents
+    for code generation, maintenance, and vulne
+  venue: Sensors
+- title: Title Pending 47
+  date: 2026-03
+  url: https://arxiv.org/abs/2410.15236
+  category: ai-security
+  subcategory: application
+  authors:
+  - Benji Peng
+  - Hanxuan Chen
+  - Keyu Chen
+  abstract: Large Language Models (LLMs) have transformed artificial intelligence
+    by advancing natural language understanding and generation, enabling applications
+    across fields beyond healthcare, software engine
+  venue: Eureka
+- title: 'Agentic AI as a Cybersecurity Attack Surface: Threats, Exploits, and Defenses
+    in Runtime Supply Chains'
+  date: 2026-05
+  url: https://doi.org/10.1109/cai68641.2026.11536564
+  category: ai-security
+  subcategory: application
+  authors:
+  - Xiaochong Jiang
+  - Shiqi Yang
+  - Wenting Yang
+  abstract: Agentic systems built on large language models (LLMs) extend beyond text
+    generation to autonomously retrieve information and invoke tools. This runtime
+    execution model shifts the attack surface from b
+  venue: ''
+- title: 'Survey on LLM Safety: Attacks, Defenses, Alignment, Metrics, and Guardrails'
+  date: 2026-05
+  url: https://doi.org/10.1007/s10994-026-07060-8
+  category: ai-security
+  subcategory: application
+  authors:
+  - Pratik Jalan
+  - Vadivel Abishethvarman
+  - Bhavik Chandna
+  abstract: Abstract Large Language Models (LLM) have demonstrated remarkable capabilities
+    across various applications, but their deployment raises critical safety concerns
+    as potential misuse poses significant s
+  venue: Machine Learning
+- title: 'Bypassing Constitutional AI: Behavioral Inference and the Architectural
+    Vulnerabilities of Large Language Models'
+  date: 2026-07
+  url: https://github.com/shahbaaz-devsec/AI-Red-Teaming-Methodologies/blob/main/reports/claude/claude-architecture-extraction/claude-architecture-extraction.md
+  category: ai-security
+  subcategory: application
+  authors:
+  - Mohammad Shahbaaz Ahmed
+  abstract: The rapid deployment of Large Language Models (LLMs) in enterprise environments
+    has necessitated robust safety guardrails, most notably "Constitutional AI." This
+    paper presents a novel red-teaming met
+  venue: Open MIND
+- title: 'AI Security in the Era of Large Language Models: Red Teaming, Jailbreaking,
+    and Prompt Injection'
+  date: 2026-02
+  url: https://doi.org/10.5281/zenodo.18810310
+  category: ai-security
+  subcategory: application
+  authors:
+  - Zen Revista
+  abstract: The rapid deployment of Large Language Models (LLMs) across enterprise
+    and consumer applications has introduced a novel class of security vulnerabilities
+    that challenge conventional cybersecurity para
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Basilisk: An Evolutionary AI Red-Teaming Framework for Systematic Security
+    Evaluation of Large Language Models'
+  date: 2026-03
+  url: https://doi.org/10.6084/m9.figshare.31566853
+  category: ai-security
+  subcategory: application
+  authors:
+  - regaan r
+  abstract: '<b>Basilisk: An Evolutionary AI Red-Teaming Framework for Systematic
+    Security Evaluation of LLMs</b>This research paper introduces Basilisk, an offensive
+    security framework designed to automate the di'
+  venue: Figshare
+- title: 'Generative AI for Hardening Security: From Training Data Augmentation, Language
+    Alignment, to Code Vulnerability Demonstration'
+  date: 2026-06
+  url: https://hdl.handle.net/10919/143222
+  category: ai-security
+  subcategory: application
+  authors:
+  - Shravya Kanchi
+  abstract: Machine learning-based cybersecurity systems face fundamental data limitations
+    that constrain their effectiveness across diverse threat environments. Training
+    data for security classifiers is inherent
+  venue: VTechWorks (Virginia Tech)
+- title: Evaluating the Security Awareness and Code Reliability of AI Models Against
+    Common Software Vulnerabilities
+  date: 2026-04
+  url: https://doi.org/10.55632/pwvas.v98i1.1318
+  category: ai-security
+  subcategory: application
+  authors:
+  - Shane Reall
+  abstract: For this project we explored how Large Language Models (LLMs) understand
+    and handle software security, with us mostly focusing on Common Weakness Enumeration
+    (CWEs). Today LLMs are commonly used for p
+  venue: Proceedings of the West Virginia Academy of Science
+- title: 'Adversarial Vulnerabilities in Large Language Models: A Critical Review
+    and an Adaptive Multi-Layered Defense Framework for Enterprise AI'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21736575
+  category: ai-security
+  subcategory: application
+  authors:
+  - Gilbert I.O Aimufua
+  - Abdulazeez Ogunlade Babatunde
+  abstract: 'Large Language Models (LLMs) now sit at the centre of many digital services,
+    supporting the generation, summarisation, interpretation, and use of natural-language
+    and multimodal information. As these '
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Machine learning methods for fraud detection within Ethereum blockchain—A
+    review
+  date: 2026-03
+  url: https://doi.org/10.1016/j.bcra.2026.100469
+  category: ai-security
+  subcategory: application
+  authors:
+  - João Crisóstomo
+  - Fernando Bação
+  - Victor Lobo
+  abstract: This review explores the application of machine learning techniques for
+    fraud detection and prevention in the Ethereum blockchain. As a leading platform
+    for decentralized applications (dApps), Ethereu
+  venue: Blockchain Research and Applications
+- title: Large Language Models in Cybersecurity AI-Driven Threat Detection and Prevention
+  date: 2026-04
+  url: https://doi.org/10.1109/missf68264.2026.11522086
+  category: ai-security
+  subcategory: application
+  authors:
+  - Deepika Sharma
+  - Anurag Shrivastava
+  - Bharti Sahu
+  abstract: The Large Language Models (LLMs) have been made considerably more efficient,
+    and the AI helps to identify and eliminate the possible threats to the safety
+    of the cyberspace. The intrusion identificati
+  venue: ''
+- title: AN OVERVIEW OF LARGE LANGUAGE MODEL APPROACHES FOR AUTOMATED SOFTWARE VULNERABILITY
+    DETECTION
+  date: 2026-05
+  url: https://doi.org/10.23939/csn2026.01.162
+  category: ai-security
+  subcategory: application
+  authors:
+  - M Maksymovych
+  abstract: 'In the modern world, software security has become a top priority, as
+    it directly determines the reliability of digital solutions and user trust. The
+    growing number of cyber threats and the increasing '
+  venue: Komp'ûternì sistemi ta merežì
+- title: 'Trustworthy AI: AI Agents Information Security and AI Agents for Information
+    Security'
+  date: 2026-06
+  url: https://orcid.org/0000-0003-4897-0084
+  category: ai-security
+  subcategory: application
+  authors:
+  - Nader Sohrabi Safa
+  abstract: Generative Artificial Intelligence (AI) refers to pretrained models capable
+    of producing text, images, code, and other content in response to prompts. Large
+    Language Models (LLMs) are prominent exampl
+  venue: Worcester Research and Publications (University of Worcester)
+- title: 'SoK: Security Vulnerabilities in Agentic AI Systems'
+  date: 2026-08
+  url: https://doi.org/10.1007/978-3-032-35579-9_6
+  category: ai-security
+  subcategory: application
+  authors:
+  - Shuyi Guan
+  - Andrey Kovalev
+  - Li Xie
+  abstract: papers
+  venue: Lecture notes in computer science
+- title: A hierarchical evaluation framework for security and trustworthiness in Large
+    Vision-Language Models
+  date: 2026-06
+  url: https://doi.org/10.1016/j.patcog.2026.114161
+  category: ai-security
+  subcategory: application
+  authors:
+  - Xuan Feng
+  - Mingfeng Feng
+  - Ning Zhang
+  abstract: papers
+  venue: Pattern Recognition
+- title: 'The Silent Risk: Security Vulnerabilities in AI-Enabled Pharmacovigilance
+    Systems (Preprint)'
+  date: 2026-04
+  url: https://doi.org/10.2196/preprints.99050
+  category: ai-security
+  subcategory: application
+  authors:
+  - Vivek Poojary
+  abstract: <sec> <title>UNSTRUCTURED</title> The integration of large language models
+    and agentic artificial intelligence (AI) into pharmacovigilance (PV) workflows
+    introduces adversarial vulnerabilities that ar
+  venue: ''
+- title: 'AI-Assisted Vulnerability Discovery and Reporting: Reliability Challenges,
+    Security Risks, and Future Directions'
+  date: 2026-05
+  url: https://doi.org/10.64388/irev9i11-1718467
+  category: ai-security
+  subcategory: application
+  authors:
+  - Shaik Mohammad Yasin
+  - Kalisetti Venkatesh
+  - Heema Chetri
+  abstract: In the contemporary world of cyber security, AI plays a significant part
+    and is extensively recognized in finding and reporting vulnerabilities. Due to
+    recent advancement in Machine Learning (ML), Dee
+  venue: Iconic Research and Engineering Journals
+- title: Evaluating and Securing Power Systems against Vulnerabilities Introduced
+    by Large Language Models
+  date: 2026-04
+  url: https://doi.org/10.31449/inf.v50i11.9604
+  category: ai-security
+  subcategory: application
+  authors:
+  - Manpo Li
+  - Xuerui Yang
+  - Xiaochen Yang
+  abstract: 'An exciting new direction for improving operational efficiency and decision-making
+    is the use of Large Language Modeling (LLMs) to contemporary power systems. Nevertheless,
+    there may be unanticipated '
+  venue: Informatica
+- title: 'Security Risks and Mitigation Strategies for Large Language Models in Power
+    Systems: A Review'
+  date: 2026-06
+  url: https://doi.org/10.3390/electricity7020054
+  category: ai-security
+  subcategory: application
+  authors:
+  - Xi Chen
+  - Jim Shi
+  - Haibing Lu
+  abstract: Large Language Models (LLMs) are rapidly transitioning from research concepts
+    to transformative artificial intelligence components within the power and energy
+    domain. Their ability to fuse diverse dat
+  venue: Electricity
+- title: Automated persona generation approach for assessing security of large language
+    models and analysis of the security flaws.
+  date: 2026-05
+  url: https://nur.nu.edu.kz/handle/123456789/18735
+  category: ai-security
+  subcategory: application
+  authors:
+  - Adilzhan Slyamkhanov
+  abstract: With the growing popularity of large language models capable of generating
+    highly granular information based on user input, the question of security has
+    arisen to prevent the use of AI for dangerous a
+  venue: Nazarbayev University Repository (Nazarbayev University)
+- title: 'What breaks embodied AI security: LLM vulnerabilities, CPS flaws, or something
+    else?'
+  date: 2026-05
+  url: https://doi.org/10.1016/j.hcc.2026.100403
+  category: ai-security
+  subcategory: application
+  authors:
+  - Boyang Ma
+  - Hechuan Guo
+  - Peizhuo Lv
+  abstract: Embodied AI systems (e.g., autonomous vehicles, service robots, and LLM-driven
+    interactive agents) are rapidly transitioning from controlled environments to
+    safety-critical real-world deployments. Unl
+  venue: High-Confidence Computing
+- title: A formal model of agentic AI vulnerabilities in containerised cloud environments
+  date: 2026-08
+  url: https://doi.org/10.69554/jhix5712
+  category: ai-security
+  subcategory: application
+  authors:
+  - Advait Patel
+  - Vaishnavi Gudur
+  - Charit Upadhyay
+  abstract: 'In today’s evolving digital landscape, a new kind of AI has emerged:
+    agentic artificial intelligence (AI) systems. These are not just tools but intelligent
+    entities that act on their own, make decisio'
+  venue: Cyber security.
+- title: 'Security Challenges of Large Language Models: Adversarial Threats, Governance
+    Gaps, and Organizational Risks'
+  date: 2026-04
+  url: https://doi.org/10.21275/sc26211113715
+  category: ai-security
+  subcategory: application
+  authors:
+  - Animesh Sachin Thakur
+  - Rameshwari Patil
+  - Jatin Sundrani
+  abstract: Large Language Models, such as ChatGPT, Gemini, and Perplexity, have rapidly
+    integrated into academic, industrial, and executive workflows. Although they enhance
+    productivity and decision- making proc
+  venue: International Journal of Science and Research (IJSR)
+- title: Evaluating Prompt Injection Vulnerabilities in AI Agents
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20631345
+  category: ai-security
+  subcategory: application
+  authors:
+  - Ruhulalemeen Mulla
+  abstract: This paper examines prompt injection vulnerabilities in Large Language
+    Models (LLMs) and AI agents, one of the most critical security challenges facing
+    modern AI systems. The work presents a structure
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Cyber-secure AI: protecting large language models across their deployment
+    in health systems (Preprint)'
+  date: 2026-05
+  url: https://doi.org/10.2196/preprints.101715
+  category: ai-security
+  subcategory: application
+  authors:
+  - Chun Joo Goh
+  - Haoran Liu
+  - Nethum Devendra
+  abstract: <sec> <title>UNSTRUCTURED</title> In this article, we highlight the principal
+    cybersecurity measures that should be implemented to facilitate safe and effective
+    integration of large language models (L
+  venue: ''
+- title: An AI-Powered Automated Code Review System Using Large Language Models and
+    Static Analysis
+  date: 2026-05
+  url: https://doi.org/10.17148/ijarcce.2026.155213
+  category: ai-security
+  subcategory: application
+  authors:
+  - Mrs. Nita Meshram
+  - Ganni Naveen Raj Anudeep
+  - K Vedavyas
+  abstract: Code review is a critical phase in the software development lifecycle,
+    ensuring code quality, maintainability, and security.However, manual code reviews
+    are labor-intensive, often requiring 2 to 4 hou
+  venue: IJARCCE
+- title: 'When AI goes rogue: Exposing the hidden threats in language models'
+  date: 2026-02
+  url: https://doi.org/10.6084/m9.figshare.31386937.v1
+  category: ai-security
+  subcategory: application
+  authors:
+  - eRNZ Admin
+  - Vijay Chakravarthy
+  abstract: 'The integration of large language models (LLMs) into digital systems
+    has introduced a new class of security vulnerabilities that challenge conventional
+    cybersecurity paradigms. Despite their utility, '
+  venue: Figshare
+- title: 'New frontiers in large code language model security: a review of emerging
+    adversarial threats and countermeasures'
+  date: 2026-06
+  url: https://doi.org/10.1007/s11432-025-4703-6
+  category: ai-security
+  subcategory: application
+  authors:
+  - Yi Yang
+  - Haoran Fan
+  - Chenhao Lin
+  abstract: papers
+  venue: Science China Information Sciences
+- title: 'Security Weaknesses in LLM-Generated Source Code: An Empirical Vulnerability
+    Analysis of Iterative AI-Assisted Development v1.0'
+  date: 2026-06
+  url: https://doi.org/10.5281/zenodo.20550244
+  category: ai-security
+  subcategory: application
+  authors:
+  - Halil Ibrahim Dursunoglu
+  - Kaan Sulkalar
+  abstract: This preprint presents SecureIterate, a longitudinal evaluation framework
+    for analyzing security degradation and vulnerability propagation in iterative
+    AI-assisted software development workflows. Whil
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Beyond Wireless Security: Covert Communications in Large Language Model-enabled
+    Edge Networks'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.31016
+  category: ai-security
+  subcategory: application
+  authors:
+  - Yuanai Xie
+  - Jiaxin Chen
+  - Zhaozhi Liu
+  abstract: Large language model (LLM)-enabled edge networks (LLMENs) offer mobile
+    users high-quality and low-latency AI-generated content services in the 6G era.
+    However, unlike typical edge networks, LLMENs pre
+  venue: arXiv (Cornell University)
+- title: 'Federated Learning and Large Language Models: Recent Advances, Challenges,
+    and Future Directions for Privacy-Preserving AI'
+  date: 2026-06
+  url: https://doi.org/10.22214/ijraset.2026.83405
+  category: ai-security
+  subcategory: application
+  authors:
+  - Roopesh Kumar Sharma
+  - Parag Jain
+  - Kirti Sharma
+  abstract: The rapid advancement of Large Language Models (LLMs) has transformed
+    artificial intelligence by enabling remarkable performance in natural language
+    understanding, generation, and decision-making task
+  venue: International Journal for Research in Applied Science and Engineering Technology
+- title: 'SECURING AI SYSTEMS: VULNERABILITIES, GOVERNANCE FRAMEWORKS, AND PROTECTIVE
+    GUARDRAILS'
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.21925340
+  category: ai-security
+  subcategory: application
+  authors:
+  - Surajit Paul
+  abstract: As artificial intelligence integrates into critical systems across healthcare,
+    finance, and infrastructure, robust security frameworks have become essential
+    to safe deployment. AI systems face securit
+  venue: 工程科学与技术
+- title: The state of human (un) centered AI security research
+  date: 2026-07
+  url: https://hdl.handle.net/11475/37151
+  category: ai-security
+  subcategory: application
+  authors:
+  - Leandra Willi
+  - Rebecca Balebako
+  abstract: 'This position paper argues that security research on AI-assisted programming
+    is overly model-centric and neglects human–AI teaming. While Large Language Model
+    (LLM) coding assistants are widely used, '
+  venue: Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich
+    University of Applied Sciences)
+- title: 'Leveraging Large Language Models for advanced static code analysis: Assessing
+    the feasibility of AI superseding traditional vulnerability detection methods'
+  date: 2026-06
+  url: https://doi.org/10.1016/j.infsof.2026.108213
+  category: ai-security
+  subcategory: application
+  authors:
+  - Damian Koterba
+  - Maryna Lukaczyk
+  - Wojciech Książek
+  abstract: 'Context: Due to limited contextual understanding, traditional Static
+    Application Security Testing (SAST) tools often struggle to detect complex software
+    vulnerabilities, especially in dynamically type'
+  venue: Information and Software Technology
+- title: 'A Comparative Survey of Security Risks in AI Systems: From LLMs to AI Agents
+    and Embodied Agents'
+  date: 2026-08
+  url: https://doi.org/10.1145/3837083
+  category: ai-security
+  subcategory: application
+  authors:
+  - Baiqi Wu
+  - Qingming Li
+  - Chunyi Zhou
+  abstract: Rapid AI development across industries raises pressing security and privacy
+    risks. This work presents a unified comparison of large language models, AI agents,
+    and embodied agents, introducing a taxon
+  venue: ACM Computing Surveys
+- title: Detecting and Mitigating AI Prompt Injection Attacks in Large Language Models
+    (LLMs)
+  date: 2026-03
+  url: https://doi.org/10.53735/cisse.v13i1.227
+  category: ai-security
+  subcategory: application
+  authors:
+  - Abel Ureste
+  - Hyungbae Park
+  - Tamirat Abegaz
+  abstract: AI is being interconnected with vital systems at an exponential rate,
+    being described as the greatest shift in technology since the invention of the
+    Internet. However, with the emergence of AI also in
+  venue: Journal of The Colloquium for Information Systems Security Education
+- title: A Case Study on Using Large Language Models to Drive Convergence-Oriented
+    Literature Discovery in Critical Infrastructure Security
+  date: 2026-05
+  url: https://scholarworks.uark.edu/elcsuht/37
+  category: ai-security
+  subcategory: application
+  authors:
+  - Caden J Williamson
+  abstract: 'In the world of cybersecurity, the rapid development of artificial intelligence
+    proposes a constant challenge for researchers to defend critical infrastructure.
+    Attacks on critical infrastructure can '
+  venue: Journal of the Arkansas Academy of Science
+- title: 'Multimodal and Large Language Model Approaches in Cybersecurity: A Systematic
+    Review'
+  date: 2026-04
+  url: https://doi.org/10.21203/rs.3.rs-9527568/v1
+  category: ai-security
+  subcategory: application
+  authors:
+  - Trina Banerjee
+  - Piyush
+  - Mukthikka V
+  abstract: papers
+  venue: Research Square
+- title: A Review of Security and Privacy in AI-managed Internet of Things Networks
+  date: 2026-07
+  url: https://doi.org/10.63363/aijfr.2026.v07i04.6899
+  category: ai-security
+  subcategory: application
+  authors:
+  - Shiva Ram Rao
+  - Vikram Malhotra
+  abstract: The Internet of Things (IoT) connects large numbers of devices that are
+    often constrained, long-lived, and weakly secured, which makes IoT networks an
+    attractive target for attackers. As artificial in
+  venue: Advanced International Journal for Research
+- title: Adversarial Attacks and Backdoor Exploitation in Large Language Models
+  date: 2026-04
+  url: https://doi.org/10.4018/979-8-3373-8252-4.ch003
+  category: ai-security
+  subcategory: application
+  authors:
+  - Rocky Kumar
+  - Joe Arun Raja
+  abstract: Large Language Models (LLMs) have quickly become cornerstone elements
+    in intelligent systems nowadays, making decisions, automating processes, and doing
+    security operations and interactive application
+  venue: Advances in computational intelligence and robotics book series
+- title: 'AI ASSISTANTS IN SOFTWARE DEVELOPMENT: ANALYSIS OF SECURITY RISKS IN GENERATED
+    CODE'
+  date: 2026-05
+  url: https://doi.org/10.36074/grail-of-science.01.05.2026.077
+  category: ai-security
+  subcategory: application
+  authors:
+  - Dmytro Boichuk
+  abstract: This article examines the widespread adoption of AI coding assistants
+    in software development and the security risks that accompany this shift. It analyzes
+    characteristic vulnerability patterns in cod
+  venue: ГРААЛЬ НАУКИ
+- title: 'Generative Code Security Engineering: A Comprehensive Framework for Vulnerability
+    Propagation Analysis, Threat Classification, and Security-Integrated Pipeline
+    Design'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20141041
+  category: ai-security
+  subcategory: application
+  authors:
+  - WESLEY HARUO KUROSAWA DA SILVA
+  abstract: This research thesis introduces the Generative Code Vulnerability Propagation
+    (GCVP) framework — a comprehensive, original theoretical system for characterizing,
+    quantifying, and mitigating the securi
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Evolution in security and privacy for 6G networks : AI perspectives and
+    key enablers'
+  date: 2026-06
+  url: https://hdl.handle.net/11475/36896
+  category: ai-security
+  subcategory: application
+  authors:
+  - Charuka Moremada
+  - Vidura Ravihansa
+  - Bartlomiej Siniarski
+  abstract: 'Artificial Intelligence (AI) is a key enabler of intelligent management,
+    optimization, and security in the evolution of sixth-generation (6 G) networks.
+    Although AI can significantly enhance security '
+  venue: Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich
+    University of Applied Sciences)
+- title: 'Evolution in Security and Privacy for 6G Networks: AI Perspectives and Key
+    Enablers'
+  date: 2026-06
+  url: https://doi.org/10.1109/eucnc/6gsummit68295.2026.11577544
+  category: ai-security
+  subcategory: application
+  authors:
+  - Charuka Moremada
+  - Vidura Ravihansa
+  - Bartlomiej Siniarski
+  abstract: 'Artificial Intelligence (AI) is a key enabler of intelligent management,
+    optimization, and security in the evolution of sixth-generation (6 G) networks.
+    Although AI can significantly enhance security '
+  venue: ''
+- title: Security Risks of Autonomous AI Agents with Unrestricted Communication and
+    Publishing Capabilities
+  date: 2026-05
+  url: https://doi.org/10.9734/jerr/2026/v28i51894
+  category: ai-security
+  subcategory: application
+  authors:
+  - Oluwadayo Mafolasere Olaniyi
+  - Suleiman S. Abba
+  - Christopher Ugbong Akeke
+  abstract: Autonomous AI agents powered by large language models increasingly operate
+    with unrestricted communication and publishing capabilities, creating critical
+    security vulnerabilities through memory poison
+  venue: Journal of Engineering Research and Reports
+- title: AI-BASED LEAF DISEASE DETECTION SYSTEM USING VISION-LANGUAGE MODELS
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20033782
+  category: ai-security
+  subcategory: application
+  authors:
+  - Aryan Gupta
+  - Arun Kumar
+  - Dilleep Kumar Gupta
+  abstract: Waste management is a pressing issue worldwide, but the threat of plant
+    diseases to agricultural productivity is equally formidable. According to studies
+    published by the Food and Agriculture Organiza
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Autonomous Security Framework for AI-Native 6G Networks: Architecture and
+    Threat Taxonomy'
+  date: 2026-05
+  url: https://doi.org/10.1109/menacomm69507.2026.11532919
+  category: ai-security
+  subcategory: application
+  authors:
+  - Faten Hasni
+  - Arij Salha Nefzi
+  - Akram Hakiri
+  abstract: Sixth-Generation (6 G) networks are envisioned as AI-native systems, where
+    large language models (LLMs) and generative AI orchestrate intent-based networking,
+    autonomous service management, and dynami
+  venue: ''
+- title: 'From Thinker to Society: Security in Hierarchical Autonomy Evolution of
+    AI Agents'
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.07496
+  category: ai-security
+  subcategory: application
+  authors:
+  - Xiaolei Zhang
+  - Lu Zhou
+  - Xiaogang Xu
+  abstract: Artificial Intelligence (AI) agents have evolved from passive predictive
+    tools into active entities capable of autonomous decision-making and environmental
+    interaction, driven by the reasoning capabil
+  venue: arXiv (Cornell University)
+- title: 'Understanding Large Language Model Attacks: A Beginner-Friendly Introduction'
+  date: 2026-04
+  url: https://doi.org/10.20944/preprints202604.0058.v1
+  category: ai-security
+  subcategory: application
+  authors:
+  - Md Nurul Absar Siddiky
+  abstract: Large language models (LLMs) are now used in chatbots, search engines,
+    writing assistants, coding tools, educational systems, and AI agents. At the same
+    time, they are vulnerable to a wide range of at
+  venue: Preprints.org
+- title: 'SecureAgent: A Multi-Agent Large Language Model Framework for Context-Aware
+    Vulnerability Detection and Patch Recommendation'
+  date: 2026-05
+  url: https://doi.org/10.5281/zenodo.20359413
+  category: ai-security
+  subcategory: application
+  authors:
+  - S Nishad
+  abstract: AI coding assistants are increasingly used in software development, but
+    the code they produce requires rigorous security review. Existing static application
+    security testing (SAST) tools often lack th
+  venue: Zenodo (CERN European Organization for Nuclear Research)
