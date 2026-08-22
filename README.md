@@ -244,48 +244,61 @@ python3 scripts/fetch/fetch_new_papers.py --months 6 --local
 
 ## 📊 Corpus Statistics
 
-**4,913 papers** across **9 categories**.  
-Sources: No source breakdown.  
+**8,227 papers** across **29 categories**.  
+Saturation: **44.2%**.  
 Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/devops-research).
 
 ### Top categories
 
 | Category | Papers | Recent | |
 |----------|--------|--------|-|
-| security | **1,629** | 0 | ████████████ |
-| ai-security | **801** | 0 | █████░░░░░░░ |
-| containers | **521** | 0 | ███░░░░░░░░░ |
-| cicd | **408** | 0 | ███░░░░░░░░░ |
-| observability | **380** | 0 | ██░░░░░░░░░░ |
-| platform | **350** | 0 | ██░░░░░░░░░░ |
-| policycode | **342** | 0 | ██░░░░░░░░░░ |
-| iac | **293** | 0 | ██░░░░░░░░░░ |
-| gitops | **189** | 0 | █░░░░░░░░░░░ |
+| security | **1,884** | 0 | ██████████████ |
+| ai-security | **972** | 0 | ███████░░░░░░░ |
+| platform | **601** | 0 | ████░░░░░░░░░░ |
+| containers | **574** | 0 | ████░░░░░░░░░░ |
+| cicd | **559** | 0 | ████░░░░░░░░░░ |
+| kubernetes | **558** | 0 | ████░░░░░░░░░░ |
+| policycode | **545** | 0 | ████░░░░░░░░░░ |
+| iac | **492** | 0 | ████░░░░░░░░░░ |
+| observability | **471** | 0 | ████░░░░░░░░░░ |
+| storage | **294** | 0 | ██░░░░░░░░░░░░ |
+| distributed-storage | **258** | 0 | ██░░░░░░░░░░░░ |
+| gitops | **195** | 0 | █░░░░░░░░░░░░░ |
+| object-storage | **146** | 0 | █░░░░░░░░░░░░░ |
+| multi-cluster | **137** | 0 | █░░░░░░░░░░░░░ |
+| docker | **107** | 0 | █░░░░░░░░░░░░░ |
 
 
 ### By year
 
 | Year | Papers | |
 |------|--------|-|
-| 2025 | 1,233 | █████░░░░░░░ |
-| 2026 | 2,674 | ████████████ |
-| unknown | 11 | ░░░░░░░░░░░░ |
+| 2000 | 1 | █░░░░░░░░░░░░░ |
+| 2015 | 1 | █░░░░░░░░░░░░░ |
+| 2016 | 1 | █░░░░░░░░░░░░░ |
+| 2018 | 4 | █░░░░░░░░░░░░░ |
+| 2019 | 4 | █░░░░░░░░░░░░░ |
+| 2020 | 3 | █░░░░░░░░░░░░░ |
+| 2021 | 75 | █░░░░░░░░░░░░░ |
+| 2022 | 255 | █░░░░░░░░░░░░░ |
+| 2023 | 370 | █░░░░░░░░░░░░░ |
+| 2024 | 874 | ███░░░░░░░░░░░ |
+| 2025 | 2,147 | ███████░░░░░░░ |
+| 2026 | 4,481 | ██████████████ |
 
 
 ### Top venues
 
 | Venue | Papers |
 |-------|--------|
-| Zenodo (CERN European Organization for Nuclear Research) | 98 |
-| SSRN Electronic Journal | 39 |
-| International Journal of Science and Research (IJSR) | 19 |
-| Lecture notes in networks and systems | 18 |
-| Apress eBooks | 18 |
-| World Journal of Advanced Research and Reviews | 16 |
-| Open MIND | 15 |
-| IEEE Access | 13 |
-
-
+| Zenodo (CERN European Organization for Nuclear Research) | 502 |
+| arXiv (Cornell University) | 120 |
+| SSRN Electronic Journal | 117 |
+| Open MIND | 69 |
+| Lecture notes in networks and systems | 46 |
+| IEEE Access | 42 |
+| Apress eBooks | 36 |
+| INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT | 35 |
 
 
 ## Output
