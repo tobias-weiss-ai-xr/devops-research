@@ -198,6 +198,50 @@ pip install -r requirements.txt
 `ingest/digest.summarize()` is a dependency-free, extractive placeholder. To use an LLM,
 replace the body with an API call and set the vendor env vars you have available
 (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, …).
+## 🐳 Kubernetes & Docker Deep Dive
+
+Since the taxonomy rework, this corpus carries an expanded **container-orchestration
+deep dive** alongside the original DevSecOps and storage (Ceph/SCS/S3) focus.
+
+### Kubernetes focus areas
+
+| Category | Coverage |
+|----------|----------|
+| `kubernetes` | Core orchestration, architecture, autoscaling, edge |
+| `kubernetes-scheduling` | Schedulers, pod bin-packing, HPA/VPA, descheduling |
+| `kubernetes-networking` | CNI (Calico/Cilium), network policy, ingress |
+| `kubernetes-storage` | CSI, PV/PVC, storage classes, StatefulSets |
+| `kubernetes-security` | RBAC, admission control, Pod Security, CIS hardening |
+| `operator` | Operator pattern, CRD/controller reconciliation loops |
+| `helm` | Helm charts, packaging, templating, deployment |
+| `multi-cluster` | Federation, Cluster API, multi-cloud/hybrid |
+| `serverless` | Knative, FaaS, scale-to-zero, event-driven |
+
+### Docker / container focus areas
+
+| Category | Coverage |
+|----------|----------|
+| `docker` | Runtime, build optimization, layers, Compose/Swarm |
+| `container-runtime` | containerd, runc, OCI, CRI-O, runtime comparison |
+| `container-image` | Image build, layer caching, registries, distribution |
+| `container-security` | Image scanning, namespaces/cgroups isolation, signing, supply chain |
+| `service-mesh` | Istio, Linkerd, Envoy, sidecar, mTLS, observability |
+
+### Fetchers
+
+```bash
+# OpenAlex pass (all 66 category queries)
+python3 scripts/fetch/fetch_openalex_bulk.py --months 6 --per-category 100
+
+# Target only the K8s/Docker deep-dive categories
+python3 scripts/fetch/fetch_openalex_bulk.py \
+  --categories kubernetes,kubernetes-scheduling,kubernetes-networking,kubernetes-storage,kubernetes-security,operator,helm,multi-cluster,serverless,docker,container-runtime,container-image,container-security,service-mesh \
+  --months 12 --per-category 100
+
+# arXiv pass
+python3 scripts/fetch/fetch_new_papers.py --months 6 --local
+```
+
 ## 📊 Corpus Statistics
 
 **4,913 papers** across **9 categories**.  

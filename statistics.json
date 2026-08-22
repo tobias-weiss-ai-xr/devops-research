@@ -1,37 +1,61 @@
 {
   "metadata": {
-    "total_papers": 4913,
-    "generated": "2026-08-15",
+    "total_papers": 6455,
+    "generated_date": "2026-08",
     "taxonomy": {
-      "categories": 9,
-      "subcategories": 9,
-      "total_cells": 81,
-      "filled_cells": 78,
-      "saturation": 96.3,
-      "empty_cells": 3
+      "categories": 28,
+      "subcategories": 11,
+      "total_cells": 308,
+      "filled_cells": 120,
+      "saturation": 39.0,
+      "empty_cells": 188
+    },
+    "analysis_window": {
+      "last_12m_start": "2025-08"
     }
   },
   "by_category": {
-    "security": 1629,
-    "cicd": 408,
-    "iac": 293,
-    "containers": 521,
-    "policycode": 342,
-    "observability": 380,
-    "gitops": 189,
-    "platform": 350,
-    "ai-security": 801
+    "ai-security": 899,
+    "cicd": 495,
+    "container-image": 18,
+    "container-runtime": 1,
+    "container-security": 35,
+    "containers": 574,
+    "distributed-storage": 108,
+    "docker": 47,
+    "gitops": 195,
+    "helm": 5,
+    "iac": 402,
+    "kubernetes": 125,
+    "kubernetes-networking": 14,
+    "kubernetes-scheduling": 7,
+    "kubernetes-security": 8,
+    "kubernetes-storage": 1,
+    "multi-cluster": 29,
+    "object-storage": 146,
+    "observability": 471,
+    "operator": 2,
+    "platform": 479,
+    "policycode": 464,
+    "s3": 23,
+    "security": 1751,
+    "serverless": 9,
+    "service-mesh": 5,
+    "software-defined-storage": 10,
+    "storage": 132
   },
   "by_subcategory": {
-    "theory": 588,
+    "application": 2708,
+    "architecture": 120,
+    "benchmark": 13,
+    "development": 327,
+    "evaluation": 27,
     "mechanism": 95,
     "method": 155,
-    "application": 2351,
-    "development": 295,
-    "systems": 230,
-    "evaluation": 27,
     "review": 155,
-    "security": 1017
+    "security": 1023,
+    "systems": 1244,
+    "theory": 588
   },
   "by_year": {
     "2000": 1,
@@ -45,267 +69,965 @@
     "2023": 265,
     "2024": 386,
     "2025": 1233,
-    "2026": 2674,
-    "unknown": 11
+    "2026": 4216
   },
   "by_cell": {
-    "security/security": 657,
-    "security/application": 332,
-    "containers/application": 328,
-    "ai-security/application": 316,
+    "security/security": 660,
+    "ai-security/application": 382,
+    "security/application": 380,
+    "platform/application": 346,
+    "containers/application": 329,
+    "policycode/application": 326,
+    "cicd/application": 302,
     "security/theory": 295,
-    "platform/application": 275,
-    "policycode/application": 268,
-    "cicd/application": 250,
+    "iac/application": 268,
     "ai-security/security": 232,
-    "iac/application": 221,
-    "observability/application": 217,
-    "gitops/application": 144,
+    "observability/application": 218,
+    "gitops/application": 150,
+    "object-storage/systems": 143,
+    "security/systems": 131,
+    "storage/systems": 129,
+    "kubernetes/systems": 120,
     "ai-security/theory": 118,
-    "security/development": 93,
+    "observability/systems": 114,
+    "distributed-storage/systems": 106,
+    "security/development": 96,
+    "containers/systems": 78,
     "security/method": 74,
-    "security/systems": 69,
     "security/review": 66,
     "containers/development": 49,
+    "policycode/systems": 49,
+    "ai-security/systems": 48,
+    "iac/systems": 46,
     "observability/security": 44,
     "observability/theory": 42,
     "cicd/theory": 40,
+    "ai-security/development": 40,
+    "cicd/systems": 39,
+    "docker/systems": 39,
+    "platform/systems": 38,
     "containers/theory": 37,
-    "ai-security/development": 37,
-    "ai-security/systems": 37,
+    "container-security/systems": 35,
     "security/mechanism": 34,
+    "platform/architecture": 34,
     "cicd/security": 30,
-    "cicd/systems": 29,
+    "cicd/development": 29,
     "observability/development": 29,
     "ai-security/review": 29,
-    "containers/systems": 26,
+    "multi-cluster/systems": 29,
     "containers/security": 26,
-    "observability/systems": 24,
     "platform/development": 24,
     "policycode/theory": 23,
-    "cicd/development": 20,
+    "s3/systems": 23,
+    "iac/architecture": 21,
     "containers/review": 20,
+    "iac/development": 20,
     "containers/mechanism": 18,
+    "ai-security/architecture": 18,
+    "policycode/architecture": 18,
     "ai-security/mechanism": 17,
     "cicd/method": 16,
+    "policycode/development": 16,
     "gitops/development": 16,
+    "cicd/architecture": 16,
     "policycode/method": 15,
     "cicd/review": 14,
-    "platform/systems": 14,
     "platform/theory": 14,
-    "iac/development": 14,
-    "policycode/development": 13,
+    "kubernetes-networking/systems": 14,
     "observability/review": 13,
-    "iac/systems": 13,
+    "policycode/security": 12,
+    "iac/security": 12,
     "containers/method": 12,
     "platform/method": 12,
     "iac/theory": 11,
-    "iac/security": 11,
-    "policycode/security": 10,
+    "container-image/systems": 11,
     "ai-security/method": 10,
     "security/evaluation": 9,
-    "policycode/systems": 9,
     "gitops/systems": 9,
+    "software-defined-storage/systems": 9,
     "gitops/theory": 8,
+    "kubernetes-security/systems": 8,
+    "docker/benchmark": 8,
     "iac/method": 7,
     "platform/mechanism": 7,
     "iac/review": 7,
+    "kubernetes-scheduling/systems": 7,
+    "serverless/systems": 7,
+    "container-image/development": 7,
     "cicd/mechanism": 6,
     "iac/mechanism": 6,
     "gitops/security": 6,
+    "security/architecture": 6,
     "containers/evaluation": 5,
     "observability/mechanism": 5,
     "observability/method": 5,
     "ai-security/evaluation": 5,
+    "helm/systems": 5,
     "gitops/method": 4,
     "cicd/evaluation": 3,
     "platform/review": 3,
     "iac/evaluation": 3,
+    "service-mesh/systems": 3,
     "policycode/mechanism": 2,
     "gitops/review": 2,
+    "object-storage/architecture": 2,
+    "kubernetes/architecture": 2,
+    "kubernetes/application": 2,
+    "operator/systems": 2,
+    "service-mesh/architecture": 2,
+    "serverless/application": 2,
     "policycode/review": 1,
     "policycode/evaluation": 1,
     "observability/evaluation": 1,
-    "platform/security": 1
+    "platform/security": 1,
+    "iac/benchmark": 1,
+    "policycode/benchmark": 1,
+    "storage/benchmark": 1,
+    "storage/application": 1,
+    "storage/development": 1,
+    "object-storage/application": 1,
+    "distributed-storage/application": 1,
+    "distributed-storage/benchmark": 1,
+    "software-defined-storage/architecture": 1,
+    "kubernetes/benchmark": 1,
+    "kubernetes-storage/systems": 1,
+    "container-runtime/systems": 1
   },
-  "recent_12m": {
-    "papers": 3532,
-    "by_category": {
-      "security": 1475,
-      "cicd": 264,
-      "iac": 119,
-      "containers": 351,
-      "policycode": 140,
-      "observability": 297,
-      "gitops": 112,
-      "platform": 123,
-      "ai-security": 651
+  "emerging_themes_12m": [
+    {
+      "keyword": "s3",
+      "papers": 59
     },
-    "emerging_themes": [
+    {
+      "keyword": "object storage",
+      "papers": 46
+    },
+    {
+      "keyword": "distributed storage",
+      "papers": 38
+    },
+    {
+      "keyword": "chart",
+      "papers": 26
+    },
+    {
+      "keyword": "namespace",
+      "papers": 25
+    },
+    {
+      "keyword": "rbac",
+      "papers": 21
+    },
+    {
+      "keyword": "sidecar",
+      "papers": 15
+    },
+    {
+      "keyword": "etcd",
+      "papers": 8
+    },
+    {
+      "keyword": "csi",
+      "papers": 8
+    },
+    {
+      "keyword": "crd",
+      "papers": 6
+    }
+  ],
+  "momentum": [
+    {
+      "id": "security",
+      "name": "Security",
+      "total": 1751,
+      "recent": 1597,
+      "prior": 82,
+      "growth_pct": 1847.6,
+      "recent_share": 0.912,
+      "papers_per_month": 133.1,
+      "score": 1938.8
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "total": 471,
+      "recent": 388,
+      "prior": 37,
+      "growth_pct": 948.6,
+      "recent_share": 0.824,
+      "papers_per_month": 32.3,
+      "score": 1031.0
+    },
+    {
+      "id": "ai-security",
+      "name": "Ai Security",
+      "total": 899,
+      "recent": 749,
+      "prior": 74,
+      "growth_pct": 912.2,
+      "recent_share": 0.833,
+      "papers_per_month": 62.4,
+      "score": 995.5
+    },
+    {
+      "id": "containers",
+      "name": "Containers",
+      "total": 574,
+      "recent": 404,
+      "prior": 56,
+      "growth_pct": 621.4,
+      "recent_share": 0.704,
+      "papers_per_month": 33.7,
+      "score": 691.8
+    },
+    {
+      "id": "cicd",
+      "name": "Cicd",
+      "total": 495,
+      "recent": 351,
+      "prior": 75,
+      "growth_pct": 368.0,
+      "recent_share": 0.709,
+      "papers_per_month": 29.2,
+      "score": 438.9
+    },
+    {
+      "id": "iac",
+      "name": "Iac",
+      "total": 402,
+      "recent": 228,
+      "prior": 54,
+      "growth_pct": 322.2,
+      "recent_share": 0.567,
+      "papers_per_month": 19.0,
+      "score": 378.9
+    },
+    {
+      "id": "policycode",
+      "name": "Policycode",
+      "total": 464,
+      "recent": 262,
+      "prior": 63,
+      "growth_pct": 315.9,
+      "recent_share": 0.565,
+      "papers_per_month": 21.8,
+      "score": 372.4
+    },
+    {
+      "id": "platform",
+      "name": "Platform",
+      "total": 479,
+      "recent": 252,
+      "prior": 70,
+      "growth_pct": 260.0,
+      "recent_share": 0.526,
+      "papers_per_month": 21.0,
+      "score": 312.6
+    },
+    {
+      "id": "gitops",
+      "name": "Gitops",
+      "total": 195,
+      "recent": 118,
+      "prior": 35,
+      "growth_pct": 237.1,
+      "recent_share": 0.605,
+      "papers_per_month": 9.8,
+      "score": 297.6
+    },
+    {
+      "id": "container-image",
+      "name": "Container Image",
+      "total": 18,
+      "recent": 18,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 1.5,
+      "score": 100.0
+    },
+    {
+      "id": "container-runtime",
+      "name": "Container Runtime",
+      "total": 1,
+      "recent": 1,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.1,
+      "score": 100.0
+    },
+    {
+      "id": "container-security",
+      "name": "Container Security",
+      "total": 35,
+      "recent": 35,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 2.9,
+      "score": 100.0
+    },
+    {
+      "id": "distributed-storage",
+      "name": "Distributed Storage",
+      "total": 108,
+      "recent": 108,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 9.0,
+      "score": 100.0
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "total": 47,
+      "recent": 47,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 3.9,
+      "score": 100.0
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "total": 5,
+      "recent": 5,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.4,
+      "score": 100.0
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "total": 125,
+      "recent": 125,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 10.4,
+      "score": 100.0
+    },
+    {
+      "id": "kubernetes-networking",
+      "name": "Kubernetes Networking",
+      "total": 14,
+      "recent": 14,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 1.2,
+      "score": 100.0
+    },
+    {
+      "id": "kubernetes-scheduling",
+      "name": "Kubernetes Scheduling",
+      "total": 7,
+      "recent": 7,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.6,
+      "score": 100.0
+    },
+    {
+      "id": "kubernetes-security",
+      "name": "Kubernetes Security",
+      "total": 8,
+      "recent": 8,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.7,
+      "score": 100.0
+    },
+    {
+      "id": "kubernetes-storage",
+      "name": "Kubernetes Storage",
+      "total": 1,
+      "recent": 1,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.1,
+      "score": 100.0
+    },
+    {
+      "id": "multi-cluster",
+      "name": "Multi Cluster",
+      "total": 29,
+      "recent": 29,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 2.4,
+      "score": 100.0
+    },
+    {
+      "id": "object-storage",
+      "name": "Object Storage",
+      "total": 146,
+      "recent": 146,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 12.2,
+      "score": 100.0
+    },
+    {
+      "id": "operator",
+      "name": "Operator",
+      "total": 2,
+      "recent": 2,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.2,
+      "score": 100.0
+    },
+    {
+      "id": "s3",
+      "name": "S3",
+      "total": 23,
+      "recent": 23,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 1.9,
+      "score": 100.0
+    },
+    {
+      "id": "serverless",
+      "name": "Serverless",
+      "total": 9,
+      "recent": 9,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.8,
+      "score": 100.0
+    },
+    {
+      "id": "service-mesh",
+      "name": "Service Mesh",
+      "total": 5,
+      "recent": 5,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.4,
+      "score": 100.0
+    },
+    {
+      "id": "software-defined-storage",
+      "name": "Software Defined Storage",
+      "total": 10,
+      "recent": 10,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 0.8,
+      "score": 100.0
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "total": 132,
+      "recent": 132,
+      "prior": 0,
+      "growth_pct": null,
+      "recent_share": 1.0,
+      "papers_per_month": 11.0,
+      "score": 100.0
+    }
+  ],
+  "category_trajectory": {
+    "ai-security": {
+      "2018": 1,
+      "2019": 1,
+      "2021": 2,
+      "2022": 3,
+      "2023": 19,
+      "2024": 79,
+      "2025": 204,
+      "2026": 588
+    },
+    "cicd": {
+      "2018": 1,
+      "2021": 6,
+      "2022": 29,
+      "2023": 22,
+      "2024": 38,
+      "2025": 108,
+      "2026": 291
+    },
+    "container-image": {
+      "2026": 18
+    },
+    "container-runtime": {
+      "2026": 1
+    },
+    "container-security": {
+      "2026": 35
+    },
+    "containers": {
+      "2019": 1,
+      "2020": 2,
+      "2021": 10,
+      "2022": 35,
+      "2023": 35,
+      "2024": 43,
+      "2025": 139,
+      "2026": 308
+    },
+    "distributed-storage": {
+      "2026": 108
+    },
+    "docker": {
+      "2026": 47
+    },
+    "gitops": {
+      "2016": 1,
+      "2018": 2,
+      "2021": 4,
+      "2022": 11,
+      "2023": 12,
+      "2024": 15,
+      "2025": 62,
+      "2026": 87
+    },
+    "helm": {
+      "2026": 5
+    },
+    "iac": {
+      "2019": 1,
+      "2021": 7,
+      "2022": 47,
+      "2023": 42,
+      "2024": 38,
+      "2025": 53,
+      "2026": 213
+    },
+    "kubernetes": {
+      "2026": 125
+    },
+    "kubernetes-networking": {
+      "2026": 14
+    },
+    "kubernetes-scheduling": {
+      "2026": 7
+    },
+    "kubernetes-security": {
+      "2026": 8
+    },
+    "kubernetes-storage": {
+      "2026": 1
+    },
+    "multi-cluster": {
+      "2026": 29
+    },
+    "object-storage": {
+      "2026": 146
+    },
+    "observability": {
+      "2000": 1,
+      "2015": 1,
+      "2021": 4,
+      "2022": 11,
+      "2023": 14,
+      "2024": 23,
+      "2025": 94,
+      "2026": 320
+    },
+    "operator": {
+      "2026": 2
+    },
+    "platform": {
+      "2021": 21,
+      "2022": 52,
+      "2023": 51,
+      "2024": 58,
+      "2025": 70,
+      "2026": 226
+    },
+    "policycode": {
+      "2020": 1,
+      "2021": 15,
+      "2022": 50,
+      "2023": 41,
+      "2024": 50,
+      "2025": 73,
+      "2026": 232
+    },
+    "s3": {
+      "2026": 23
+    },
+    "security": {
+      "2019": 1,
+      "2021": 6,
+      "2022": 17,
+      "2023": 29,
+      "2024": 42,
+      "2025": 430,
+      "2026": 1226
+    },
+    "serverless": {
+      "2026": 9
+    },
+    "service-mesh": {
+      "2026": 5
+    },
+    "software-defined-storage": {
+      "2026": 10
+    },
+    "storage": {
+      "2026": 132
+    }
+  },
+  "keyword_bursts": [
+    {
+      "keyword": "s3",
+      "recent": 59,
+      "total": 59,
+      "burst_score": 1.27,
+      "recent_share": 0.0116
+    },
+    {
+      "keyword": "object storage",
+      "recent": 46,
+      "total": 46,
+      "burst_score": 1.27,
+      "recent_share": 0.0091
+    },
+    {
+      "keyword": "distributed storage",
+      "recent": 38,
+      "total": 38,
+      "burst_score": 1.27,
+      "recent_share": 0.0075
+    },
+    {
+      "keyword": "chart",
+      "recent": 26,
+      "total": 26,
+      "burst_score": 1.27,
+      "recent_share": 0.0051
+    },
+    {
+      "keyword": "namespace",
+      "recent": 25,
+      "total": 25,
+      "burst_score": 1.27,
+      "recent_share": 0.0049
+    },
+    {
+      "keyword": "rbac",
+      "recent": 21,
+      "total": 21,
+      "burst_score": 1.27,
+      "recent_share": 0.0041
+    },
+    {
+      "keyword": "sidecar",
+      "recent": 15,
+      "total": 15,
+      "burst_score": 1.27,
+      "recent_share": 0.003
+    },
+    {
+      "keyword": "etcd",
+      "recent": 8,
+      "total": 8,
+      "burst_score": 1.27,
+      "recent_share": 0.0016
+    },
+    {
+      "keyword": "csi",
+      "recent": 8,
+      "total": 8,
+      "burst_score": 1.27,
+      "recent_share": 0.0016
+    },
+    {
+      "keyword": "crd",
+      "recent": 6,
+      "total": 6,
+      "burst_score": 1.27,
+      "recent_share": 0.0012
+    },
+    {
+      "keyword": "runc",
+      "recent": 5,
+      "total": 5,
+      "burst_score": 1.27,
+      "recent_share": 0.001
+    },
+    {
+      "keyword": "erasure coding",
+      "recent": 4,
+      "total": 4,
+      "burst_score": 1.27,
+      "recent_share": 0.0008
+    },
+    {
+      "keyword": "gatekeeper",
+      "recent": 4,
+      "total": 4,
+      "burst_score": 1.27,
+      "recent_share": 0.0008
+    },
+    {
+      "keyword": "linkerd",
+      "recent": 4,
+      "total": 4,
+      "burst_score": 1.27,
+      "recent_share": 0.0008
+    },
+    {
+      "keyword": "rados",
+      "recent": 2,
+      "total": 2,
+      "burst_score": 1.27,
+      "recent_share": 0.0004
+    }
+  ],
+  "source_breakdown": {
+    "arxiv": 2572,
+    "doi": 3497,
+    "other": 386
+  },
+  "venues": [
+    {
+      "name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "papers": 422
+    },
+    {
+      "name": "arXiv (Cornell University)",
+      "papers": 81
+    },
+    {
+      "name": "Open MIND",
+      "papers": 59
+    },
+    {
+      "name": "SSRN Electronic Journal",
+      "papers": 39
+    },
+    {
+      "name": "Figshare",
+      "papers": 22
+    },
+    {
+      "name": "Lecture notes in networks and systems",
+      "papers": 21
+    },
+    {
+      "name": "Journal of Information Systems Engineering & Management",
+      "papers": 21
+    },
+    {
+      "name": "International Journal of Science and Research (IJSR)",
+      "papers": 20
+    },
+    {
+      "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+      "papers": 20
+    },
+    {
+      "name": "Preprints.org",
+      "papers": 19
+    },
+    {
+      "name": "Research Square",
+      "papers": 18
+    },
+    {
+      "name": "Apress eBooks",
+      "papers": 18
+    },
+    {
+      "name": "International Journal for Research in Applied Science and Engineering Technology",
+      "papers": 17
+    },
+    {
+      "name": "World Journal of Advanced Research and Reviews",
+      "papers": 17
+    },
+    {
+      "name": "International Journal of Science and Research Archive",
+      "papers": 16
+    }
+  ],
+  "gaps": {
+    "thinnest_cells": [
       {
-        "keyword": "llm",
-        "recent": 1396,
-        "corpus": 1534
+        "cell": "policycode/review",
+        "papers": 1
       },
       {
-        "keyword": "agentic",
-        "recent": 369,
-        "corpus": 378
+        "cell": "policycode/evaluation",
+        "papers": 1
       },
       {
-        "keyword": "mcp",
-        "recent": 285,
-        "corpus": 285
+        "cell": "observability/evaluation",
+        "papers": 1
       },
       {
-        "keyword": "ai agent",
-        "recent": 205,
-        "corpus": 214
+        "cell": "platform/security",
+        "papers": 1
       },
       {
-        "keyword": "prompt injection",
-        "recent": 158,
-        "corpus": 161
+        "cell": "iac/benchmark",
+        "papers": 1
       },
       {
-        "keyword": "kubernetes",
-        "recent": 157,
-        "corpus": 297
+        "cell": "policycode/benchmark",
+        "papers": 1
       },
       {
-        "keyword": "fuzzing",
-        "recent": 157,
-        "corpus": 159
+        "cell": "storage/benchmark",
+        "papers": 1
       },
       {
-        "keyword": "supply chain",
-        "recent": 128,
-        "corpus": 137
+        "cell": "storage/application",
+        "papers": 1
       },
       {
-        "keyword": "observability",
-        "recent": 119,
-        "corpus": 170
+        "cell": "storage/development",
+        "papers": 1
       },
       {
-        "keyword": "cve",
-        "recent": 110,
-        "corpus": 111
+        "cell": "object-storage/application",
+        "papers": 1
+      }
+    ],
+    "white_space": [
+      {
+        "cell": "policycode/theory",
+        "total": 23,
+        "recent": 23,
+        "recent_share": 1.0
       },
       {
-        "keyword": "continuous integration",
-        "recent": 64,
-        "corpus": 132
+        "cell": "s3/systems",
+        "total": 23,
+        "recent": 23,
+        "recent_share": 1.0
       },
       {
-        "keyword": "gitops",
-        "recent": 59,
-        "corpus": 118
+        "cell": "iac/architecture",
+        "total": 21,
+        "recent": 21,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "iac/development",
+        "total": 20,
+        "recent": 20,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "containers/mechanism",
+        "total": 18,
+        "recent": 18,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "ai-security/architecture",
+        "total": 18,
+        "recent": 18,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "policycode/architecture",
+        "total": 18,
+        "recent": 18,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "ai-security/mechanism",
+        "total": 17,
+        "recent": 17,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "cicd/method",
+        "total": 16,
+        "recent": 16,
+        "recent_share": 1.0
+      },
+      {
+        "cell": "policycode/development",
+        "total": 16,
+        "recent": 16,
+        "recent_share": 1.0
       }
     ]
   },
-  "venues": [
-    [
-      "Zenodo (CERN European Organization for Nuclear Research)",
-      98
-    ],
-    [
-      "SSRN Electronic Journal",
-      39
-    ],
-    [
-      "International Journal of Science and Research (IJSR)",
-      19
-    ],
-    [
-      "Lecture notes in networks and systems",
-      18
-    ],
-    [
-      "Apress eBooks",
-      18
-    ],
-    [
-      "World Journal of Advanced Research and Reviews",
-      16
-    ],
-    [
-      "Open MIND",
-      15
-    ],
-    [
-      "IEEE Access",
-      13
-    ],
-    [
-      "World Journal of Advanced Engineering Technology and Sciences",
-      12
-    ],
-    [
-      "International Journal of Scientific Research in Computer Science Engineering and Information Technology",
-      12
-    ]
-  ],
   "top_authors": [
-    [
-      "Terra Scientific Services",
-      20
-    ],
-    [
-      "Tong Jia",
-      12
-    ],
-    [
-      "Taher A. Ghaleb",
-      11
-    ],
-    [
-      "Daniel Sokolowski",
-      9
-    ],
-    [
-      "Lingzhe Zhang",
-      8
-    ],
-    [
-      "Minghua He",
-      8
-    ],
-    [
-      "",
-      8
-    ],
-    [
-      "David Spielmann",
-      8
-    ],
-    [
-      "Guido Salvaneschi",
-      8
-    ],
-    [
-      "Yanjie Zhao",
-      7
-    ],
-    [
-      "Chong Wang",
-      7
-    ],
-    [
-      "Mohamed Amine Ferrag",
-      7
-    ],
-    [
-      "Petar Radanliev",
-      6
-    ],
-    [
-      "Zhuoran Tan",
-      6
-    ],
-    [
-      "Akshay Mittal",
-      6
-    ]
+    {
+      "name": "Daniel Rosehill",
+      "papers": 41
+    },
+    {
+      "name": "Gemini 3.1 (Flash)",
+      "papers": 41
+    },
+    {
+      "name": "Chatterbox TTS",
+      "papers": 41
+    },
+    {
+      "name": "Terra Scientific Services",
+      "papers": 20
+    },
+    {
+      "name": "CERTIFICATION EXAM",
+      "papers": 16
+    },
+    {
+      "name": "Tong Jia",
+      "papers": 12
+    },
+    {
+      "name": "Taher A. Ghaleb",
+      "papers": 11
+    },
+    {
+      "name": "Daniel Sokolowski",
+      "papers": 9
+    },
+    {
+      "name": "Yanjie Zhao",
+      "papers": 8
+    },
+    {
+      "name": "Lingzhe Zhang",
+      "papers": 8
+    },
+    {
+      "name": "Minghua He",
+      "papers": 8
+    },
+    {
+      "name": "Travis Raymond-Charlie Stone",
+      "papers": 8
+    },
+    {
+      "name": "David Spielmann",
+      "papers": 8
+    },
+    {
+      "name": "Guido Salvaneschi",
+      "papers": 8
+    },
+    {
+      "name": "Chong Wang",
+      "papers": 7
+    }
   ]
 }
