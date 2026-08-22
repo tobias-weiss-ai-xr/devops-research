@@ -1,10 +1,32 @@
 topic:
   name: devops-research
   short: devops
-  description: DevOps research with focus on storage (Ceph, SCS, S3, distributed storage)
+  description: DevOps research with deep dive on Kubernetes, Docker, container orchestration, and storage (Ceph, SCS, S3)
   openalex_mailto: research@tobias-weiss-ai-xr.de
+
 taxonomy:
   categories:
+  # ── Existing DevOps categories ──
+  - id: security
+    display: Security
+  - id: ai-security
+    display: AI Security
+  - id: containers
+    display: Containers
+  - id: cicd
+    display: CI/CD
+  - id: observability
+    display: Observability
+  - id: iac
+    display: IaC
+  - id: platform
+    display: Platform
+  - id: policycode
+    display: Policy & Code
+  - id: gitops
+    display: GitOps
+
+  # ── Storage categories ──
   - id: storage
     display: Storage
   - id: ceph
@@ -19,20 +41,41 @@ taxonomy:
     display: Object Storage
   - id: software-defined-storage
     display: Software-Defined Storage
-  - id: security
-    display: Security
-  - id: containers
-    display: Containers
-  - id: cicd
-    display: CI/CD
-  - id: observability
-    display: Observability
-  - id: iac
-    display: IaC
-  - id: platform
-    display: Platform
-  - id: gitops
-    display: GitOps
+
+  # ── Kubernetes deep dive ──
+  - id: kubernetes
+    display: Kubernetes
+  - id: kubernetes-scheduling
+    display: K8s Scheduling
+  - id: kubernetes-networking
+    display: K8s Networking
+  - id: kubernetes-storage
+    display: K8s Storage
+  - id: kubernetes-security
+    display: K8s Security
+  - id: operator
+    display: K8s Operators
+  - id: helm
+    display: Helm
+  - id: multi-cluster
+    display: Multi-Cluster
+  - id: serverless
+    display: Serverless
+
+  # ── Docker deep dive ──
+  - id: docker
+    display: Docker
+  - id: container-runtime
+    display: Container Runtime
+  - id: container-image
+    display: Container Images
+  - id: container-security
+    display: Container Security
+
+  # ── Service mesh ──
+  - id: service-mesh
+    display: Service Mesh
+
   subcategories:
   - id: method
     display: Method
@@ -48,108 +91,399 @@ taxonomy:
     display: Systems
   - id: development
     display: Development
+  - id: benchmark
+    display: Benchmark
+  - id: architecture
+    display: Architecture
+
 arxiv_queries:
-- query: abs:"ceph storage"
-  category: ceph
-  subcategory_hint: systems
-- query: abs:"distributed storage"
-  category: distributed-storage
-  subcategory_hint: systems
-- query: abs:"software defined storage"
-  category: software-defined-storage
-  subcategory_hint: systems
-- query: abs:"object storage"
-  category: object-storage
-  subcategory_hint: systems
-- query: abs:"s3 compatibility"
-  category: s3
-  subcategory_hint: systems
-- query: abs:"ceph performance"
-  category: ceph
-  subcategory_hint: experiment
+  # ── Existing DevOps ──
+  - query: abs:"DevOps" AND abs:"security"
+    category: security
+    subcategory_hint: systems
+  - query: abs:"DevSecOps"
+    category: security
+    subcategory_hint: systems
+  - query: abs:"supply chain" AND abs:"security"
+    category: security
+    subcategory_hint: systems
+  - query: abs:"AI" AND abs:"DevOps"
+    category: ai-security
+    subcategory_hint: application
+  - query: abs:"AIOps" AND abs:"monitoring"
+    category: ai-security
+    subcategory_hint: application
+  - query: abs:"container" AND abs:"orchestration"
+    category: containers
+    subcategory_hint: systems
+  - query: abs:"CI/CD" AND abs:"pipeline"
+    category: cicd
+    subcategory_hint: development
+  - query: abs:"observability" AND abs:"monitoring"
+    category: observability
+    subcategory_hint: systems
+  - query: abs:"infrastructure as code"
+    category: iac
+    subcategory_hint: systems
+  - query: abs:"GitOps" AND abs:"deployment"
+    category: gitops
+    subcategory_hint: development
+  - query: abs:"platform engineering"
+    category: platform
+    subcategory_hint: architecture
+  - query: abs:"policy as code"
+    category: policycode
+    subcategory_hint: systems
+
+  # ── Storage ──
+  - query: abs:"ceph storage"
+    category: ceph
+    subcategory_hint: systems
+  - query: abs:"distributed storage"
+    category: distributed-storage
+    subcategory_hint: systems
+  - query: abs:"software defined storage"
+    category: software-defined-storage
+    subcategory_hint: systems
+  - query: abs:"object storage"
+    category: object-storage
+    subcategory_hint: systems
+  - query: abs:"S3 compatible" AND abs:"storage"
+    category: s3
+    subcategory_hint: systems
+
+  # ── Kubernetes deep dive ──
+  - query: abs:"Kubernetes" AND abs:"scheduling"
+    category: kubernetes-scheduling
+    subcategory_hint: systems
+  - query: abs:"Kubernetes" AND abs:"networking"
+    category: kubernetes-networking
+    subcategory_hint: systems
+  - query: abs:"Kubernetes" AND abs:"storage" AND abs:"persistent"
+    category: kubernetes-storage
+    subcategory_hint: systems
+  - query: abs:"Kubernetes" AND abs:"security" AND abs:"policy"
+    category: kubernetes-security
+    subcategory_hint: systems
+  - query: abs:"Kubernetes" AND abs:"operator" AND abs:"custom resource"
+    category: operator
+    subcategory_hint: development
+  - query: abs:"Kubernetes" AND abs:"controller" AND abs:"reconciliation"
+    category: operator
+    subcategory_hint: development
+  - query: abs:"Helm" AND abs:"Kubernetes" AND abs:"package"
+    category: helm
+    subcategory_hint: development
+  - query: abs:"multi-cluster" AND abs:"Kubernetes"
+    category: multi-cluster
+    subcategory_hint: systems
+  - query: abs:"cluster federation" AND abs:"Kubernetes"
+    category: multi-cluster
+    subcategory_hint: systems
+  - query: abs:"serverless" AND abs:"Kubernetes"
+    category: serverless
+    subcategory_hint: application
+  - query: abs:"Knative" AND abs:"Kubernetes"
+    category: serverless
+    subcategory_hint: application
+  - query: abs:"Kubernetes" AND abs:"autoscaling"
+    category: kubernetes
+    subcategory_hint: systems
+  - query: abs:"Kubernetes" AND abs:"edge computing"
+    category: kubernetes
+    subcategory_hint: application
+  - query: abs:"Kubernetes" AND abs:"resource management"
+    category: kubernetes
+    subcategory_hint: systems
+
+  # ── Docker deep dive ──
+  - query: abs:"Docker" AND abs:"container" AND abs:"runtime"
+    category: docker
+    subcategory_hint: systems
+  - query: abs:"Docker" AND abs:"image" AND abs:"build"
+    category: container-image
+    subcategory_hint: development
+  - query: abs:"containerd" AND abs:"runtime"
+    category: container-runtime
+    subcategory_hint: systems
+  - query: abs:"OCI" AND abs:"container" AND abs:"runtime"
+    category: container-runtime
+    subcategory_hint: systems
+  - query: abs:"CRI-O" AND abs:"Kubernetes"
+    category: container-runtime
+    subcategory_hint: systems
+  - query: abs:"container image" AND abs:"security" AND abs:"vulnerability"
+    category: container-security
+    subcategory_hint: systems
+  - query: abs:"container" AND abs:"isolation" AND abs:"security"
+    category: container-security
+    subcategory_hint: systems
+  - query: abs:"Docker" AND abs:"performance" AND abs:"benchmark"
+    category: docker
+    subcategory_hint: benchmark
+
+  # ── Service mesh ──
+  - query: abs:"service mesh" AND abs:"Istio"
+    category: service-mesh
+    subcategory_hint: systems
+  - query: abs:"service mesh" AND abs:"Linkerd"
+    category: service-mesh
+    subcategory_hint: systems
+  - query: abs:"service mesh" AND abs:"Envoy" AND abs:"proxy"
+    category: service-mesh
+    subcategory_hint: systems
+  - query: abs:"service mesh" AND abs:"microservices"
+    category: service-mesh
+    subcategory_hint: architecture
+
 openalex_queries:
-- category: storage
-  query: "Ceph storage systems distributed"
-- category: storage
-  query: "software defined storage architecture"
-- category: storage
-  query: "distributed storage systems"
-- category: ceph
-  query: "Ceph RADOS distributed object storage"
-- category: ceph
-  query: "Ceph performance benchmark"
-- category: ceph
-  query: "Ceph Sanger Colino Kaplan"
-- category: ceph
-  query: "Ceph erasure coding"
-- category: scs
-  query: "SCS storage system"
-- category: scs
-  query: "SUSE Cloud Storage Ceph"
-- category: scs
-  query: "Scality S3 Server"
-- category: s3
-  query: "Amazon S3 architecture"
-- category: s3
-  query: "S3 compatible storage"
-- category: s3
-  query: "S3 API performance"
-- category: object-storage
-  query: "object storage systems"
-- category: object-storage
-  query: "object storage vs block storage"
-- category: distributed-storage
-  query: "distributed storage consistency"
-- category: distributed-storage
-  query: "distributed storage scalability"
-- category: software-defined-storage
-  query: "software defined storage survey"
-- category: software-defined-storage
-  query: "SDS architecture comparison"
-- category: security
-  query: "storage security encryption"
-- category: security
-  query: "Ceph security"
-- category: security
-  query: "object storage security"
-- category: containers
-  query: "container storage interface CSI"
-- category: containers
-  query: "Kubernetes storage"
-- category: containers
-  query: "container persistent storage"
-- category: cicd
-  query: "storage CI/CD pipeline"
-- category: observability
-  query: "storage monitoring metrics"
-- category: iac
-  query: "storage infrastructure as code"
-- category: platform
-  query: "storage platform design"
-- category: gitops
-  query: "storage GitOps"
+  # ── Existing DevOps ──
+  - category: security
+    query: "DevOps security supply chain"
+  - category: security
+    query: "DevSecOps pipeline automation"
+  - category: ai-security
+    query: "AIOps monitoring anomaly detection"
+  - category: containers
+    query: "container orchestration Kubernetes Docker"
+  - category: cicd
+    query: "CI/CD pipeline automation testing"
+  - category: observability
+    query: "observability monitoring distributed tracing"
+  - category: iac
+    query: "infrastructure as code Terraform"
+  - category: platform
+    query: "platform engineering developer experience"
+  - category: policycode
+    query: "policy as code compliance automation"
+  - category: gitops
+    query: "GitOps continuous deployment ArgoCD Flux"
+
+  # ── Storage ──
+  - category: storage
+    query: "Ceph storage systems distributed"
+  - category: storage
+    query: "software defined storage architecture"
+  - category: ceph
+    query: "Ceph RADOS distributed object storage"
+  - category: ceph
+    query: "Ceph performance benchmark erasure coding"
+  - category: scs
+    query: "SUSE Cloud Storage Ceph SCS"
+  - category: s3
+    query: "Amazon S3 architecture performance"
+  - category: s3
+    query: "S3 compatible storage API"
+  - category: object-storage
+    query: "object storage systems performance"
+  - category: distributed-storage
+    query: "distributed storage consistency scalability"
+  - category: software-defined-storage
+    query: "software defined storage survey"
+
+  # ── Kubernetes deep dive ──
+  - category: kubernetes
+    query: "Kubernetes orchestration architecture"
+  - category: kubernetes
+    query: "Kubernetes cluster management scalability"
+  - category: kubernetes
+    query: "Kubernetes resource management scheduling"
+  - category: kubernetes
+    query: "Kubernetes edge computing IoT"
+  - category: kubernetes-scheduling
+    query: "Kubernetes scheduler pod scheduling bin packing"
+  - category: kubernetes-scheduling
+    query: "Kubernetes autoscaling horizontal vertical HPA VPA"
+  - category: kubernetes-scheduling
+    query: "Kubernetes descheduling load balancing"
+  - category: kubernetes-networking
+    query: "Kubernetes networking CNI Calico Cilium"
+  - category: kubernetes-networking
+    query: "Kubernetes network policy service mesh"
+  - category: kubernetes-networking
+    query: "Kubernetes ingress controller traffic management"
+  - category: kubernetes-storage
+    query: "Kubernetes persistent storage CSI volume"
+  - category: kubernetes-storage
+    query: "Kubernetes storage class dynamic provisioning"
+  - category: kubernetes-storage
+    query: "Kubernetes StatefulSet persistent volume"
+  - category: kubernetes-security
+    query: "Kubernetes security RBAC admission control"
+  - category: kubernetes-security
+    query: "Kubernetes pod security policy network policy"
+  - category: kubernetes-security
+    query: "Kubernetes security hardening compliance CIS"
+  - category: operator
+    query: "Kubernetes operator custom resource controller"
+  - category: operator
+    query: "Kubernetes operator pattern reconciliation loop"
+  - category: operator
+    query: "Kubernetes CRD controller development"
+  - category: helm
+    query: "Helm Kubernetes package management chart"
+  - category: helm
+    query: "Helm chart template deployment"
+  - category: multi-cluster
+    query: "Kubernetes multi-cluster management federation"
+  - category: multi-cluster
+    query: "Kubernetes cluster API management"
+  - category: multi-cluster
+    query: "Kubernetes multi-cloud hybrid cloud"
+  - category: serverless
+    query: "Knative Kubernetes serverless FaaS"
+  - category: serverless
+    query: "Kubernetes serverless event-driven"
+  - category: serverless
+    query: "serverless container platform scale-to-zero"
+
+  # ── Docker deep dive ──
+  - category: docker
+    query: "Docker container runtime performance"
+  - category: docker
+    query: "Docker container build optimization layer caching"
+  - category: docker
+    query: "Docker Compose multi-container orchestration"
+  - category: docker
+    query: "Docker Swarm container orchestration"
+  - category: container-runtime
+    query: "containerd runtime Kubernetes CRI"
+  - category: container-runtime
+    query: "OCI container runtime runc specification"
+  - category: container-runtime
+    query: "CRI-O container runtime Kubernetes"
+  - category: container-runtime
+    query: "container runtime comparison performance benchmark"
+  - category: container-image
+    query: "container image build optimization security scanning"
+  - category: container-image
+    query: "Docker image layer caching efficiency"
+  - category: container-image
+    query: "container image registry distribution"
+  - category: container-security
+    query: "container security vulnerability scanning"
+  - category: container-security
+    query: "container isolation namespace cgroups security"
+  - category: container-security
+    query: "container image signing supply chain security"
+  - category: container-security
+    query: "Kubernetes admission control OPA Gatekeeper"
+
+  # ── Service mesh ──
+  - category: service-mesh
+    query: "service mesh Istio Linkerd Envoy microservices"
+  - category: service-mesh
+    query: "service mesh sidecar proxy traffic management"
+  - category: service-mesh
+    query: "service mesh observability tracing mTLS"
+  - category: service-mesh
+    query: "service mesh performance benchmark comparison"
+
 trend_keywords:
+  # Storage
   - ceph
-  - s3
-  - scs
-  - storage
-  - distributed storage
-  - object storage
-  - software-defined storage
   - rados
   - erasure coding
+  - s3
+  - object storage
+  - distributed storage
+  # Kubernetes
+  - kubernetes
+  - k8s
+  - pod
+  - scheduler
+  - autoscaling
+  - etcd
+  - operator
+  - crd
+  - controller
+  - reconciliation
+  - helm
+  - chart
+  - statefulset
+  - daemonset
+  - ingress
+  - cni
+  - csi
+  - rbac
+  - admission
+  - gatekeeper
+  - opa
+  - knative
+  # Docker
+  - docker
+  - containerd
+  - runc
+  - cri-o
+  - oci
+  - image
+  - layer
+  - compose
+  - swarm
+  - namespace
+  - cgroups
+  # Service mesh
+  - istio
+  - linkerd
+  - envoy
+  - sidecar
+  - mtls
+  - service mesh
+
 subcategory_keywords:
-  systems:
-    - ceph
-    - storage
-    - distributed
-    - s3
-    - object storage
-  security:
-    - encryption
-    - access control
-    - vulnerability
-  performance:
-    - benchmark
-    - latency
-    - throughput
+  - id: systems
+    keywords:
+      - kubernetes
+      - docker
+      - container
+      - runtime
+      - storage
+      - ceph
+      - distributed
+      - scheduling
+      - networking
+  - id: architecture
+    keywords:
+      - architecture
+      - design
+      - pattern
+      - microservices
+      - cloud native
+      - platform
+  - id: development
+    keywords:
+      - development
+      - build
+      - deploy
+      - pipeline
+      - ci/cd
+      - helm
+      - chart
+      - operator
+      - controller
+  - id: benchmark
+    keywords:
+      - benchmark
+      - performance
+      - latency
+      - throughput
+      - scalability
+      - evaluation
+  - id: security
+    keywords:
+      - security
+      - vulnerability
+      - encryption
+      - access control
+      - rbac
+      - policy
+      - compliance
+      - isolation
+  - id: application
+    keywords:
+      - application
+      - use case
+      - edge
+      - iot
+      - serverless
+      - faas
