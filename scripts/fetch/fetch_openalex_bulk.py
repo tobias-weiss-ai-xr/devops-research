@@ -213,7 +213,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mai
                 }
                 resp = session.get(OPENALEX_API, params=params, timeout=30)
                 if resp.status_code == 429:
-                    wait = int(resp.headers.get('Retry-After', 5))
+                    wait = min(int(resp.headers.get('Retry-After', 5)), 30)
                     time.sleep(wait)
                     continue
                 data = resp.json()
@@ -277,7 +277,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mai
             try:
                 resp = session.get(OPENALEX_API, params=params, timeout=30)
                 if resp.status_code == 429:
-                    wait = int(resp.headers.get('Retry-After', 5 * (attempt + 1)))
+                    wait = min(int(resp.headers.get('Retry-After', 5 * (attempt + 1))), 30)
                     print(f"    rate-limited (429), waiting {wait}s...", flush=True)
                     time.sleep(wait)
                     continue
