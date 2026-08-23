@@ -1,0 +1,2574 @@
+{
+  "count": 139,
+  "concepts": [
+    {
+      "term": "Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 1884,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "security"
+      },
+      "top_cells": [
+        "security/security",
+        "security/application",
+        "security/theory",
+        "security/systems"
+      ],
+      "papers": 1884
+    },
+    {
+      "term": "AI Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 972,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "ai-security"
+      },
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/security",
+        "ai-security/theory",
+        "ai-security/systems"
+      ],
+      "papers": 972
+    },
+    {
+      "term": "large language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 816,
+      "match": {
+        "type": "text",
+        "forms": [
+          "large language"
+        ]
+      },
+      "papers": 816,
+      "top_cells": [
+        "ai-security/application",
+        "security/security",
+        "ai-security/security",
+        "security/theory"
+      ]
+    },
+    {
+      "term": "language models",
+      "kind": "emergent",
+      "seed": false,
+      "df": 722,
+      "match": {
+        "type": "text",
+        "forms": [
+          "language models"
+        ]
+      },
+      "papers": 722,
+      "top_cells": [
+        "ai-security/application",
+        "security/security",
+        "ai-security/security",
+        "security/theory"
+      ]
+    },
+    {
+      "term": "Platform",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 601,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "platform"
+      },
+      "top_cells": [
+        "platform/application",
+        "platform/architecture",
+        "platform/systems",
+        "platform/development"
+      ],
+      "papers": 601
+    },
+    {
+      "term": "Containers",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 574,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "containers"
+      },
+      "top_cells": [
+        "containers/application",
+        "containers/systems",
+        "containers/development",
+        "containers/theory"
+      ],
+      "papers": 574
+    },
+    {
+      "term": "CI/CD",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 559,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "cicd"
+      },
+      "top_cells": [
+        "cicd/application",
+        "cicd/systems",
+        "cicd/development",
+        "cicd/theory"
+      ],
+      "papers": 559
+    },
+    {
+      "term": "Kubernetes",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 558,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "kubernetes"
+      },
+      "top_cells": [
+        "kubernetes/systems",
+        "kubernetes/architecture",
+        "kubernetes/application",
+        "kubernetes/benchmark"
+      ],
+      "papers": 558
+    },
+    {
+      "term": "Policy & Code",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 545,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "policycode"
+      },
+      "top_cells": [
+        "policycode/application",
+        "policycode/systems",
+        "policycode/architecture",
+        "policycode/development"
+      ],
+      "papers": 545
+    },
+    {
+      "term": "IaC",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 492,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "iac"
+      },
+      "top_cells": [
+        "iac/application",
+        "iac/systems",
+        "iac/architecture",
+        "iac/development"
+      ],
+      "papers": 492
+    },
+    {
+      "term": "Observability",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 471,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "observability"
+      },
+      "top_cells": [
+        "observability/application",
+        "observability/systems",
+        "observability/security",
+        "observability/theory"
+      ],
+      "papers": 471
+    },
+    {
+      "term": "cloud computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 313,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud computing"
+        ]
+      },
+      "papers": 313,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/application",
+        "containers/application",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 294,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "storage"
+      },
+      "top_cells": [
+        "storage/systems",
+        "storage/architecture",
+        "storage/benchmark",
+        "storage/application"
+      ],
+      "papers": 294
+    },
+    {
+      "term": "Distributed Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 258,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "distributed-storage"
+      },
+      "top_cells": [
+        "distributed-storage/systems",
+        "distributed-storage/benchmark",
+        "distributed-storage/application",
+        "distributed-storage/security"
+      ],
+      "papers": 258
+    },
+    {
+      "term": "continuous integration",
+      "kind": "emergent",
+      "seed": false,
+      "df": 244,
+      "match": {
+        "type": "text",
+        "forms": [
+          "continuous integration"
+        ]
+      },
+      "papers": 244,
+      "top_cells": [
+        "cicd/application",
+        "cicd/development",
+        "security/systems",
+        "security/architecture"
+      ]
+    },
+    {
+      "term": "anomaly detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 236,
+      "match": {
+        "type": "text",
+        "forms": [
+          "anomaly detection"
+        ]
+      },
+      "papers": 236,
+      "top_cells": [
+        "ai-security/architecture",
+        "ai-security/systems",
+        "kubernetes/systems",
+        "observability/security"
+      ]
+    },
+    {
+      "term": "software engineering",
+      "kind": "emergent",
+      "seed": false,
+      "df": 233,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software engineering"
+        ]
+      },
+      "papers": 233,
+      "top_cells": [
+        "platform/architecture",
+        "ai-security/application",
+        "security/systems",
+        "cicd/application"
+      ]
+    },
+    {
+      "term": "container orchestration",
+      "kind": "emergent",
+      "seed": false,
+      "df": 232,
+      "match": {
+        "type": "text",
+        "forms": [
+          "container orchestration"
+        ]
+      },
+      "papers": 232,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "multi-cluster/systems",
+        "docker/systems"
+      ]
+    },
+    {
+      "term": "cloud environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 216,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud environments"
+        ]
+      },
+      "papers": 216,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "security/application",
+        "iac/systems"
+      ]
+    },
+    {
+      "term": "modern software",
+      "kind": "emergent",
+      "seed": false,
+      "df": 196,
+      "match": {
+        "type": "text",
+        "forms": [
+          "modern software"
+        ]
+      },
+      "papers": 196,
+      "top_cells": [
+        "cicd/application",
+        "security/security",
+        "security/application",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "GitOps",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 195,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "gitops"
+      },
+      "top_cells": [
+        "gitops/application",
+        "gitops/development",
+        "gitops/systems",
+        "gitops/theory"
+      ],
+      "papers": 195
+    },
+    {
+      "term": "supply chain",
+      "kind": "emergent",
+      "seed": false,
+      "df": 189,
+      "match": {
+        "type": "text",
+        "forms": [
+          "supply chain"
+        ]
+      },
+      "papers": 189,
+      "top_cells": [
+        "security/systems",
+        "security/security",
+        "security/architecture",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "resource management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 178,
+      "match": {
+        "type": "text",
+        "forms": [
+          "resource management"
+        ]
+      },
+      "papers": 178,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "storage/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "while maintaining",
+      "kind": "emergent",
+      "seed": false,
+      "df": 178,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while maintaining"
+        ]
+      },
+      "papers": 178,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "storage/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "edge computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 178,
+      "match": {
+        "type": "text",
+        "forms": [
+          "edge computing"
+        ]
+      },
+      "papers": 178,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "docker/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "cloud infrastructure",
+      "kind": "emergent",
+      "seed": false,
+      "df": 172,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud infrastructure"
+        ]
+      },
+      "papers": 172,
+      "top_cells": [
+        "iac/architecture",
+        "kubernetes/systems",
+        "iac/application",
+        "security/application"
+      ]
+    },
+    {
+      "term": "best practices",
+      "kind": "emergent",
+      "seed": false,
+      "df": 155,
+      "match": {
+        "type": "text",
+        "forms": [
+          "best practices"
+        ]
+      },
+      "papers": 155,
+      "top_cells": [
+        "kubernetes/systems",
+        "iac/architecture",
+        "storage/systems",
+        "cicd/application"
+      ]
+    },
+    {
+      "term": "resource utilization",
+      "kind": "emergent",
+      "seed": false,
+      "df": 153,
+      "match": {
+        "type": "text",
+        "forms": [
+          "resource utilization"
+        ]
+      },
+      "papers": 153,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "distributed-storage/systems",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "Object Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 146,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "object-storage"
+      },
+      "top_cells": [
+        "object-storage/systems",
+        "object-storage/architecture",
+        "object-storage/application"
+      ],
+      "papers": 146
+    },
+    {
+      "term": "vulnerability detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 146,
+      "match": {
+        "type": "text",
+        "forms": [
+          "vulnerability detection"
+        ]
+      },
+      "papers": 146,
+      "top_cells": [
+        "security/security",
+        "security/theory",
+        "ai-security/application",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "Multi-Cluster",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 137,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "multi-cluster"
+      },
+      "top_cells": [
+        "multi-cluster/systems",
+        "multi-cluster/application",
+        "multi-cluster/security",
+        "multi-cluster/architecture"
+      ],
+      "papers": 137
+    },
+    {
+      "term": "resource allocation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 132,
+      "match": {
+        "type": "text",
+        "forms": [
+          "resource allocation"
+        ]
+      },
+      "papers": 132,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "storage/systems",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "software delivery",
+      "kind": "emergent",
+      "seed": false,
+      "df": 126,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software delivery"
+        ]
+      },
+      "papers": 126,
+      "top_cells": [
+        "cicd/application",
+        "security/application",
+        "security/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "access control",
+      "kind": "emergent",
+      "seed": false,
+      "df": 126,
+      "match": {
+        "type": "text",
+        "forms": [
+          "access control"
+        ]
+      },
+      "papers": 126,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "s3/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "natural language",
+      "kind": "emergent",
+      "seed": false,
+      "df": 125,
+      "match": {
+        "type": "text",
+        "forms": [
+          "natural language"
+        ]
+      },
+      "papers": 125,
+      "top_cells": [
+        "ai-security/application",
+        "platform/architecture",
+        "security/security",
+        "security/application"
+      ]
+    },
+    {
+      "term": "kubernetes clusters",
+      "kind": "emergent",
+      "seed": false,
+      "df": 123,
+      "match": {
+        "type": "text",
+        "forms": [
+          "kubernetes clusters"
+        ]
+      },
+      "papers": 123,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "iac/systems",
+        "kubernetes-scheduling/systems"
+      ]
+    },
+    {
+      "term": "code generation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 122,
+      "match": {
+        "type": "text",
+        "forms": [
+          "code generation"
+        ]
+      },
+      "papers": 122,
+      "top_cells": [
+        "ai-security/application",
+        "ai-security/security",
+        "security/security",
+        "ai-security/theory"
+      ]
+    },
+    {
+      "term": "case studies",
+      "kind": "emergent",
+      "seed": false,
+      "df": 117,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case studies"
+        ]
+      },
+      "papers": 117,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "distributed-storage/systems",
+        "policycode/architecture"
+      ]
+    },
+    {
+      "term": "continuous deployment",
+      "kind": "emergent",
+      "seed": false,
+      "df": 115,
+      "match": {
+        "type": "text",
+        "forms": [
+          "continuous deployment"
+        ]
+      },
+      "papers": 115,
+      "top_cells": [
+        "cicd/application",
+        "security/systems",
+        "cicd/architecture",
+        "cicd/systems"
+      ]
+    },
+    {
+      "term": "source code",
+      "kind": "emergent",
+      "seed": false,
+      "df": 113,
+      "match": {
+        "type": "text",
+        "forms": [
+          "source code"
+        ]
+      },
+      "papers": 113,
+      "top_cells": [
+        "security/security",
+        "storage/systems",
+        "security/systems",
+        "ai-security/security"
+      ]
+    },
+    {
+      "term": "prompt injection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 111,
+      "match": {
+        "type": "text",
+        "forms": [
+          "prompt injection"
+        ]
+      },
+      "papers": 111,
+      "top_cells": [
+        "ai-security/security",
+        "ai-security/theory",
+        "security/security",
+        "security/theory"
+      ]
+    },
+    {
+      "term": "operational efficiency",
+      "kind": "emergent",
+      "seed": false,
+      "df": 110,
+      "match": {
+        "type": "text",
+        "forms": [
+          "operational efficiency"
+        ]
+      },
+      "papers": 110,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "ai-security/systems",
+        "iac/architecture"
+      ]
+    },
+    {
+      "term": "Docker",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 107,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "docker"
+      },
+      "top_cells": [
+        "docker/systems",
+        "docker/benchmark",
+        "docker/development",
+        "docker/architecture"
+      ],
+      "papers": 107
+    },
+    {
+      "term": "software supply",
+      "kind": "emergent",
+      "seed": false,
+      "df": 104,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software supply"
+        ]
+      },
+      "papers": 104,
+      "top_cells": [
+        "security/security",
+        "security/systems",
+        "security/development",
+        "security/architecture"
+      ]
+    },
+    {
+      "term": "platform engineering",
+      "kind": "emergent",
+      "seed": false,
+      "df": 103,
+      "match": {
+        "type": "text",
+        "forms": [
+          "platform engineering"
+        ]
+      },
+      "papers": 103,
+      "top_cells": [
+        "platform/application",
+        "platform/architecture",
+        "platform/systems",
+        "gitops/application"
+      ]
+    },
+    {
+      "term": "fault tolerance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 103,
+      "match": {
+        "type": "text",
+        "forms": [
+          "fault tolerance"
+        ]
+      },
+      "papers": 103,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "s3/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "security risks",
+      "kind": "emergent",
+      "seed": false,
+      "df": 102,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security risks"
+        ]
+      },
+      "papers": 102,
+      "top_cells": [
+        "ai-security/security",
+        "security/systems",
+        "container-security/systems",
+        "security/security"
+      ]
+    },
+    {
+      "term": "security vulnerabilities",
+      "kind": "emergent",
+      "seed": false,
+      "df": 101,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security vulnerabilities"
+        ]
+      },
+      "papers": 101,
+      "top_cells": [
+        "ai-security/application",
+        "security/security",
+        "security/theory",
+        "ai-security/security"
+      ]
+    },
+    {
+      "term": "Container Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 100,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "container-security"
+      },
+      "top_cells": [
+        "container-security/systems",
+        "container-security/security",
+        "container-security/application",
+        "container-security/architecture"
+      ],
+      "papers": 100
+    },
+    {
+      "term": "kubernetes cluster",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "kubernetes cluster"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "kubernetes-networking/systems",
+        "containers/application"
+      ]
+    },
+    {
+      "term": "attack surface",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "attack surface"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "ai-security/security",
+        "security/security",
+        "security/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "web services",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "web services"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "s3/systems",
+        "kubernetes/systems",
+        "iac/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "policy enforcement",
+      "kind": "emergent",
+      "seed": false,
+      "df": 96,
+      "match": {
+        "type": "text",
+        "forms": [
+          "policy enforcement"
+        ]
+      },
+      "papers": 96,
+      "top_cells": [
+        "security/systems",
+        "policycode/systems",
+        "multi-cluster/systems",
+        "policycode/architecture"
+      ]
+    },
+    {
+      "term": "infrastructure management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 90,
+      "match": {
+        "type": "text",
+        "forms": [
+          "infrastructure management"
+        ]
+      },
+      "papers": 90,
+      "top_cells": [
+        "kubernetes/systems",
+        "iac/architecture",
+        "iac/application",
+        "security/application"
+      ]
+    },
+    {
+      "term": "serverless computing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 89,
+      "match": {
+        "type": "text",
+        "forms": [
+          "serverless computing"
+        ]
+      },
+      "papers": 89,
+      "top_cells": [
+        "kubernetes/systems",
+        "serverless/systems",
+        "multi-cluster/systems",
+        "s3/systems"
+      ]
+    },
+    {
+      "term": "continuous delivery",
+      "kind": "emergent",
+      "seed": false,
+      "df": 89,
+      "match": {
+        "type": "text",
+        "forms": [
+          "continuous delivery"
+        ]
+      },
+      "papers": 89,
+      "top_cells": [
+        "cicd/application",
+        "security/systems",
+        "security/application",
+        "cicd/architecture"
+      ]
+    },
+    {
+      "term": "distributed storage",
+      "kind": "emergent",
+      "seed": false,
+      "df": 88,
+      "match": {
+        "type": "text",
+        "forms": [
+          "distributed storage"
+        ]
+      },
+      "papers": 88,
+      "top_cells": [
+        "distributed-storage/systems",
+        "storage/systems",
+        "kubernetes/systems",
+        "s3/systems"
+      ]
+    },
+    {
+      "term": "zero trust",
+      "kind": "emergent",
+      "seed": false,
+      "df": 88,
+      "match": {
+        "type": "text",
+        "forms": [
+          "zero trust"
+        ]
+      },
+      "papers": 88,
+      "top_cells": [
+        "security/security",
+        "security/application",
+        "multi-cluster/systems",
+        "security/theory"
+      ]
+    },
+    {
+      "term": "while preserving",
+      "kind": "emergent",
+      "seed": false,
+      "df": 88,
+      "match": {
+        "type": "text",
+        "forms": [
+          "while preserving"
+        ]
+      },
+      "papers": 88,
+      "top_cells": [
+        "distributed-storage/systems",
+        "storage/systems",
+        "kubernetes/systems",
+        "security/systems"
+      ]
+    },
+    {
+      "term": "S3",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 86,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "s3"
+      },
+      "top_cells": [
+        "s3/systems",
+        "s3/architecture",
+        "s3/security"
+      ],
+      "papers": 86
+    },
+    {
+      "term": "regulatory compliance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 84,
+      "match": {
+        "type": "text",
+        "forms": [
+          "regulatory compliance"
+        ]
+      },
+      "papers": 84,
+      "top_cells": [
+        "policycode/architecture",
+        "policycode/systems",
+        "storage/systems",
+        "kubernetes/systems"
+      ]
+    },
+    {
+      "term": "modern cloud",
+      "kind": "emergent",
+      "seed": false,
+      "df": 82,
+      "match": {
+        "type": "text",
+        "forms": [
+          "modern cloud"
+        ]
+      },
+      "papers": 82,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "security/application",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "security challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 81,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security challenges"
+        ]
+      },
+      "papers": 81,
+      "top_cells": [
+        "security/security",
+        "container-security/systems",
+        "security/theory",
+        "ai-security/security"
+      ]
+    },
+    {
+      "term": "load balancing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 81,
+      "match": {
+        "type": "text",
+        "forms": [
+          "load balancing"
+        ]
+      },
+      "papers": 81,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "multi-cluster/systems",
+        "containers/application"
+      ]
+    },
+    {
+      "term": "widely adopted",
+      "kind": "emergent",
+      "seed": false,
+      "df": 80,
+      "match": {
+        "type": "text",
+        "forms": [
+          "widely adopted"
+        ]
+      },
+      "papers": 80,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/systems",
+        "cicd/application",
+        "docker/systems"
+      ]
+    },
+    {
+      "term": "microservices architecture",
+      "kind": "emergent",
+      "seed": false,
+      "df": 79,
+      "match": {
+        "type": "text",
+        "forms": [
+          "microservices architecture"
+        ]
+      },
+      "papers": 79,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "multi-cluster/systems",
+        "observability/application"
+      ]
+    },
+    {
+      "term": "context protocol",
+      "kind": "emergent",
+      "seed": false,
+      "df": 79,
+      "match": {
+        "type": "text",
+        "forms": [
+          "context protocol"
+        ]
+      },
+      "papers": 79,
+      "top_cells": [
+        "ai-security/security",
+        "ai-security/theory",
+        "security/security",
+        "ai-security/application"
+      ]
+    },
+    {
+      "term": "containerized applications",
+      "kind": "emergent",
+      "seed": false,
+      "df": 79,
+      "match": {
+        "type": "text",
+        "forms": [
+          "containerized applications"
+        ]
+      },
+      "papers": 79,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "container-security/systems",
+        "security/application"
+      ]
+    },
+    {
+      "term": "security testing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 78,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security testing"
+        ]
+      },
+      "papers": 78,
+      "top_cells": [
+        "security/security",
+        "security/architecture",
+        "security/development",
+        "security/systems"
+      ]
+    },
+    {
+      "term": "digital transformation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 77,
+      "match": {
+        "type": "text",
+        "forms": [
+          "digital transformation"
+        ]
+      },
+      "papers": 77,
+      "top_cells": [
+        "kubernetes/systems",
+        "platform/architecture",
+        "security/application",
+        "containers/application"
+      ]
+    },
+    {
+      "term": "response time",
+      "kind": "emergent",
+      "seed": false,
+      "df": 77,
+      "match": {
+        "type": "text",
+        "forms": [
+          "response time"
+        ]
+      },
+      "papers": 77,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "distributed-storage/systems",
+        "docker/systems"
+      ]
+    },
+    {
+      "term": "cloud platforms",
+      "kind": "emergent",
+      "seed": false,
+      "df": 76,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud platforms"
+        ]
+      },
+      "papers": 76,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/application",
+        "multi-cluster/systems",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "devops practices",
+      "kind": "emergent",
+      "seed": false,
+      "df": 74,
+      "match": {
+        "type": "text",
+        "forms": [
+          "devops practices"
+        ]
+      },
+      "papers": 74,
+      "top_cells": [
+        "security/application",
+        "cicd/application",
+        "gitops/application",
+        "kubernetes/systems"
+      ]
+    },
+    {
+      "term": "significant challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 74,
+      "match": {
+        "type": "text",
+        "forms": [
+          "significant challenges"
+        ]
+      },
+      "papers": 74,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "security/application",
+        "object-storage/systems"
+      ]
+    },
+    {
+      "term": "amazon web",
+      "kind": "emergent",
+      "seed": false,
+      "df": 74,
+      "match": {
+        "type": "text",
+        "forms": [
+          "amazon web"
+        ]
+      },
+      "papers": 74,
+      "top_cells": [
+        "s3/systems",
+        "kubernetes/systems",
+        "iac/systems",
+        "s3/architecture"
+      ]
+    },
+    {
+      "term": "supply chains",
+      "kind": "emergent",
+      "seed": false,
+      "df": 72,
+      "match": {
+        "type": "text",
+        "forms": [
+          "supply chains"
+        ]
+      },
+      "papers": 72,
+      "top_cells": [
+        "security/systems",
+        "security/security",
+        "security/development",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "energy consumption",
+      "kind": "emergent",
+      "seed": false,
+      "df": 71,
+      "match": {
+        "type": "text",
+        "forms": [
+          "energy consumption"
+        ]
+      },
+      "papers": 71,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "object-storage/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "hybrid cloud",
+      "kind": "emergent",
+      "seed": false,
+      "df": 71,
+      "match": {
+        "type": "text",
+        "forms": [
+          "hybrid cloud"
+        ]
+      },
+      "papers": 71,
+      "top_cells": [
+        "multi-cluster/systems",
+        "kubernetes/systems",
+        "security/application",
+        "containers/application"
+      ]
+    },
+    {
+      "term": "google cloud",
+      "kind": "emergent",
+      "seed": false,
+      "df": 70,
+      "match": {
+        "type": "text",
+        "forms": [
+          "google cloud"
+        ]
+      },
+      "papers": 70,
+      "top_cells": [
+        "kubernetes/systems",
+        "iac/systems",
+        "multi-cluster/systems",
+        "s3/systems"
+      ]
+    },
+    {
+      "term": "web applications",
+      "kind": "emergent",
+      "seed": false,
+      "df": 69,
+      "match": {
+        "type": "text",
+        "forms": [
+          "web applications"
+        ]
+      },
+      "papers": 69,
+      "top_cells": [
+        "cicd/application",
+        "cicd/architecture",
+        "security/security",
+        "platform/architecture"
+      ]
+    },
+    {
+      "term": "cloud services",
+      "kind": "emergent",
+      "seed": false,
+      "df": 69,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud services"
+        ]
+      },
+      "papers": 69,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "s3/systems",
+        "iac/systems"
+      ]
+    },
+    {
+      "term": "root cause",
+      "kind": "emergent",
+      "seed": false,
+      "df": 69,
+      "match": {
+        "type": "text",
+        "forms": [
+          "root cause"
+        ]
+      },
+      "papers": 69,
+      "top_cells": [
+        "ai-security/systems",
+        "containers/security",
+        "observability/application",
+        "security/security"
+      ]
+    },
+    {
+      "term": "same time",
+      "kind": "emergent",
+      "seed": false,
+      "df": 69,
+      "match": {
+        "type": "text",
+        "forms": [
+          "same time"
+        ]
+      },
+      "papers": 69,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "storage/systems",
+        "software-defined-storage/systems"
+      ]
+    },
+    {
+      "term": "real time",
+      "kind": "emergent",
+      "seed": false,
+      "df": 68,
+      "match": {
+        "type": "text",
+        "forms": [
+          "real time"
+        ]
+      },
+      "papers": 68,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "storage/systems",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "cloud-native applications",
+      "kind": "emergent",
+      "seed": false,
+      "df": 68,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud-native applications"
+        ]
+      },
+      "papers": 68,
+      "top_cells": [
+        "kubernetes/systems",
+        "kubernetes-scheduling/systems",
+        "kubernetes-networking/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "performance metrics",
+      "kind": "emergent",
+      "seed": false,
+      "df": 68,
+      "match": {
+        "type": "text",
+        "forms": [
+          "performance metrics"
+        ]
+      },
+      "papers": 68,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "multi-cluster/systems",
+        "policycode/architecture"
+      ]
+    },
+    {
+      "term": "kubernetes environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 68,
+      "match": {
+        "type": "text",
+        "forms": [
+          "kubernetes environments"
+        ]
+      },
+      "papers": 68,
+      "top_cells": [
+        "kubernetes/systems",
+        "kubernetes-security/systems",
+        "containers/application",
+        "kubernetes-networking/systems"
+      ]
+    },
+    {
+      "term": "become increasingly",
+      "kind": "emergent",
+      "seed": false,
+      "df": 67,
+      "match": {
+        "type": "text",
+        "forms": [
+          "become increasingly"
+        ]
+      },
+      "papers": 67,
+      "top_cells": [
+        "security/application",
+        "kubernetes/systems",
+        "security/theory",
+        "containers/development"
+      ]
+    },
+    {
+      "term": "cloud-native environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 67,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud-native environments"
+        ]
+      },
+      "papers": 67,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/application",
+        "multi-cluster/systems",
+        "gitops/application"
+      ]
+    },
+    {
+      "term": "object storage",
+      "kind": "emergent",
+      "seed": false,
+      "df": 65,
+      "match": {
+        "type": "text",
+        "forms": [
+          "object storage"
+        ]
+      },
+      "papers": 65,
+      "top_cells": [
+        "object-storage/systems",
+        "s3/systems",
+        "storage/systems",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "article examines",
+      "kind": "emergent",
+      "seed": false,
+      "df": 64,
+      "match": {
+        "type": "text",
+        "forms": [
+          "article examines"
+        ]
+      },
+      "papers": 64,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "multi-cluster/systems",
+        "security/application"
+      ]
+    },
+    {
+      "term": "service mesh",
+      "kind": "emergent",
+      "seed": false,
+      "df": 64,
+      "match": {
+        "type": "text",
+        "forms": [
+          "service mesh"
+        ]
+      },
+      "papers": 64,
+      "top_cells": [
+        "kubernetes/systems",
+        "kubernetes-networking/systems",
+        "multi-cluster/systems",
+        "serverless/systems"
+      ]
+    },
+    {
+      "term": "predictive analytics",
+      "kind": "emergent",
+      "seed": false,
+      "df": 64,
+      "match": {
+        "type": "text",
+        "forms": [
+          "predictive analytics"
+        ]
+      },
+      "papers": 64,
+      "top_cells": [
+        "ai-security/systems",
+        "kubernetes/systems",
+        "ai-security/architecture",
+        "s3/systems"
+      ]
+    },
+    {
+      "term": "software security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 63,
+      "match": {
+        "type": "text",
+        "forms": [
+          "software security"
+        ]
+      },
+      "papers": 63,
+      "top_cells": [
+        "security/security",
+        "security/application",
+        "ai-security/application",
+        "security/theory"
+      ]
+    },
+    {
+      "term": "future directions",
+      "kind": "emergent",
+      "seed": false,
+      "df": 62,
+      "match": {
+        "type": "text",
+        "forms": [
+          "future directions"
+        ]
+      },
+      "papers": 62,
+      "top_cells": [
+        "distributed-storage/systems",
+        "kubernetes/systems",
+        "kubernetes-networking/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "autonomous agents",
+      "kind": "emergent",
+      "seed": false,
+      "df": 62,
+      "match": {
+        "type": "text",
+        "forms": [
+          "autonomous agents"
+        ]
+      },
+      "papers": 62,
+      "top_cells": [
+        "security/theory",
+        "ai-security/application",
+        "ai-security/security",
+        "security/security"
+      ]
+    },
+    {
+      "term": "threat detection",
+      "kind": "emergent",
+      "seed": false,
+      "df": 62,
+      "match": {
+        "type": "text",
+        "forms": [
+          "threat detection"
+        ]
+      },
+      "papers": 62,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "security/theory",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "tools like",
+      "kind": "emergent",
+      "seed": false,
+      "df": 62,
+      "match": {
+        "type": "text",
+        "forms": [
+          "tools like"
+        ]
+      },
+      "papers": 62,
+      "top_cells": [
+        "kubernetes/systems",
+        "iac/systems",
+        "security/systems",
+        "platform/architecture"
+      ]
+    },
+    {
+      "term": "computing environments",
+      "kind": "emergent",
+      "seed": false,
+      "df": 62,
+      "match": {
+        "type": "text",
+        "forms": [
+          "computing environments"
+        ]
+      },
+      "papers": 62,
+      "top_cells": [
+        "kubernetes/systems",
+        "containers/application",
+        "multi-cluster/systems",
+        "iac/application"
+      ]
+    },
+    {
+      "term": "Software-Defined Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 61,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "software-defined-storage"
+      },
+      "top_cells": [
+        "software-defined-storage/systems",
+        "software-defined-storage/architecture",
+        "software-defined-storage/development"
+      ],
+      "papers": 61
+    },
+    {
+      "term": "open source",
+      "kind": "emergent",
+      "seed": false,
+      "df": 61,
+      "match": {
+        "type": "text",
+        "forms": [
+          "open source"
+        ]
+      },
+      "papers": 61,
+      "top_cells": [
+        "security/security",
+        "kubernetes/systems",
+        "iac/application",
+        "security/systems"
+      ]
+    },
+    {
+      "term": "control plane",
+      "kind": "emergent",
+      "seed": false,
+      "df": 61,
+      "match": {
+        "type": "text",
+        "forms": [
+          "control plane"
+        ]
+      },
+      "papers": 61,
+      "top_cells": [
+        "kubernetes/systems",
+        "multi-cluster/systems",
+        "storage/systems",
+        "kubernetes-networking/systems"
+      ]
+    },
+    {
+      "term": "github actions",
+      "kind": "emergent",
+      "seed": false,
+      "df": 61,
+      "match": {
+        "type": "text",
+        "forms": [
+          "github actions"
+        ]
+      },
+      "papers": 61,
+      "top_cells": [
+        "cicd/application",
+        "security/systems",
+        "cicd/systems",
+        "iac/systems"
+      ]
+    },
+    {
+      "term": "cyber threats",
+      "kind": "emergent",
+      "seed": false,
+      "df": 61,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cyber threats"
+        ]
+      },
+      "papers": 61,
+      "top_cells": [
+        "security/security",
+        "security/theory",
+        "ai-security/application",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "experimental evaluation",
+      "kind": "emergent",
+      "seed": false,
+      "df": 61,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experimental evaluation"
+        ]
+      },
+      "papers": 61,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "object-storage/systems",
+        "container-security/systems"
+      ]
+    },
+    {
+      "term": "cloud security",
+      "kind": "emergent",
+      "seed": false,
+      "df": 60,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud security"
+        ]
+      },
+      "papers": 60,
+      "top_cells": [
+        "security/application",
+        "security/security",
+        "security/systems",
+        "security/architecture"
+      ]
+    },
+    {
+      "term": "cloud-native architectures",
+      "kind": "emergent",
+      "seed": false,
+      "df": 60,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud-native architectures"
+        ]
+      },
+      "papers": 60,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/application",
+        "observability/application",
+        "ai-security/systems"
+      ]
+    },
+    {
+      "term": "energy efficiency",
+      "kind": "emergent",
+      "seed": false,
+      "df": 59,
+      "match": {
+        "type": "text",
+        "forms": [
+          "energy efficiency"
+        ]
+      },
+      "papers": 59,
+      "top_cells": [
+        "kubernetes/systems",
+        "storage/systems",
+        "object-storage/systems",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "high availability",
+      "kind": "emergent",
+      "seed": false,
+      "df": 58,
+      "match": {
+        "type": "text",
+        "forms": [
+          "high availability"
+        ]
+      },
+      "papers": 58,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "iac/systems",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "wide range",
+      "kind": "emergent",
+      "seed": false,
+      "df": 58,
+      "match": {
+        "type": "text",
+        "forms": [
+          "wide range"
+        ]
+      },
+      "papers": 58,
+      "top_cells": [
+        "security/security",
+        "distributed-storage/systems",
+        "storage/systems",
+        "s3/systems"
+      ]
+    },
+    {
+      "term": "user experience",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "user experience"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "platform/architecture",
+        "platform/systems",
+        "kubernetes/systems",
+        "distributed-storage/systems"
+      ]
+    },
+    {
+      "term": "publicly available",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "publicly available"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "ai-security/architecture",
+        "iac/systems",
+        "storage/systems",
+        "containers/systems"
+      ]
+    },
+    {
+      "term": "container images",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "container images"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "container-security/systems",
+        "security/systems",
+        "kubernetes/systems",
+        "containers/application"
+      ]
+    },
+    {
+      "term": "language processing",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "language processing"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "ai-security/application",
+        "platform/architecture",
+        "multi-cluster/systems",
+        "policycode/architecture"
+      ]
+    },
+    {
+      "term": "risk management",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "risk management"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "policycode/systems",
+        "policycode/architecture",
+        "security/security",
+        "security/application"
+      ]
+    },
+    {
+      "term": "quality assurance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quality assurance"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "cicd/architecture",
+        "cicd/application",
+        "cicd/systems",
+        "platform/architecture"
+      ]
+    },
+    {
+      "term": "cloud platform",
+      "kind": "emergent",
+      "seed": false,
+      "df": 57,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud platform"
+        ]
+      },
+      "papers": 57,
+      "top_cells": [
+        "kubernetes/systems",
+        "iac/architecture",
+        "storage/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "coding agents",
+      "kind": "emergent",
+      "seed": false,
+      "df": 56,
+      "match": {
+        "type": "text",
+        "forms": [
+          "coding agents"
+        ]
+      },
+      "papers": 56,
+      "top_cells": [
+        "security/security",
+        "ai-security/security",
+        "ai-security/application",
+        "platform/application"
+      ]
+    },
+    {
+      "term": "cloud native",
+      "kind": "emergent",
+      "seed": false,
+      "df": 52,
+      "match": {
+        "type": "text",
+        "forms": [
+          "cloud native"
+        ]
+      },
+      "papers": 52,
+      "top_cells": [
+        "kubernetes/systems",
+        "security/systems",
+        "distributed-storage/systems",
+        "security/architecture"
+      ]
+    },
+    {
+      "term": "iot devices",
+      "kind": "emergent",
+      "seed": false,
+      "df": 50,
+      "match": {
+        "type": "text",
+        "forms": [
+          "iot devices"
+        ]
+      },
+      "papers": 50,
+      "top_cells": [
+        "kubernetes/systems",
+        "distributed-storage/systems",
+        "storage/systems",
+        "multi-cluster/systems"
+      ]
+    },
+    {
+      "term": "Serverless",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 42,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "serverless"
+      },
+      "top_cells": [
+        "serverless/systems",
+        "serverless/application"
+      ],
+      "papers": 42
+    },
+    {
+      "term": "K8s Networking",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 34,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "kubernetes-networking"
+      },
+      "top_cells": [
+        "kubernetes-networking/systems"
+      ],
+      "papers": 34
+    },
+    {
+      "term": "K8s Security",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 33,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "kubernetes-security"
+      },
+      "top_cells": [
+        "kubernetes-security/systems"
+      ],
+      "papers": 33
+    },
+    {
+      "term": "deployment pipelines",
+      "kind": "emergent",
+      "seed": false,
+      "df": 29,
+      "match": {
+        "type": "text",
+        "forms": [
+          "deployment pipelines"
+        ]
+      },
+      "papers": 29,
+      "top_cells": [
+        "cicd/application",
+        "security/systems",
+        "cicd/architecture",
+        "iac/development"
+      ]
+    },
+    {
+      "term": "Container Images",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 28,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "container-image"
+      },
+      "top_cells": [
+        "container-image/systems",
+        "container-image/development"
+      ],
+      "papers": 28
+    },
+    {
+      "term": "security compliance",
+      "kind": "emergent",
+      "seed": false,
+      "df": 16,
+      "match": {
+        "type": "text",
+        "forms": [
+          "security compliance"
+        ]
+      },
+      "papers": 16,
+      "top_cells": [
+        "security/application",
+        "kubernetes/systems",
+        "policycode/architecture",
+        "iac/systems"
+      ]
+    },
+    {
+      "term": "K8s Scheduling",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 15,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "kubernetes-scheduling"
+      },
+      "top_cells": [
+        "kubernetes-scheduling/systems"
+      ],
+      "papers": 15
+    },
+    {
+      "term": "Helm",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "helm"
+      },
+      "top_cells": [
+        "helm/systems"
+      ],
+      "papers": 11
+    },
+    {
+      "term": "Service Mesh",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 11,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "service-mesh"
+      },
+      "top_cells": [
+        "service-mesh/systems",
+        "service-mesh/architecture",
+        "service-mesh/benchmark"
+      ],
+      "papers": 11
+    },
+    {
+      "term": "infrastructure code",
+      "kind": "emergent",
+      "seed": false,
+      "df": 9,
+      "match": {
+        "type": "text",
+        "forms": [
+          "infrastructure code"
+        ]
+      },
+      "papers": 9,
+      "top_cells": [
+        "iac/application",
+        "security/security",
+        "iac/security",
+        "iac/architecture"
+      ]
+    },
+    {
+      "term": "address challenges",
+      "kind": "emergent",
+      "seed": false,
+      "df": 8,
+      "match": {
+        "type": "text",
+        "forms": [
+          "address challenges"
+        ]
+      },
+      "papers": 8,
+      "top_cells": [
+        "software-defined-storage/systems",
+        "security/security",
+        "iac/systems",
+        "observability/development"
+      ]
+    },
+    {
+      "term": "models increasingly",
+      "kind": "emergent",
+      "seed": false,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "models increasingly"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "ai-security/security",
+        "ai-security/application",
+        "iac/architecture",
+        "security/systems"
+      ]
+    },
+    {
+      "term": "K8s Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "kubernetes-storage"
+      },
+      "top_cells": [
+        "kubernetes-storage/systems"
+      ],
+      "papers": 4
+    },
+    {
+      "term": "Container Runtime",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 4,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "container-runtime"
+      },
+      "top_cells": [
+        "container-runtime/systems"
+      ],
+      "papers": 4
+    },
+    {
+      "term": "K8s Operators",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 3,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "operator"
+      },
+      "top_cells": [
+        "operator/systems"
+      ],
+      "papers": 3
+    },
+    {
+      "term": "integration continuous",
+      "kind": "emergent",
+      "seed": false,
+      "df": 3,
+      "match": {
+        "type": "text",
+        "forms": [
+          "integration continuous"
+        ]
+      },
+      "papers": 3,
+      "top_cells": [
+        "cicd/application",
+        "security/application"
+      ]
+    },
+    {
+      "term": "Ceph",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 2,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "ceph"
+      },
+      "top_cells": [
+        "ceph/systems"
+      ],
+      "papers": 2
+    },
+    {
+      "term": "code iac",
+      "kind": "emergent",
+      "seed": false,
+      "df": 1,
+      "match": {
+        "type": "text",
+        "forms": [
+          "code iac"
+        ]
+      },
+      "papers": 1,
+      "top_cells": [
+        "iac/application"
+      ]
+    },
+    {
+      "term": "SCS",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 0,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "scs"
+      },
+      "top_cells": [],
+      "papers": 0
+    }
+  ]
+}
