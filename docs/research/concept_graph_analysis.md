@@ -4,18 +4,18 @@
 
 ## Top hubs (by PageRank)
 
-- **Security** — PR 0.0000, degree 0, df 1884
-- **AI Security** — PR 0.0000, degree 0, df 972
-- **Platform** — PR 0.0000, degree 0, df 601
-- **Containers** — PR 0.0000, degree 0, df 574
-- **CI/CD** — PR 0.0000, degree 0, df 559
-- **Kubernetes** — PR 0.0000, degree 0, df 558
-- **Policy & Code** — PR 0.0000, degree 0, df 545
-- **IaC** — PR 0.0000, degree 0, df 492
-- **Observability** — PR 0.0000, degree 0, df 471
-- **Storage** — PR 0.0000, degree 0, df 294
-- **Distributed Storage** — PR 0.0000, degree 0, df 258
-- **GitOps** — PR 0.0000, degree 0, df 195
+- **Security** — PR 0.0000, degree 0, df 159
+- **Kubernetes** — PR 0.0000, degree 0, df 154
+- **Object Storage** — PR 0.0000, degree 0, df 147
+- **Observability** — PR 0.0000, degree 0, df 114
+- **Distributed Storage** — PR 0.0000, degree 0, df 114
+- **Containers** — PR 0.0000, degree 0, df 89
+- **CI/CD** — PR 0.0000, degree 0, df 88
+- **Policy & Code** — PR 0.0000, degree 0, df 78
+- **Docker** — PR 0.0000, degree 0, df 51
+- **AI Security** — PR 0.0000, degree 0, df 48
+- **Container Security** — PR 0.0000, degree 0, df 46
+- **Multi-Cluster** — PR 0.0000, degree 0, df 34
 
 ## Bridge nodes (high betweenness — connect clusters)
 

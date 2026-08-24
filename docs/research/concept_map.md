@@ -1,40 +1,40 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 30 concepts, 0 relationships from 8227 papers. Edges = co-occurrence (shared papers).
+**Generated:** 30 concepts, 0 relationships from 1296 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| Security | taxonomy | 1884 |
-| AI Security | taxonomy | 972 |
-| Platform | taxonomy | 601 |
-| Containers | taxonomy | 574 |
-| CI/CD | taxonomy | 559 |
-| Kubernetes | taxonomy | 558 |
-| Policy & Code | taxonomy | 545 |
-| IaC | taxonomy | 492 |
-| Observability | taxonomy | 471 |
-| Storage | taxonomy | 294 |
-| Distributed Storage | taxonomy | 258 |
-| GitOps | taxonomy | 195 |
-| Object Storage | taxonomy | 146 |
-| Multi-Cluster | taxonomy | 137 |
-| Docker | taxonomy | 107 |
-| Container Security | taxonomy | 100 |
-| S3 | taxonomy | 86 |
-| Software-Defined Storage | taxonomy | 61 |
-| Serverless | taxonomy | 42 |
-| K8s Networking | taxonomy | 34 |
-| K8s Security | taxonomy | 33 |
-| Container Images | taxonomy | 28 |
-| K8s Scheduling | taxonomy | 15 |
-| Helm | taxonomy | 11 |
-| Service Mesh | taxonomy | 11 |
-| K8s Storage | taxonomy | 4 |
-| Container Runtime | taxonomy | 4 |
-| K8s Operators | taxonomy | 3 |
-| Ceph | taxonomy | 2 |
+| Security | taxonomy | 159 |
+| Kubernetes | taxonomy | 154 |
+| Object Storage | taxonomy | 147 |
+| Observability | taxonomy | 114 |
+| Distributed Storage | taxonomy | 114 |
+| Containers | taxonomy | 89 |
+| CI/CD | taxonomy | 88 |
+| Policy & Code | taxonomy | 78 |
+| Docker | taxonomy | 51 |
+| AI Security | taxonomy | 48 |
+| Container Security | taxonomy | 46 |
+| Multi-Cluster | taxonomy | 34 |
+| S3 | taxonomy | 23 |
+| K8s Networking | taxonomy | 23 |
+| K8s Scheduling | taxonomy | 20 |
+| Container Images | taxonomy | 19 |
+| IaC | taxonomy | 17 |
+| Software-Defined Storage | taxonomy | 14 |
+| Serverless | taxonomy | 12 |
+| Storage | taxonomy | 10 |
+| K8s Security | taxonomy | 10 |
+| Helm | taxonomy | 8 |
+| Service Mesh | taxonomy | 5 |
+| Platform | taxonomy | 4 |
+| K8s Operators | taxonomy | 4 |
+| Container Runtime | taxonomy | 3 |
+| GitOps | taxonomy | 1 |
+| K8s Storage | taxonomy | 1 |
+| Ceph | taxonomy | 0 |
 | SCS | taxonomy | 0 |
 
 ## Relationships (top concepts → related concepts)
