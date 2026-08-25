@@ -122,8 +122,12 @@ class Fetcher:
 
     # ---------------------------------------------------------- arXiv API
     def fetch_arxiv(self, categories, *, source: str, max_r: int,
-                    weight: float) -> list[dict]:
-        q = " OR ".join(f"cat:{c}" for c in categories)
+                    weight: float, query: str | None = None) -> list[dict]:
+        cat_part = " OR ".join(f"cat:{c}" for c in categories)
+        # Optional free-text query AND-ed with the category filter — lets a
+        # source pull only papers that explicitly mention its focus (e.g.
+        # AIOps), instead of every paper in a broad category.
+        q = f"({query}) AND ({cat_part})" if query else cat_part
         url = ("https://export.arxiv.org/api/query?" + urllib.parse.urlencode({
             "search_query": q, "start": 0, "max_results": max_r,
             "sortBy": "submittedDate", "sortOrder": "descending",

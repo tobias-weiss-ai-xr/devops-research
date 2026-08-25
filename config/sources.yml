@@ -27,6 +27,15 @@ sources:
     weight: 1.6
     min_topics: 1
 
+  - name: arxiv-aiops          # AIOps: AI for IT operations (precise query)
+    type: arxiv
+    categories: ["cs.AI", "cs.LG", "cs.SE", "cs.DC", "cs.SY"]
+    query: 'abs:"aiops" OR abs:"root cause analysis" OR abs:"anomaly detection" OR abs:"llmops" OR abs:"agentic operations" OR abs:"incident prediction" OR abs:"log anomaly" OR abs:"auto-remediation" OR abs:"alert fatigue" OR abs:"event correlation" OR abs:"predictive scaling" OR abs:"cognitive operations"'
+    max: 40
+    category: paper
+    weight: 1.8
+    min_topics: 1
+
   # ---------- Tooling / changelog feeds ----------
   - name: github-releases-tools
     type: github
@@ -130,6 +139,37 @@ sources:
     category: discussion
     weight: 1.6
 
+  # ---------- AIOps / intelligent-operations feeds ----------
+  - name: sre-weekly
+    type: rss
+    url: "https://sreweekly.com/feed/"
+    category: discussion
+    weight: 1.7          # high-signal incident mgmt / reliability
+
+  - name: grafana-blog
+    type: rss
+    url: "https://grafana.com/blog/index.xml"
+    category: discussion
+    weight: 1.6          # observability + ML-driven ops
+
+  - name: dynatrace-blog
+    type: rss
+    url: "https://www.dynatrace.com/blog/feed/"
+    category: discussion
+    weight: 1.6          # AIOps vendor (anomaly detection, root-cause)
+
+  - name: msft-devops
+    type: rss
+    url: "https://devblogs.microsoft.com/devops/feed/"
+    category: discussion
+    weight: 1.5
+
+  - name: logz-blog
+    type: rss
+    url: "https://logz.io/blog/feed/"
+    category: discussion
+    weight: 1.6          # observability + AIOps
+
   - name: cisa-kev
     type: cisa_kev
     url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
@@ -191,6 +231,28 @@ keywords:
     - "agent security"
     - "ai agent"
     - "mcp"
+  aiops:
+    - "aiops"
+    - "artificial intelligence for it operations"
+    - "ai for it operations"
+    - "incident prediction"
+    - "incident detection"
+    - "anomaly detection"
+    - "root cause analysis"
+    - "root-cause analysis"
+    - "log anomaly"
+    - "log analysis"
+    - "intelligent alerting"
+    - "alert fatigue"
+    - "alert noise"
+    - "auto-remediation"
+    - "event correlation"
+    - "llm for operations"
+    - "llmops"
+    - "agentic operations"
+    - "agentic sre"
+    - "predictive scaling"
+    - "cognitive operations"
   policycode:
     - "policy as code"
     - "opa"

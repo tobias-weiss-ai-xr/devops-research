@@ -140,7 +140,8 @@ def main():
                                   weight=weight)
             elif src["type"] == "arxiv":
                 raw = f.fetch_arxiv(src["categories"], source=name,
-                                    max_r=src.get("max", 40), weight=weight)
+                                    max_r=src.get("max", 40), weight=weight,
+                                    query=src.get("query"))
             elif src["type"] == "github":
                 raw = f.fetch_github_releases(src["repos"], source=name, weight=weight)
             elif src["type"] == "cisa_kev":

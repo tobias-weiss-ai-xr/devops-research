@@ -41,7 +41,7 @@ class Classifier:
             count = sum(len(p.findall(text)) for p in pats)
             if not count:
                 continue
-            boost = 0.9 if topic in ("security", "policycode") else 0.5
+            boost = 0.9 if topic in ("security", "policycode", "aiops") else 0.5
             s += boost * min(count, 3)
         pub = item.get("published") or ""
         if pub:
