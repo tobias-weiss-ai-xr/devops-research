@@ -11,6 +11,8 @@ from __future__ import annotations
 import argparse
 import datetime
 import sys
+import time
+from datetime import timedelta
 from pathlib import Path
 
 import yaml
@@ -25,6 +27,82 @@ CONFIG_PATH = ROOT / "config" / "sources.yml"
 STATE_PATH = DATA / "seen.json"
 
 
+def _parse_date(pub: str):
+    """Parse an ISO-8601 (or epoch) timestamp to a tz-aware datetime, or None."""
+    if not pub:
+        return None
+    try:
+        dt = datetime.datetime.fromisoformat(pub.replace("Z", "+00:00"))
+    except ValueError:
+        try:
+            return datetime.datetime.fromtimestamp(float(pub), tz=datetime.timezone.utc)
+        except (ValueError, TypeError, OverflowError):
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    return dt
+
+
+def _within_recent(published: str, cutoff) -> bool:
+    """True if the item should be kept.
+
+    Items without a parseable published date are ALWAYS kept — we never
+    silently drop content we cannot date.
+    """
+    if cutoff is None:
+        return True
+    dt = _parse_date(published)
+    if dt is None:
+        return True
+    return dt >= cutoff
+
+
+def select_with_quota(items: list[dict], top_n: int, max_share: float) -> list[dict]:
+    """Select the top-scoring ``top_n`` items with a HARD per-source ceiling.
+
+    A round-robin greedy picks, on each pass, the highest-scoring item from a
+    source still below its quota.  This guarantees no single source can occupy
+    more than ``quota = max(1, int(top_n * max_share))`` digest slots, so one
+    high-volume feed cannot crowd out the rest.  Any unfilled slots (e.g. when
+    there are fewer sources than ``quota``) are topped up with the next-highest
+    items regardless of source.
+    """
+    if top_n <= 0 or not items:
+        return []
+    quota = max(1, int(top_n * max_share))
+    chosen: list[dict] = []
+    chosen_digests: set[str] = set()
+    used: dict[str, int] = {}
+
+    remaining = list(items)  # pre-sorted by score descending
+    while len(chosen) < top_n:
+        picked = False
+        for it in remaining:
+            if len(chosen) >= top_n:
+                break
+            if it["digest"] in chosen_digests:
+                continue
+            src = it.get("source", "")
+            if used.get(src, 0) < quota:
+                chosen.append(it)
+                chosen_digests.add(it["digest"])
+                used[src] = used.get(src, 0) + 1
+                picked = True
+                break
+        if not picked:
+            break
+
+    if len(chosen) < top_n:
+        for it in remaining:
+            if len(chosen) >= top_n:
+                break
+            if it["digest"] not in chosen_digests:
+                chosen.append(it)
+                chosen_digests.add(it["digest"])
+
+    return chosen
+
+
 def main():
     ap = argparse.ArgumentParser(description="DevSecOps news ingestion pipeline")
     ap.add_argument("--config", default=str(CONFIG_PATH))
@@ -36,6 +114,9 @@ def main():
 
     conf = yaml.safe_load(Path(args.config).read_text())
     outdir = Path(args.json_out).parent
+
+    default_recent = conf.get("default_recent_days", 0)
+    max_share = conf.get("max_source_share", 0.4)
 
     clf = Classifier(conf.get("keywords", {}),
                      fresh_window_days=conf.get("fresh_window_days", 3))
@@ -77,6 +158,21 @@ def main():
         if max_items and len(raw) > max_items:
             raw = raw[:max_items]
             print(f"    (capped to {max_items})")
+
+        # Anti-saturation: drop items older than recent_days.  RSS + catalog
+        # sources default to default_recent_days; arxiv/github default to 0
+        # (paper relevance / release notes are not recency-bound) unless an
+        # explicit recent_days is set on the source.
+        if src["type"] in ("rss", "cisa_kev"):
+            recent_days = src.get("recent_days", default_recent)
+        else:
+            recent_days = src.get("recent_days", 0)
+        if recent_days:
+            cutoff = datetime.datetime.now(datetime.timezone.utc) - timedelta(days=recent_days)
+            before = len(raw)
+            raw = [it for it in raw if _within_recent(it.get("published"), cutoff)]
+            if len(raw) != before:
+                print(f"    (date-filtered to {len(raw)} within {recent_days}d)")
         for it in raw:
             tags = clf.tags(it)
             score = clf.score(it, source_weight=weight)
@@ -89,9 +185,10 @@ def main():
                 fresh.append(it)
 
     fresh.sort(key=lambda x: x["score"], reverse=True)
-    top = fresh[: args.top]
+    top = select_with_quota(fresh, args.top, max_share)
 
-    print(f"[2] fresh items: {len(fresh)}; showing top {len(top)}")
+    print(f"[2] fresh items: {len(fresh)}; digest (quota {max_share:.0%}): "
+          f"{len(top)}")
 
     if not args.dry_run:
         json_path = Path(args.json_out)

@@ -1,4 +1,5 @@
 .venv/
-data/run.log
+# Pipeline outputs (generated each run — never commit)
+data/
 __pycache__/
 *.pyc

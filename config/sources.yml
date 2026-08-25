@@ -104,6 +104,7 @@ sources:
     category: discussion
     weight: 1.8
     max_items: 15          # feed returns full archive; keep recent
+    recent_days: 14         # only surface posts from the last 2 weeks
 
   - name: aqua-blog
     type: rss
@@ -135,6 +136,7 @@ sources:
     category: changelog
     weight: 2.0          # actionable: actively exploited vulns
     max_items: 40        # catalog is large; only most recent pass the dedup window
+    recent_days: 14       # only newly-added exploited vulns surface each run
 
 # ----------------- Keyword classification -----------------
 # Items matching these keywords are tagged with the given topic label.
@@ -223,3 +225,13 @@ fresh_window_days: 3
 min_score: 0.4
 # Cap total items emitted in the digest.
 max_digest_items: 60
+
+# ── Anti-saturation controls ───────────────────────────────────────────────
+#   default_recent_days: applied to RSS + catalog sources that omit recent_days.
+#     0 = no date filter by default (normal blogs already return recent items;
+#     only archive/catalog feeds opt in).  Prevents starving low-frequency,
+#     high-signal feeds (e.g. Project Zero) while stopping Snyk's full archive
+#     and CISA KEV's static catalog from recycling old items every run.
+#   max_source_share: hard ceiling on one source's share of the digest slots.
+default_recent_days: 0
+max_source_share: 0.40

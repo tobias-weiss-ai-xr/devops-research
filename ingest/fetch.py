@@ -25,7 +25,9 @@ import re
 import urllib.parse
 import urllib.request
 
+import calendar
 import feedparser
+from datetime import datetime, timezone
 
 _CLEAN_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
@@ -41,8 +43,15 @@ def _norm(text: str | None, limit: int = 500) -> str:
     return txt[:limit]
 
 
+def _dt_from_struct(st):
+    """Convert a feedparser time.struct_time (UTC) to a tz-aware datetime."""
+    return datetime.fromtimestamp(calendar.timegm(st), tz=timezone.utc)
+
+
 def _iso(dt):
     try:
+        if hasattr(dt, "tm_year"):          # feedparser struct_time (UTC)
+            return _dt_from_struct(dt).strftime("%Y-%m-%dT%H:%M:%SZ")
         if hasattr(dt, "year"):
             return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception:
@@ -96,10 +105,18 @@ class Fetcher:
             if "Article URL:" in summary:
                 summary = summary.split("Article URL:")[0].strip()
             authors = [a.get("name") for a in e.get("authors", []) if a.get("name")]
+            # feedparser exposes parsed dates as a UTC struct_time.
+            published = ""
+            pp = e.get("published_parsed") or e.get("updated_parsed")
+            if pp:
+                try:
+                    published = _dt_from_struct(pp).strftime("%Y-%m-%dT%H:%M:%SZ")
+                except (TypeError, ValueError, OverflowError):
+                    published = ""
             out.append(_item(
                 source=source, label=label or source, category=category,
                 weight=weight, title=title, url=link, summary=summary,
-                authors=authors, published=_iso(e.get("published_parsed")),
+                authors=authors, published=published,
             ))
         return out
 
