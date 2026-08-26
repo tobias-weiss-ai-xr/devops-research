@@ -1,25 +1,25 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 50 concepts, 179 relationships from 1296 papers. Edges = co-occurrence (shared papers).
+**Generated:** 50 concepts, 180 relationships from 1305 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
 | Concept | Kind | Papers |
 |----------|------|--------|
-| framework | curated | 511 |
-| Security | taxonomy | 159 |
+| framework | curated | 514 |
+| Security | taxonomy | 160 |
 | Kubernetes | taxonomy | 154 |
 | Object Storage | taxonomy | 147 |
-| benchmark | curated | 126 |
+| benchmark | curated | 127 |
+| Observability | taxonomy | 116 |
 | dataset | curated | 116 |
-| Observability | taxonomy | 114 |
-| Distributed Storage | taxonomy | 114 |
-| Containers | taxonomy | 89 |
-| CI/CD | taxonomy | 88 |
+| Distributed Storage | taxonomy | 115 |
+| Containers | taxonomy | 92 |
+| CI/CD | taxonomy | 89 |
 | Policy & Code | taxonomy | 78 |
 | reproducibility | curated | 55 |
+| survey | curated | 52 |
 | Docker | taxonomy | 51 |
-| survey | curated | 51 |
 | AI Security | taxonomy | 48 |
 | Container Security | taxonomy | 46 |
 | quantitative | curated | 45 |
@@ -27,8 +27,8 @@
 | case study | curated | 38 |
 | Multi-Cluster | taxonomy | 34 |
 | experiment | curated | 31 |
+| K8s Networking | taxonomy | 24 |
 | S3 | taxonomy | 23 |
-| K8s Networking | taxonomy | 23 |
 | qualitative | curated | 22 |
 | K8s Scheduling | taxonomy | 20 |
 | Container Images | taxonomy | 19 |
@@ -52,17 +52,17 @@
 ### framework
 
 - Kubernetes — 63 shared paper(s)
-- Security — 61 shared paper(s)
-- Observability — 54 shared paper(s)
+- Security — 62 shared paper(s)
+- Observability — 55 shared paper(s)
 - benchmark — 53 shared paper(s)
 - dataset — 50 shared paper(s)
 - Policy & Code — 44 shared paper(s)
+- Containers — 42 shared paper(s)
 - CI/CD — 42 shared paper(s)
-- Containers — 41 shared paper(s)
 
 ### Security
 
-- framework — 61 shared paper(s)
+- framework — 62 shared paper(s)
 - taxonomy — 14 shared paper(s)
 - dataset — 13 shared paper(s)
 - benchmark — 11 shared paper(s)
@@ -97,12 +97,23 @@
 
 - framework — 53 shared paper(s)
 - dataset — 19 shared paper(s)
-- Containers — 17 shared paper(s)
+- Containers — 18 shared paper(s)
 - Docker — 16 shared paper(s)
 - Security — 11 shared paper(s)
 - Observability — 11 shared paper(s)
 - Kubernetes — 10 shared paper(s)
 - quantitative — 9 shared paper(s)
+
+### Observability
+
+- framework — 55 shared paper(s)
+- benchmark — 11 shared paper(s)
+- dataset — 9 shared paper(s)
+- taxonomy — 5 shared paper(s)
+- quantitative — 3 shared paper(s)
+- case study — 3 shared paper(s)
+- qualitative — 3 shared paper(s)
+- experiment — 2 shared paper(s)
 
 ### dataset
 
@@ -114,17 +125,6 @@
 - Distributed Storage — 11 shared paper(s)
 - AI Security — 9 shared paper(s)
 - Kubernetes — 9 shared paper(s)
-
-### Observability
-
-- framework — 54 shared paper(s)
-- benchmark — 11 shared paper(s)
-- dataset — 9 shared paper(s)
-- taxonomy — 5 shared paper(s)
-- quantitative — 3 shared paper(s)
-- case study — 3 shared paper(s)
-- qualitative — 3 shared paper(s)
-- experiment — 2 shared paper(s)
 
 ### Distributed Storage
 
@@ -139,8 +139,8 @@
 
 ### Containers
 
-- framework — 41 shared paper(s)
-- benchmark — 17 shared paper(s)
+- framework — 42 shared paper(s)
+- benchmark — 18 shared paper(s)
 - reproducibility — 7 shared paper(s)
 - dataset — 7 shared paper(s)
 - case study — 5 shared paper(s)
@@ -180,16 +180,6 @@
 - Security — 6 shared paper(s)
 - Distributed Storage — 4 shared paper(s)
 
-### Docker
-
-- benchmark — 16 shared paper(s)
-- framework — 14 shared paper(s)
-- dataset — 7 shared paper(s)
-- experiment — 5 shared paper(s)
-- reproducibility — 4 shared paper(s)
-- quantitative — 2 shared paper(s)
-- qualitative — 2 shared paper(s)
-
 ### survey
 
 - framework — 14 shared paper(s)
@@ -200,6 +190,16 @@
 - Object Storage — 5 shared paper(s)
 - benchmark — 4 shared paper(s)
 - dataset — 4 shared paper(s)
+
+### Docker
+
+- benchmark — 16 shared paper(s)
+- framework — 14 shared paper(s)
+- dataset — 7 shared paper(s)
+- experiment — 5 shared paper(s)
+- reproducibility — 4 shared paper(s)
+- quantitative — 2 shared paper(s)
+- qualitative — 2 shared paper(s)
 
 ### AI Security
 
@@ -272,17 +272,17 @@
 - reproducibility — 3 shared paper(s)
 - CI/CD — 2 shared paper(s)
 
-### S3
-
-- dataset — 5 shared paper(s)
-- framework — 2 shared paper(s)
-- survey — 2 shared paper(s)
-
 ### K8s Networking
 
 - framework — 8 shared paper(s)
 - benchmark — 3 shared paper(s)
 - dataset — 2 shared paper(s)
+- survey — 2 shared paper(s)
+
+### S3
+
+- dataset — 5 shared paper(s)
+- framework — 2 shared paper(s)
 - survey — 2 shared paper(s)
 
 ### qualitative
