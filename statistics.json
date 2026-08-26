@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 1296,
+    "total_papers": 1305,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 28,
@@ -16,29 +16,29 @@
   },
   "by_category": {
     "ai-security": 48,
-    "cicd": 88,
+    "cicd": 89,
     "container-image": 19,
     "container-runtime": 3,
     "container-security": 46,
-    "containers": 89,
-    "distributed-storage": 114,
+    "containers": 92,
+    "distributed-storage": 115,
     "docker": 51,
     "gitops": 1,
     "helm": 8,
     "iac": 17,
     "kubernetes": 154,
-    "kubernetes-networking": 23,
+    "kubernetes-networking": 24,
     "kubernetes-scheduling": 20,
     "kubernetes-security": 10,
     "kubernetes-storage": 1,
     "multi-cluster": 34,
     "object-storage": 147,
-    "observability": 114,
+    "observability": 116,
     "operator": 4,
     "platform": 4,
     "policycode": 78,
     "s3": 23,
-    "security": 159,
+    "security": 160,
     "serverless": 12,
     "service-mesh": 5,
     "software-defined-storage": 14,
@@ -48,29 +48,29 @@
     "application": 17,
     "architecture": 89,
     "benchmark": 12,
-    "development": 64,
+    "development": 65,
     "security": 5,
-    "systems": 1109
+    "systems": 1117
   },
   "by_year": {
-    "2026": 1296
+    "2026": 1305
   },
   "by_cell": {
     "kubernetes/systems": 148,
     "object-storage/systems": 144,
-    "security/systems": 135,
-    "observability/systems": 114,
-    "distributed-storage/systems": 112,
-    "containers/systems": 89,
+    "security/systems": 136,
+    "observability/systems": 116,
+    "distributed-storage/systems": 113,
+    "containers/systems": 92,
     "policycode/systems": 50,
     "container-security/systems": 46,
     "docker/systems": 42,
-    "cicd/development": 38,
+    "cicd/development": 39,
     "multi-cluster/systems": 34,
     "cicd/systems": 25,
     "cicd/architecture": 25,
+    "kubernetes-networking/systems": 24,
     "s3/systems": 23,
-    "kubernetes-networking/systems": 23,
     "policycode/architecture": 21,
     "kubernetes-scheduling/systems": 20,
     "ai-security/architecture": 18,
@@ -115,11 +115,11 @@
   "emerging_themes_12m": [
     {
       "keyword": "kubernetes",
-      "papers": 344
+      "papers": 346
     },
     {
       "keyword": "layer",
-      "papers": 284
+      "papers": 287
     },
     {
       "keyword": "oci",
@@ -143,7 +143,7 @@
     },
     {
       "keyword": "pod",
-      "papers": 65
+      "papers": 66
     },
     {
       "keyword": "compose",
@@ -169,12 +169,12 @@
     {
       "id": "cicd",
       "name": "Cicd",
-      "total": 88,
-      "recent": 88,
+      "total": 89,
+      "recent": 89,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 7.3,
+      "papers_per_month": 7.4,
       "score": 100.0
     },
     {
@@ -213,23 +213,23 @@
     {
       "id": "containers",
       "name": "Containers",
-      "total": 89,
-      "recent": 89,
+      "total": 92,
+      "recent": 92,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 7.4,
+      "papers_per_month": 7.7,
       "score": 100.0
     },
     {
       "id": "distributed-storage",
       "name": "Distributed Storage",
-      "total": 114,
-      "recent": 114,
+      "total": 115,
+      "recent": 115,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 9.5,
+      "papers_per_month": 9.6,
       "score": 100.0
     },
     {
@@ -290,12 +290,12 @@
     {
       "id": "kubernetes-networking",
       "name": "Kubernetes Networking",
-      "total": 23,
-      "recent": 23,
+      "total": 24,
+      "recent": 24,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 1.9,
+      "papers_per_month": 2.0,
       "score": 100.0
     },
     {
@@ -356,12 +356,12 @@
     {
       "id": "observability",
       "name": "Observability",
-      "total": 114,
-      "recent": 114,
+      "total": 116,
+      "recent": 116,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 9.5,
+      "papers_per_month": 9.7,
       "score": 100.0
     },
     {
@@ -411,12 +411,12 @@
     {
       "id": "security",
       "name": "Security",
-      "total": 159,
-      "recent": 159,
+      "total": 160,
+      "recent": 160,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
-      "papers_per_month": 13.2,
+      "papers_per_month": 13.3,
       "score": 100.0
     },
     {
@@ -469,7 +469,7 @@
       "2026": 48
     },
     "cicd": {
-      "2026": 88
+      "2026": 89
     },
     "container-image": {
       "2026": 19
@@ -481,10 +481,10 @@
       "2026": 46
     },
     "containers": {
-      "2026": 89
+      "2026": 92
     },
     "distributed-storage": {
-      "2026": 114
+      "2026": 115
     },
     "docker": {
       "2026": 51
@@ -502,7 +502,7 @@
       "2026": 154
     },
     "kubernetes-networking": {
-      "2026": 23
+      "2026": 24
     },
     "kubernetes-scheduling": {
       "2026": 20
@@ -520,7 +520,7 @@
       "2026": 147
     },
     "observability": {
-      "2026": 114
+      "2026": 116
     },
     "operator": {
       "2026": 4
@@ -535,7 +535,7 @@
       "2026": 23
     },
     "security": {
-      "2026": 159
+      "2026": 160
     },
     "serverless": {
       "2026": 12
@@ -553,112 +553,112 @@
   "keyword_bursts": [
     {
       "keyword": "kubernetes",
-      "recent": 344,
-      "total": 344,
+      "recent": 346,
+      "total": 346,
       "burst_score": 1.0,
-      "recent_share": 0.2654
+      "recent_share": 0.2651
     },
     {
       "keyword": "layer",
-      "recent": 284,
-      "total": 284,
+      "recent": 287,
+      "total": 287,
       "burst_score": 1.0,
-      "recent_share": 0.2191
+      "recent_share": 0.2199
     },
     {
       "keyword": "oci",
       "recent": 142,
       "total": 142,
       "burst_score": 1.0,
-      "recent_share": 0.1096
+      "recent_share": 0.1088
     },
     {
       "keyword": "image",
       "recent": 142,
       "total": 142,
       "burst_score": 1.0,
-      "recent_share": 0.1096
+      "recent_share": 0.1088
     },
     {
       "keyword": "docker",
       "recent": 141,
       "total": 141,
       "burst_score": 1.0,
-      "recent_share": 0.1088
+      "recent_share": 0.108
     },
     {
       "keyword": "opa",
       "recent": 79,
       "total": 79,
       "burst_score": 1.0,
-      "recent_share": 0.061
+      "recent_share": 0.0605
     },
     {
       "keyword": "operator",
       "recent": 75,
       "total": 75,
       "burst_score": 1.0,
-      "recent_share": 0.0579
+      "recent_share": 0.0575
     },
     {
       "keyword": "pod",
-      "recent": 65,
-      "total": 65,
+      "recent": 66,
+      "total": 66,
       "burst_score": 1.0,
-      "recent_share": 0.0502
+      "recent_share": 0.0506
     },
     {
       "keyword": "compose",
       "recent": 65,
       "total": 65,
       "burst_score": 1.0,
-      "recent_share": 0.0502
+      "recent_share": 0.0498
     },
     {
       "keyword": "s3",
       "recent": 51,
       "total": 51,
       "burst_score": 1.0,
-      "recent_share": 0.0394
+      "recent_share": 0.0391
     },
     {
       "keyword": "controller",
       "recent": 47,
       "total": 47,
       "burst_score": 1.0,
-      "recent_share": 0.0363
+      "recent_share": 0.036
     },
     {
       "keyword": "object storage",
       "recent": 46,
       "total": 46,
       "burst_score": 1.0,
-      "recent_share": 0.0355
+      "recent_share": 0.0352
+    },
+    {
+      "keyword": "distributed storage",
+      "recent": 40,
+      "total": 40,
+      "burst_score": 1.0,
+      "recent_share": 0.0307
     },
     {
       "keyword": "scheduler",
       "recent": 40,
       "total": 40,
       "burst_score": 1.0,
-      "recent_share": 0.0309
-    },
-    {
-      "keyword": "distributed storage",
-      "recent": 39,
-      "total": 39,
-      "burst_score": 1.0,
-      "recent_share": 0.0301
+      "recent_share": 0.0307
     },
     {
       "keyword": "autoscaling",
       "recent": 34,
       "total": 34,
       "burst_score": 1.0,
-      "recent_share": 0.0262
+      "recent_share": 0.0261
     }
   ],
   "source_breakdown": {
-    "arxiv": 536,
+    "arxiv": 545,
     "doi": 677,
     "other": 83
   },
@@ -781,13 +781,13 @@
         "recent_share": 1.0
       },
       {
-        "cell": "s3/systems",
-        "total": 23,
-        "recent": 23,
+        "cell": "kubernetes-networking/systems",
+        "total": 24,
+        "recent": 24,
         "recent_share": 1.0
       },
       {
-        "cell": "kubernetes-networking/systems",
+        "cell": "s3/systems",
         "total": 23,
         "recent": 23,
         "recent_share": 1.0

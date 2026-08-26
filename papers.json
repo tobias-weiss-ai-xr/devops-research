@@ -1768,6 +1768,119 @@
   "venue": ""
  },
  {
+  "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.22167v1",
+  "category": "containers",
+  "subcategory": "systems",
+  "authors": [
+   "Ziyang Luo",
+   "Yan Yang",
+   "Xiangru Jian",
+   "Ziji Shi",
+   "Xiaoqiang Lin"
+  ],
+  "abstract": "Reinforcement learning (RL) has become an effective way to improve the tool-use ability of large language models (LLMs), but most existing RL frameworks stop at the policy update. For every new domain, the user is left with two hard systems problems: standing up an isolated environment for each of hundreds of concurrent trajectories and connecting it to training, and scheduling the rollout so that the GPU stays busy across long, multi-turn episodes that spend much of their time stalled on slow tool calls. We present MCP-Universe RL (MCP-U RL), an open-source framework that takes over both. It uses the Model Context Protocol (MCP) as the interface to the environment, so any tool already exposed as an MCP server plugs into training with no RL-specific integration code. It builds the two missing layers once and reuses them across domains: an environment-orchestration layer that provisions, isolates, and recycles the MCP environments over a pluggable container backend, and a rollout-orchestration layer whose staged pipeline overlaps trajectories to keep the GPU busy while episodes wait on tools. A backend-agnostic training layer then applies the update through an existing RL backend, with veRL and slime integrations. With one configuration, changing only the task specification, we train software-engineering, deep-research, and general tool-use agents on gpt-oss-20b and improve task reward in all three.",
+  "venue": ""
+ },
+ {
+  "title": "Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.21393v1",
+  "category": "containers",
+  "subcategory": "systems",
+  "authors": [
+   "Sandeep Bokkasam",
+   "Pankaj D"
+  ],
+  "abstract": "Running large language models inside enterprise environments has always bumped up against a practical wall: the data lives in one place, the AI horsepower sits somewhere else, and moving sensitive records between the two creates real headaches around latency, security, and regulatory exposure. IBM's Spyre accelerator PCIe inference card built for LinuxONE and the broader IBM Z family changes that equation. In this paper we lay out a six-subsystem RAG architecture that runs entirely on IBM LinuxONE, using Spyre for generative inference, the Telum II on-chip accelerator for lightweight classification tasks, and Red Hat OpenShift for container orchestration. Every piece of the pipeline from query intake through vector retrieval, prompt assembly, LLM inference, compliance filtering, and response delivery stays within a single LinuxONE system, so sensitive data never has to leave the hardware perimeter. We walk through the design choices behind each subsystem, dig into the Spyre compilation and serving stack, explain how LinuxONE's Secure Execution technology extends confidential-computing guarantees to AI workloads, and benchmark the architecture against cloud-GPU and on-premises alternatives. Early analysis points to end-to-end RAG latencies under two seconds and up to a 20x reduction compared to off-platform inference, all while keeping the strong encryption and auditability posture that regulated industries actually need.",
+  "venue": ""
+ },
+ {
+  "title": "TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.22793v1",
+  "category": "containers",
+  "subcategory": "systems",
+  "authors": [
+   "Wenhao Wu",
+   "Menghao Zhang",
+   "Xin Wang",
+   "Zhi Wang",
+   "Kun Shao"
+  ],
+  "abstract": "Reliable deployment of LLM agents in user-facing products depends not on raw task-solving ability but on consistency and limit-awareness: behaving the same way across repeated trials, and recognizing when a request cannot, or cannot yet, be safely fulfilled. CAR-bench exposes this reliability gap in the domain of in-car assistants: an LLM-simulated user issues incomplete or ambiguous requests, requiring the agent to resolve uncertainty through multi-turn dialogue and tool use while strictly adhering to domain policies. Even frontier models show a substantial gap between what they can solve at least once (Pass@3) and what they solve consistently across trials (Pass^k). We bridge this gap with TRACE (TRAjectory-Contrastive Evolution), which iteratively improves a skill-based agent's behavioral knowledge without modifying model weights. This knowledge is organized as a Skill Bank of modular, retrievable skills, each encoding a self-contained set of tool-use rules and behavioral guidelines. TRACE evolves this bank through an agentic self-evolution loop: after each evaluation round, it groups trajectories by the skills invoked and refines each skill by contrasting successful and failed behaviors. The updated bank then guides subsequent rounds, while during deployment the Actor performs state-conditioned skill orchestration at every turn. On GPT-5.5, TRACE improves consistency (Pass^3) by 34.6 points, from 59.9% to 94.5%, while shrinking the gap between potential and reliable performance to just 4.0 points. On the official hidden set, TRACE achieved first place using GPT-5.6-Sol, attaining a Pass^3 score of 70%-a 40% relative improvement over the baseline. These results show that TRACE converts high model potential into stable, consistent performance gain. Project homepage: https://darwin-agent.github.io/Car-bench-TRACE.",
+  "venue": ""
+ },
+ {
+  "title": "From Traceability to Justifiability: Accountability Structures in Agentic Software Engineering",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.23610v1",
+  "category": "cicd",
+  "subcategory": "development",
+  "authors": [
+   "Rashid Azarang"
+  ],
+  "abstract": "A pipeline promoting an AI system publishes records claiming the thing evaluated is the thing deployed and that the evidence licensed the transition. We measure, from public material only, whether those records can express that claim and whether it holds where declared. First, a two-class documentation survey of 47 delivery platforms (20 CI/CD, 27 model-serving/agent) under one fixed three-label protocol, graded twice (second pass blind), every consulted page pinned by content hash and date. Across 188 double-graded cells we found no platform whose default record emits a content-addressed identity of the behavioral tuple (model version, instructions, tool definitions, retrieval and runtime configuration); the blind pass grades that column default on zero of 47. Immutable nominal versioning is meanwhile arriving as the agent platforms' default answer (16 of 27): version integers behind mutable pointers, a layer the artifact supply chain already found insufficient. Second, an instrument computes realized assurance depth from a pipeline's published exhaust alone and compares it with the declared depth. Applied to a frozen two-stratum frame of 30 public repositories graded twice from a hashed archive (second pass blind; cell-level agreement 23 and 19 of 30, both passes independently finding the same five full realizations), the sharpest result is a verifiability hole: seven of the 15 repositories chosen for adopting attestation tooling publish source-only releases, so the binding their workflows declare cannot be checked where declared. Where checkable it mostly checks out: five of seven measurable adopters realize the binding end to end; both shortfalls fall at identity binding. Together the results locate the field's records structurally short of justifiability, the one rung that can refuse a transition. The survey carries an expiry clock; we state what would falsify each finding.",
+  "venue": ""
+ },
+ {
+  "title": "Primal--Dual Alternating Neural Learning for Timely Classification with Performance Guarantees",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.23480v1",
+  "category": "observability",
+  "subcategory": "systems",
+  "authors": [
+   "Jiaming Qiu",
+   "Yingye Zheng",
+   "Ying-Qi Zhao"
+  ],
+  "abstract": "Timely risk classification is essential in many clinical monitoring settings, where decisions must balance the benefit of classifying patients early for subsequent intervention against the value of observing additional data. Yet most existing statistical and machine-learning methods are designed for fully observed trajectories and offer limited control over key operating characteristics such as sensitivity, specificity, and monitoring cost. We cast the sequential classification problem within a multi-objective optimization framework targeting these three criteria. We characterize the optimal decision rule through a value recursion that quantifies, at each time point, the trade-off between immediate classification and continued monitoring. To estimate the rule from data, we formulate a constrained optimization problem that maximizes specificity while enforcing prespecified sensitivity and monitoring-cost constraints. We then develop an estimation procedure that employs a recurrent neural network to approximate the evolving value processes and a primal--dual updating scheme to satisfy the performance constraints. Through simulation studies and an application to continuous glucose monitoring for hypoglycemia risk prediction, we demonstrate that the proposed method yields accurate and timely sequential decision rules that adhere to the desired operating characteristics.",
+  "venue": ""
+ },
+ {
+  "title": "ARGUS: MCP-Grounded Root Cause Analysis for Kubernetes Incidents",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.23084v1",
+  "category": "observability",
+  "subcategory": "systems",
+  "authors": [
+   "Ergi Senja",
+   "Seyed Mohammad Reza Razavi Zadegan",
+   "Philipp Leitner"
+  ],
+  "abstract": "Kubernetes incident triage requires correlating signals from metrics, logs, container state, and messaging systems across multiple monitoring tools, a fragmented workflow that slows diagnosis and contributes to alert fatigue. Large language models (LLMs) have shown promise for automated root cause analysis (RCA), but existing systems rely on custom, system-specific data access layers that cannot be reused across organisations. We present ARGUS, an MCP-grounded RCA assistant that connects a commercial LLM to live Kubernetes observability data through standardised MCP servers covering Kubernetes state, Prometheus metrics, Loki logs, and NATS messaging, and delivers structured diagnostic summaries inside the Slack incident channel where on-call engineers already work. We conduct a preliminary evaluation of ARGUS using three complementary methods: controlled fault injection across ten Kubernetes incident scenarios, rubric-based scoring of the resulting RCA summaries on three dimensions, and semi-structured interviews with six on-call engineers at an industrial partner. ARGUS named the correct root cause in all ten scenarios with an aggregate MCP success ratio of 0.91. Practitioners trusted the diagnostic output but consistently expressed scepticism toward the recommended fixes. Our central finding is a diagnostic/prescriptive asymmetry: ARGUS reliably identifies what went wrong, but is perceived as less reliable or trustworthy at specifying what to do next. This pattern can be observed across all three evaluation methods, and has important implications for future autonomous agentic incident handling systems.",
+  "venue": ""
+ },
+ {
+  "title": "Asynchronous Verifiable Information Dispersal with Low Space and Communication Complexity",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.24636v1",
+  "category": "distributed-storage",
+  "subcategory": "systems",
+  "authors": [
+   "Thomas Locher",
+   "Yvonne-Anne Pignolet"
+  ],
+  "abstract": "The primary goal of a distributed storage system is to ensure that clients can both write and read data in a reliable and consistent manner, even in the presence of failures. While existing asynchronous verifiable information dispersal (AVID) protocols achieve optimal space complexity for storage and communication complexity for data retrieval in a Byzantine setting, the crucial operations of data dispersal and node recovery have received less attention. We propose an efficient AVID protocol that simultaneously guarantees low complexities for dispersal, storage, retrieval, and recovery. At the core of the proposed protocol lies a novel mechanism to encode data in a two-dimensional matrix and a bespoke dispersal algorithm. The protocol maintains an optimal communication complexity for retrieval while substantially improving upon the state of the art for recovery. Additionally, we describe how the protocol can be modified in order to reduce the space complexity and the communication complexity for dispersal, at the expense of a higher communication complexity for retrieval and recovery. As the proposed protocols strike a balance across all considered metrics, they are suitable for a broad range of real-world use cases.",
+  "venue": ""
+ },
+ {
+  "title": "Fleet-Scale Pod Deployment with VPC-Native Networking in Managed Kubernetes",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.22210v1",
+  "category": "kubernetes-networking",
+  "subcategory": "systems",
+  "authors": [
+   "Sri Saran Balaji Vellore Rajakumar",
+   "Jayanth Varavani",
+   "Murat Parlakisik",
+   "Pavani Panakanti"
+  ],
+  "abstract": "Managed Kubernetes pod deployment is often presented as a choice between VPC-native and overlay networking. Public EKS documentation describes prefix-mode capacity and configuration, while prior CNI studies primarily measure steady-state throughput and latency. This paper presents an operational measurement study of fleet-scale pod deployment across three VPC-native modes on Amazon EKS: individual secondary-IP allocation, ENI preallocation, and IPv4 prefix delegation, using Cilium and Calico as overlay baselines. We compare representative mode-specific warm-pool settings, so the results describe combined operating points. At 400 nodes, the tested three-address secondary-IP warm pool required 7,403 seconds to place 80,000 pods. With the tested ENI-preallocation and prefix-delegation settings, the same workload completed in approximately 495 seconds, moving address provisioning off the pod-creation critical path. In the reported 400-node runs, prefix delegation achieved approximately 162 pods/s, within the same observed range as the fastest overlay baseline and ENI-preallocation runs, while requiring fewer successful EC2 provisioning calls per pod than individual-IP allocation by allocating addresses in /28 blocks. Because each /28 contains 16 addresses and occupies one IPv4 slot, an interface with 30 slots carries 29 prefixes, representing up to 464 potential pod addresses, compared with approximately 30 IPv4 slots per ENI for individual-IP allocation when kubelet and CNI limits are configured accordingly. Prefix delegation also has lower documented network-address usage and retains direct VPC reachability and flow-log visibility but the trade-off is that /28 allocations require contiguous subnet space.",
+  "venue": ""
+ },
+ {
   "title": "ConfigWiz: Automating Privilege Configuration for Containerized Applications",
   "date": "2026-07",
   "url": "https://doi.org/10.1007/978-3-032-32767-3_8",
@@ -17221,6 +17334,18 @@
    "Yiwei Cai"
   ],
   "abstract": "Code generation large language models (LLMs) are increasingly integrated into modern software development workflows. Recent work has shown that these models are vulnerable to backdoor and poisoning attacks that induce the generation of insecure code, yet effective defenses remain limited. Existing scanning approaches rely on token-level generation consistency to invert attack targets, which is ineffective for source code where identical semantics can appear in diverse syntactic forms. We present CodeScan, which, to the best of our knowledge, is the first poisoning-scanning framework tailored to code generation models. CodeScan identifies attack targets by analyzing structural similarities across multiple generations conditioned on different clean prompts. It combines iterative divergence analysis with abstract syntax tree (AST)-based normalization to abstract away surface-level variation and unify semantically equivalent code, isolating structures that recur consistently across generations. CodeScan then applies LLM-based vulnerability analysis to determine whether the extracted structures contain security vulnerabilities and flags the model as compromised when such a structure is found. We evaluate CodeScan against four representative attacks under both backdoor and poisoning settings across three real-world vulnerability classes. Experiments on 108 models spanning three architectures and multiple model sizes demonstrate 97%+ detection accuracy with substantially lower false positives than prior methods.",
+  "venue": ""
+ },
+ {
+  "title": "Human-Certified Module Repositories for the AI Age",
+  "date": "2026-03",
+  "url": "https://arxiv.org/abs/2603.02512v4",
+  "category": "security",
+  "subcategory": "systems",
+  "authors": [
+   "Szil\u00e1rd Enyedi"
+  ],
+  "abstract": "Human-Certified Module Repositories (HCMRs) are introduced in this work as a new architectural model for constructing trustworthy software in the era of AI-assisted development. As large language models increasingly participate in code generation, configuration synthesis, and multi-component integration, the reliability of AI-assembled systems will depend critically on the trustworthiness of the building blocks they use. Today's software supply-chain incidents and modular development ecosystems highlight the risks of relying on components with unclear provenance, insufficient review, or unpredictable composition behavior. We argue that future AI-driven development workflows require repositories of reusable modules that are curated, security-reviewed, provenance-rich, and equipped with explicit interface contracts. To this end, we propose HCMRs, a framework that blends human oversight with automated analysis to certify modules and support safe, predictable assembly by both humans and AI agents. We present a reference architecture for HCMRs, outline a certification and provenance workflow, analyze threat surfaces relevant to modular ecosystems, and extract lessons from recent failures. We further discuss implications for governance, scalability, and AI accountability, positioning HCMRs as a foundational substrate for reliable and auditable AI-constructed software systems.",
   "venue": ""
  },
  {
