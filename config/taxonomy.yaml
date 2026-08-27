@@ -469,15 +469,12 @@ subcategory_keywords:
       - throughput
       - scalability
       - evaluation
-  - id: security
+  - id: application
     keywords:
-      - security
-      - vulnerability
-      - encryption
-      - access control
-      - rbac
-      - policy
-      - compliance
+      - application
+      - use case
+      - workload
+      - service
       - isolation
   - id: application
     keywords:
