@@ -34,7 +34,7 @@
         "security/systems",
         "security/architecture",
         "security/development",
-        "security/security"
+        "security/application"
       ],
       "papers": 160
     },
@@ -189,7 +189,7 @@
         "policycode/systems",
         "policycode/architecture",
         "policycode/development",
-        "policycode/security"
+        "policycode/application"
       ],
       "papers": 78
     },
@@ -467,7 +467,7 @@
         "security/systems",
         "ai-security/architecture",
         "cicd/systems",
-        "security/security"
+        "security/application"
       ]
     },
     {
