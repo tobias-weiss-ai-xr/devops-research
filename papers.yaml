@@ -8683,8 +8683,8 @@ papers:
     from incompetence. The Equation of Amplification If we define S as the signal
     (verifiable, reproducible technical output) and N as the noise (unsubstantiated
     claims, marketing fluff, regulatory confusion), the strength of the emission E_{strength}
-    is given by the ratio: $E_{strength} = \frac{S}{N} For the average sector participant,
-    S \approx N$, resulting in a ratio near 1. Their output is indistinguishable from
+    is given by the ratio: E_{strength} = \frac{S}{N} For the average sector participant,
+    S \approx N, resulting in a ratio near 1. Their output is indistinguishable from
     the background static of the market. The CollectiveOS architecture, conversely,
     emits a signal characterized by high-fidelity proofs: Peer-review-ready architecture
     stacks: Full technical specifications like the "Unified AI Script System v4".1
@@ -49181,3 +49181,809 @@ papers:
     Prefix delegation also has lower documented network-address usage and retains
     direct VPC reachability and flow-log visibility but the trade-off is that /28
     allocations require contiguous subnet space.'
+- title: 'Engineering the Intelligent Enterprise: The Complete Guide to Data and AI
+    Platform Engineering'
+  date: 2026-08
+  url: https://doi.org/10.70593/978-81-69589-46-8
+  category: kubernetes
+  subcategory: systems
+  authors:
+  - Sai Sandeep Koneti
+  abstract: 'The company is in a new digital transformation era. The evolution of
+    the organizations has progressed from transaction processing and enterprise integration
+    to business intelligence, cloud computing, big data, machine learning, gen AI
+    and now towards autonomous and agentic systems. However, technology is not intelligence,
+    in an organization. This is no longer solely a matter of gathering more data,
+    implementing more models and using the newest artificial intelligence tools. That''s
+    the challenge of how to create an enterprise-level capability that can help continuously
+    convert observations into trusted information, information into insights and prediction,
+    and knowledge into intelligence, and intelligence into governed actions leading
+    to measurable results. This book tackles this issue from the engineering, architectural,
+    operational and governance standpoint. The case for enterprise intelligence is
+    defined as the socio-technical capability connecting a system of data, platforms,
+    analytics, machine learning, generative AI, knowledge systems, autonomous agents,
+    humans, processes, policies and feedback mechanisms. It is a technology-agnostic
+    view that elevates decision quality, operational reliability and assured autonomy,
+    learning, and business value to the heart of enterprise transformation. The book
+    consists of a collection of Enterprise Intelligence Lifecycle, linking together
+    data, information, insights, predictions, knowledge, intelligence, actions, and
+    governed autonomy, all in an iterative process of continuous feedback. It''s important
+    to note that the lifecycle is not being presented as a straight technology pipeline.
+    Each step raises semantic, ownership, reliability, security, governance, accountability
+    and measurable value issues. The right idea is that intelligence is only an enterprise
+    capability when technical products are linked to actual decisions, processes,
+    stewards, process controls and outcomes. As such, the manuscript views intelligence
+    as a continuously evolving product that is engineered to be an enterprise endeavor,
+    and not anything specific like an isolated dashboard, machine learning model,
+    chatbot, or AI agent. Chapter 1 lays the foundation for the concepts and architecture
+    of the intelligent enterprise. It helps you define and distinguish between a data-driven
+    organization and an intelligence-driven organization, while also introducing the
+    Enterprise Intelligence Lifecycle, layered reference architecture, capability
+    domains, maturity model, value measurement framework, principles of governance
+    and an implementation blueprint. One key theme is keeping the goal based on appropriate
+    and governed autonomy rather than the goal in front of it being maximum autonomy
+    and automation. There must be a balance of autonomy to consequence, uncertainty,
+    reversibility, level of evidence, permissions and escalation requirements. The
+    second chapter focuses on Intelligence on the Platform. The way to build an Enterprise
+    AI involves the ability to leverage a scalable, componentized and integrated set
+    of projects, bespoke pipelines, manually deployed environments or approval queues.
+    Instead the platform and the various components on it must be seen as an internal
+    product, offering a coherent user journey, self-service, golden paths, cloud-native
+    foundations, software supply-chain integrity, observability and reliability, security,
+    cost management, and developer experience. The book focuses on re-usable capabilities
+    and tangible benefits in engineering flow, reliability, risk, economics, and business
+    results as three key differentiators between a platform and a portal, Kubernetes
+    cluster, and centralized ops team. This Continuous Intelligence is built on a
+    foundation of data engineering and a modern data platform, which is covered in
+    the third and fourth chapters. In today''s modern companies, it is essential to
+    combine data warehouses, data lakes, data lake houses, data products, data mesh,
+    data fabric, batch processing, streaming, change data capture, event-driven architectures,
+    metadata, catalogs, data lineage, semantic models, data contracts, data quality,
+    observability, security, privacy, resilience, and FinOps. The authors of the book
+    expressly do not recommend any single architectural pattern as necessarily being
+    the best. It promotes workload-driven architectures, however, based on latency,
+    consistency, scale, governance, interoperability, reliability, team capabilities
+    and costs. Also, Continuous Intelligence depends on reliable streams of data.
+    As a result, batch, micro-batch, streaming, event time, stateful processing, delivery
+    guarantees, idempotency, replay, schema evolution, orchestration, backfills, data
+    contracts, testing, service-level objectives, security, privacy, lineage and recovery
+    are discussed. The goal is not to move 100% of all workloads to become “real time”
+    but to provide the right level of freshness, completeness, correctness, and confidence
+    of data for the decision they are supporting. The fifth chapter takes a step from
+    data engineering, to analytics engineering, to decision intelligence. There is
+    a shift in understanding how to use Analytics – not merely as a reporting or visualization
+    tool. It is the first large-scale point in time when the enterprise creates a
+    common model of what is happening in the business. Grain, facts, dimensions, time,
+    semantic models, metrics engineering, business ontologies, knowledge representation,
+    data contracts, self-service analytics, analytical testing, lineage, experimentation,
+    causal evidence, forecasting, scenario analysis, optimization and decision products
+    these all come together to provide trustworthy analytical capabilities. The chapter
+    highlights the difference between technically valid query, a reliable business
+    measure and an operational decision system. Production decision capabilities are
+    discussed in the sixth chapter as machine learning systems. Machine learning is
+    more than an algorithm-selection challenge; it''s a question of problem framing,
+    decision value, training evidence, labels, temporal validation, leakage prevention,
+    feature engineering, feature stores, experimentation, reproducibility, calibration,
+    thresholds, models usefulness, training architecture, deployment, model serving,
+    security, privacy, fairness, reliability, and cost. The pathways to a production
+    accountable for progress based on an initially promising notebook is a key factor
+    in the debate. Chapter Seven deals with the concept of MLOps and LLMOps, as production
+    AI alters in a myriad ways other than just in application code. System behavior
+    can vary based on data sources, labels, features, models, thresholds, prompts,
+    retrieval indexes, context, foundation models, tools, memories and policies. Operations
+    discipline via MLOps and LLMOps, thus, is essential for continuous integration,
+    continuous delivery, continuous training, continuous evaluation, experiment tracking,
+    registries, lineage, progressive delivery, monitoring, incident response, rollback,
+    security, privacy, human oversight and cost control. Specifically, LLMOps considers
+    the entire generative AI app (not just the foundation model) to be the production
+    system. The eighth chapter looks at generative AI, enterprise knowledge systems,
+    retrieval-augmented generation, foundation models, knowledge graphs, semantic
+    layers, multimodal intelligent systems, and knowledge-intensive work. One key
+    argument is that the enterprise knowledge cannot be captured as the pre-trained
+    knowledge of a language model. The knowledge of the enterprise needs to be handled
+    in a controlled manner, using governed sources of truth, Semantic structures,
+    retrieval, reranking, context assembly, authorization, provenance, citation, freshness,
+    evaluation, and uncertainty management. GenAI is thus proposed as a knowledge-interaction
+    layer under human control and not an independent Oracle. The ninth chapter then
+    takes this architecture to the next level to agentic AI and autonomous business
+    systems. The novelties of agents, which can plan, invoke tools, maintain a state,
+    interact with environments, and perform multi-step actions, make them inductive
+    of a qualitatively different engineering problem. So, the chapter covers goal
+    formulation, planning, execution, reflection, tool contracts, least-privilege
+    permissions, state and memory considerations, identities, single-agent and multi-agent
+    designs, orchestration, evaluation, security considerations, observability, recovery,
+    human oversight and progressive autonomy. The guiding principle isn''t "as free
+    as possible," but rather “useful autonomy” which is bounded, observable, interruptible,
+    recoverable and proportional to consequence. The final chapter makes these technical
+    capabilities come together via governance and scaling of the intelligent enterprise.
+    Architecture isn''t enough for enterprise transformation. All of these topics
+    strategy, portfolio management, value realization, risk-tiered governance, platform
+    architecture, team topologies, product ownership, security, privacy, compliance,
+    sovereignty, resilience, financial management, sustainable engineering, workforce
+    design, adoption, outcome measurement, and federated scaling – are essential for
+    success. Final chapters intertwine the entire Enterprise Intelligence Lifecycle
+    into an operating model for the EI lifecycle, and outline additional validation
+    questions and areas for further research. An underlying theme throughout the book
+    is that governance does not occur as an ‘add-on'' after deployment. Security,
+    privacy, fairness, transparency, accountability, reliability, observability, cost
+    management, auditability and human oversight are also "cross-cutting" architectural
+    concerns. As a result, the manuscript brings into the picture enterprise architecture
+    in relation to current AI approaches on AI risk management, AI governance, responsible
+    AI, trustworthy AI, privacy engineering, software supply-chain security, model
+    accountability, and regulatory compliance. The risk of value becomes greater as
+    AI becomes more pervasive in an organization, which also means greater systemic
+    and organizational risk. A second pivotal aspect of this book is the use of evidence
+    and feedback. The real measure of enterprise intelligence should be in the forms
+    of business outcomes, decision quality, adoption, reliability, risk, the velocity
+    of learning, speed and cost. Technical correctness of the model, or the platform''s
+    usability or the quality of the AI application''s response alone is not enough
+    to be enterprise value. Whether the goal of the complete decision system enhances
+    an important decision outcome within acceptable operational, ethical, financial
+    and regulatory constraints. This view also emphasizes the importance of experimentation,
+    causal inference, observability, incident learning, continuous evaluation in enterprise
+    intelligence. The book is geared for various target groups. The material is designed
+    to be used by enterprise architects, data architects, cloud architects, platform
+    engineers, data engineers, analytics engineers, machine learning engineers, MLOps
+    and LLMOps practitioners, in addition to AI engineers, software engineers, technology
+    leaders, CIOs, CTOs, CDOs, Chief AI Officers, product managers, risk professionals,
+    security leaders, governance professionals, researchers, educators, and graduate
+    students, based on their specific responsibilities. The chapters are carefully
+    designed to be both accessible for conceptual learning and easy to put into practice:
+    learning objectives, architecture, design principles, enterprise scenarios, decision
+    tables, maturity models, implementation roadmaps, chapter summaries, key take-aways,
+    discussion questions and references. The book also aims to inform the readers
+    about the several communities talked about separately: Data Management, Data Engineering,
+    Software Engineering, Cloud Computing, Platform Engineering, Analytics, Machine
+    Learning, Artificial Intelligence, Generative AI, Knowledge Management, Autonomous
+    Systems, Cybersecurity, Privacy, Enterprise Architecture, DevOps, SRE, FinOps,
+    AI governance, and organizational transformation. Any one of these disciplines
+    is insufficient to build the intelligent enterprise. Its performance is dependent
+    on what interfaces among them are. We''ve introduced new frameworks that provide
+    a common context in which to think about these interfaces, such as the Enterprise
+    Intelligence Lifecycle, the Layered Enterprise Intelligence Reference Architecture,
+    the Semantic Reliability and Decision-Product Framework, the Progressive Autonomy
+    and Governed Learning Model, the Data-to-Decision Reliability Chain, the AI Change
+    Evidence Chain, the Knowledge Trust Chain, and the Cohesive Enterprise Intelligence
+    Operating Model. It is not meant to recommend nor mandate any specific vendor,
+    any particular set of technologies, any particular cloud provider, any particular
+    family of models, or any particular organization. Instead, they offer reusable
+    engineering abstractions that enterprises can use to consider alternatives and
+    fix a line of accountability from experimentation to production and back again
+    to continuous learning. This book therefore has a fairly straightforward, albeit
+    all-important, main theme: An intelligent enterprise is not bought, it is engineered.
+    Cloud services, data platforms, machine learning models, foundation models, retrieval
+    systems, copilots, and autonomous agents are all critical components, yet each
+    serves as a foundation to achieve enterprise intelligence on its own. When combined
+    with reliable data, common application of meaning, powerful platforms, production
+    engineering, responsible decision-making mechanisms, metrics, governance and human
+    decision, and feedback, this is where intelligence comes into play. The strategic
+    question will not only be “how much can I deploy?” anymore as organisations advance
+    toward the one becoming more capable with artificial intelligence. It will be
+    their ability to sense, comprehend, forecast, recall, rationalize, decide, do,
+    manage and gauge, restore and learn effectively. As businesses evolve these technologies
+    into reliable, secure, accountable and economically sustainable reusable systems,
+    they will be better equipped to scale and benefit from innovation while maintaining
+    reliability, security, accountability and sustainability. This book is presented
+    as a how-to, how-why text on that trip. It''s also an invitation to see how data
+    and AI are not just tools, but also a unified approach to enterprise engineering,
+    where architecture, platforms, data, analytics, machine learning, generative AI,
+    agentic systems, data governance, people and organizational learning, and experiences
+    are in closer collaboration to build and deliver measurable and sustainable AI.'
+  venue: ''
+- title: Sovereign Toroidal Wave Collapse Information Execution Engine, Frontier LLM
+    AI Architecture Delivering a 2,000% Throughput Gain to AI Data Centers
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22103898
+  category: kubernetes
+  subcategory: systems
+  authors:
+  - Payton Lowe
+  abstract: 'TOROIDAL INFORMATION EXECUTION ENGINE Asynchronous Stream-Based Architecture
+    for Maximum Hardware Utilization & Compute Efficiency Version 1.0 | 2026 EXECUTIVE
+    SUMMARY The Toroidal Information Execution Engine transitions enterprise data
+    systems from rigid, monolithic, synchronous pipelines to fluid, asynchronous,
+    stream-based architectures. This architectural paradigm shift maximizes GPU/TPU
+    utilization, eliminates compute waste, reduces memory friction by 1,000x, and
+    automates threat mitigation through mathematical data evaluation. Core Performance
+    Gains: Data throughput increases from 10,000 req/s to 200,000 req/s (+2,000%)
+    Memory footprint reduction: 2 MB per thread → 2 KB per Goroutine (1,000x) GPU
+    utilization sustained at 99.4% (vs. ~72% jagged baseline) Compute load reduced
+    from 100% to 60% (40% CPU reclaimed) Filtration efficiency improves from 0.60
+    to 0.95, reducing compute cycles by 36.8% TABLE OF CONTENTS 1. Architecture Overview
+    2. Mathematical Foundations 3. System Performance Metrics 4. Implementation Roadmap
+    5. Application Domains 6. Deployment & Scaling 1. ARCHITECTURE OVERVIEW Legacy
+    System Limitations Traditional data pipelines rely on synchronous, I/O-bound processing
+    that creates multiple bottlenecks: Threads block while waiting for network or
+    disk I/O, wasting GPU compute capacity Memory overhead of 2 MB per thread limits
+    concurrency to thousands rather than millions Malicious or low-value data consumes
+    same resources as high-priority payloads Sudden spikes in traffic cause cascading
+    failures in downstream databases Toroidal Three-Layer Architecture The Toroidal
+    engine replaces this model with a continuous counter-clockwise feedback loop composed
+    of three decoupled layers: Layer 1: The Singularity Gateway Acts as the system''s
+    edge firewall using Web Application Firewall (WAF) filtering. Standardizes raw
+    data and employs the Reality Script Filter to drop malicious or low-utility traffic
+    at zero computational cost. Layer 2: The Quantum EV Logic Engine Performs wave-collapse
+    scoring using the Expected Value equation to evaluate data utility in milliseconds.
+    High-value data is prioritized while malicious packets and noise are discarded
+    before reaching the processing layer. Layer 3: The Grand Gallery Apache Kafka
+    message broker that decouples ingestion from processing. Acts as a shock absorber
+    preventing traffic spikes from crashing downstream databases while broadcasting
+    scored data across independent processing channels. 2. MATHEMATICAL FOUNDATIONS
+    Throughput & Concurrency (Little''s Law) System throughput (λ) is defined by concurrency
+    (L) divided by latency (W): λ = L / W Legacy Baseline (Synchronous): 1,000 threads
+    / 0.100s latency = 10,000 req/s Toroidal Engine (Asynchronous): 1,000 routines
+    / 0.005s latency = 200,000 req/s Result: +1,900% to +2,000% throughput gain Wave-Collapse
+    Scoring & Expected Value (EV) Equation Every data packet is evaluated before processing:
+    Base_EV = (P_Valid × V_Anchor) – (P_Corrupt × V_Crucible) Final Processing Score:
+    Collapse(Ψ) = Base_EV × ω_System If Collapse(Ψ) ≤ 0, the -6.666 Protocol triggers:
+    the packet is mathematically annihilated with zero overhead. Token-to-Compute
+    Efficiency Operational compute cost: C_total = (K × N_raw) / η_filter Improving
+    filtration efficiency from 0.60 to 0.95 reduces compute cycles by 36.8% 3. SYSTEM
+    PERFORMANCE METRICS Performance Comparison Table Metric Traditional Stack Toroidal
+    Engine Delta Data Throughput 10,000 req/s 200,000 req/s +2,000% Memory Footprint
+    2 MB/thread 2 KB/Goroutine 1,000x Reduction Compute Efficiency 100% Load 60% Load
+    40% Reclaimed GPU Utilization ~72% (Jagged) ~99% (Sustained) Eliminates Starvation
+    Financial Impact (Enterprise Data Center) Capital Efficiency: Edge filtration
+    reclaims 40% of CPU and bandwidth overhead by annihilating non-actionable data
+    before processing. Hardware ROI: Sustained 99.4% GPU utilization maximizes return
+    on tensor core investments. Power Reallocation: Reducing memory footprint by 1,000x
+    frees 5–8% of facility megawatts to power additional GPU nodes within existing
+    constraints. 4. IMPLEMENTATION ROADMAP MVP Development (16-Day Tactical Execution)
+    Days 1–5: Deploy containerized Redpanda/Kafka and PostgreSQL using Docker Compose.
+    Days 6–10: Build Go-based Singularity Gateway with HTTP server (Gin/Fiber) and
+    Quantum EV Logic Engine. Days 11–13: Complete routing/storage integration. Stress-test
+    with k6 targeting <10ms latency at 5,000+ req/s. Days 14–16: Validate performance
+    metrics, test zero-cost rejection logic, compile ROI report for stakeholders.
+    Technology Stack Component Technology Singularity Gateway Go (Gin/Fiber) + WAF
+    Quantum EV Engine Python with NumPy Grand Gallery Apache Kafka / Redpanda Storage
+    Layer PostgreSQL Containerization Docker Compose Load Testing k6 Enterprise Production
+    Deployment (Days 30+) Deploy on Kubernetes via Terraform on Amazon EKS or Google
+    GKE. Integrate Vector Databases (Pinecone/Qdrant) and autonomous feedback loops
+    for self-optimizing weights. Implement Open Policy Agent (OPA) for governance
+    and HashiCorp Vault for secrets management. 5. APPLICATION DOMAINS Real-Time AI
+    & LLM Data Pipelines Live data feeding into vector databases and ML training without
+    GPU starvation. High-Frequency FinTech Processing millions of transactions with
+    sub-millisecond latency while filtering malicious orders. IoT & Telemetry Networks
+    Aggregating millions of sensor streams without crashing backend databases. Enterprise
+    Cybersecurity Filtering DDoS attacks and malformed payloads at the network perimeter.
+    CONCLUSION The Toroidal Information Execution Engine provides a mathematically
+    rigorous, production-ready blueprint for transitioning from monolithic pipelines
+    to asynchronous stream-based architectures. By decoupling layers and eliminating
+    compute waste, it achieves 2,000% throughput gains, 1,000x memory reduction, 99.4%
+    GPU utilization, and 36.8% compute cycle savings. This architecture scales from
+    local development to enterprise cloud infrastructure, purpose-built for AI factories,
+    data centers, and organizations demanding maximum efficiency.'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: 'Closing the Gap: Automated Discovery of Secure Dockerfile Reference Standards
+    via Semantic Clustering in Enterprise Inner Source'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25793
+  category: security
+  subcategory: systems
+  authors:
+  - Jessica Hösl
+  - Benedikt Hofmann
+  - Patrick Stöckle
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Containerization dominates enterprise software delivery, yet Dockerfiles
+    that assemble container images frequently harbor security misconfigurations and
+    structural technical debt. This problem is poorly understood in corporate inner-source
+    environments, where proprietary context and isolated governance prevent direct
+    application of open-source findings. We present an automated, six-stage pipeline
+    that: (1) crawls an enterprise GitLab instance, (2) enriches each Dockerfile with
+    static security and quality metrics (Hadolint, ShellCheck, Trivy) and lifecycle
+    data, (3) groups functionally identical workloads using LLM-generated semantic
+    descriptions and HDBSCAN, and (4) quantifies the optimization gap against cluster-internal
+    reference implementations. Applied to 11,470 Dockerfiles from over 6,200 repositories
+    at a single large industrial company, we find a systemic deficit: 99\% of files
+    contain at least one security misconfiguration, 80.8\% violate Dockerfile best
+    practices, and the median artifact has not been revised for 838~days. Despite
+    this, high-quality reference implementations already exist within 83\% of functional
+    clusters. Adopting these internal standards would increase the average security
+    posture score by 60.4\% without developing any new templates. These findings,
+    grounded in one organization''s inner-source ecosystem, provide a data-driven
+    foundation for future automated, context-aware recommender systems targeting enterprise
+    supply-chain security; whether the observed technical-debt distribution and optimization
+    gap generalize to other enterprises remains an open question for future multi-organization
+    study.'
+- title: 'Capacity Overflow: A Blind Spot for Backdoor Attacks in Vision MoE'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25371
+  category: security
+  subcategory: systems
+  authors:
+  - Xiaocheng Zou
+  - Tiancheng Zheng
+  - Xiaolin Xu
+  - Ruyi Ding
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Mixture-of-Experts (MoE) has become a prevalent paradigm for scaling Vision
+    Transformers efficiently. To ensure computational scalability and prevent expert
+    overload, Vision MoE architectures employ a capacity-bounded token dispatch mechanism,
+    where each expert's processing budget depends on the inference batch size. This
+    work identifies this batch-dependent behavior as an overlooked attack surface,
+    and proposes a stealthy supply-chain backdoor attack that exploits this property
+    through a three-phase framework. First, we inject a backdoor into an early MoE
+    layer. Second, we train a neutralizer in a deeper MoE layer that suppresses the
+    backdoor under normal capacity. Third, we configure a batch-adaptive capacity
+    factor that preserves high capacity for small batches while reducing it for large
+    batches, naturally disabling the neutralizer via token overflow at deployment-scale
+    batch sizes. The attack remains in dormant mode during small-batch security audits
+    and enters activation mode during large-batch deployment. Experiments on V-MoE
+    and Swin-MoE across ImageNet-100 and GTSRB demonstrate activation-mode attack
+    success rates of 76-87% with dormant-mode ASR below 9%, while evading Neural Cleanse,
+    STRIP, Fine-Pruning, and Activation Clustering. Our findings reveal a fundamental
+    security risk arising from batch-dependent execution in scalable Vision MoE architectures.
+- title: 'AROMA+: A Study of Factors Affecting Reproducible Builds in the Maven Ecosystem'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27125
+  category: security
+  subcategory: systems
+  authors:
+  - Mehdi Keshani
+  - Amirhossein Rahmati
+  - Mohammad Hossein Aref
+  - Abbas Heydarnoori
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Modern software engineering establishes software supply chains and relies
+    on tools and libraries to improve productivity. However, reusing external software
+    in a project presents a security risk when the source of the component is unknown
+    or the consistency of a component cannot be verified. Reproducible builds present
+    a mitigation strategy, as they can confirm the origin and consistency of reused
+    components. A large reproducibility community has formed for Debian, but the reproducibility
+    of the Maven ecosystem, the backbone of the Java supply chain, remains understudied
+    in comparison. Reproducible Central is an initiative that curates a list of reproducible
+    Maven libraries, but the list is limited and challenging to maintain due to manual
+    efforts. Our research aims to support these efforts in the Maven ecosystem through
+    automation. We investigate the feasibility of automatically finding the source
+    code of a library from its Maven release and recovering information about the
+    original release environment. Our tool, AROMA+, can obtain this critical information
+    from the artifact and the source repository through several heuristics and we
+    use the results for reproduction attempts of packages on Maven Central. Overall,
+    our approach achieves an accuracy of up to 99.8% when compared field-by-field
+    to the existing manual approach. In some instances, we even detected flaws in
+    the manually maintained list, such as broken repository links. We reveal that
+    automatic reproducibility is feasible for 32% of the packages on Maven Central
+    using AROMA+, and 12% of these packages are fully reproducible. We demonstrate
+    our ability to successfully reproduce new packages and have contributed some of
+    them to the Reproducible Central repository. Additionally, we highlight actionable
+    insights, outline future work in this area, and make our dataset and tools publicly
+    available.
+- title: 'KubeCap: A Framework for Capability Minimization in Kubernetes via Static
+    Analysis and LLM-Assisted Rule Inference'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26699
+  category: containers
+  subcategory: systems
+  authors:
+  - Yuhao Liu
+  - Yingnan Zhou
+  - Weijie Liu
+  - Yan Jia
+  - Zheli Liu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: As the most widely used container orchestration platform, Kubernetes provides
+    flexible privilege configuration by allowing developers to manage Linux capabilities
+    via manifest files. However, developers rely on default settings or coarse-grained
+    security contexts in practice, violating the principle of least privilege and
+    enlarging the attack surface of containerized workloads. Existing studies either
+    detect vulnerable patterns in Kubernetes manifests or infer required capabilities
+    for standalone Linux programs, but they do not directly address capability minimization
+    in Kubernetes. To bridge this gap, we first conduct an empirical study on three
+    open-source datasets, revealing that 74.67% of projects lack capability configurations.
+    Motivated by our observations, we propose KubeCap, a framework for Kubernetes
+    capability minimization. KubeCap translates deployment specifications into deterministic
+    manifests, locates container entrypoints, performs reachability-guided system
+    call analysis, and leverages LLM-assisted rule specification to derive syscall--parameter--capability
+    relations from Linux kernel code. Based on these results, KubeCap infers the minimal
+    capability set required by each workload and automatically generates repaired
+    manifests. Evaluation on 10 representative Go-based Kubernetes projects shows
+    an average capability reduction rate of 54.97%, outperforming rapid type analysis
+    and class hierarchy analysis baselines while maintaining practical analysis cost.
+    These results demonstrate KubeCap's effectiveness in enforcing least privilege
+    in Kubernetes.
+- title: 'FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous
+    Prefetch'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27029
+  category: containers
+  subcategory: systems
+  authors:
+  - Dhiren Mukesh Khatri
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Training molecular machine-learning models on ephemeral or memory-constrained
+    accelerator instances can require repeatedly retrieving preprocessed molecular
+    graphs from remote storage. FoldPipe is a lightweight Python orchestration layer
+    for already-sharded PyTorch and PyTorch Geometric data. It retrieves one shard
+    ahead in a background thread while the consumer trains on the current shard, keeping
+    the number of live shard payloads bounded with respect to total dataset size.
+    Asynchronous prefetch and bounded buffering are established systems techniques
+    rather than novel scheduling algorithms. FoldPipe's contribution is a small integration
+    targeted at native .pt molecular shards together with a source-pinned empirical
+    characterization of its operating regime. We evaluate a SchNet energy-and-force
+    workload on MD17 aspirin using 20 paired, order-alternating benchmark passes on
+    a Tesla T4. Each pass processes five pinned shards containing 25,000 structures.
+    FoldPipe records 16.33 s mean I/O-compute overlap, compared with zero by construction
+    for the sequential bounded baseline. Mean pass time is 76.78 s for FoldPipe and
+    83.37 s for the baseline. However, the geometric mean paired speedup is 1.059\times
+    with a 95% bootstrap interval from 0.878\times to 1.288\times. The experiment
+    therefore verifies the overlap mechanism but is inconclusive about a reliable
+    wall-clock speed advantage under the observed public-network variability.
+- title: Agentic AI Containment Architecture for Security Hardening
+  date: 2026-05
+  url: https://arxiv.org/abs/2608.26108
+  category: containers
+  subcategory: systems
+  authors:
+  - Mohamed ElBendary
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Multi-agent AI systems are increasingly deployed in contexts where autonomous
+    coordination, tool use, and continuous learning introduce novel security and governance
+    risks. The containment approach to multi-agent system security remains underdeveloped,
+    primarily resorting to add-on layers post-design and sometimes post-implementation
+    and deployment. This paper proposes an Agent Containment Architecture that treats
+    security as an architectural property enforced through a set of explicit constraints
+    that bound the design space of multi-agent systems. The architecture proposed
+    in this paper introduces a novel formal organizational mapping from standard systems
+    analysis artifacts to machine-verifiable contracts under a proposed constraint
+    system. The architecture introduces six interacting constraints: separation of
+    responsibility assignments, pre-deployment coherence checking, value stream binding,
+    temporal isolation, strict knowledge verification before accumulation, and deterministic
+    verification of structural and process integrity. Together, these constraints
+    enforce a Propose-Verify-Act-Verify execution model in which all operations are
+    contractually defined, independently verified, and traceable to specific execution
+    contexts. The paper presents propositions and correctness reasoning arguments
+    linking these constraints to defenses against key threat classes, including prompt
+    injection, orchestrator manipulation, cross-session state poisoning, and emergent
+    agent collusion. A resume screening case study demonstrates how the architecture
+    produces auditable, policy-compliant outcomes under adversarial conditions. The
+    work explicitly separates structural integrity from semantic safety, bounding
+    residual risks while making residual semantic risk explicit and measurable.'
+- title: 'Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information
+    Flow Tracking'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25431
+  category: containers
+  subcategory: systems
+  authors:
+  - Jiacheng Shi
+  - Xunjie Wang
+  - Cheng Tan
+  - Jinyu Gu
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: LLM serving frameworks process large volumes of user data--often containing
+    sensitive information--on shared infrastructure. Ensuring isolation between users
+    who share the same serving framework (on CPUs) and LLM operators (on GPUs) is
+    critical for privacy protection. This paper presents GIFT, a GPU Information Flow
+    Tracking system that enforces user data isolation in LLM serving with minimal
+    overhead. Moreover, the design of GIFT is non-intrusive and allows CPU-side serving
+    frameworks to evolve freely. It rests on two key insights. First, encryption-as-isolation
+    leverages the observation that CPU components only orchestrate data flow, not
+    content manipulation; thus, per-user encryption can provide isolation without
+    modifying serving logic. Second, GPU kernels exhibit limited and predictable information
+    flows, enabling static flow analysis. GIFT precomputes information flow rules
+    for each kernel and uses decoupled flow tracking, avoiding instrumentation or
+    GPU stalls. Furthermore, we extend GIFT to GIFT-CC, which integrates confidential
+    computing to protect against untrusted operating systems and hypervisors (LLM
+    service providers). Implemented on vLLM and DistServe, GIFT and GIFT-CC enforce
+    user data isolation with a 4-10.7% throughput overhead while maintaining the same
+    latency level.
+- title: 'When Review Alone No Longer Scales: Layered Supervision in AI-Assisted Software
+    Engineering'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26316
+  category: cicd
+  subcategory: development
+  authors:
+  - Markus Stolze
+  - Mirco Strässle
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'AI-assisted development tools enable software engineers to generate implementations
+    at substantially higher speed and volume than in traditional workflows. Software
+    teams have long relied on guardrails -- standing control mechanisms such as code
+    review, linting, testing, and CI/CD pipelines -- to maintain quality and coordination.
+    High-throughput AI-assisted generation increases pressure on these guardrails
+    -- straining their capacity to keep pace with the volume and rate of generated
+    changes -- and reshapes how organizations supervise development workflows, yet
+    relatively little is known about how existing guardrails evolve in response. We
+    conducted a qualitative interview study with five software engineering practitioners,
+    situated within a broader practitioner survey. Our findings indicate that organizations
+    distribute the work of supervision across multiple guardrail layers: preventive
+    guardrails (produced by externalizing architectural intent and conventions into
+    machine-interpretable form), executable guardrails (linting, testing, and CI/CD
+    repurposed as scalable supervision infrastructure), and human oversight (shifting
+    from line-by-line inspection toward supervisory interpretation focused on architectural
+    reasoning, explainability, and long-term maintainability). We characterize this
+    as a transition from review- centric guardrails toward layered supervision, in
+    which no single guardrail carries the supervision load alone.'
+- title: An Empirical Study of Observability Limits in Advanced Software Supply Chain
+    Attacks
+  date: 2026-03
+  url: https://arxiv.org/abs/2603.16694
+  category: observability
+  subcategory: systems
+  authors:
+  - Zhuoran Tan
+  - Wenbo Guo
+  - Jiewen Luo
+  - Taylor Brierley
+  - Jeremy Singer
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Advanced software supply chain (SSC) attacks are increasingly runtime-only
+    and leave fragmented evidence across hosts, services, and build/dependency layers,
+    making any single telemetry stream insufficient for chain reconstruction. Despite
+    this, no existing dataset provides multi-source runtime monitoring data with end-to-end
+    chain-level ground truth for SSC attacks, leaving the observability limits of
+    such attacks poorly understood. We present SynthChain, a multi-source runtime
+    dataset with chain-level ground truth derived from real-world malicious packages
+    and exploit campaigns, and use it to empirically study observability limits in
+    SSC attacks. SynthChain covers seven representative SSC exploit scenarios across
+    PyPI, npm, and C++ supply chains, spanning Windows, Linux, and containerized environments,
+    with annotations for 14 MITRE ATT&amp;CK tactics, 161 techniques, and 2,919 manually
+    verified Indicators of Compromise (IOC) annotations across 22 log files spanning
+    11 telemetry types. Our observability analysis shows that no single source is
+    chain-complete: even the best single source recovers fewer than 40% of expected
+    attack steps. Fusing just two complementary sources improves reconstruction by
+    roughly 1.6\times, but gains depend on which sources are combined rather than
+    how many. We identify three systematic failure modes---missing-phase gaps, attribution
+    breaks, and ambiguity---and derive telemetry planning guidelines that do not require
+    prior knowledge of specific attacks. A preliminary sensitivity analysis confirms
+    that the multi-source advantage persists under reduced per-source sampling rates.
+    The corpus (approximately 0.59 million events) is released with ground truth and
+    artifacts to support reproducible evaluation of runtime SSC defenses.'
+- title: Evaluating and Preventing Security Smells in AI-Generated Ansible Code
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.24962
+  category: iac
+  subcategory: systems
+  authors:
+  - Pandu Ranga Reddy Konala
+  - Vimal Kumar
+  - David Bainbridge
+  - Junaid Haseeb
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: AI coding assistants generate Infrastructure as Code, yet no work has
+    examined whether this code meets security requirements. This matters because security
+    smells in infrastructure code propagate to deployed systems, producing infrastructure
+    that is insecure and untrustworthy. We evaluate 16 AI models generating Ansible
+    roles for Apache Tomcat v10 and MongoDB v7, analysing 278 Ansible roles against
+    CIS benchmarks. Without security guidance, all 16 AI models produced code containing
+    security smells, resulting in vulnerable infrastructure that fails compliance
+    verification and underperforms code written by human developers. We introduce
+    an approach integrating Ansible best practices and CIS benchmarks into prompts
+    through an extended CO-STAR framework, enabling security smell prevention during
+    synthesis rather than detection after deployment. When this approach is applied,
+    4 out of 16 models generate compliant code, with the leading model achieving 95%-100%
+    CIS compliance, a fourfold improvement over humans at 23%-43%, with overall code
+    quality improving by 19%-49%. The remaining 12 models fail not because they cannot
+    generate code but because they cannot follow instructions with multiple constraints.
+    For capable models, the approach requires no retraining and can be adopted through
+    system prompts.
+- title: A Contract-Centered Architecture for Scalable and Manageable Agentic Runtimes
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27086
+  category: platform
+  subcategory: architecture
+  authors:
+  - Yaxiao Liu
+  - Pengbo Liu
+  - Yiwen Liu
+  - Yihua Guan
+  - Zhenghe Hou
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Enterprise AI deployment is a coordination problem across business units,
+    application and AI teams, testing, platform engineering, infrastructure, security,
+    operations, and data governance. Use-case benchmarks show whether one agent completes
+    one task, but not how changing capabilities, models, runtime mechanisms, capacity,
+    and enterprise data should be owned, changed, admitted, or evidenced together.
+    We present four responsibility objects as shared organizational contracts: Skill
+    (reusable, versioned capability and workflow asset), Harness (runtime compiler
+    and governor), Scaffold (execution/control boundary and NFR owner), and a stack-external
+    data substrate under independent CIO-governed semantics and telemetry. The runtime
+    core is A = &lt;S, H, X&gt;, with the data substrate outside that stack. The central
+    contribution is one bounded, falsifiable hypothesis, P1 (cost-aware capability-capacity
+    separability): within a declared operating region, changing activated capability
+    preserves the capacity-response interaction within a preregistered equivalence
+    margin, while changing compatible Scaffold capacity preserves capability semantics
+    up to a non-inferiority margin, and the required controls stay within a declared
+    enforcement budget. Six design conditions become measured obligations whose coverage,
+    violations, uncertainty, cost, and exclusions determine whether P1 is decidable.
+    We propose a cluster-period randomized crossover experiment (balanced order, reset/washout,
+    repeated seeds and failure regimes, cluster-aware uncertainty) with a four-state
+    verdict: supported, falsified, conditional-engineering, or inconclusive. This
+    paper contributes a contract-bounded runtime architecture, a source-preserving
+    data substrate, and a falsifiable measurement protocol. It reports no completed
+    implementation, experiment, dataset, or measured result.'
+- title: Optimizing API Gateway Placement in Multi-Cloud Kubernetes
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26573
+  category: kubernetes-networking
+  subcategory: systems
+  authors:
+  - Vinoth Punniyamoorthy
+  - Murali Shankar Dulam
+  - Aswathnarayan Muthukrishnan Kirubakaran
+  - Akshay Deshpande
+  - Nachiappan Chockalingam
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: The use of API gateways within geographically distributed multi-cloud
+    Kubernetes clusters poses a tradeoff between infrastructure cost, computational
+    resources, and network latencies. We present an optimization formulation that
+    addresses API gateway placement as a capacitated facility location problem that
+    jointly determines which candidate clusters to activate, how many gateway replicas
+    to deploy, and how regional traffic should be distributed across the selected
+    clusters. The formulation imposes an upper bound on estimated client-to-cluster
+    network round-trip latency, excluding gateway processing, queuing, and backendservice
+    latency, and incorporates a utilization headroom factor for gateway replica capacity.
+    We present both a mixed-integer linear programming (MILP) formulation and a constructive
+    greedy heuristic that ranks candidates according to incremental cost, comprising
+    cluster-activation and marginal replica costs, per unit of assignable capacity
+    while explicitly accounting for already committed load. Both formulations are
+    applied to deterministic, seed-controlled, geography-based synthetic instances.
+    For each problem size, 30 instances are generated with random seeds to analyze
+    their performance. The greedy algorithm achieves an optimality gap of 3.2% to
+    4.7% to the MILP optimal solution, with a maximum observed gap of 25.0% for one
+    particular instance, and a speedup of approximately 660x to 3,490x for 3 to 12
+    candidate clusters. In a canonical 10-candidate, 10-demand region instance, MILP-optimal
+    deployment saves 24.2% in terms of monthly cost compared to the full-replication
+    baseline. On the other hand, selecting the single cheapest candidate yields savings
+    of 24.8% compared to the MILP optimum but does not satisfy the latency requirement
+    for 3 out of 10 demand regions.
+- title: 'APPA: Recoverable Information-Flow Control for Real-World LLM Agents'
+  date: 2026-07
+  url: https://arxiv.org/abs/2607.24625
+  category: container-security
+  subcategory: systems
+  authors:
+  - Arseny Kravchenko
+  - Vadim Liventsev
+  - Innokentii Konstantinov
+  - Ildar Iskhakov
+  - Matvey Kukuy
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'LLM agents deployed in practical workflows routinely mix private context,
+    untrusted tool and web outputs, and external side effects. While information-flow
+    control (IFC) provides structural defenses against prompt injection, data exfiltration,
+    and confused-deputy attacks, conventional IFC relies on monotone taint tracking
+    that either over-blocks benign operations or permanently strands downstream execution
+    once an agent ingests unvetted data. We present APPA (Agentic Permissions Policy
+    Algebra), which turns agent IFC from an abort-only barrier into a policy-governed
+    recovery system. APPA enforces a dual-phase reference monitor at tool dispatch
+    and protocol gateways (e.g., Model Context Protocol): before tool execution, it
+    prospectively evaluates composite label restrictions and workflow history; upon
+    completion, it validates realized outputs before context admission. For incremental
+    rollout across unannotated tools, APPA incorporates gradual security typing with
+    bounded cast resolution. To inspect untrusted data without poisoning primary agent
+    context, APPA introduces on-demand trajectory confinement: disposable child branches
+    absorb taint locally and exit through shape-bounded channels (attest-schema) with
+    exact parent-label and transcript preservation, avoiding permanently partitioned
+    multi-agent infrastructure. We prove core safety invariants: no-laundering gradual
+    resolution, branch boundary isolation, and recovery containment against prompt-injected
+    models. Across 6,600 controlled benchmark episodes spanning OWASP AgentThreatBench
+    and enterprise workflows (Bench-Corp), APPA sustains 64.2-91% utility with zero
+    observed attacks across 1,320 guarded episodes, establishing a practical defense
+    for deployed tool-using agents.'
+- title: 'AVPKEET: Exact-Request Authorization and Publicly Verifiable Equality Testing
+    over Encrypted Data'
+  date: 2026-06
+  url: https://arxiv.org/abs/2606.07319
+  category: container-security
+  subcategory: systems
+  authors:
+  - Xiuping Li
+  - Kaiwen Wang
+  - Xiaolin Chang
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: In cloud storage, cryptographic techniques are commonly used to support
+    secure search and matching while protecting users' data privacy. Public-key encryption
+    with equality test (PKEET), a widely studied primitive, allows an authorized computation
+    to determine whether two ciphertexts contain the same message without decrypting
+    either of them. Applying PKEET to outsourced sensitive data nevertheless creates
+    three practical risks. (1) Broad authorization may let a requester compare records
+    beyond the approved case; (2) an untrusted cloud may skip the computation or report
+    a false answer; (3) a cloud holding reusable testing material may silently compare
+    stored records without permission and learn hidden relationships among them. Existing
+    approaches do not jointly address these risks. We therefore propose AVPKEET with
+    exact-request authorization and public verification. Exact-request authorization
+    restricts each approval to one stored-ciphertext/query pair and one registered
+    requester, preventing the approval from being transferred to another context.
+    An untrusted cloud worker stores and forwards encrypted data, while a small isolated
+    controller validates the exact request and performs the test without releasing
+    its long-term secret. Every response includes a publicly checkable proof, so anyone
+    holding the request and response can verify the reported ``same'' or ``different''
+    answer without a verification secret. We establish correctness and formal security
+    within the stated threat model. Experiments show that every complete protocol
+    algorithm finishes within 9.1~ms at the 95th percentile on one CPU thread and
+    that a complete request--response transcript occupies 1,809 bytes, demonstrating
+    the practicality of the proposed scheme.
+- title: 'DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.26546
+  category: docker
+  subcategory: benchmark
+  authors:
+  - Zechun Niu
+  - Yukun Zhao
+  - Jiaxin Zhang
+  - Xu Shen
+  - Jinhua Si
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Autonomous agents are increasingly adopted to complete complex, multi-tool
+    workflows in real-world settings. However, existing benchmarks typically separate
+    tasks by application or capability and evaluate agents in environments that are
+    cleaner and more stable than those encountered in practice. We introduce DuMateBench,
+    a real-session benchmark reconstructed from anonymized and privacy-screened user
+    sessions collected from a large-scale production agent platform. Each task preserves
+    the relevant pre-solution interaction history, persistent configurations, and
+    workspace state, and is then validated through human verification. The resulting
+    benchmark comprises 200 tasks spanning 8 broad scenarios and 17 fine-grained capability
+    categories, with most tasks requiring multiple capability coordination. We execute
+    these tasks in isolated Docker containers injected with three forms of real-world
+    environmental complexity: Insufficient, Unstable, and Noisy, and assess performance
+    using a hybrid deterministic and LLM-as-Judge evaluation protocol. Experiments
+    across five representative autonomous-agent frameworks paired with four state-of-the-art
+    LLMs reveal substantial gaps in strict task completion. Complementary robustness,
+    efficiency, and diagnostic analyses further show that performance under environmental
+    perturbations is jointly shaped by the capabilities of the LLM and the surrounding
+    agent framework. The code and data are publicly available at https://dumatebench.com/.'
+- title: 'FuzzingBrain-Bench V1: Evaluating Open-Ended Bug Discovery by LLMs'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.25158
+  category: docker
+  subcategory: benchmark
+  authors:
+  - Ze Sheng
+  - Aleksandar Kezic
+  - Zhicheng Chen
+  - Jeff Huang
+  venue: ''
+  code_url: https://github.com/fuzzingbrain/FuzzingBrain-Bench
+  project_url: ''
+  abstract: Evaluating the ability of large language models (LLMs) to discover software
+    bugs is increasingly important. Existing benchmarks typically evaluate this capability
+    by asking the model to generate a proof-of-concept input that triggers a predefined
+    target vulnerability. However, this setup may overlook valid crashes discovered
+    by the model when they do not match the predefined target. As a result, the evaluation
+    may not reflect the model's real capability. We present FuzzingBrain-Bench, a
+    benchmark for assessing AI models' ability to discover bugs in open-source software.
+    Models are given an open-source project and a sanitizer-instrumented harness in
+    a self-contained Docker image. Their goal is to generate inputs that trigger as
+    many distinct crashes as possible through the harness. A model's performance on
+    each challenge is scored based on the number of distinct crash signatures it produces,
+    capped at a predefined maximum and weighted by a difficulty coefficient. FuzzingBrain-Bench
+    V1 consists of 77 challenges drawn from 43 open-source projects, with 36 C, 32
+    C++, and 9 Java/JVM challenges. We evaluate Claude Haiku 4.5, Claude Sonnet 4.6,
+    and Claude Opus 4.8 on the full benchmark. Claude Opus 4.8 performs best, triggering
+    crashes in 60 of 77 challenges and achieving a score of 196 out of 579. None of
+    the three models triggers a crash in 13 challenges. The FuzzingBrain-Bench corpus
+    and harnesses are publicly available at https://github.com/fuzzingbrain/FuzzingBrain-Bench.
