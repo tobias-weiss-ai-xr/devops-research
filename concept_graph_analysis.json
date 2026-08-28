@@ -1,81 +1,81 @@
 {
   "stats": {
     "nodes": 50,
-    "edges": 180,
+    "edges": 182,
     "components": 1,
     "communities": 1,
-    "modularity": -35.651
+    "modularity": -36.6749
   },
   "nodes": [
     {
       "id": 0,
       "term": "framework",
       "kind": "curated",
-      "df": 514,
+      "df": 520,
       "degree": 34,
-      "weighted_degree": 744,
+      "weighted_degree": 753,
       "degree_centrality": 0.6939,
-      "pagerank": 0.239854,
-      "betweenness": 247.7284,
+      "pagerank": 0.237312,
+      "betweenness": 245.7726,
       "clustering": 0.2531
     },
     {
       "id": 4,
       "term": "benchmark",
       "kind": "curated",
-      "df": 127,
+      "df": 131,
       "degree": 26,
-      "weighted_degree": 230,
+      "weighted_degree": 237,
       "degree_centrality": 0.5306,
-      "pagerank": 0.075423,
-      "betweenness": 84.1069,
+      "pagerank": 0.075663,
+      "betweenness": 83.2202,
       "clustering": 0.3723
     },
     {
-      "id": 6,
+      "id": 5,
       "term": "dataset",
       "kind": "curated",
-      "df": 116,
+      "df": 120,
       "degree": 26,
-      "weighted_degree": 223,
+      "weighted_degree": 230,
       "degree_centrality": 0.5306,
-      "pagerank": 0.07092,
-      "betweenness": 50.5737,
+      "pagerank": 0.071335,
+      "betweenness": 49.3893,
       "clustering": 0.4062
     },
     {
       "id": 1,
       "term": "Security",
       "kind": "taxonomy",
-      "df": 160,
+      "df": 163,
       "degree": 13,
-      "weighted_degree": 142,
+      "weighted_degree": 145,
       "degree_centrality": 0.2653,
-      "pagerank": 0.049379,
-      "betweenness": 53.4931,
-      "clustering": 0.5897
+      "pagerank": 0.048278,
+      "betweenness": 42.6866,
+      "clustering": 0.6026
     },
     {
-      "id": 12,
+      "id": 13,
       "term": "survey",
       "kind": "curated",
-      "df": 52,
-      "degree": 22,
-      "weighted_degree": 98,
-      "degree_centrality": 0.449,
-      "pagerank": 0.035311,
-      "betweenness": 34.533,
-      "clustering": 0.4372
+      "df": 53,
+      "degree": 23,
+      "weighted_degree": 102,
+      "degree_centrality": 0.4694,
+      "pagerank": 0.036505,
+      "betweenness": 47.2683,
+      "clustering": 0.4111
     },
     {
       "id": 2,
       "term": "Kubernetes",
       "kind": "taxonomy",
-      "df": 154,
+      "df": 156,
       "degree": 10,
-      "weighted_degree": 108,
+      "weighted_degree": 111,
       "degree_centrality": 0.2041,
-      "pagerank": 0.034847,
+      "pagerank": 0.034971,
       "betweenness": 1.7672,
       "clustering": 0.8
     },
@@ -83,12 +83,12 @@
       "id": 11,
       "term": "reproducibility",
       "kind": "curated",
-      "df": 55,
+      "df": 57,
       "degree": 20,
-      "weighted_degree": 104,
+      "weighted_degree": 109,
       "degree_centrality": 0.4082,
-      "pagerank": 0.034205,
-      "betweenness": 22.7954,
+      "pagerank": 0.034877,
+      "betweenness": 22.4885,
       "clustering": 0.4579
     },
     {
@@ -99,45 +99,45 @@
       "degree": 19,
       "weighted_degree": 99,
       "degree_centrality": 0.3878,
-      "pagerank": 0.032829,
-      "betweenness": 15.2268,
+      "pagerank": 0.032107,
+      "betweenness": 14.6401,
       "clustering": 0.5673
     },
     {
-      "id": 5,
+      "id": 6,
       "term": "Observability",
       "kind": "taxonomy",
-      "df": 116,
+      "df": 117,
       "degree": 9,
-      "weighted_degree": 93,
+      "weighted_degree": 94,
       "degree_centrality": 0.1837,
-      "pagerank": 0.02995,
+      "pagerank": 0.02958,
       "betweenness": 0.459,
       "clustering": 0.8611
-    },
-    {
-      "id": 8,
-      "term": "Containers",
-      "kind": "taxonomy",
-      "df": 92,
-      "degree": 7,
-      "weighted_degree": 84,
-      "degree_centrality": 0.1429,
-      "pagerank": 0.027237,
-      "betweenness": 0.0833,
-      "clustering": 0.9524
     },
     {
       "id": 9,
       "term": "CI/CD",
       "kind": "taxonomy",
-      "df": 89,
-      "degree": 10,
-      "weighted_degree": 82,
-      "degree_centrality": 0.2041,
-      "pagerank": 0.027102,
-      "betweenness": 0.7999,
-      "clustering": 0.8444
+      "df": 90,
+      "degree": 11,
+      "weighted_degree": 86,
+      "degree_centrality": 0.2245,
+      "pagerank": 0.028382,
+      "betweenness": 5.7577,
+      "clustering": 0.7273
+    },
+    {
+      "id": 8,
+      "term": "Containers",
+      "kind": "taxonomy",
+      "df": 96,
+      "degree": 7,
+      "weighted_degree": 90,
+      "degree_centrality": 0.1429,
+      "pagerank": 0.028311,
+      "betweenness": 0.0833,
+      "clustering": 0.9524
     },
     {
       "id": 17,
@@ -147,8 +147,8 @@
       "degree": 17,
       "weighted_degree": 76,
       "degree_centrality": 0.3469,
-      "pagerank": 0.027013,
-      "betweenness": 18.1709,
+      "pagerank": 0.026465,
+      "betweenness": 17.7538,
       "clustering": 0.5
     },
     {
@@ -159,7 +159,7 @@
       "degree": 8,
       "weighted_degree": 80,
       "degree_centrality": 0.1633,
-      "pagerank": 0.026316,
+      "pagerank": 0.025793,
       "betweenness": 0.1458,
       "clustering": 0.9286
     },
@@ -171,7 +171,7 @@
       "degree": 8,
       "weighted_degree": 75,
       "degree_centrality": 0.1633,
-      "pagerank": 0.024897,
+      "pagerank": 0.024445,
       "betweenness": 0.1394,
       "clustering": 0.9286
     },
@@ -183,7 +183,7 @@
       "degree": 9,
       "weighted_degree": 68,
       "degree_centrality": 0.1837,
-      "pagerank": 0.023051,
+      "pagerank": 0.022608,
       "betweenness": 0.6066,
       "clustering": 0.8333
     },
@@ -191,25 +191,37 @@
       "id": 18,
       "term": "case study",
       "kind": "curated",
-      "df": 38,
+      "df": 39,
       "degree": 17,
-      "weighted_degree": 66,
+      "weighted_degree": 67,
       "degree_centrality": 0.3469,
-      "pagerank": 0.022719,
-      "betweenness": 8.8227,
+      "pagerank": 0.022507,
+      "betweenness": 8.4816,
       "clustering": 0.6103
     },
     {
       "id": 23,
       "term": "qualitative",
       "kind": "curated",
-      "df": 22,
+      "df": 23,
       "degree": 15,
-      "weighted_degree": 57,
+      "weighted_degree": 60,
       "degree_centrality": 0.3061,
-      "pagerank": 0.021918,
-      "betweenness": 22.4959,
-      "clustering": 0.5905
+      "pagerank": 0.021814,
+      "betweenness": 11.892,
+      "clustering": 0.6095
+    },
+    {
+      "id": 20,
+      "term": "experiment",
+      "kind": "curated",
+      "df": 34,
+      "degree": 14,
+      "weighted_degree": 64,
+      "degree_centrality": 0.2857,
+      "pagerank": 0.021777,
+      "betweenness": 7.4457,
+      "clustering": 0.5934
     },
     {
       "id": 14,
@@ -219,31 +231,19 @@
       "degree": 9,
       "weighted_degree": 58,
       "degree_centrality": 0.1837,
-      "pagerank": 0.020306,
+      "pagerank": 0.019919,
       "betweenness": 0.5441,
       "clustering": 0.8611
     },
     {
-      "id": 20,
-      "term": "experiment",
-      "kind": "curated",
-      "df": 31,
-      "degree": 14,
-      "weighted_degree": 57,
-      "degree_centrality": 0.2857,
-      "pagerank": 0.020305,
-      "betweenness": 7.4133,
-      "clustering": 0.5934
-    },
-    {
-      "id": 13,
+      "id": 12,
       "term": "Docker",
       "kind": "taxonomy",
-      "df": 51,
+      "df": 53,
       "degree": 7,
-      "weighted_degree": 50,
+      "weighted_degree": 53,
       "degree_centrality": 0.1429,
-      "pagerank": 0.017985,
+      "pagerank": 0.018399,
       "betweenness": 0.2778,
       "clustering": 0.8571
     },
@@ -255,19 +255,19 @@
       "degree": 11,
       "weighted_degree": 35,
       "degree_centrality": 0.2245,
-      "pagerank": 0.014155,
-      "betweenness": 1.5518,
+      "pagerank": 0.013906,
+      "betweenness": 1.5336,
       "clustering": 0.8
     },
     {
       "id": 15,
       "term": "Container Security",
       "kind": "taxonomy",
-      "df": 46,
+      "df": 48,
       "degree": 6,
-      "weighted_degree": 35,
+      "weighted_degree": 36,
       "degree_centrality": 0.1224,
-      "pagerank": 0.013693,
+      "pagerank": 0.013721,
       "betweenness": 0.188,
       "clustering": 0.8667
     },
@@ -279,7 +279,7 @@
       "degree": 4,
       "weighted_degree": 27,
       "degree_centrality": 0.0816,
-      "pagerank": 0.011463,
+      "pagerank": 0.011304,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -291,7 +291,7 @@
       "degree": 5,
       "weighted_degree": 21,
       "degree_centrality": 0.102,
-      "pagerank": 0.010116,
+      "pagerank": 0.010028,
       "betweenness": 0.0769,
       "clustering": 0.9
     },
@@ -303,8 +303,8 @@
       "degree": 6,
       "weighted_degree": 15,
       "degree_centrality": 0.1224,
-      "pagerank": 0.010041,
-      "betweenness": 2.0,
+      "pagerank": 0.009959,
+      "betweenness": 2.2,
       "clustering": 0.7333
     },
     {
@@ -315,7 +315,7 @@
       "degree": 5,
       "weighted_degree": 20,
       "degree_centrality": 0.102,
-      "pagerank": 0.009499,
+      "pagerank": 0.009349,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -323,11 +323,11 @@
       "id": 27,
       "term": "IaC",
       "kind": "taxonomy",
-      "df": 17,
+      "df": 18,
       "degree": 3,
-      "weighted_degree": 15,
+      "weighted_degree": 16,
       "degree_centrality": 0.0612,
-      "pagerank": 0.008147,
+      "pagerank": 0.008314,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -335,11 +335,11 @@
       "id": 21,
       "term": "K8s Networking",
       "kind": "taxonomy",
-      "df": 24,
+      "df": 25,
       "degree": 4,
       "weighted_degree": 15,
       "degree_centrality": 0.0816,
-      "pagerank": 0.008129,
+      "pagerank": 0.00804,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -351,9 +351,21 @@
       "degree": 3,
       "weighted_degree": 13,
       "degree_centrality": 0.0612,
-      "pagerank": 0.007508,
+      "pagerank": 0.007424,
       "betweenness": 0.0,
       "clustering": 1.0
+    },
+    {
+      "id": 34,
+      "term": "interview",
+      "kind": "curated",
+      "df": 6,
+      "degree": 4,
+      "weighted_degree": 9,
+      "degree_centrality": 0.0816,
+      "pagerank": 0.00661,
+      "betweenness": 0.1818,
+      "clustering": 0.8333
     },
     {
       "id": 22,
@@ -363,7 +375,7 @@
       "degree": 3,
       "weighted_degree": 9,
       "degree_centrality": 0.0612,
-      "pagerank": 0.00646,
+      "pagerank": 0.00641,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -375,7 +387,7 @@
       "degree": 2,
       "weighted_degree": 4,
       "degree_centrality": 0.0408,
-      "pagerank": 0.005633,
+      "pagerank": 0.005612,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -387,21 +399,9 @@
       "degree": 1,
       "weighted_degree": 5,
       "degree_centrality": 0.0204,
-      "pagerank": 0.005318,
+      "pagerank": 0.005287,
       "betweenness": 0.0,
       "clustering": 0.0
-    },
-    {
-      "id": 35,
-      "term": "interview",
-      "kind": "curated",
-      "df": 5,
-      "degree": 2,
-      "weighted_degree": 4,
-      "degree_centrality": 0.0408,
-      "pagerank": 0.005192,
-      "betweenness": 0.0,
-      "clustering": 1.0
     },
     {
       "id": 31,
@@ -411,7 +411,7 @@
       "degree": 1,
       "weighted_degree": 3,
       "degree_centrality": 0.0204,
-      "pagerank": 0.004769,
+      "pagerank": 0.004751,
       "betweenness": 0.0,
       "clustering": 0.0
     },
@@ -423,7 +423,7 @@
       "degree": 1,
       "weighted_degree": 3,
       "degree_centrality": 0.0204,
-      "pagerank": 0.004769,
+      "pagerank": 0.004751,
       "betweenness": 0.0,
       "clustering": 0.0
     },
@@ -435,19 +435,19 @@
       "degree": 1,
       "weighted_degree": 2,
       "degree_centrality": 0.0204,
-      "pagerank": 0.004539,
+      "pagerank": 0.004513,
       "betweenness": 0.0,
       "clustering": 0.0
     },
     {
-      "id": 34,
+      "id": 36,
       "term": "Service Mesh",
       "kind": "taxonomy",
       "df": 5,
       "degree": 1,
       "weighted_degree": 2,
       "degree_centrality": 0.0204,
-      "pagerank": 0.004505,
+      "pagerank": 0.00449,
       "betweenness": 0.0,
       "clustering": 0.0
     },
@@ -459,15 +459,15 @@
       "degree": 1,
       "weighted_degree": 2,
       "degree_centrality": 0.0204,
-      "pagerank": 0.004495,
+      "pagerank": 0.004483,
       "betweenness": 0.0,
       "clustering": 0.0
     },
     {
-      "id": 36,
+      "id": 35,
       "term": "Platform",
       "kind": "taxonomy",
-      "df": 4,
+      "df": 5,
       "degree": 0,
       "weighted_degree": 0,
       "degree_centrality": 0.0,
@@ -663,18 +663,18 @@
     "reproducibility",
     "quantitative",
     "Observability",
-    "Containers"
+    "CI/CD"
   ],
   "bridge_nodes": [
     "framework",
     "benchmark",
-    "Security",
     "dataset",
     "survey",
+    "Security",
     "reproducibility",
-    "qualitative",
     "taxonomy",
     "quantitative",
+    "qualitative",
     "case study"
   ],
   "bridge_edges": [
@@ -718,37 +718,25 @@
       "source": "framework",
       "target": "research gap",
       "weight": 2,
-      "edge_betweenness": 34.0
+      "edge_betweenness": 33.8
     },
     {
       "source": "framework",
       "target": "Security",
-      "weight": 62,
-      "edge_betweenness": 23.3202
-    },
-    {
-      "source": "qualitative",
-      "target": "interview",
-      "weight": 2,
-      "edge_betweenness": 18.5857
-    },
-    {
-      "source": "Security",
-      "target": "interview",
-      "weight": 2,
-      "edge_betweenness": 18.4143
+      "weight": 63,
+      "edge_betweenness": 20.5544
     },
     {
       "source": "framework",
       "target": "IaC",
-      "weight": 6,
+      "weight": 7,
       "edge_betweenness": 18.4
     },
     {
       "source": "framework",
       "target": "S3",
       "weight": 2,
-      "edge_betweenness": 17.6667
+      "edge_betweenness": 17.3333
     },
     {
       "source": "framework",
@@ -757,16 +745,28 @@
       "edge_betweenness": 16.8333
     },
     {
+      "source": "survey",
+      "target": "interview",
+      "weight": 2,
+      "edge_betweenness": 15.4344
+    },
+    {
       "source": "framework",
       "target": "systematic review",
       "weight": 4,
-      "edge_betweenness": 15.3857
+      "edge_betweenness": 15.1
     },
     {
       "source": "framework",
       "target": "Multi-Cluster",
       "weight": 20,
-      "edge_betweenness": 14.869
+      "edge_betweenness": 14.5833
+    },
+    {
+      "source": "framework",
+      "target": "Container Images",
+      "weight": 5,
+      "edge_betweenness": 14.0222
     }
   ]
 }

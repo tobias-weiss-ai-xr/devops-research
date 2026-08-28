@@ -4,19 +4,19 @@
       "id": 0,
       "term": "framework",
       "kind": "curated",
-      "df": 514
+      "df": 520
     },
     {
       "id": 1,
       "term": "Security",
       "kind": "taxonomy",
-      "df": 160
+      "df": 163
     },
     {
       "id": 2,
       "term": "Kubernetes",
       "kind": "taxonomy",
-      "df": 154
+      "df": 156
     },
     {
       "id": 3,
@@ -28,19 +28,19 @@
       "id": 4,
       "term": "benchmark",
       "kind": "curated",
-      "df": 127
+      "df": 131
     },
     {
       "id": 5,
-      "term": "Observability",
-      "kind": "taxonomy",
-      "df": 116
+      "term": "dataset",
+      "kind": "curated",
+      "df": 120
     },
     {
       "id": 6,
-      "term": "dataset",
-      "kind": "curated",
-      "df": 116
+      "term": "Observability",
+      "kind": "taxonomy",
+      "df": 117
     },
     {
       "id": 7,
@@ -52,13 +52,13 @@
       "id": 8,
       "term": "Containers",
       "kind": "taxonomy",
-      "df": 92
+      "df": 96
     },
     {
       "id": 9,
       "term": "CI/CD",
       "kind": "taxonomy",
-      "df": 89
+      "df": 90
     },
     {
       "id": 10,
@@ -70,19 +70,19 @@
       "id": 11,
       "term": "reproducibility",
       "kind": "curated",
-      "df": 55
+      "df": 57
     },
     {
       "id": 12,
-      "term": "survey",
-      "kind": "curated",
-      "df": 52
+      "term": "Docker",
+      "kind": "taxonomy",
+      "df": 53
     },
     {
       "id": 13,
-      "term": "Docker",
-      "kind": "taxonomy",
-      "df": 51
+      "term": "survey",
+      "kind": "curated",
+      "df": 53
     },
     {
       "id": 14,
@@ -94,7 +94,7 @@
       "id": 15,
       "term": "Container Security",
       "kind": "taxonomy",
-      "df": 46
+      "df": 48
     },
     {
       "id": 16,
@@ -112,7 +112,7 @@
       "id": 18,
       "term": "case study",
       "kind": "curated",
-      "df": 38
+      "df": 39
     },
     {
       "id": 19,
@@ -124,13 +124,13 @@
       "id": 20,
       "term": "experiment",
       "kind": "curated",
-      "df": 31
+      "df": 34
     },
     {
       "id": 21,
       "term": "K8s Networking",
       "kind": "taxonomy",
-      "df": 24
+      "df": 25
     },
     {
       "id": 22,
@@ -142,7 +142,7 @@
       "id": 23,
       "term": "qualitative",
       "kind": "curated",
-      "df": 22
+      "df": 23
     },
     {
       "id": 24,
@@ -166,7 +166,7 @@
       "id": 27,
       "term": "IaC",
       "kind": "taxonomy",
-      "df": 17
+      "df": 18
     },
     {
       "id": 28,
@@ -206,21 +206,21 @@
     },
     {
       "id": 34,
-      "term": "Service Mesh",
-      "kind": "taxonomy",
-      "df": 5
+      "term": "interview",
+      "kind": "curated",
+      "df": 6
     },
     {
       "id": 35,
-      "term": "interview",
-      "kind": "curated",
+      "term": "Platform",
+      "kind": "taxonomy",
       "df": 5
     },
     {
       "id": 36,
-      "term": "Platform",
+      "term": "Service Mesh",
       "kind": "taxonomy",
-      "df": 4
+      "df": 5
     },
     {
       "id": 37,
@@ -305,7 +305,7 @@
     {
       "source": 0,
       "target": 1,
-      "weight": 62
+      "weight": 63
     },
     {
       "source": 0,
@@ -370,7 +370,7 @@
     {
       "source": 0,
       "target": 4,
-      "weight": 53
+      "weight": 54
     },
     {
       "source": 1,
@@ -380,7 +380,7 @@
     {
       "source": 0,
       "target": 20,
-      "weight": 15
+      "weight": 16
     },
     {
       "source": 1,
@@ -454,11 +454,11 @@
     },
     {
       "source": 0,
-      "target": 6,
+      "target": 5,
       "weight": 50
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 14,
       "weight": 9
     },
@@ -480,7 +480,7 @@
     {
       "source": 0,
       "target": 11,
-      "weight": 24
+      "weight": 25
     },
     {
       "source": 11,
@@ -490,7 +490,7 @@
     {
       "source": 0,
       "target": 8,
-      "weight": 42
+      "weight": 44
     },
     {
       "source": 8,
@@ -525,7 +525,7 @@
     {
       "source": 9,
       "target": 23,
-      "weight": 4
+      "weight": 5
     },
     {
       "source": 9,
@@ -534,11 +534,11 @@
     },
     {
       "source": 0,
-      "target": 5,
+      "target": 6,
       "weight": 55
     },
     {
-      "source": 5,
+      "source": 6,
       "target": 17,
       "weight": 5
     },
@@ -553,7 +553,7 @@
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 10,
       "weight": 5
     },
@@ -573,9 +573,9 @@
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 11,
-      "weight": 11
+      "weight": 12
     },
     {
       "source": 10,
@@ -589,18 +589,18 @@
     },
     {
       "source": 0,
-      "target": 12,
+      "target": 13,
       "weight": 14
     },
     {
       "source": 10,
-      "target": 12,
+      "target": 13,
       "weight": 3
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 23,
-      "weight": 2
+      "weight": 3
     },
     {
       "source": 0,
@@ -619,7 +619,7 @@
     },
     {
       "source": 3,
-      "target": 12,
+      "target": 13,
       "weight": 5
     },
     {
@@ -634,7 +634,7 @@
     },
     {
       "source": 3,
-      "target": 6,
+      "target": 5,
       "weight": 14
     },
     {
@@ -669,8 +669,8 @@
     },
     {
       "source": 4,
-      "target": 6,
-      "weight": 19
+      "target": 5,
+      "weight": 20
     },
     {
       "source": 4,
@@ -679,22 +679,22 @@
     },
     {
       "source": 4,
-      "target": 12,
+      "target": 13,
       "weight": 4
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 7,
       "weight": 11
     },
     {
-      "source": 6,
-      "target": 12,
+      "source": 5,
+      "target": 13,
       "weight": 4
     },
     {
       "source": 7,
-      "target": 12,
+      "target": 13,
       "weight": 7
     },
     {
@@ -703,7 +703,7 @@
       "weight": 3
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 17,
       "weight": 9
     },
@@ -713,28 +713,28 @@
       "weight": 4
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 16,
       "weight": 7
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 23,
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 26,
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 28,
       "weight": 2
     },
     {
       "source": 11,
-      "target": 12,
+      "target": 13,
       "weight": 2
     },
     {
@@ -743,17 +743,17 @@
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 16,
       "weight": 4
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 26,
       "weight": 4
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 28,
       "weight": 11
     },
@@ -763,19 +763,19 @@
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 20,
       "weight": 2
     },
     {
       "source": 0,
       "target": 2,
-      "weight": 63
+      "weight": 64
     },
     {
       "source": 2,
       "target": 11,
-      "weight": 6
+      "weight": 7
     },
     {
       "source": 2,
@@ -799,7 +799,7 @@
     },
     {
       "source": 2,
-      "target": 12,
+      "target": 13,
       "weight": 3
     },
     {
@@ -808,7 +808,7 @@
       "weight": 3
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 33,
       "weight": 2
     },
@@ -824,23 +824,23 @@
     },
     {
       "source": 2,
-      "target": 6,
+      "target": 5,
       "weight": 9
     },
     {
       "source": 2,
       "target": 20,
-      "weight": 4
+      "weight": 5
     },
     {
       "source": 4,
       "target": 20,
-      "weight": 6
+      "weight": 7
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 20,
-      "weight": 7
+      "weight": 9
     },
     {
       "source": 0,
@@ -863,7 +863,7 @@
       "weight": 3
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 21,
       "weight": 2
     },
@@ -888,7 +888,7 @@
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 19,
       "weight": 3
     },
@@ -899,31 +899,31 @@
     },
     {
       "source": 0,
-      "target": 13,
-      "weight": 14
+      "target": 12,
+      "weight": 15
     },
     {
       "source": 4,
-      "target": 13,
-      "weight": 16
+      "target": 12,
+      "weight": 18
     },
     {
-      "source": 13,
+      "source": 12,
       "target": 16,
       "weight": 2
     },
     {
       "source": 11,
-      "target": 13,
+      "target": 12,
       "weight": 4
     },
     {
-      "source": 6,
-      "target": 13,
+      "source": 5,
+      "target": 12,
       "weight": 7
     },
     {
-      "source": 13,
+      "source": 12,
       "target": 20,
       "weight": 5
     },
@@ -933,7 +933,7 @@
       "weight": 5
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 25,
       "weight": 6
     },
@@ -945,7 +945,7 @@
     {
       "source": 4,
       "target": 15,
-      "weight": 8
+      "weight": 9
     },
     {
       "source": 15,
@@ -953,34 +953,34 @@
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 15,
       "weight": 2
     },
     {
       "source": 4,
-      "target": 34,
+      "target": 36,
       "weight": 2
     },
     {
       "source": 1,
-      "target": 12,
+      "target": 13,
       "weight": 9
     },
     {
       "source": 1,
-      "target": 6,
-      "weight": 13
+      "target": 5,
+      "weight": 14
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 17,
       "weight": 3
     },
     {
       "source": 1,
       "target": 11,
-      "weight": 6
+      "weight": 7
     },
     {
       "source": 4,
@@ -988,7 +988,7 @@
       "weight": 3
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 18,
       "weight": 6
     },
@@ -1005,22 +1005,22 @@
     {
       "source": 4,
       "target": 8,
-      "weight": 18
+      "weight": 19
     },
     {
       "source": 8,
       "target": 20,
-      "weight": 2
+      "weight": 3
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 8,
-      "weight": 7
+      "weight": 8
     },
     {
       "source": 8,
       "target": 18,
-      "weight": 5
+      "weight": 6
     },
     {
       "source": 11,
@@ -1033,44 +1033,44 @@
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 9,
       "weight": 8
     },
     {
       "source": 4,
-      "target": 5,
+      "target": 6,
       "weight": 11
     },
     {
       "source": 5,
       "target": 6,
-      "weight": 9
+      "weight": 10
     },
     {
-      "source": 5,
+      "source": 6,
       "target": 16,
       "weight": 3
     },
     {
-      "source": 5,
+      "source": 6,
       "target": 20,
       "weight": 2
     },
     {
-      "source": 5,
+      "source": 6,
       "target": 18,
       "weight": 3
     },
     {
-      "source": 5,
+      "source": 6,
       "target": 23,
       "weight": 3
     },
     {
       "source": 0,
       "target": 27,
-      "weight": 6
+      "weight": 7
     },
     {
       "source": 17,
@@ -1090,7 +1090,7 @@
     {
       "source": 11,
       "target": 20,
-      "weight": 3
+      "weight": 4
     },
     {
       "source": 11,
@@ -1114,13 +1114,13 @@
     },
     {
       "source": 1,
-      "target": 35,
+      "target": 34,
       "weight": 2
     },
     {
       "source": 23,
-      "target": 35,
-      "weight": 2
+      "target": 34,
+      "weight": 3
     },
     {
       "source": 17,
@@ -1143,7 +1143,7 @@
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 21,
       "weight": 2
     },
@@ -1153,24 +1153,24 @@
       "weight": 2
     },
     {
-      "source": 13,
+      "source": 12,
       "target": 23,
       "weight": 2
     },
     {
-      "source": 6,
+      "source": 5,
       "target": 22,
       "weight": 5
     },
     {
       "source": 5,
-      "target": 12,
-      "weight": 2
+      "target": 24,
+      "weight": 3
     },
     {
       "source": 6,
-      "target": 24,
-      "weight": 3
+      "target": 13,
+      "weight": 2
     },
     {
       "source": 18,
@@ -1184,11 +1184,21 @@
     },
     {
       "source": 9,
-      "target": 12,
+      "target": 13,
+      "weight": 3
+    },
+    {
+      "source": 9,
+      "target": 34,
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
+      "target": 34,
+      "weight": 2
+    },
+    {
+      "source": 13,
       "target": 14,
       "weight": 2
     },
@@ -1198,14 +1208,14 @@
       "weight": 2
     },
     {
-      "source": 12,
+      "source": 13,
       "target": 22,
       "weight": 2
     }
   ],
   "stats": {
     "concepts": 50,
-    "edges": 180,
-    "papers": 1305
+    "edges": 182,
+    "papers": 1323
   }
 }

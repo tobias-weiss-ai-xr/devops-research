@@ -1,33 +1,33 @@
 # Concept Graph Analysis
 
-**Generated:** 50 nodes, 180 edges, 1 components, 1 communities (modularity -35.651). Edges = co-occurrence.
+**Generated:** 50 nodes, 182 edges, 1 components, 1 communities (modularity -36.675). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2399, degree 34, df 514
-- **benchmark** — PR 0.0754, degree 26, df 127
-- **dataset** — PR 0.0709, degree 26, df 116
-- **Security** — PR 0.0494, degree 13, df 160
-- **survey** — PR 0.0353, degree 22, df 52
-- **Kubernetes** — PR 0.0348, degree 10, df 154
-- **reproducibility** — PR 0.0342, degree 20, df 55
-- **quantitative** — PR 0.0328, degree 19, df 45
-- **Observability** — PR 0.0300, degree 9, df 116
-- **Containers** — PR 0.0272, degree 7, df 92
-- **CI/CD** — PR 0.0271, degree 10, df 89
-- **taxonomy** — PR 0.0270, degree 17, df 43
+- **framework** — PR 0.2373, degree 34, df 520
+- **benchmark** — PR 0.0757, degree 26, df 131
+- **dataset** — PR 0.0713, degree 26, df 120
+- **Security** — PR 0.0483, degree 13, df 163
+- **survey** — PR 0.0365, degree 23, df 53
+- **Kubernetes** — PR 0.0350, degree 10, df 156
+- **reproducibility** — PR 0.0349, degree 20, df 57
+- **quantitative** — PR 0.0321, degree 19, df 45
+- **Observability** — PR 0.0296, degree 9, df 117
+- **CI/CD** — PR 0.0284, degree 11, df 90
+- **Containers** — PR 0.0283, degree 7, df 96
+- **taxonomy** — PR 0.0265, degree 17, df 43
 
 ## Bridge nodes (high betweenness — connect clusters)
 
 - framework
 - benchmark
-- Security
 - dataset
 - survey
+- Security
 - reproducibility
-- qualitative
 - taxonomy
 - quantitative
+- qualitative
 - case study
 
 ## Bridge edges (high edge-betweenness)
@@ -38,10 +38,10 @@
 - framework ↔ Helm (weight 3, EB 37.0)
 - framework ↔ K8s Security (weight 3, EB 37.0)
 - framework ↔ Storage (weight 2, EB 37.0)
-- framework ↔ research gap (weight 2, EB 34.0)
-- framework ↔ Security (weight 62, EB 23.3202)
-- qualitative ↔ interview (weight 2, EB 18.5857)
-- Security ↔ interview (weight 2, EB 18.4143)
+- framework ↔ research gap (weight 2, EB 33.8)
+- framework ↔ Security (weight 63, EB 20.5544)
+- framework ↔ IaC (weight 7, EB 18.4)
+- framework ↔ S3 (weight 2, EB 17.3333)
 
 ## Communities (clusters of related concepts)
 
