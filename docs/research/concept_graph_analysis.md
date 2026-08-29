@@ -1,51 +1,51 @@
 # Concept Graph Analysis
 
-**Generated:** 50 nodes, 182 edges, 1 components, 1 communities (modularity -36.675). Edges = co-occurrence.
+**Generated:** 50 nodes, 259 edges, 1 components, 1 communities (modularity -102.193). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2373, degree 34, df 520
-- **benchmark** — PR 0.0757, degree 26, df 131
-- **dataset** — PR 0.0713, degree 26, df 120
-- **Security** — PR 0.0483, degree 13, df 163
-- **survey** — PR 0.0365, degree 23, df 53
-- **Kubernetes** — PR 0.0350, degree 10, df 156
-- **reproducibility** — PR 0.0349, degree 20, df 57
-- **quantitative** — PR 0.0321, degree 19, df 45
-- **Observability** — PR 0.0296, degree 9, df 117
-- **CI/CD** — PR 0.0284, degree 11, df 90
-- **Containers** — PR 0.0283, degree 7, df 96
-- **taxonomy** — PR 0.0265, degree 17, df 43
+- **framework** — PR 0.2357, degree 39, df 1176
+- **dataset** — PR 0.0563, degree 30, df 200
+- **benchmark** — PR 0.0493, degree 29, df 174
+- **Security** — PR 0.0402, degree 15, df 351
+- **CI/CD** — PR 0.0381, degree 14, df 361
+- **quantitative** — PR 0.0377, degree 25, df 122
+- **reproducibility** — PR 0.0361, degree 30, df 118
+- **Storage** — PR 0.0361, degree 14, df 425
+- **Policy & Code** — PR 0.0350, degree 16, df 248
+- **survey** — PR 0.0321, degree 28, df 103
+- **case study** — PR 0.0312, degree 23, df 118
+- **IaC** — PR 0.0307, degree 10, df 347
 
 ## Bridge nodes (high betweenness — connect clusters)
 
 - framework
 - benchmark
 - dataset
-- survey
-- Security
 - reproducibility
-- taxonomy
-- quantitative
+- Security
+- Policy & Code
+- survey
 - qualitative
-- case study
+- quantitative
+- taxonomy
 
 ## Bridge edges (high edge-betweenness)
 
-- benchmark ↔ Service Mesh (weight 2, EB 37.0)
-- Security ↔ grounded theory (weight 2, EB 37.0)
-- framework ↔ Serverless (weight 5, EB 37.0)
-- framework ↔ Helm (weight 3, EB 37.0)
-- framework ↔ K8s Security (weight 3, EB 37.0)
-- framework ↔ Storage (weight 2, EB 37.0)
-- framework ↔ research gap (weight 2, EB 33.8)
-- framework ↔ Security (weight 63, EB 20.5544)
-- framework ↔ IaC (weight 7, EB 18.4)
-- framework ↔ S3 (weight 2, EB 17.3333)
+- Policy & Code ↔ triangulation (weight 2, EB 42.0)
+- benchmark ↔ Service Mesh (weight 2, EB 42.0)
+- Security ↔ grounded theory (weight 2, EB 42.0)
+- framework ↔ Serverless (weight 5, EB 42.0)
+- framework ↔ Helm (weight 3, EB 42.0)
+- framework ↔ K8s Security (weight 3, EB 42.0)
+- framework ↔ research gap (weight 4, EB 28.5)
+- framework ↔ mixed methods (weight 2, EB 23.75)
+- framework ↔ K8s Scheduling (weight 8, EB 19.6667)
+- framework ↔ open access (weight 4, EB 18.5167)
 
 ## Communities (clusters of related concepts)
 
-### Cluster 1 (38 concepts)
+### Cluster 1 (43 concepts)
 
 AI Security, CI/CD, Container Images, Container Security, Containers, Distributed Storage, Docker, Helm, IaC, K8s Networking, K8s Scheduling, K8s Security
 

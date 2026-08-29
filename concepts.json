@@ -5,26 +5,62 @@
       "term": "framework",
       "kind": "curated",
       "seed": true,
-      "df": 520,
+      "df": 1176,
       "match": {
         "type": "text",
         "forms": [
           "framework"
         ]
       },
-      "papers": 520,
+      "papers": 1176,
       "top_cells": [
-        "kubernetes/systems",
-        "observability/systems",
+        "storage/systems",
         "security/systems",
+        "observability/systems",
         "containers/systems"
       ]
+    },
+    {
+      "term": "Storage",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 425,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "storage"
+      },
+      "top_cells": [
+        "storage/systems",
+        "storage/architecture",
+        "storage/development",
+        "storage/benchmark"
+      ],
+      "papers": 425
+    },
+    {
+      "term": "CI/CD",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 361,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "cicd"
+      },
+      "top_cells": [
+        "cicd/systems",
+        "cicd/development",
+        "cicd/architecture",
+        "cicd/benchmark"
+      ],
+      "papers": 361
     },
     {
       "term": "Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 163,
+      "df": 351,
       "match": {
         "type": "field",
         "field": "category",
@@ -36,7 +72,132 @@
         "security/development",
         "security/application"
       ],
-      "papers": 163
+      "papers": 351
+    },
+    {
+      "term": "IaC",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 347,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "iac"
+      },
+      "top_cells": [
+        "iac/systems",
+        "iac/architecture",
+        "iac/development",
+        "iac/application"
+      ],
+      "papers": 347
+    },
+    {
+      "term": "Policy & Code",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 248,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "policycode"
+      },
+      "top_cells": [
+        "policycode/systems",
+        "policycode/architecture",
+        "policycode/development",
+        "policycode/benchmark"
+      ],
+      "papers": 248
+    },
+    {
+      "term": "Platform",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 239,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "platform"
+      },
+      "top_cells": [
+        "platform/architecture",
+        "platform/systems",
+        "platform/development"
+      ],
+      "papers": 239
+    },
+    {
+      "term": "Containers",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 236,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "containers"
+      },
+      "top_cells": [
+        "containers/systems",
+        "containers/architecture",
+        "containers/application",
+        "containers/benchmark"
+      ],
+      "papers": 236
+    },
+    {
+      "term": "dataset",
+      "kind": "curated",
+      "seed": true,
+      "df": 200,
+      "match": {
+        "type": "text",
+        "forms": [
+          "dataset"
+        ]
+      },
+      "papers": 200,
+      "top_cells": [
+        "storage/systems",
+        "security/systems",
+        "ai-security/architecture",
+        "object-storage/systems"
+      ]
+    },
+    {
+      "term": "Observability",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 177,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "observability"
+      },
+      "top_cells": [
+        "observability/systems",
+        "observability/architecture"
+      ],
+      "papers": 177
+    },
+    {
+      "term": "benchmark",
+      "kind": "curated",
+      "seed": true,
+      "df": 174,
+      "match": {
+        "type": "text",
+        "forms": [
+          "benchmark"
+        ]
+      },
+      "papers": 174,
+      "top_cells": [
+        "containers/systems",
+        "observability/systems",
+        "iac/systems",
+        "security/systems"
+      ]
     },
     {
       "term": "Kubernetes",
@@ -74,57 +235,79 @@
       "papers": 147
     },
     {
-      "term": "benchmark",
-      "kind": "curated",
-      "seed": true,
-      "df": 131,
-      "match": {
-        "type": "text",
-        "forms": [
-          "benchmark"
-        ]
-      },
-      "papers": 131,
-      "top_cells": [
-        "containers/systems",
-        "security/systems",
-        "observability/systems",
-        "kubernetes/systems"
-      ]
-    },
-    {
-      "term": "dataset",
-      "kind": "curated",
-      "seed": true,
-      "df": 120,
-      "match": {
-        "type": "text",
-        "forms": [
-          "dataset"
-        ]
-      },
-      "papers": 120,
-      "top_cells": [
-        "security/systems",
-        "object-storage/systems",
-        "distributed-storage/systems",
-        "observability/systems"
-      ]
-    },
-    {
-      "term": "Observability",
+      "term": "AI Security",
       "kind": "taxonomy",
       "seed": true,
-      "df": 117,
+      "df": 127,
       "match": {
         "type": "field",
         "field": "category",
-        "value": "observability"
+        "value": "ai-security"
       },
       "top_cells": [
-        "observability/systems"
+        "ai-security/systems",
+        "ai-security/architecture",
+        "ai-security/development",
+        "ai-security/application"
       ],
-      "papers": 117
+      "papers": 127
+    },
+    {
+      "term": "quantitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 122,
+      "match": {
+        "type": "text",
+        "forms": [
+          "quantitative"
+        ]
+      },
+      "papers": 122,
+      "top_cells": [
+        "storage/systems",
+        "cicd/architecture",
+        "iac/systems",
+        "platform/architecture"
+      ]
+    },
+    {
+      "term": "case study",
+      "kind": "curated",
+      "seed": true,
+      "df": 118,
+      "match": {
+        "type": "text",
+        "forms": [
+          "case study"
+        ]
+      },
+      "papers": 118,
+      "top_cells": [
+        "cicd/architecture",
+        "iac/systems",
+        "containers/systems",
+        "security/systems"
+      ]
+    },
+    {
+      "term": "reproducibility",
+      "kind": "curated",
+      "seed": true,
+      "df": 118,
+      "match": {
+        "type": "text",
+        "forms": [
+          "reproducibility"
+        ]
+      },
+      "papers": 118,
+      "top_cells": [
+        "storage/systems",
+        "containers/systems",
+        "iac/architecture",
+        "security/systems"
+      ]
     },
     {
       "term": "Distributed Storage",
@@ -144,72 +327,115 @@
       "papers": 115
     },
     {
-      "term": "Containers",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 96,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "containers"
-      },
-      "top_cells": [
-        "containers/systems"
-      ],
-      "papers": 96
-    },
-    {
-      "term": "CI/CD",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 90,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "cicd"
-      },
-      "top_cells": [
-        "cicd/development",
-        "cicd/systems",
-        "cicd/architecture"
-      ],
-      "papers": 90
-    },
-    {
-      "term": "Policy & Code",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 78,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "policycode"
-      },
-      "top_cells": [
-        "policycode/systems",
-        "policycode/architecture",
-        "policycode/development",
-        "policycode/application"
-      ],
-      "papers": 78
-    },
-    {
-      "term": "reproducibility",
+      "term": "survey",
       "kind": "curated",
       "seed": true,
-      "df": 57,
+      "df": 103,
       "match": {
         "type": "text",
         "forms": [
-          "reproducibility"
+          "survey"
         ]
       },
-      "papers": 57,
+      "papers": 103,
+      "top_cells": [
+        "software-defined-storage/systems",
+        "security/systems",
+        "policycode/architecture",
+        "storage/systems"
+      ]
+    },
+    {
+      "term": "S3",
+      "kind": "taxonomy",
+      "seed": true,
+      "df": 87,
+      "match": {
+        "type": "field",
+        "field": "category",
+        "value": "s3"
+      },
+      "top_cells": [
+        "s3/systems",
+        "s3/architecture",
+        "s3/application"
+      ],
+      "papers": 87
+    },
+    {
+      "term": "taxonomy",
+      "kind": "curated",
+      "seed": true,
+      "df": 78,
+      "match": {
+        "type": "text",
+        "forms": [
+          "taxonomy"
+        ]
+      },
+      "papers": 78,
       "top_cells": [
         "security/systems",
+        "iac/architecture",
+        "observability/systems",
+        "iac/systems"
+      ]
+    },
+    {
+      "term": "experiment",
+      "kind": "curated",
+      "seed": true,
+      "df": 72,
+      "match": {
+        "type": "text",
+        "forms": [
+          "experiment"
+        ]
+      },
+      "papers": 72,
+      "top_cells": [
+        "storage/systems",
         "containers/systems",
-        "kubernetes/systems",
+        "observability/systems",
+        "kubernetes/systems"
+      ]
+    },
+    {
+      "term": "qualitative",
+      "kind": "curated",
+      "seed": true,
+      "df": 71,
+      "match": {
+        "type": "text",
+        "forms": [
+          "qualitative"
+        ]
+      },
+      "papers": 71,
+      "top_cells": [
+        "platform/architecture",
+        "policycode/architecture",
+        "cicd/architecture",
         "cicd/development"
+      ]
+    },
+    {
+      "term": "literature review",
+      "kind": "curated",
+      "seed": true,
+      "df": 64,
+      "match": {
+        "type": "text",
+        "forms": [
+          "literature review"
+        ]
+      },
+      "papers": 64,
+      "top_cells": [
+        "platform/architecture",
+        "storage/systems",
+        "cicd/architecture",
+        "security/systems"
       ]
     },
     {
@@ -229,43 +455,6 @@
       "papers": 53
     },
     {
-      "term": "survey",
-      "kind": "curated",
-      "seed": true,
-      "df": 53,
-      "match": {
-        "type": "text",
-        "forms": [
-          "survey"
-        ]
-      },
-      "papers": 53,
-      "top_cells": [
-        "software-defined-storage/systems",
-        "security/systems",
-        "distributed-storage/systems",
-        "object-storage/systems"
-      ]
-    },
-    {
-      "term": "AI Security",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 48,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "ai-security"
-      },
-      "top_cells": [
-        "ai-security/architecture",
-        "ai-security/systems",
-        "ai-security/application",
-        "ai-security/development"
-      ],
-      "papers": 48
-    },
-    {
       "term": "Container Security",
       "kind": "taxonomy",
       "seed": true,
@@ -279,63 +468,6 @@
         "container-security/systems"
       ],
       "papers": 48
-    },
-    {
-      "term": "quantitative",
-      "kind": "curated",
-      "seed": true,
-      "df": 45,
-      "match": {
-        "type": "text",
-        "forms": [
-          "quantitative"
-        ]
-      },
-      "papers": 45,
-      "top_cells": [
-        "object-storage/systems",
-        "kubernetes/systems",
-        "security/systems",
-        "cicd/architecture"
-      ]
-    },
-    {
-      "term": "taxonomy",
-      "kind": "curated",
-      "seed": true,
-      "df": 43,
-      "match": {
-        "type": "text",
-        "forms": [
-          "taxonomy"
-        ]
-      },
-      "papers": 43,
-      "top_cells": [
-        "security/systems",
-        "observability/systems",
-        "distributed-storage/systems",
-        "ai-security/systems"
-      ]
-    },
-    {
-      "term": "case study",
-      "kind": "curated",
-      "seed": true,
-      "df": 39,
-      "match": {
-        "type": "text",
-        "forms": [
-          "case study"
-        ]
-      },
-      "papers": 39,
-      "top_cells": [
-        "object-storage/systems",
-        "containers/systems",
-        "security/systems",
-        "cicd/development"
-      ]
     },
     {
       "term": "Multi-Cluster",
@@ -353,22 +485,22 @@
       "papers": 34
     },
     {
-      "term": "experiment",
+      "term": "systematic review",
       "kind": "curated",
       "seed": true,
-      "df": 34,
+      "df": 28,
       "match": {
         "type": "text",
         "forms": [
-          "experiment"
+          "systematic review"
         ]
       },
-      "papers": 34,
+      "papers": 28,
       "top_cells": [
+        "platform/architecture",
+        "policycode/architecture",
         "kubernetes/systems",
-        "docker/systems",
-        "containers/systems",
-        "security/systems"
+        "cicd/architecture"
       ]
     },
     {
@@ -385,40 +517,6 @@
         "kubernetes-networking/systems"
       ],
       "papers": 25
-    },
-    {
-      "term": "S3",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 23,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "s3"
-      },
-      "top_cells": [
-        "s3/systems"
-      ],
-      "papers": 23
-    },
-    {
-      "term": "qualitative",
-      "kind": "curated",
-      "seed": true,
-      "df": 23,
-      "match": {
-        "type": "text",
-        "forms": [
-          "qualitative"
-        ]
-      },
-      "papers": 23,
-      "top_cells": [
-        "security/systems",
-        "cicd/architecture",
-        "observability/systems",
-        "object-storage/systems"
-      ]
     },
     {
       "term": "K8s Scheduling",
@@ -452,38 +550,23 @@
       "papers": 19
     },
     {
-      "term": "literature review",
+      "term": "interview",
       "kind": "curated",
       "seed": true,
-      "df": 19,
+      "df": 15,
       "match": {
         "type": "text",
         "forms": [
-          "literature review"
+          "interview"
         ]
       },
-      "papers": 19,
+      "papers": 15,
       "top_cells": [
+        "platform/architecture",
+        "policycode/architecture",
         "security/systems",
-        "ai-security/architecture",
-        "cicd/systems",
-        "security/application"
+        "cicd/development"
       ]
-    },
-    {
-      "term": "IaC",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 18,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "iac"
-      },
-      "top_cells": [
-        "iac/systems"
-      ],
-      "papers": 18
     },
     {
       "term": "Software-Defined Storage",
@@ -518,19 +601,23 @@
       "papers": 12
     },
     {
-      "term": "Storage",
-      "kind": "taxonomy",
+      "term": "open access",
+      "kind": "curated",
       "seed": true,
-      "df": 10,
+      "df": 11,
       "match": {
-        "type": "field",
-        "field": "category",
-        "value": "storage"
+        "type": "text",
+        "forms": [
+          "open access"
+        ]
       },
+      "papers": 11,
       "top_cells": [
+        "platform/systems",
+        "policycode/systems",
+        "platform/architecture",
         "storage/systems"
-      ],
-      "papers": 10
+      ]
     },
     {
       "term": "K8s Security",
@@ -564,57 +651,42 @@
       "papers": 8
     },
     {
-      "term": "systematic review",
+      "term": "peer review",
       "kind": "curated",
       "seed": true,
-      "df": 6,
+      "df": 8,
       "match": {
         "type": "text",
         "forms": [
-          "systematic review"
+          "peer review"
         ]
       },
-      "papers": 6,
+      "papers": 8,
       "top_cells": [
-        "kubernetes/systems",
-        "security/systems",
-        "policycode/architecture",
-        "software-defined-storage/systems"
+        "storage/systems",
+        "platform/architecture",
+        "platform/systems",
+        "policycode/architecture"
       ]
     },
     {
-      "term": "interview",
+      "term": "mixed methods",
       "kind": "curated",
       "seed": true,
       "df": 6,
       "match": {
         "type": "text",
         "forms": [
-          "interview"
+          "mixed methods"
         ]
       },
       "papers": 6,
       "top_cells": [
         "security/systems",
         "cicd/architecture",
-        "policycode/architecture",
-        "kubernetes/systems"
+        "cicd/development",
+        "observability/systems"
       ]
-    },
-    {
-      "term": "Platform",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 5,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "platform"
-      },
-      "top_cells": [
-        "platform/architecture"
-      ],
-      "papers": 5
     },
     {
       "term": "Service Mesh",
@@ -631,6 +703,25 @@
         "service-mesh/architecture"
       ],
       "papers": 5
+    },
+    {
+      "term": "research gap",
+      "kind": "curated",
+      "seed": true,
+      "df": 5,
+      "match": {
+        "type": "text",
+        "forms": [
+          "research gap"
+        ]
+      },
+      "papers": 5,
+      "top_cells": [
+        "security/systems",
+        "policycode/architecture",
+        "iac/architecture",
+        "platform/architecture"
+      ]
     },
     {
       "term": "K8s Operators",
@@ -664,72 +755,54 @@
       "papers": 3
     },
     {
-      "term": "research gap",
-      "kind": "curated",
-      "seed": true,
-      "df": 2,
-      "match": {
-        "type": "text",
-        "forms": [
-          "research gap"
-        ]
-      },
-      "papers": 2,
-      "top_cells": [
-        "security/systems",
-        "policycode/architecture"
-      ]
-    },
-    {
       "term": "grounded theory",
       "kind": "curated",
       "seed": true,
-      "df": 2,
+      "df": 3,
       "match": {
         "type": "text",
         "forms": [
           "grounded theory"
         ]
       },
-      "papers": 2,
+      "papers": 3,
       "top_cells": [
         "security/architecture",
-        "security/systems"
+        "security/systems",
+        "platform/systems"
       ]
     },
     {
       "term": "triangulation",
       "kind": "curated",
       "seed": true,
-      "df": 2,
+      "df": 3,
       "match": {
         "type": "text",
         "forms": [
           "triangulation"
         ]
       },
-      "papers": 2,
+      "papers": 3,
       "top_cells": [
         "policycode/architecture",
         "s3/systems"
       ]
     },
     {
-      "term": "open access",
-      "kind": "curated",
+      "term": "Ceph",
+      "kind": "taxonomy",
       "seed": true,
       "df": 2,
       "match": {
-        "type": "text",
-        "forms": [
-          "open access"
-        ]
+        "type": "field",
+        "field": "category",
+        "value": "ceph"
       },
-      "papers": 2,
       "top_cells": [
-        "policycode/systems",
-        "distributed-storage/systems"
-      ]
+        "ceph/systems"
+      ],
+      "papers": 2
     },
     {
       "term": "GitOps",
@@ -762,19 +835,6 @@
       "papers": 1
     },
     {
-      "term": "Ceph",
-      "kind": "taxonomy",
-      "seed": true,
-      "df": 0,
-      "match": {
-        "type": "field",
-        "field": "category",
-        "value": "ceph"
-      },
-      "top_cells": [],
-      "papers": 0
-    },
-    {
       "term": "SCS",
       "kind": "taxonomy",
       "seed": true,
@@ -796,34 +856,6 @@
         "type": "text",
         "forms": [
           "meta analysis"
-        ]
-      },
-      "papers": 0,
-      "top_cells": []
-    },
-    {
-      "term": "mixed methods",
-      "kind": "curated",
-      "seed": true,
-      "df": 0,
-      "match": {
-        "type": "text",
-        "forms": [
-          "mixed methods"
-        ]
-      },
-      "papers": 0,
-      "top_cells": []
-    },
-    {
-      "term": "peer review",
-      "kind": "curated",
-      "seed": true,
-      "df": 0,
-      "match": {
-        "type": "text",
-        "forms": [
-          "peer review"
         ]
       },
       "papers": 0,
