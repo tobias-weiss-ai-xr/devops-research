@@ -4,7 +4,7 @@
     "edges": 271,
     "components": 1,
     "communities": 1,
-    "modularity": -131.7344
+    "modularity": -131.6669
   },
   "nodes": [
     {
@@ -15,7 +15,7 @@
       "degree": 41,
       "weighted_degree": 1967,
       "degree_centrality": 0.8367,
-      "pagerank": 0.236682,
+      "pagerank": 0.236737,
       "betweenness": 303.8213,
       "clustering": 0.278
     },
@@ -27,7 +27,7 @@
       "degree": 30,
       "weighted_degree": 488,
       "degree_centrality": 0.6122,
-      "pagerank": 0.057376,
+      "pagerank": 0.057389,
       "betweenness": 45.0658,
       "clustering": 0.446
     },
@@ -39,7 +39,7 @@
       "degree": 29,
       "weighted_degree": 408,
       "degree_centrality": 0.5918,
-      "pagerank": 0.049263,
+      "pagerank": 0.049272,
       "betweenness": 52.4726,
       "clustering": 0.4286
     },
@@ -51,7 +51,7 @@
       "degree": 15,
       "weighted_degree": 355,
       "degree_centrality": 0.3061,
-      "pagerank": 0.044416,
+      "pagerank": 0.044428,
       "betweenness": 47.9993,
       "clustering": 0.619
     },
@@ -59,11 +59,11 @@
       "id": 3,
       "term": "CI/CD",
       "kind": "taxonomy",
-      "df": 415,
+      "df": 414,
       "degree": 14,
-      "weighted_degree": 321,
+      "weighted_degree": 320,
       "degree_centrality": 0.2857,
-      "pagerank": 0.037885,
+      "pagerank": 0.037782,
       "betweenness": 4.2493,
       "clustering": 0.7253
     },
@@ -75,7 +75,7 @@
       "degree": 31,
       "weighted_degree": 300,
       "degree_centrality": 0.6327,
-      "pagerank": 0.037073,
+      "pagerank": 0.03708,
       "betweenness": 58.3658,
       "clustering": 0.4215
     },
@@ -87,7 +87,7 @@
       "degree": 27,
       "weighted_degree": 302,
       "degree_centrality": 0.551,
-      "pagerank": 0.035972,
+      "pagerank": 0.035981,
       "betweenness": 25.7451,
       "clustering": 0.5413
     },
@@ -99,7 +99,7 @@
       "degree": 16,
       "weighted_degree": 244,
       "degree_centrality": 0.3265,
-      "pagerank": 0.032777,
+      "pagerank": 0.032784,
       "betweenness": 47.266,
       "clustering": 0.5833
     },
@@ -111,7 +111,7 @@
       "degree": 25,
       "weighted_degree": 267,
       "degree_centrality": 0.5102,
-      "pagerank": 0.031825,
+      "pagerank": 0.031833,
       "betweenness": 17.4308,
       "clustering": 0.5933
     },
@@ -123,7 +123,7 @@
       "degree": 14,
       "weighted_degree": 257,
       "degree_centrality": 0.2857,
-      "pagerank": 0.030945,
+      "pagerank": 0.030953,
       "betweenness": 3.6827,
       "clustering": 0.7253
     },
@@ -135,7 +135,7 @@
       "degree": 28,
       "weighted_degree": 228,
       "degree_centrality": 0.5714,
-      "pagerank": 0.03005,
+      "pagerank": 0.030057,
       "betweenness": 35.6713,
       "clustering": 0.5026
     },
@@ -147,7 +147,7 @@
       "degree": 10,
       "weighted_degree": 249,
       "degree_centrality": 0.2041,
-      "pagerank": 0.029074,
+      "pagerank": 0.02908,
       "betweenness": 0.0526,
       "clustering": 0.9778
     },
@@ -159,7 +159,7 @@
       "degree": 26,
       "weighted_degree": 218,
       "degree_centrality": 0.5306,
-      "pagerank": 0.027893,
+      "pagerank": 0.0279,
       "betweenness": 27.6344,
       "clustering": 0.5538
     },
@@ -171,7 +171,7 @@
       "degree": 11,
       "weighted_degree": 194,
       "degree_centrality": 0.2245,
-      "pagerank": 0.02347,
+      "pagerank": 0.023475,
       "betweenness": 0.3557,
       "clustering": 0.9091
     },
@@ -183,7 +183,7 @@
       "degree": 24,
       "weighted_degree": 185,
       "degree_centrality": 0.4898,
-      "pagerank": 0.023417,
+      "pagerank": 0.023423,
       "betweenness": 19.3405,
       "clustering": 0.5652
     },
@@ -195,7 +195,7 @@
       "degree": 15,
       "weighted_degree": 169,
       "degree_centrality": 0.3061,
-      "pagerank": 0.022558,
+      "pagerank": 0.022564,
       "betweenness": 5.266,
       "clustering": 0.6667
     },
@@ -207,7 +207,7 @@
       "degree": 11,
       "weighted_degree": 176,
       "degree_centrality": 0.2245,
-      "pagerank": 0.021578,
+      "pagerank": 0.021583,
       "betweenness": 0.1962,
       "clustering": 0.9455
     },
@@ -215,11 +215,11 @@
       "id": 26,
       "term": "literature review",
       "kind": "curated",
-      "df": 76,
+      "df": 75,
       "degree": 17,
-      "weighted_degree": 152,
+      "weighted_degree": 151,
       "degree_centrality": 0.3469,
-      "pagerank": 0.020338,
+      "pagerank": 0.020242,
       "betweenness": 7.7254,
       "clustering": 0.7206
     },
@@ -231,7 +231,7 @@
       "degree": 22,
       "weighted_degree": 148,
       "degree_centrality": 0.449,
-      "pagerank": 0.019237,
+      "pagerank": 0.01924,
       "betweenness": 16.5938,
       "clustering": 0.5541
     },
@@ -243,7 +243,7 @@
       "degree": 10,
       "weighted_degree": 128,
       "degree_centrality": 0.2041,
-      "pagerank": 0.016612,
+      "pagerank": 0.016616,
       "betweenness": 0.0667,
       "clustering": 0.9778
     },
@@ -255,7 +255,7 @@
       "degree": 11,
       "weighted_degree": 122,
       "degree_centrality": 0.2245,
-      "pagerank": 0.016093,
+      "pagerank": 0.016095,
       "betweenness": 0.3557,
       "clustering": 0.9091
     },
@@ -267,7 +267,7 @@
       "degree": 9,
       "weighted_degree": 99,
       "degree_centrality": 0.1837,
-      "pagerank": 0.013621,
+      "pagerank": 0.013624,
       "betweenness": 0.0526,
       "clustering": 0.9722
     },
@@ -279,7 +279,7 @@
       "degree": 8,
       "weighted_degree": 92,
       "degree_centrality": 0.1633,
-      "pagerank": 0.012862,
+      "pagerank": 0.012864,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -291,7 +291,7 @@
       "degree": 7,
       "weighted_degree": 84,
       "degree_centrality": 0.1429,
-      "pagerank": 0.012067,
+      "pagerank": 0.012069,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -303,7 +303,7 @@
       "degree": 15,
       "weighted_degree": 71,
       "degree_centrality": 0.3061,
-      "pagerank": 0.011598,
+      "pagerank": 0.011601,
       "betweenness": 8.5296,
       "clustering": 0.6667
     },
@@ -315,7 +315,7 @@
       "degree": 7,
       "weighted_degree": 68,
       "degree_centrality": 0.1429,
-      "pagerank": 0.01039,
+      "pagerank": 0.010392,
       "betweenness": 0.0526,
       "clustering": 0.9524
     },
@@ -327,7 +327,7 @@
       "degree": 7,
       "weighted_degree": 48,
       "degree_centrality": 0.1429,
-      "pagerank": 0.008331,
+      "pagerank": 0.008333,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -339,7 +339,7 @@
       "degree": 6,
       "weighted_degree": 42,
       "degree_centrality": 0.1224,
-      "pagerank": 0.007712,
+      "pagerank": 0.007713,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -351,7 +351,7 @@
       "degree": 5,
       "weighted_degree": 36,
       "degree_centrality": 0.102,
-      "pagerank": 0.007098,
+      "pagerank": 0.007099,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -363,7 +363,7 @@
       "degree": 8,
       "weighted_degree": 32,
       "degree_centrality": 0.1633,
-      "pagerank": 0.006859,
+      "pagerank": 0.00686,
       "betweenness": 0.9795,
       "clustering": 0.7857
     },
@@ -387,7 +387,7 @@
       "degree": 4,
       "weighted_degree": 27,
       "degree_centrality": 0.0816,
-      "pagerank": 0.006206,
+      "pagerank": 0.006207,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -399,7 +399,7 @@
       "degree": 5,
       "weighted_degree": 25,
       "degree_centrality": 0.102,
-      "pagerank": 0.005986,
+      "pagerank": 0.005987,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -423,7 +423,7 @@
       "degree": 6,
       "weighted_degree": 18,
       "degree_centrality": 0.1224,
-      "pagerank": 0.005575,
+      "pagerank": 0.005576,
       "betweenness": 0.3476,
       "clustering": 0.8
     },
@@ -447,7 +447,7 @@
       "degree": 4,
       "weighted_degree": 8,
       "degree_centrality": 0.0816,
-      "pagerank": 0.004259,
+      "pagerank": 0.00426,
       "betweenness": 0.0,
       "clustering": 1.0
     },
@@ -464,6 +464,18 @@
       "clustering": 0.0
     },
     {
+      "id": 34,
+      "term": "K8s Security",
+      "kind": "taxonomy",
+      "df": 13,
+      "degree": 1,
+      "weighted_degree": 5,
+      "degree_centrality": 0.0204,
+      "pagerank": 0.003921,
+      "betweenness": 0.0,
+      "clustering": 0.0
+    },
+    {
       "id": 35,
       "term": "Service Mesh",
       "kind": "taxonomy",
@@ -474,18 +486,6 @@
       "pagerank": 0.003921,
       "betweenness": 0.0,
       "clustering": 1.0
-    },
-    {
-      "id": 34,
-      "term": "K8s Security",
-      "kind": "taxonomy",
-      "df": 13,
-      "degree": 1,
-      "weighted_degree": 5,
-      "degree_centrality": 0.0204,
-      "pagerank": 0.00392,
-      "betweenness": 0.0,
-      "clustering": 0.0
     },
     {
       "id": 37,
@@ -507,7 +507,7 @@
       "degree": 1,
       "weighted_degree": 2,
       "degree_centrality": 0.0204,
-      "pagerank": 0.003637,
+      "pagerank": 0.003638,
       "betweenness": 0.0,
       "clustering": 0.0
     },

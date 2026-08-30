@@ -60,7 +60,7 @@
       "term": "CI/CD",
       "kind": "taxonomy",
       "seed": true,
-      "df": 415,
+      "df": 414,
       "match": {
         "type": "field",
         "field": "category",
@@ -72,7 +72,7 @@
         "cicd/architecture",
         "cicd/benchmark"
       ],
-      "papers": 415
+      "papers": 414
     },
     {
       "term": "IaC",
@@ -469,14 +469,14 @@
       "term": "literature review",
       "kind": "curated",
       "seed": true,
-      "df": 76,
+      "df": 75,
       "match": {
         "type": "text",
         "forms": [
           "literature review"
         ]
       },
-      "papers": 76,
+      "papers": 75,
       "top_cells": [
         "security/systems",
         "platform/architecture",

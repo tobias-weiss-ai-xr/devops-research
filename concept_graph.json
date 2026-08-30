@@ -22,7 +22,7 @@
       "id": 3,
       "term": "CI/CD",
       "kind": "taxonomy",
-      "df": 415
+      "df": 414
     },
     {
       "id": 4,
@@ -160,7 +160,7 @@
       "id": 26,
       "term": "literature review",
       "kind": "curated",
-      "df": 76
+      "df": 75
     },
     {
       "id": 27,
@@ -550,7 +550,7 @@
     {
       "source": 3,
       "target": 26,
-      "weight": 18
+      "weight": 17
     },
     {
       "source": 0,
@@ -1661,6 +1661,6 @@
   "stats": {
     "concepts": 50,
     "edges": 271,
-    "papers": 3955
+    "papers": 3954
   }
 }

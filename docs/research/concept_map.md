@@ -1,6 +1,6 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 50 concepts, 271 relationships from 3955 papers. Edges = co-occurrence (shared papers).
+**Generated:** 50 concepts, 271 relationships from 3954 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
@@ -9,7 +9,7 @@
 | framework | curated | 1392 |
 | Security | taxonomy | 464 |
 | Storage | taxonomy | 418 |
-| CI/CD | taxonomy | 415 |
+| CI/CD | taxonomy | 414 |
 | IaC | taxonomy | 382 |
 | Containers | taxonomy | 296 |
 | Policy & Code | taxonomy | 268 |
@@ -32,7 +32,7 @@
 | qualitative | curated | 79 |
 | Docker | taxonomy | 78 |
 | K8s Networking | taxonomy | 76 |
-| literature review | curated | 76 |
+| literature review | curated | 75 |
 | K8s Scheduling | taxonomy | 71 |
 | Multi-Cluster | taxonomy | 33 |
 | systematic review | curated | 29 |
@@ -87,7 +87,7 @@
 - framework — 158 shared paper(s)
 - case study — 29 shared paper(s)
 - dataset — 19 shared paper(s)
-- literature review — 18 shared paper(s)
+- literature review — 17 shared paper(s)
 - reproducibility — 15 shared paper(s)
 - benchmark — 15 shared paper(s)
 - qualitative — 15 shared paper(s)
