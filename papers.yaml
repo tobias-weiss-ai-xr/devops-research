@@ -8041,7 +8041,6 @@ papers:
   venue: International Journal of Health Sciences
 - title: Building Applications with OpsDB Application Architecture
   date: 2026-05
-  url: https://github.com/ghowland/papers/tree/main/papers/papers/papers/COMP/HOWL-COMP-9-2026
   category: policycode
   subcategory: architecture
   authors:
@@ -9748,7 +9747,6 @@ papers:
   venue: ICST Transactions on Scalable Information Systems
 - title: Ανασχεδιασμός μονολιθικών πληροφοριακών συστημάτων με χρήση microservices
   date: 2026-07
-  url: https://hdl.handle.net/10889/32361
   category: storage
   subcategory: systems
   authors:
@@ -22470,7 +22468,7 @@ papers:
 - title: 'Autoscaling in Kubernetes: From Native Resource-Based Scaling to Event-Driven
     Scaling with KEDA'
   date: 2026-07
-  url: https://amslaurea.unibo.it/view/cds/CDS9205/>
+  url: https://amslaurea.unibo.it/view/cds/CDS9205/
   category: kubernetes
   subcategory: systems
   authors:
@@ -28690,7 +28688,6 @@ papers:
   venue: ''
 - title: 'OpsDB Design: A Centralized Data Substrate for Distributed Operating System'
   date: 2026-04
-  url: https://github.com/ghowland/papers/tree/main/papers/papers/papers/INFRA/HOWL-INFRA-2-2026
   category: multi-cluster
   subcategory: systems
   authors:
@@ -44868,7 +44865,6 @@ papers:
   - Queena K. Qian
   - Jie Yang
   venue: ''
-  code_url: https://github.com/xiaweijie1996/socialagent
   project_url: ''
   abstract: Recent studies use Large language models (LLMs) to simulate human opinions
     and decisions by prompting models with demographic, attitudinal, or persona-based
@@ -49989,7 +49985,6 @@ papers:
     and harnesses are publicly available at https://github.com/fuzzingbrain/FuzzingBrain-Bench.
 - title: Software Supply Chain and DevOps Security Practices
   date: 2025-01
-  url: https://doi.org/10.6028/nist.sp.1800-44
   category: security
   subcategory: systems
   authors:
@@ -50273,7 +50268,6 @@ papers:
 - title: 'Applications of Blockchain in Software Engineering: Enhancing Security,
     Traceability, and Transparency'
   date: 2025-01
-  url: https://doi.org/10.63665/ijicsitr.v1i02.07
   category: security
   subcategory: systems
   authors:
@@ -57707,7 +57701,6 @@ papers:
 - title: Research on optimization strategy of container orchestration technology for
     cloud computing environment
   date: 2024-01
-  url: https://dx.doi.org/10.2478/amns-2024-2561
   category: containers
   subcategory: systems
   authors:
@@ -65030,7 +65023,6 @@ papers:
 - title: Implementasi CI/CD Pada Microservices Untuk Meningkatkan Availability Pada
     Pemrosesan Big Data
   date: 2024-01
-  url: https://dx.doi.org/10.24843/jlk.2023.v12.i03.p12
   category: cicd
   subcategory: architecture
   authors:
@@ -73758,7 +73750,6 @@ papers:
 - title: 'Infrastructure as Code Security: Static Analysis and Policy Enforcement
     for Terraform and Ansible Deployments'
   date: 2026-01
-  url: https://doi.org/10.63282/3050-9246.ijetcsit-v7i2p126
   category: iac
   subcategory: systems
   authors:
@@ -76539,7 +76530,7 @@ papers:
 - title: Infrastructure as Code con Terraform:progettazione e gestione di infrastrutture
     IT automatizzate
   date: 2026-03
-  url: https://amslaurea.unibo.it/view/cds/CDS8615/>,
+  url: https://amslaurea.unibo.it/view/cds/CDS8615/
   category: iac
   subcategory: systems
   authors:
@@ -100125,7 +100116,6 @@ papers:
 - title: Detection and Classification of Dress Code Violations in Educational Environments
     Using Deep Learning
   date: 2025-06
-  url: https://doi.org/10.53982/ajerd.2025.0802.09-j
   category: policycode
   subcategory: benchmark
   authors:
@@ -104577,7 +104567,6 @@ papers:
   venue: Zenodo (CERN European Organization for Nuclear Research)
 - title: Secure and Scalable Architectures for Cloud Computing
   date: 2024-01
-  url: https://doi.org/10.69942/1920184/20240101/05
   category: policycode
   subcategory: systems
   authors:
@@ -108690,7 +108679,6 @@ papers:
 - title: Optimization of data model-driven design thinking in the software development
     process
   date: 2024-01
-  url: https://doi.org/10.2478/amns-2024-2406
   category: storage
   subcategory: systems
   authors:
@@ -115384,7 +115372,6 @@ papers:
 - title: Publish/subscribe method for data processing in massive IoT leveraging blockchain
     for secured storage
   date: 2024-07
-  url: https://espace.etsmtl.ca/id/eprint/3545/1/ATAEI_KACHOUEI_Mohammad_Hossein.pdf
   category: storage
   subcategory: systems
   authors:
@@ -117794,7 +117781,6 @@ papers:
   venue: International Journal For Multidisciplinary Research
 - title: Αναζήτηση & εξόρυξη δεδομένων με microservices
   date: 2026-06
-  url: https://hdl.handle.net/10889/32127
   category: storage
   subcategory: systems
   authors:
@@ -121062,7 +121048,6 @@ papers:
   venue: Zenodo (CERN European Organization for Nuclear Research)
 - title: Efficient mobile edge computing development with drone integration
   date: 2024-09
-  url: https://espace.etsmtl.ca/id/eprint/3553/1/SANATKAR_Talaye.pdf
   category: storage
   subcategory: systems
   authors:
@@ -124975,7 +124960,6 @@ papers:
   venue: Open MIND
 - title: 'BIGMAE: Bharat Intelligent Governed Multi-Agent Economies - Protocol v3.1'
   date: 2026-08
-  url: https://github.com/absahoo7/bigmas
   category: storage
   subcategory: systems
   authors:
@@ -128103,7 +128087,6 @@ papers:
 - title: Інформаційна технологія моніторингу врожайності сільськогосподарських культур
     з використанням геоінформаційних систем
   date: 2024-01
-  url: https://ir.library.knu.ua/handle/15071834/2588
   category: storage
   subcategory: systems
   authors:
