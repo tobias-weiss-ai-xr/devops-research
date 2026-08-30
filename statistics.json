@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 3971,
+    "total_papers": 3955,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 29,
@@ -17,63 +17,63 @@
   "by_category": {
     "ai-security": 155,
     "ceph": 2,
-    "cicd": 416,
+    "cicd": 415,
     "container-image": 27,
     "container-runtime": 3,
     "container-security": 86,
-    "containers": 297,
+    "containers": 296,
     "distributed-storage": 192,
     "docker": 78,
     "gitops": 5,
     "helm": 9,
-    "iac": 383,
+    "iac": 382,
     "kubernetes": 175,
     "kubernetes-networking": 76,
     "kubernetes-scheduling": 71,
     "kubernetes-security": 13,
     "kubernetes-storage": 1,
-    "multi-cluster": 34,
+    "multi-cluster": 33,
     "object-storage": 170,
     "observability": 233,
     "operator": 5,
     "platform": 244,
-    "policycode": 271,
+    "policycode": 268,
     "s3": 89,
-    "security": 466,
+    "security": 464,
     "serverless": 18,
     "service-mesh": 12,
     "software-defined-storage": 15,
-    "storage": 425
+    "storage": 418
   },
   "by_subcategory": {
     "application": 78,
-    "architecture": 657,
-    "benchmark": 55,
+    "architecture": 655,
+    "benchmark": 54,
     "development": 350,
-    "systems": 2831
+    "systems": 2818
   },
   "by_year": {
     "2023": 134,
-    "2024": 615,
-    "2025": 1209,
-    "2026": 2013
+    "2024": 608,
+    "2025": 1206,
+    "2026": 2007
   },
   "by_cell": {
-    "storage/systems": 407,
-    "security/systems": 338,
-    "containers/systems": 291,
+    "storage/systems": 400,
+    "security/systems": 336,
+    "containers/systems": 290,
     "observability/systems": 231,
-    "iac/systems": 198,
+    "iac/systems": 197,
     "distributed-storage/systems": 190,
     "cicd/development": 175,
     "object-storage/systems": 167,
     "platform/architecture": 167,
     "kubernetes/systems": 164,
-    "policycode/systems": 131,
+    "policycode/systems": 130,
     "cicd/systems": 120,
-    "cicd/architecture": 120,
+    "cicd/architecture": 119,
     "iac/architecture": 112,
-    "policycode/architecture": 108,
+    "policycode/architecture": 107,
     "container-security/systems": 86,
     "s3/systems": 78,
     "kubernetes-networking/systems": 76,
@@ -86,7 +86,7 @@
     "docker/systems": 48,
     "ai-security/architecture": 42,
     "ai-security/application": 39,
-    "multi-cluster/systems": 34,
+    "multi-cluster/systems": 33,
     "docker/benchmark": 30,
     "policycode/development": 23,
     "container-image/development": 15,
@@ -103,8 +103,8 @@
     "helm/systems": 7,
     "service-mesh/architecture": 7,
     "iac/benchmark": 7,
-    "policycode/benchmark": 6,
     "ai-security/benchmark": 6,
+    "policycode/benchmark": 5,
     "service-mesh/systems": 5,
     "gitops/development": 5,
     "security/application": 4,
@@ -154,7 +154,7 @@
     },
     {
       "keyword": "reconciliation",
-      "papers": 28
+      "papers": 27
     },
     {
       "keyword": "rbac",
@@ -166,15 +166,15 @@
     },
     {
       "keyword": "istio",
-      "papers": 24
+      "papers": 23
+    },
+    {
+      "keyword": "csi",
+      "papers": 11
     },
     {
       "keyword": "mtls",
       "papers": 5
-    },
-    {
-      "keyword": "operator",
-      "papers": 129
     }
   ],
   "momentum": [
@@ -280,46 +280,46 @@
     {
       "id": "policycode",
       "name": "Policycode",
-      "total": 271,
-      "recent": 185,
-      "prior": 56,
-      "growth_pct": 230.4,
-      "recent_share": 0.683,
-      "papers_per_month": 15.4,
-      "score": 298.7
+      "total": 268,
+      "recent": 184,
+      "prior": 55,
+      "growth_pct": 234.5,
+      "recent_share": 0.687,
+      "papers_per_month": 15.3,
+      "score": 303.2
     },
     {
       "id": "storage",
       "name": "Storage",
-      "total": 425,
-      "recent": 255,
-      "prior": 91,
-      "growth_pct": 180.2,
-      "recent_share": 0.6,
-      "papers_per_month": 21.2,
-      "score": 240.2
+      "total": 418,
+      "recent": 252,
+      "prior": 90,
+      "growth_pct": 180.0,
+      "recent_share": 0.603,
+      "papers_per_month": 21.0,
+      "score": 240.3
     },
     {
       "id": "security",
       "name": "Security",
-      "total": 466,
+      "total": 464,
       "recent": 293,
-      "prior": 117,
-      "growth_pct": 150.4,
-      "recent_share": 0.629,
+      "prior": 115,
+      "growth_pct": 154.8,
+      "recent_share": 0.631,
       "papers_per_month": 24.4,
-      "score": 213.3
+      "score": 217.9
     },
     {
       "id": "containers",
       "name": "Containers",
-      "total": 297,
+      "total": 296,
       "recent": 167,
       "prior": 70,
       "growth_pct": 138.6,
-      "recent_share": 0.562,
+      "recent_share": 0.564,
       "papers_per_month": 13.9,
-      "score": 194.8
+      "score": 195.0
     },
     {
       "id": "ai-security",
@@ -379,24 +379,24 @@
     {
       "id": "iac",
       "name": "Iac",
-      "total": 383,
-      "recent": 200,
+      "total": 382,
+      "recent": 199,
       "prior": 126,
-      "growth_pct": 58.7,
-      "recent_share": 0.522,
-      "papers_per_month": 16.7,
-      "score": 110.9
+      "growth_pct": 57.9,
+      "recent_share": 0.521,
+      "papers_per_month": 16.6,
+      "score": 110.0
     },
     {
       "id": "cicd",
       "name": "Cicd",
-      "total": 416,
+      "total": 415,
       "recent": 215,
       "prior": 143,
       "growth_pct": 50.3,
-      "recent_share": 0.517,
+      "recent_share": 0.518,
       "papers_per_month": 17.9,
-      "score": 102.0
+      "score": 102.1
     },
     {
       "id": "ceph",
@@ -445,8 +445,8 @@
     {
       "id": "multi-cluster",
       "name": "Multi Cluster",
-      "total": 34,
-      "recent": 34,
+      "total": 33,
+      "recent": 33,
       "prior": 0,
       "growth_pct": null,
       "recent_share": 1.0,
@@ -511,7 +511,7 @@
     },
     "cicd": {
       "2023": 14,
-      "2024": 70,
+      "2024": 69,
       "2025": 187,
       "2026": 145
     },
@@ -531,7 +531,7 @@
     },
     "containers": {
       "2023": 16,
-      "2024": 65,
+      "2024": 64,
       "2025": 94,
       "2026": 122
     },
@@ -559,7 +559,7 @@
       "2023": 16,
       "2024": 65,
       "2025": 162,
-      "2026": 140
+      "2026": 139
     },
     "kubernetes": {
       "2023": 2,
@@ -587,7 +587,7 @@
       "2026": 1
     },
     "multi-cluster": {
-      "2026": 34
+      "2026": 33
     },
     "object-storage": {
       "2024": 10,
@@ -612,9 +612,9 @@
     },
     "policycode": {
       "2023": 7,
-      "2024": 35,
-      "2025": 93,
-      "2026": 136
+      "2024": 34,
+      "2025": 92,
+      "2026": 135
     },
     "s3": {
       "2023": 1,
@@ -625,7 +625,7 @@
     "security": {
       "2023": 14,
       "2024": 76,
-      "2025": 163,
+      "2025": 161,
       "2026": 213
     },
     "serverless": {
@@ -646,9 +646,9 @@
     },
     "storage": {
       "2023": 24,
-      "2024": 89,
+      "2024": 85,
       "2025": 110,
-      "2026": 202
+      "2026": 199
     }
   },
   "keyword_bursts": [
@@ -664,14 +664,14 @@
       "recent": 18,
       "total": 19,
       "burst_score": 1.47,
-      "recent_share": 0.007
+      "recent_share": 0.0071
     },
     {
       "keyword": "sidecar",
       "recent": 17,
       "total": 18,
-      "burst_score": 1.47,
-      "recent_share": 0.0066
+      "burst_score": 1.46,
+      "recent_share": 0.0067
     },
     {
       "keyword": "crd",
@@ -682,31 +682,38 @@
     },
     {
       "keyword": "reconciliation",
-      "recent": 28,
-      "total": 31,
+      "recent": 27,
+      "total": 30,
       "burst_score": 1.4,
-      "recent_share": 0.011
+      "recent_share": 0.0106
     },
     {
       "keyword": "rbac",
       "recent": 30,
       "total": 34,
       "burst_score": 1.37,
-      "recent_share": 0.0117
+      "recent_share": 0.0118
     },
     {
       "keyword": "namespace",
       "recent": 30,
       "total": 34,
       "burst_score": 1.37,
-      "recent_share": 0.0117
+      "recent_share": 0.0118
     },
     {
       "keyword": "istio",
-      "recent": 24,
-      "total": 28,
-      "burst_score": 1.33,
-      "recent_share": 0.0094
+      "recent": 23,
+      "total": 27,
+      "burst_score": 1.32,
+      "recent_share": 0.009
+    },
+    {
+      "keyword": "csi",
+      "recent": 11,
+      "total": 13,
+      "burst_score": 1.31,
+      "recent_share": 0.0043
     },
     {
       "keyword": "mtls",
@@ -720,7 +727,7 @@
       "recent": 129,
       "total": 159,
       "burst_score": 1.26,
-      "recent_share": 0.0504
+      "recent_share": 0.0506
     },
     {
       "keyword": "admission",
@@ -734,21 +741,14 @@
       "recent": 42,
       "total": 52,
       "burst_score": 1.25,
-      "recent_share": 0.0164
+      "recent_share": 0.0165
     },
     {
       "keyword": "layer",
-      "recent": 533,
-      "total": 670,
+      "recent": 530,
+      "total": 665,
       "burst_score": 1.24,
-      "recent_share": 0.2084
-    },
-    {
-      "keyword": "compose",
-      "recent": 101,
-      "total": 129,
-      "burst_score": 1.22,
-      "recent_share": 0.0395
+      "recent_share": 0.2078
     },
     {
       "keyword": "etcd",
@@ -761,7 +761,7 @@
   "source_breakdown": {
     "arxiv": 1308,
     "doi": 2370,
-    "other": 293
+    "other": 277
   },
   "venues": [
     {
@@ -773,12 +773,12 @@
       "papers": 88
     },
     {
-      "name": "Open MIND",
+      "name": "SSRN Electronic Journal",
       "papers": 68
     },
     {
-      "name": "SSRN Electronic Journal",
-      "papers": 68
+      "name": "Open MIND",
+      "papers": 65
     },
     {
       "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",

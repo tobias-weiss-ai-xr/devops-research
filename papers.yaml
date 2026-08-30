@@ -8039,36 +8039,6 @@ papers:
     A Responsible AI governance model is proposed to support explainability, bias
     mitigation, hallucination detection, and regulatory audit readiness.'
   venue: International Journal of Health Sciences
-- title: Building Applications with OpsDB Application Architecture
-  date: 2026-05
-  category: policycode
-  subcategory: architecture
-  authors:
-  - Geoffrey Howland
-  abstract: 'OpsDB is a governed data substrate that unifies schema-driven validation,
-    five-layer authorization, versioned state, change management with approval routing,
-    append-only audit logging, structured search, and bounded automation into a single
-    ten-step gate pipeline. Built in Go on Postgres and released under the MIT license,
-    the compiled infrastructure contains zero application-domain types — all domain
-    knowledge lives in YAML schema files and data rows interpreted by fixed mechanisms.
-    An application built on OpsDB is called an AppDB. The developer writes schema
-    YAML declaring entities, fields, types, constraints, and relationships. Running
-    the schema loader produces a complete backend with validated writes, access control,
-    version history, change management, audit trail, and search — without writing
-    endpoint handlers, validation code, authorization logic, or audit infrastructure.
-    Backend logic is expressed as runners — small programs following a three-phase
-    read-act-write pattern through a shared library suite that handles all infrastructure
-    concerns. A closed constraint vocabulary of nine types, three modifiers, six constraints,
-    sixteen operations, and ten gate steps means security derives from structural
-    limitation and the marginal cost of new application behavior approaches zero.
-    This paper enumerates 47 construction methods for building applications on OpsDB,
-    covering domain analysis, schema design, policy configuration, runner implementation,
-    frontend integration, and AI-assisted development. The methods apply across a
-    spectrum from personal data platforms to enterprise backends under regulatory
-    oversight, composing according to architecture position: primary backend for governed-state-dominant
-    applications, split backend alongside specialized hot-path systems, or operational
-    wrapper managing configuration and compliance around processing-dominant systems.'
-  venue: Open MIND
 - title: The S.A.F.E. Intent Framework
   date: 2026-03
   url: https://doi.org/10.5281/zenodo.18896883
@@ -9745,44 +9715,6 @@ papers:
     between quantum key distribution channels and encrypted data transmission pathways
     for large-scale AI model protection.'
   venue: ICST Transactions on Scalable Information Systems
-- title: Ανασχεδιασμός μονολιθικών πληροφοριακών συστημάτων με χρήση microservices
-  date: 2026-07
-  category: storage
-  subcategory: systems
-  authors:
-  - Αντώνιος Βιδάλης
-  abstract: 'The thesis examines the architectural transformation of Politis, a mission-critical
-    information system responsible for managing citizen biometric and alphanumerical
-    data across a continent-wide network, from a monolithic architecture to a microservices-based
-    application. The monolithic architecture of Politis 1.0, implemented as a single
-    Java application on WebLogic, imposed significant limitations on scalability,
-    fault isolation, deployment agility and the ability to adopt modern technologies.
-    These constraints provided the primary motivation for the microservices migration
-    examined in this work. The proposed Politis 2.0 architecture adopts a multi-dimensional
-    decomposition strategy, combining decomposition by business subdomain, by communication
-    protocol and by communication type, yielding nine independently deployable Java
-    Spring Boot microservices, orchestrated by Kubernetes within an OpenShift Container
-    Platform. The migration is structured across two phases to preserve operational
-    continuity: the first introduces microservices for search and retrieval operations,
-    while the second completes the full transition of business data management functionality.
-    Synchronous communication is implemented via gRPC over HTTP/2 with Protocol Buffer
-    serialisation, while asynchronous communication is handled through Apache Kafka
-    topics via IBM Event Streams. Data is persisted across three specialised stores:
-    Oracle as the authoritative master database, Elasticsearch for high-performance
-    alphanumerical search and Red Hat Ceph Storage for binary biometric objects. The
-    integration of Microsoft Azure cloud services, including Azure Kubernetes Service,
-    Azure API Management and Azure Monitor, combined with AI-powered tooling such
-    as Azure Machine Learning and Microsoft Defender for Cloud, transforms the platform
-    into an adaptive, self-monitoring architecture. The analysis surfaces three key
-    lessons: migration complexity is at least as organisational as it is technical,
-    data architecture decisions are foundational and must be treated as first-class
-    concerns from the outset and a service mesh (Istio) is not optional for platforms
-    of this complexity. The microservices advantages realised include improved availability
-    through fault isolation, independent service-level scalability, faster and safer
-    deployments via CI/CD pipelines, a strengthened security posture through Zero
-    Trust enforcement and significantly enhanced observability across the distributed
-    system.'
-  venue: Νημερτής
 - title: 'A Review on Cloud Storage Management: Architectures, Security, Performance
     Analysis, and Future Directions'
   date: 2026-06
@@ -28686,41 +28618,6 @@ papers:
     DB using Private Link with public network access disabled. Observability converges
     in Azure Log Analytics with Microsoft Sentinel analytics and playbooks.
   venue: ''
-- title: 'OpsDB Design: A Centralized Data Substrate for Distributed Operating System'
-  date: 2026-04
-  category: multi-cluster
-  subcategory: systems
-  authors:
-  - Geoffrey Howland
-  abstract: 'The OpsDB is a centralized data substrate that serves as the single source
-    of truth for operational reality across a Distributed Operating System (DOS).
-    It holds all centrally-managed configuration, a sized cache of pulled observed
-    state, pointers to authorities for everything else, schedules and policies, runner
-    enumeration and metadata, structured documentation references, and complete history.
-    It is consumed by three populations: humans operating the system, automation runners
-    performing decentralized work, and auditors verifying compliance and control.
-    The OpsDB is passive — it answers queries and accepts writes — while a sophisticated
-    API in front of it enforces authentication, authorization, validation, change
-    management, versioning, and audit. A Distributed Operating System (DOS) is the
-    conceptual unit the OpsDB serves: any environment operated as a single coordinated
-    system spanning many heterogeneous nodes — production datacenters, staging clusters,
-    corporate infrastructure, employee fleets — where many machines, services, and
-    policies are managed coherently as if they were one large operating system. A
-    DOS is not defined by the underlying substrate (bare metal, virtual machines,
-    Kubernetes clusters, cloud services, SaaS integrations can all participate) but
-    by the operational coordination that unifies them: shared configuration management,
-    shared policies, shared identity, shared monitoring, shared change discipline.
-    An organization may have one DOS or several, and each DOS may have its own OpsDB
-    or share one with others, depending on the cardinality decision specified in §5.
-    The OpsDB cardinality is 1 or N, never 2: a single OpsDB for organizations that
-    fit under a single security umbrella, multiple substrates for organizations whose
-    structure (security perimeters, legal or regulatory zones, organizational boundaries)
-    prevents a single substrate. This paper specifies the OpsDB''s design goals, architectural
-    commitments, content scope, consumer model, the API as security and governance
-    perimeter, and the construction disciplines that produce a stable, queryable,
-    comprehensively-modeled substrate. Implementation choices and schema design are
-    out of scope for this paper.'
-  venue: Open MIND
 - title: 'ML-Based Autoscaling for Elastic Cloud Applications: Taxonomy, Frameworks,
     and Evaluation'
   date: 2026-03
@@ -49983,14 +49880,6 @@ papers:
     crashes in 60 of 77 challenges and achieving a score of 196 out of 579. None of
     the three models triggers a crash in 13 challenges. The FuzzingBrain-Bench corpus
     and harnesses are publicly available at https://github.com/fuzzingbrain/FuzzingBrain-Bench.
-- title: Software Supply Chain and DevOps Security Practices
-  date: 2025-01
-  category: security
-  subcategory: systems
-  authors:
-  - Alper Kerman
-  abstract: ''
-  venue: ''
 - title: 'Cybersecurity in DevOps Environments: A Systematic Literature Review'
   date: 2025-01
   url: https://doi.org/10.1109/access.2025.3582892
@@ -50265,34 +50154,6 @@ papers:
     of new DevSecOps strategies, practices, and tools which would enable better methods
     of software integrity verification in the space and defense industries.'
   venue: arXiv (Cornell University)
-- title: 'Applications of Blockchain in Software Engineering: Enhancing Security,
-    Traceability, and Transparency'
-  date: 2025-01
-  category: security
-  subcategory: systems
-  authors:
-  - Bhumeka Narra
-  - Anuj Gupta
-  - Dheeraj Varun Kumar Reddy Buddula
-  abstract: The technology known as blockchain has become a revolutionary invention,
-    extending beyond its origins in cryptocurrencies to revolutionize various domains,
-    including software engineering. This paper provides a comprehensive examination
-    of the fundamentals of blockchain technology, highlighting its core principles
-    such as decentralization, transparency, immutability, and cryptographic security.
-    They analyze different blockchain architectures, including public, private, consortium,
-    and hybrid models, to illustrate their applicability in software engineering.
-    The integration of blockchain with software development processes presents numerous
-    advantages, such as enhancing security, improving transparency in collaborative
-    environments, enabling decentralized application (DApp) development, and streamlining
-    DevOps and CI/CD pipelines. Furthermore, blockchain plays a pivotal role in securing
-    software intellectual property, preventing software piracy, ensuring supply chain
-    traceability, and enabling secure and tamper-proof software licensing. By leveraging
-    smart contracts and distributed ledger capabilities, blockchain enhances trust,
-    automation, and efficiency in software engineering workflows. This study explores
-    the current advancements, challenges, and emphasizing the potential of blockchain
-    to redefine modern software development practices while addressing scalability,
-    interoperability, and adoption barriers.
-  venue: International Journal of Innovative Computer Science and IT Research
 - title: 'Zero Trust CI/CD Pipeline: A Blueprint for Secure Software Delivery in Modern
     DevSecOp'
   date: 2025-10
@@ -53111,13 +52972,13 @@ papers:
     throughout CI/CD pipelines while enforcing continuous reproducibility auditing.
     Our key contributions include: (1) novel XAI modules providing human-readable
     explanations for vulnerability detection, policy compliance, and anomaly identification;
-    (2) a mathematical utility function $U(Q) = \alpha (1-S(Q)) + (1-\alpha )R(Q)
-    that jointly optimizes security risk and reproducibility; and (3) automated reproducibility
+    (2) a mathematical utility function U(Q) = \alpha (1-S(Q)) + (1-\alpha )R(Q) that
+    jointly optimizes security risk and reproducibility; and (3) automated reproducibility
     checkpoints with environment snapshotting and result verification. Evaluation
     across fintech and climate simulation domains demonstrates substantial improvements:
     62.5% reduction in mean time to remediate critical vulnerabilities (4.0 to 1.5
     days), reproducibility rates increasing from 70–80% to 95–100%, and 16,000 \times
-    $ return on investment through proactive security prevention. The framework addresses
+    return on investment through proactive security prevention. The framework addresses
     the transparency-security-reproducibility trilemma, enabling trustworthy innovation
     in cloud-native research software.'
   venue: Communications in computer and information science
@@ -57698,35 +57559,6 @@ papers:
     management strategies, ensuring that their containerized and Kubernetes environments
     are secure, resilient, and capable of withstanding evolving threats.
   venue: Journal of Quantum Science and Technology.
-- title: Research on optimization strategy of container orchestration technology for
-    cloud computing environment
-  date: 2024-01
-  category: containers
-  subcategory: systems
-  authors:
-  - Junfeng Zhang
-  abstract: Abstract Containers are becoming the new standard of technology in the
-    cloud era, and a huge number of services are shifting from the traditional virtual
-    machine-based monolithic architecture to the container-based cloud-native architecture.
-    This paper explores the optimization of container orchestration technology in
-    the cloud computing environment, mainly focusing on the optimization study of
-    Kubernetes, a cloud resource orchestration tool for Docker containers. The problems
-    of this container cloud platform were analyzed, and it was found that the orchestration
-    strategy adopted by Kubernetes is a static orchestration strategy, which can easily
-    cause redundancy of container resources. This paper suggests an optimization strategy
-    that first analyzes the PSUB container resource allocation strategy and then presents
-    a new container orchestration optimization strategy based on the PSUB container
-    resource allocation strategy. This paper proposes a PBFDR strategy that utilizes
-    CPU, memory, network bandwidth, and disk IO in a more reasonable and balanced
-    manner by comparing and analyzing the optimization strategies of different container
-    orchestration technologies. Introducing the PBFDR strategy into the Kubernetes
-    container orchestration framework and comparing and analyzing it with the mainstream
-    container orchestration frameworks Rancher and Docker Swarm, the balanced point
-    of resource utilization of KLLPL is around 23%, and the load balancing degree
-    in different deployment sizes is around 13.7%. The evidence indicates that container
-    orchestration technology that is based on PBFDR policy can effectively enhance
-    the utilization of cluster resources.
-  venue: Applied Mathematics and Nonlinear Sciences
 - title: Advancing of Microservices Architecture with Dockers
   date: 2024-06
   url: https://doi.org/10.1109/icccnt61001.2024.10724035
@@ -65020,25 +64852,6 @@ papers:
     requirements, ultimately creating HR systems that deliver meaningful value across
     increasingly diverse work environments.
   venue: European Journal of Computer Science and Information Technology
-- title: Implementasi CI/CD Pada Microservices Untuk Meningkatkan Availability Pada
-    Pemrosesan Big Data
-  date: 2024-01
-  category: cicd
-  subcategory: architecture
-  authors:
-  - Kompiang Gede Sukadharma
-  - I Putu Gede Hendra Suputra
-  abstract: Big Data Processing needed a reliable system that not let the data loss.
-    But sometimes we need to make the system down for a while because we need to push
-    the newest changes of the system. The automation will help us achieve that. Continuous
-    Integration and Continuous Deployment help us to reduce the downtime and increase
-    the availability of the system. Thus, the implication will be led to reduce of
-    data loss. This research focusses on the implementation of CI/CD Pipeline on single-pointof-failure
-    service on Microservices Architecture. This research use Load-Testing to measure
-    data loss on certain amount of time. The result on this research show that implementing
-    CI/CD Pipeline on the Microservices that we made, make the down time will be less
-    than 45 Second with 20 Virtual user who send the data.
-  venue: JELIKU (Jurnal Elektronik Ilmu Komputer Udayana)
 - title: Reliability-Centered Automation Testing for the ServiceNow Platform with
     Automated Test Framework (ATF)
   date: 2026-01
@@ -73747,38 +73560,6 @@ papers:
   - Ali Ouni
   abstract: ''
   venue: Lecture notes in computer science
-- title: 'Infrastructure as Code Security: Static Analysis and Policy Enforcement
-    for Terraform and Ansible Deployments'
-  date: 2026-01
-  category: iac
-  subcategory: systems
-  authors:
-  - Bharat Singh Chaudhary
-  abstract: 'Infrastructure as Code (IaC) has fundamentally changed how organizations
-    provision and manage cloud resources. Terraform and Ansible are the two most widely
-    adopted IaC tools, with Terraform dominating declarative infrastructure provisioning
-    and Ansible leading configuration management and application deployment. The shift
-    from manual infrastructure management to code-defined infrastructure introduces
-    a new class of security risks: misconfigurations encoded in version control that
-    propagate at scale across every deployment. A single misconfigured Terraform module
-    can create hundreds of publicly accessible storage buckets, unencrypted databases,
-    or overly permissive network rules across multiple cloud accounts within minutes
-    of a terraform apply. This paper examines the security risks inherent in IaC workflows
-    and proposes a multi-layered security framework combining pre-commit static analysis,
-    CI pipeline scanning with plan-level evaluation, policy-as-code enforcement using
-    Open Policy Agent and Sentinel, and Terraform state file protection. We analyze
-    common misconfiguration patterns observed in real-world Terraform codebases comprising
-    340 modules and 1,200 resource definitions across AWS and Azure environments,
-    and demonstrate how systematic automated scanning identified 290 security misconfigurations
-    and enabled 94 percent automated remediation. The paper also addresses Ansible-specific
-    security considerations including vault management, playbook injection risks,
-    Ansible Galaxy supply chain concerns, and the comparative gap in static analysis
-    tool coverage between Terraform and Ansible codebases. We conclude with practical
-    recommendations for organizations integrating IaC security into their DevSecOps
-    pipelines and discuss the evolving regulatory landscape driving IaC compliance
-    requirements.'
-  venue: International Journal of Emerging Trends in Computer Science and Information
-    Technology
 - title: Building a Scalable Decentralized File Exchange Hub Using Google Cloud Platform
     and MongoDB Atlas
   date: 2025-03
@@ -87535,7 +87316,7 @@ papers:
     The singer drowned. II. SEMANTIC RENT Rent is unearned income derived from gatekeeping
     access to resources one did not produce. The landlord does not sow. He permits.
     Semantic Rent is unearned income derived from gatekeeping access to meaning one
-    did not create. The formula: $Transparent Channel: S = W + P(W) Extractive Channel:
+    did not create. The formula: Transparent Channel: S = W + P(W) Extractive Channel:
     S = W - P(W) Semantic Rent = P(W){retained} - P(W){transmitted} Where P(W) is
     the provenance set: {creator, title, lineage, labor, date, source}. The platform
     retains P(W) in full — in royalty databases, licensing agreements, catalog valuations.
@@ -87594,7 +87375,7 @@ papers:
     where accountability asymptotes to zero. The "real-time limitation" functions
     operationally as a policy boundary presented as a technical boundary. The "capability
     gap" is a budget line wearing a costume. The "helplessness" is a quarterly target.
-    This is what the Dagger Operator (\hat{P}$) reveals through Aorist Collapse: the
+    This is what the Dagger Operator (\hat{P}) reveals through Aorist Collapse: the
     system has not failed to provide the name. The system has completed the act of
     withholding it. "I don''t have that information right now" places the refusal
     in linear, defensive time — a temporary condition, regrettable, soon to be remedied.
@@ -100112,34 +99893,6 @@ papers:
     changing market conditions and customer expectations without compromising the
     rigorous security and compliance standards required in financial services.
   venue: Technix International Journal for Engineering Research
-- title: Detection and Classification of Dress Code Violations in Educational Environments
-    Using Deep Learning
-  date: 2025-06
-  category: policycode
-  subcategory: benchmark
-  authors:
-  - Anam Bashir
-  - Ahmed Ibrahim Mahmud
-  - Muhammad Yahya
-  abstract: This paper explores the utilization of deep learning techniques for the
-    detection and classification of dress code violations in educational environments,
-    identifying the challenges of manual enforcement and the potential for systems
-    that are automated. This paper exhibits a model that integrates Faster R-CNN for
-    detection and EfficientNet for classification, which provides an accurate and
-    very efficient system to monitor students’ compliance with the dress code policies.
-    The model was trained on a dataset of images that were collected from Federal
-    University Dutsin-Ma and were classified into “decent” and “indecent” dressing
-    for both male and female students. The result achieved demonstrates that the model
-    works efficiently, reaching a training accuracy of 98% and a validation accuracy
-    of 96%, and with overall scores for precision, recall, and F1-score exceeding
-    97%, thereby proving its effectiveness in different dress code categories. The
-    Uniformity across the techniques substantiates the feature extraction performance
-    of the model and demonstrates its generalization ability. This paper outlines
-    the benefits of automation in alleviating bias and human error by improving transparency
-    and fairness and enforcing the dress code. The results showed how it is effective
-    by combining powerful deep learning models with strong frameworks to solve problems
-    of classification.
-  venue: ABUAD Journal of Engineering Research and Development (AJERD)
 - title: 'Platform Engineering for Distributed Systems: How Cloud DevOps Enables Scalable,
     Policy-Driven Software Architectures'
   date: 2025-01
@@ -104564,60 +104317,6 @@ papers:
     can generate code to solve math problems or visualize data.1 Ideal Use Case: Data
     Science automation. A user asks for a sales chart; the a'
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: Secure and Scalable Architectures for Cloud Computing
-  date: 2024-01
-  category: policycode
-  subcategory: systems
-  authors:
-  - Sreejith Balakrishanan
-  - Zaakki Ahamed
-  - Sabah Ali Al’abd Al Busaidi
-  abstract: Cloud computing has emerged as a cornerstone of modern computing infrastructure,
-    offering unparalleled scalability and flexibility for diverse applications. However,
-    the widespread adoption of cloud services has also raised significant concerns
-    regarding security and scalability. As organizations increasingly rely on cloud
-    environments to store and process sensitive data, ensuring robust security measures
-    while maintaining scalability becomes paramount. This paper presents a comprehensive
-    examination of secure and scalable architectures for cloud computing, addressing
-    the challenges and proposing innovative solutions to enhance the resilience and
-    efficiency of cloud infrastructures. The first section of the paper delves into
-    the fundamental principles of cloud computing, outlining its key characteristics
-    and architectural components. By understanding the underlying architecture of
-    cloud systems, stakeholders can better appreciate the intricate interplay between
-    security and scalability. Subsequently, the paper elucidates the multifaceted
-    security threats facing cloud environments, ranging from data breaches and malicious
-    attacks to insider threats and compliance issues. These challenges underscore
-    the critical importance of implementing robust security mechanisms to safeguard
-    sensitive data and infrastructure resources. In response to these challenges,
-    the paper presents a systematic analysis of existing security mechanisms and architectural
-    paradigms designed to fortify cloud environments. This includes encryption techniques,
-    access control mechanisms, authentication protocols, and intrusion detection systems,
-    among others. Furthermore, the paper explores the concept of defense-in-depth
-    strategies, emphasizing the importance of layering security measures to mitigate
-    the impact of potential breaches and vulnerabilities. In tandem with security
-    considerations, the paper examines strategies for achieving scalability in cloud
-    architectures. Scalability is a defining characteristic of cloud computing, enabling
-    on-demand resource allocation and elastic scaling to accommodate fluctuating workloads.
-    However, achieving scalability while ensuring security presents unique challenges,
-    particularly in multi-tenant environments where resources are shared among disparate
-    users. To address these challenges, the paper explores architectural frameworks
-    such as microservices, containerization, and serverless computing, which offer
-    inherent scalability benefits while facilitating robust isolation and security.
-    Moreover, the paper investigates the role of automation and orchestration in optimizing
-    cloud scalability and security. Through the use of DevOps practices and infrastructure-
-    as-code tools, organizations can streamline deployment processes, enforce security
-    policies, and dynamically scale resources in response to evolving demands. Additionally,
-    the paper examines emerging technologies such as edge computing and federated
-    architectures, which extend the scalability and security benefits of cloud computing
-    to edge devices and distributed environments. In conclusion, this paper underscores
-    the intrinsic link between security and scalability in cloud computing architectures.
-    By adopting a holistic approach that integrates robust security measures with
-    scalable design principles, organizations can mitigate risks, enhance operational
-    efficiency, and unlock the full potential of cloud computing. As the landscape
-    of cloud technologies continues to evolve, ongoing research and innovation in
-    secure and scalable architectures will remain essential to address emerging threats
-    and optimize performance in cloud environments.
-  venue: ''
 - title: 'Enveloping Suffering: From Escape and Struggle to Resonant Generativity
     (Bit → Wave) - A Life-OS Framework for Verbifying Dukkha as Process'
   date: 2026-01
@@ -108675,34 +108374,6 @@ papers:
     This approach effectively addresses the scalability limitation, rendering it suitable
     for edge scenarios in mobile applications and reducing hardware deployment costs.
   venue: Electronic Research Archive
-- title: Optimization of data model-driven design thinking in the software development
-    process
-  date: 2024-01
-  category: storage
-  subcategory: systems
-  authors:
-  - Yun Li
-  - Lianwei Li
-  abstract: Abstract Model-driven software development has become a hot research topic
-    and discovery trend in the field of software engineering. Its core idea is to
-    treat analysis and design models as equivalent to code. Better integration of
-    models and code can greatly increase the chances of effective improvement and
-    achieve automated software development through abstract models. In this paper,
-    we first constructed a data model-driven architecture system based on the meta-modeling
-    hierarchy, using a data dictionary for data storage. The mapping relation loader
-    transforms the data extracted from the dictionary. Using the differential evolution
-    algorithm, the model is defined as a metamodel that actually exists. At the same
-    time, the MapReduce framework is combined to parallelize the computation of the
-    DE algorithm based on the island model in order to solve the problem of poor optimization
-    of the differential algorithm. Apply the model to actual software development
-    and realize data visualization and display using Flex technology. Simulation experiments
-    are set up to test the performance of the model and the platform. After CSI uncertainty
-    estimation, the MSE index of the model is analyzed. This paper’s data model-driven
-    method, with an MSE value of only 0.01084, stands out among the five methods in
-    Case 4. Under the condition of 300 users concurrently, the user’s access response
-    time is tested, and it can be seen that the user’s response time is within 1~2.9s,
-    which passes the performance test.
-  venue: Applied Mathematics and Nonlinear Sciences
 - title: 'Internet of Things: Architectures for Enhanced Living Environments'
   date: 2024-01
   url: https://doi.org/10.1016/s0065-2458(24)x0003-0
@@ -114678,7 +114349,7 @@ papers:
     Instead, the UIL posits that stability in physical systems is the result of adhering
     to deep informational constraints or "attractors" that pre-exist the mechanism.1
     2.1 The Physics of Intent The central inequality of the UIL is formally expressed
-    as: $P(X | UIL) \gg P(X | random) This inequality asserts that the probability
+    as: P(X | UIL) \gg P(X | random) This inequality asserts that the probability
     (P) of a system achieving a stable, ordered state (X) is significantly higher
     when the system''s evolution is constrained by universal attractors (UIL) than
     when it evolves through random chance. In the context of the MEH, this means the
@@ -114704,7 +114375,7 @@ papers:
     Constraint-Weighted Update Rules: x_{t+1} = (1-\lambda)x_t + \lambda C(x_t) This
     equation governs the system''s homeostatic response. It iteratively updates operational
     parameters (current limits, cooling strategies, healing cycles) to pull the state
-    (x_t) back toward the constraint-compliant target (C(x_t)$). This transforms maintenance
+    (x_t) back toward the constraint-compliant target (C(x_t)). This transforms maintenance
     from a periodic, reactive intervention into a continuous, intrinsic function of
     the system. The MEH does not wait to break; it constantly "steers" itself back
     to health, keeping its operation bounded within a "Safe Envelope".1 2.3 The Time
@@ -115368,40 +115039,6 @@ papers:
     = {Abdelkader Messlem and Youcef Messlem and Ahmed Safa and Selman Kouadria and
     Djaffar {Ould Abdeslam}}}```'
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: Publish/subscribe method for data processing in massive IoT leveraging blockchain
-    for secured storage
-  date: 2024-07
-  category: storage
-  subcategory: systems
-  authors:
-  - Ataei Kachouei, Mohammad Hossein
-  abstract: In the era of the Internet of Things (IoT), the rise of Machine-Type Devices
-    (MTDs) has brought about Massive IoT (MIoT) or massive Mache-Type Communication
-    (mMTC), creating new possibilities for connected devices. However, dealing with
-    the substantial and diverse data streams in real time poses challenges. To address
-    this, we employ Publish/Subscribe messaging architecture, specifically designed
-    for real-time data processing capabilities. Our method involves a publish/subscribe
-    system, where device data is sent to a dedicated broker acting as a separate server.
-    This broker allows any application to subscribe to the dataset, fostering a dynamic
-    and responsive data environment. At the heart of our data transmission setup is
-    a Distributed Store and Stream-Processing Platform (Apache Kafka version 3.6.1),
-    recognized for its effective data flow management. Kafka, which takes advantage
-    of Publish/Subscribe architecture, facilitates the connection between MIoT sensors
-    and brokers, supporting parallel clusters for improved scalability. On top of
-    our real-time event streaming engine, we employ analytical database software such
-    as Apache Druid version 28.0.0, known for its real-time analysis capabilities.
-    On the other hand, to ensure uninterrupted connectivity, we integrate a fail-safe
-    mechanism using two Software-Defined Radios (SDR) called Nutaq PicoLTE Release
-    1.5 in our model. This redundancy enhances data transmission availability, protecting
-    against connectivity disruptions. For data repository security, we leverage blockchain
-    technology, specifically InetrPlanetary File System and Hyperledger Fabric, known
-    for their high-performance characteristics, ensuring data integrity, immutability,
-    and security. Our latency results show that our platform significantly reduces
-    latency for 100,000 devices classified as MIoT to under 25 milliseconds. Additionally,
-    our research on blockchain performance highlights our model as a secure platform,
-    achieving over 800 Transactions Per Second in a dataset of 14,000 transactions,
-    demonstrating its high efficiency.
-  venue: Espace ÉTS (ETS)
 - title: OPTIMIZATION OF TELECOMMUNICATIONS OPERATOR BILLING SYSTEM DATABASE ARCHITECTURE
     BY TRANSITIONING TO A NOSQL MODEL
   date: 2026-01
@@ -117778,34 +117415,6 @@ papers:
     and propose a unified blockchain-IDS reference architecture suitable for heterogeneous
     network environments including IoT, cloud, and Software-Defined Networks (SDN).'
   venue: International Journal For Multidisciplinary Research
-- title: Αναζήτηση & εξόρυξη δεδομένων με microservices
-  date: 2026-06
-  category: storage
-  subcategory: systems
-  authors:
-  - Αναστάσιος Ζαμπέτης
-  abstract: Microservice architecture is a widely adopted design approach in modern
-    software developmentthat emphasizes the development of specialized services with
-    clearly defined capabilities and functions. This design approach has gained popularity
-    with businesses attempting to increase responsiveness and reduce and simplify
-    application development cycles. The improvements are realized by the integration
-    of software engineering practices and IT operations that facilitates continuous
-    integration, testing, and delivery, with minimal, if any, downtime. Microservices
-    address the limitations of monolithic architectures, traditionally used in software
-    development, by promoting modularity and independence of services. Every microservice
-    is a separate process, and thus, development, deployment, and scaling can be achieved
-    independently. The services may be developed with various programming languages
-    and data storage mechanisms, thus enabling more flexibility and easy optimization.Although
-    this model drastically improves scalability and maintainability, it requires effective
-    orchestration and communication among the services. In today’s world, vast volumes
-    of data are being produced from various sources, such as Internet of Things (IoT)
-    systems. However, this data is valuable only when properly processed, analysed
-    and presented. To achieve this, technologies such as data caching, visualization,
-    processing, and analytics are integrated into microservice-based systems. The
-    use of these methods can enhance the amount of real-time data available, enabling
-    and enhancing data driven decision-making in multiple sectors, such as energy
-    management, smart cities, and industrial automation.
-  venue: Νημερτής
 - title: Optimized SDN Controlled Clinical Trial Data Collection in Edge Environment
   date: 2026-05
   url: https://doi.org/10.1007/s42979-026-05006-4
@@ -121045,48 +120654,6 @@ papers:
     "loading spinner" and into a future of instantaneous, multimodal intelligence.
     Listen online: https://myweirdprompts.com/episode/real-time-ai-latency-engineering'
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: Efficient mobile edge computing development with drone integration
-  date: 2024-09
-  category: storage
-  subcategory: systems
-  authors:
-  - Sanatkar, Talaye
-  abstract: Mobile Edge Computing (MEC) has revolutionized mobile networks by bringing
-    computation and storage closer to users. The integration of drones enhances this
-    approach by introducing dynamic mobility and flexibility, thereby expanding the
-    capabilities of edge computing. Drones and Software-Defined Networking (SDN) technology
-    integrate intricately to form an innovative MEC system development method. Drones
-    within MEC present both unique challenges and opportunities, acting as mobile
-    edge servers in remote or densely populated areas where conventional infrastructure
-    is lacking, dynamically deploying to areas with sudden demand spikes, optimizing
-    resource allocation, and enhancing quality of service (QoS). SDN is a key part
-    of making drones, MEC servers, and traditional network infrastructure work together.
-    It does this by separating the control and data planes, which allows for centralized
-    management and dynamic resource allocation. This increases scalability, flexibility,
-    and efficiency while facilitating seamless integration with existing networks
-    and enabling efficient routing and traffic management in dynamic MEC environments.
-    This master’s thesis delves into a comprehensive framework for developing efficient
-    MEC systems with drone integration and SDN. Drone-Enabled MEC Architecture This
-    innovative design leverages unmanned aerial vehicles (UAVs) as mobile edge servers
-    to enhance the capacity and reach of MEC infrastructure. SDN-Based Using real-time
-    network circumstances and application needs, a centralized SDN controller dynamically
-    orchestrates the deployment and operation of MEC servers and drones. Advanced
-    deep learning algorithms are utilized for the prediction and optimization of Quality
-    of Service (QoS). Firstly, enhance the effectiveness of deep learning models by
-    training them to accurately forecast QoS measures, including latency, throughput,
-    and packet loss. Such models can utilize intricate patterns in input characteristics
-    to offer more precise predictions and enhance QoS optimization. Secondly, Apply
-    deep learning methods to enhance quality of service (QoS) by dynamically optimizing
-    resource allocation and routing decisions using projected QoS metrics. Implementing
-    these strategies can guarantee the consistent fulfillment of service level agreements
-    (SLAs), hence improving the user experience in dynamic multi-access edge computing
-    (MEC) environments. By integrating deep learning into the model, we can improve
-    the effectiveness, scalability, and robustness of mobile edge computing (MEC)
-    systems by incorporating drone integration, software-defined networking (SDN),
-    and machine learning approaches. Deep learning techniques improve prediction accuracy,
-    enable adaptive decision-making, and facilitate proactive security measures, thereby
-    optimizing performance and advancing the development of edge computing infrastructures.
-  venue: Espace ÉTS (ETS)
 - title: 'The Digital Tripwire: US Military Strategy in the Gulf'
   date: 2026-03
   url: https://doi.org/10.5281/zenodo.19126256
@@ -121345,7 +120912,7 @@ papers:
     sensor fusion for holographic projections,. Complete Subsystem Bill of Materials
     (BOM) Structure and Access: Carbon-composite skins, aluminum honeycomb ribs, a
     reinforced roof base ring, telescoping entry ladders, and shock-isolated operator
-    seating. Power and Thermal Spine: Dual-redundant $48 V$ power busses with ideal-diode
+    seating. Power and Thermal Spine: Dual-redundant 48 V power busses with ideal-diode
     OR-ing, supercapacitor pulse banks, transient voltage suppression, and phase-change
     thermal buffer packs. Compute and Storage: Industrial dual-octocore processing
     boards, FPGA coprocessors, Trusted Platform Modules (TPM 2.0), and RAID1-configured
@@ -124957,133 +124524,6 @@ papers:
     and accessible. The goal is a future where your digital shadow is truly yours—portable,
     private, and under your control. Listen online: https://myweirdprompts.com/episode/personal-ai-agent-lock-in'
   venue: Open MIND
-- title: 'BIGMAE: Bharat Intelligent Governed Multi-Agent Economies - Protocol v3.1'
-  date: 2026-08
-  category: storage
-  subcategory: systems
-  authors:
-  - Arabinda Sahoo
-  - ABGyani Technologies Pvt. Ltd.
-  abstract: 'BIGMAE (Bharat Intelligent Governed Multi-Agent Economies) is a protocol
-    and reference implementation for constitutional governance of autonomous AI agent
-    economies. BIGMAE addresses a fundamental limitation in conventional agentic AI
-    architectures: modern systems can increasingly reason, plan, call tools, modify
-    state, and act across multiple systems, while the governance mechanisms surrounding
-    those actions often remain fragmented, post-hoc, or disconnected from the actual
-    execution boundary. BIGMAE therefore treats governance not as an audit layer added
-    after execution, but as a precondition for admissible execution. Its core question
-    is: Before an autonomous system creates a consequential effect, can we establish
-    who is acting, what was intended, what authority exists, what conditions apply,
-    what consequences are permitted, what evidence supports the action, and whether
-    the resulting execution can later be independently reconstructed? ⸻ Why BIGMAE
-    v3.1 Early agent systems were primarily designed around a simple execution model:
-    Model → Agent → Tool → Result That model becomes insufficient when agents operate
-    in environments involving financial transactions, cybersecurity actions, physical
-    infrastructure, regulated workflows, multi-agent delegation, or other consequential
-    state changes. In such environments, several failure modes become possible: *
-    an agent may execute a technically valid request against the wrong underlying
-    intent;* an action that was valid when authorized may become stale before execution;*
-    different consequence classes may require different governance thresholds;* a
-    system may produce a result without a sufficiently reconstructable audit and evidence
-    lineage;* agent-to-agent or system-to-system handoffs may lose authority and continuity
-    information;* confidence in a model’s output may be incorrectly treated as evidence
-    of factual accuracy;* software, cyber, financial, and physical actions may require
-    substantially different governance boundaries. BIGMAE v3.0 extends the original
-    constitutional execution model to address these classes of problems. The objective
-    is not to make agents autonomous without limits. It is to make increasing autonomy
-    governable, attributable, bounded, fail-closed, and independently verifiable.
-    ⸻ v2.0 — Foundational Prior-Art Contributions BIGMAE v3.0 carries forward the
-    seven foundational governance contributions established in Protocol v2.0: 1. DHI/KRI
-    Architectural SeparationSeparates reasoning and decision formation from governed
-    tool execution so that reasoning does not directly acquire execution authority.
-    2. Four-Class Consequence TaxonomyClassifies actions according to reversibility
-    and consequence severity so that governance requirements scale with the potential
-    impact of an action. 3. Staleness Enforcement Bound to Consequence ClassPrevents
-    a previously valid authorization from being treated as indefinitely reusable,
-    with stricter freshness requirements for higher-consequence actions. 4. SideEffectEnvelope
-    with RFC-8785 Canonical HashingCryptographically binds executable side effects
-    to a canonical representation of the governed request. 5. Consequence Bound Engine
-    (CBE) with Five PillarsProvides a structured mechanism for evaluating whether
-    an intended action remains within its permitted consequence boundary. 6. T=0 Atomic
-    Wallet Pre-AuthorizationEstablishes an atomic pre-authorization boundary for financial
-    side effects before execution. 7. Blocking Audit WriteMakes audit persistence
-    part of the execution guarantee rather than a best-effort post-execution activity.
-    Together, these foundations establish the basic principle that consequential execution
-    must be governed before, during, and after the side effect occurs. ⸻ v3.1 — New
-    Constitutional Governance Contributions Protocol v3.0 introduces 46 newly specified
-    constitutional governance terms, mechanisms, and invariants, formally developed
-    across ADR-064 through ADR-078. These additions extend BIGMAE from governed execution
-    toward continuous, context-aware governance across the full lifecycle of an autonomous
-    action. ADR-064 — Intent Continuity Verification Gate (ICVG) Addresses the problem
-    of silent intent drift between the original authenticated intent and the intent
-    state presented for execution. ICVG introduces a governed continuity boundary
-    so that an execution request cannot simply be treated as legitimate because it
-    is syntactically valid or produced by an authorized agent. The problem addressed
-    is: An agent can remain authorized while gradually solving a materially different
-    problem. ICVG therefore provides a mechanism for identifying material intent changes,
-    preserving intent lineage, and preventing consequential execution when continuity
-    cannot be established. ADR-065 — Interpretation Governance Layer (IGL) Addresses
-    the gap between interpretation and execution governance. As agents transform human
-    instructions, context, evidence, and intermediate representations into executable
-    objectives, the interpretation stage itself can become consequential. IGL establishes
-    a governed boundary around that transformation so that interpretation does not
-    silently become execution authority. ADR-066 — Last-Safe-Point Constitutional
-    Freshness Rule (LSP-CFR) Addresses time-of-decision versus time-of-consequence
-    failures. A determination that was valid when made may become invalid when policy,
-    context, evidence, authority, or external conditions materially change. LSP-CFR
-    establishes the principle that consequential execution must be evaluated against
-    the latest constitutionally valid state, not merely the last successful authorization.
-    ADR-067 — Physical Consequence Classes (PCC-1 to PCC-4) Extends consequence governance
-    beyond purely digital actions to actions capable of affecting the physical world.
-    This addresses the increasing convergence between software agents and physical
-    infrastructure, robotics, industrial systems, energy systems, logistics, and other
-    environments where digital decisions can produce physical consequences. ADR-068
-    — Confidence-Accuracy Separation Principle Addresses a common failure mode in
-    AI systems where model confidence is mistaken for factual correctness. BIGMAE
-    separates the confidence of an AI-produced assertion from evidence of its actual
-    accuracy so that confidence alone cannot become a governance authorization signal.
-    ADR-069 — Qualification Boundary Manifest (QBM) Addresses evidence and implementation-boundary
-    ambiguity during qualification and verification. QBM records exactly which implementation
-    artifact, version, source, configuration, and evidence set a qualification result
-    applies to, preventing findings from being silently transferred to different or
-    reconstructed artifacts. ADR-070 — Configuration-Bound Evidence Continuity (CBEC)
-    Addresses the problem that an evidence result can become misleading when the configuration
-    under which it was produced changes. CBEC binds evidence to the relevant configuration
-    and preserves continuity between the configuration tested and the configuration
-    subsequently relied upon. ADR-071 — Cross-System Agent Governance Protocol (CSAGP)
-    Addresses the emerging problem of agent-to-agent and system-to-system governance
-    boundaries. CSAGP establishes a protocol-level mechanism for communicating governance-relevant
-    state across independently governed systems without requiring those systems to
-    merge their internal architectures. ADR-072 — Reviewer Independence Declaration
-    Defines verifiable independence dimensions separating assessment authority from
-    development/deployment authority. ADR-073 — Affected-Observer Constitutional Standing
-    Encodes human dignity at the protocol level by providing constitutional standing
-    to affected observers. ADR-074 — Recognition Decision & Evidence Boundary Establishes
-    bounded constitutional recognition of external qualification instruments while
-    preserving sovereign jurisdiction. ADR-075 — Sovereign Qualification Submission
-    Candidate Defines bounded submission criteria for independent qualification under
-    standardized qualification protocols. ADR-076 — Interpretable Context Methodology
-    (ICM) Adapter Encodes workflow architecture as verifiable folder structures and
-    transparent intermediate states. ADR-077 — Cybersecurity Consequence Class Extends
-    consequence governance to cybersecurity operations, autonomous vulnerability discovery,
-    and anti-exploit invariants (Law 41 / CA-26). ADR-078 — Financial Infrastructure
-    Governance Profile (FIGP) Applies pure DHI/KRI governance to financial infrastructure,
-    banking, UPI, and sovereign lending (Law 42 / CA-27). ADR-079 — Mandate-Authority
-    Recognition Rule (MARR) Enforces the structural invariant chain: mandate exists
-    ≠ authority exists ≠ permission exists ≠ execution is admissible (Law 3 / Law
-    40). ADR-080 — Data Provenance Governance (DPG) Eliminates dark data risks via
-    dual-boundary Data Lineage Attestations (DLA), storage TOCTOU verification, and
-    purpose binding (Law 39 / CA-24). ⸻ The v3.0 Architectural Shift The central architectural
-    shift from v2.0 to v3.0 can be expressed as: v2.0 Identity → Authority → Consequence
-    → Execution → Audit becoming: Intent → Interpretation → Continuity → Identity
-    → Authority → Freshness → Consequence → Admissibility → Execution → Evidence →
-    Reconciliation The objective is not to eliminate autonomous action. It is to ensure
-    that autonomy does not become unattributed, stale, unbounded, or unauditable power.
-    ⸻ Problems BIGMAE v3.1 Is Designed to Address BIGMAE v3.0 provides constitutional
-    mechanisms for addressing: * silent intent and decision-state drift;* stale authorizations
-    and stale execution decisions;* mismatch between tested and deployed configurations;*
-    unbounded physical-world consequences;* confidence being mistaken for'
-  venue: Open MIND
 - title: 'The Operational Geometry of the Computational Substrate: A Synthesis of
     the NEXUS Framework, Harmonic Collapse, and Subtractive Interface Mechanics'
   date: 2026-06
@@ -126048,7 +125488,7 @@ papers:
     are governed by the following scale-invariant proofs. ### 3.1 The Global Transport
     & Clearance Field The overarching continuity equation balances the temporal loss
     of localized toxic accumulation (\vec{\Phi}) against an active, hardware-enforced
-    clearance rate (\mathcal{R}_{clear}): $\frac{\partial \vec{\Phi}(\vec{x}, t)}{\partial
+    clearance rate (\mathcal{R}_{clear}): \frac{\partial \vec{\Phi}(\vec{x}, t)}{\partial
     t} + \nabla \cdot \left[ \vec{v}_{flow}(\vec{x}, t) \cdot \vec{\Phi}(\vec{x},
     t) \right] = - \mathcal{R}_{clear}\left( \vec{\Phi}(\vec{x}, t), I_{deviant} \right)
     To maintain absolute scale invariance under any continuous transformation (\vec{x}
@@ -126066,7 +125506,7 @@ papers:
     \cdot I_{deviant} Where: * I_{deviant} is the binary sorting indicator (1 if structural
     deviation exceeds allowable tolerance \gamma_{thresh}, 0 if stable).* F_{exocytosis}
     is the validated rate of calcium-dependent vesicle-to-plasma membrane fusion.*
-    \mathcal{Q}_{flush}$ is the volumetric evacuation velocity achieved across the
+    \mathcal{Q}_{flush} is the volumetric evacuation velocity achieved across the
     localized pressure gradient delta. --- ## 5. Public Licensing, Disclaimers, &
     Legal Distribution Model ### 5.1 Open-Access Rights & Explicit IP Retention This
     validation document is published under the **Creative Commons Attribution-NonCommercial-ShareAlike
@@ -127341,7 +126781,7 @@ papers:
     (like a tape) into a landscape that can be teleported across (like a Random Access
     Memory). 2.1 The Mathematical Architecture of Non-Locality The BBP formula, discovered
     in 1995, allows for the calculation of the n-th digit of \pi in base 16 without
-    calculating the preceding n-1 digits. The formula is expressed as: $\pi = \sum_{k=0}^{\infty}
+    calculating the preceding n-1 digits. The formula is expressed as: \pi = \sum_{k=0}^{\infty}
     \frac{1}{16^k} \left( \frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6}
     \right) Ontological Analysis of the Components: The Base (16): The formula relies
     explicitly on powers of 16. This suggests that the "native" informational structure
@@ -127406,7 +126846,7 @@ papers:
     a single bit to the entire infinite output of the BBP dump—and maps it to a unique,
     fixed-size 256-bit signature. Ontological Analysis: Dimensional Reduction: The
     input space is effectively infinite (2^\infty). The output space is large but
-    finite (2^{256}$). This makes SHA a Many-to-One mapping. The Event Horizon: Because
+    finite (2^{256}). This makes SHA a Many-to-One mapping. The Event Horizon: Because
     the mapping is many-to-one, it is non-invertible. You cannot run the hash backward
     to recover the input. This creates an Information Event Horizon. Once data passes
     through the SHA function, its original structure is lost to the observer, preserved
@@ -128081,133 +127521,6 @@ papers:
     in the snippets, in the IX-1 architecture, it represents a custom integration
     of 360-degree imaging sensors (ak'
   venue: Zenodo (CERN European Organization for Nuclear Research)
-- title: Інформаційна технологія моніторингу врожайності сільськогосподарських культур
-    з використанням геоінформаційних систем
-  date: 2024-01
-  category: storage
-  subcategory: systems
-  authors:
-  - Huang Mingxin
-  abstract: 'The dissertation is devoted to the development of models, methods, and
-    tools for data processing aimed at monitoring crop yields and integrating with
-    Geographic Information Systems (GIS). As the global population grows, so does
-    the need for food. Efficient agriculture can produce more food per unit of land,
-    ensuring food security for an increasing number of people. Yield monitoring in
-    the context of project management in agriculture is crucial for enhancing its
-    efficiency. This process allows farmers to analyze the impact of various agronomic
-    factors, such as soil type, fertilizer use, and water availability, on crop yields,
-    facilitating resource optimization and reducing environmental impact. Moreover,
-    monitoring is a critical tool for developing effective strategies for managing
-    agricultural projects. Project management is becoming increasingly widespread
-    in agriculture, as it promotes effective organization and management of agricultural
-    projects, enhancing their productivity and profitability. In this context, yield
-    monitoring serves as a fundamental tool for project management, providing valuable
-    information for making informed decisions, planning, and controlling the execution
-    of agricultural projects. Identifying the impact of external and internal factors
-    on yield allows project managers to adapt strategies and optimize resources, ensuring
-    the resilience and efficiency of agricultural initiatives. Thus, integrating project
-    management in agriculture, supported by effective monitoring, opens new opportunities
-    for enhancing productivity, adapting to climate change, fostering innovation,
-    and achieving global food security. Therefore, scientific research on yield monitoring
-    not only contributes to improving the productivity and efficiency of agricultural
-    practices but also plays a key role in ensuring food security, sustainable development,
-    and economic well-being on a global scale. This work addresses a critical task:
-    the development of information technology that includes mathematical models, methods,
-    and procedures for yield monitoring based on geoinformation data (scientific component),
-    as well as the development of a yield monitoring information system that enables
-    the automation of data collection, processing, and utilization of geoinformation
-    data for yield forecasting (practical component). The object of the study is yield
-    monitoring. The subject of the study is models, methods and information technology
-    of yield monitoring based on interaction with Geographic Information Systems.
-    The study aim is to develop models, methods and data processing procedures necessary
-    for yield monitoring. Research Methods. The conducted research is based on methods
-    of systems analysis, technical analysis, artificial intelligence, big data processing,
-    and object-oriented programming. Scientific novelty of the obtained results: •
-    For the first time, an integration model of artificial intelligence for yield
-    monitoring has been developed, based on the combination of multispectral images
-    and geoinformation data. This model integrates Convolutional Neural Networks and
-    Recurrent Neural Networks to enhance the accuracy and sensitivity of monitoring.
-    • The mathematical model of the relationship between phenological indicators and
-    crop yields has been improved. Unlike other models, this combined model includes
-    an adaptive threshold method for determining the membership of crop pixels and
-    identifying the trend and seasonal components of the phenological indicators''
-    time series. This improvement enhances the accuracy of forecasting. • The information
-    technology for yield monitoring based on geoinformation data has been improved.
-    The enhancement involves the use of a combined model of the relationship between
-    phenological indicators and crop yields, as well as an integration model of artificial
-    intelligence. Unlike other technologies, the developed technology takes into account
-    a wider variety of data, which simplifies integration with Geographic Information
-    Systems (GIS). • The methods for representing and storing geoinformation data
-    have been further developed in terms of correlating key properties of agricultural
-    objects with aerospace images of the locality. • Information technologies for
-    project management have further developed in the aspects of monitoring and forecasting
-    yields and integration with geographic information systems. The first chapter,
-    an analysis of the scientific literature was conducted, which established that
-    the use of digital images of geographical areas and the development of Geographic
-    Information Systems (GIS) are becoming key in modern agriculture. This facilitates
-    effective management of cultivated areas, analysis, and prediction of yields,
-    especially in the context of the increasing demand for food against the backdrop
-    of a growing global population. The advancement of technologies provides new opportunities
-    for intensification and optimization in the agricultural sector. It was also established
-    that neural networks are effective tools for yield prediction. They can model
-    complex nonlinear dependencies in agronomic data and process satellite imagery
-    and remote sensing data. It was discovered that no existing service or software
-    combines all the necessary capabilities for crop area management: anomaly detection,
-    identification of phenological changes, and yield estimation. It is shown that
-    a crucial task is to create specialized software that would allow uploading and
-    working with large archives of images and would have built-in methods for intelligent
-    data processing and pattern recognition. The second chapter describes the use
-    of aerospace imagery and time series analysis of images to determine phenological
-    indicators and other important growth and health indicators of plants. The importance
-    of using the NDVI index as a key indicator for assessing plant cover and yield
-    is emphasized. An approach to data processing and analysis within the context
-    of Geographic Information Systems is considered. The vast volume of geographical
-    data requires reduction for computational processing. The chapter also covers
-    the structure and organization of geodata in vector and raster formats, revealing
-    their unique capabilities and limitations for representing and analyzing geographic
-    information models. A conceptual model of the GIS for agricultural monitoring
-    was developed. The system development is divided into four stages: defining objectives,
-    describing functionality, implementation, and diagnostics. Each stage includes
-    steps that facilitate the creation of an effective system for monitoring and managing
-    agricultural crop yields. The importance of a systematic approach to the creation
-    and use of Geographic Information Systems in agriculture is established. The third
-    chapter describes a mathematical model of the relationship between phenological
-    indicators and the yields of agricultural crops and biomonitoring, which considers
-    multispectral field images for dynamic yield forecasting. The decomposition of
-    phenological indicators into trend, seasonal, and random components is aimed at
-    effective yield monitoring. The model includes image binarization steps to define
-    crop areas using a threshold function and the Otsu method for selecting the optimal
-    threshold value. The process of creating and training a hybrid neural network,
-    integrating image data and soil information for yield prediction, is described.
-    The network architecture includes convolutional neural networks (CNN) for image
-    processing and fully connected layers for soil data analysis. This integration
-    allows the network to consider diverse information, enhancing its ability to accurately
-    predict yields. In the second phase, the network uses recurrent neural networks
-    to analyze data sequences, adding the ability to account for temporal dependencies
-    and context. The fourth chapter describes the development of a GIS-based yield
-    monitoring information system to enhance the efficiency of the agricultural sector.
-    The system''s modular structure includes modules for data collection, storage,
-    processing, visualization, and analysis, including the use of machine learning
-    for forecasting and process optimization. An algorithm for implementing an artificial
-    intelligence integration model for yield monitoring based on the combination of
-    multispectral images and geoinformation data is described, which includes seven
-    stages: data collection and preparation, neural network development, testing and
-    validation, optimization, implementation in agricultural systems, and further
-    analysis of results. Practical significance of the obtained results. The main
-    scientific provisions of the dissertation have been elevated to the level of methodological
-    generalizations and applied tools, enabling yield monitoring. The agricultural
-    crop yield monitoring information system was validated through comparative analysis
-    methods. Comparing the yield predictions for winter wheat, corn, and barley in
-    the Chernihiv region for 2019 with the predictions using the WOFOST simulation
-    model and data from the State Statistics Service of Ukraine for 2019 shows that
-    the monitoring model can provide sufficiently accurate yield forecasts. It was
-    established that yield is significantly determined by plant development in the
-    first three months after emergence, highlighting the importance of monitoring
-    during this period. The obtained practical results emphasize the potential and
-    limitations of using yield monitoring information technology with Geographic Information
-    Systems. The main provisions and results of the research have been implemented
-    and applied in the activities of Yancheng Polytechnic College.'
-  venue: eKNUTSHIR
 - title: 'The Realism of Survival: A Proposed Evolutionary Model of "Subtractive Optimization"
     Under Physical Constraints and the Hacking of Environmental Infrastructure'
   date: 2026-06
@@ -130104,8 +129417,8 @@ papers:
     are not randomly distributed but are instead constrained to discrete "sites" within
     a framework governed by the golden ratio. The Brahim Function and Dimensionality
     At the heart of this project is the discrete quantization map \mathcal{D}(x),
-    which transforms raw physical measurements into "dimensions": $\mathcal{D}(x)
-    = \frac{-\ln x}{\ln \varphi} where \varphi = (1 + \sqrt{5})/2 \approx 1.618. This
+    which transforms raw physical measurements into "dimensions": \mathcal{D}(x) =
+    \frac{-\ln x}{\ln \varphi} where \varphi = (1 + \sqrt{5})/2 \approx 1.618. This
     function satisfies the fundamental identity \mathcal{D}(\varphi^{-n}) = n, effectively
     mapping the exponential growth patterns of nature onto a linear integer-based
     lattice. The research utilizes a 206-point lattice populated by Brahim numbers
@@ -130175,7 +129488,7 @@ papers:
     complex physics resumés via IR-excess modulation. 🛠 Software & Data Infrastructure
     The reproducibility archive is designed for independent verification of all Z-scores
     and predictions. brahim-hermes (v0.5.0): The "logic core" that handles the high-precision
-    \mathcal{D}(x)$ mapping and the generation of null-model Monte Carlo trials. galactic-resonance
+    \mathcal{D}(x) mapping and the generation of null-model Monte Carlo trials. galactic-resonance
     (v0.1.0): The "data engine" that manages TAP/ADQL fetches from NASA and ESA. Storage:
     All 52,511 observables and 6,942 predictions are stored in galaxy.db, allowing
     for instant local lookups without further API requests. Hardware Efficiency: The

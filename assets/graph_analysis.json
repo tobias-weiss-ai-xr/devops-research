@@ -45,23 +45,23 @@
   {
    "id": "cicd",
    "name": "CI/CD",
-   "count": 416,
+   "count": 415,
    "trajectory": {
     "2023": 14,
-    "2024": 70,
+    "2024": 69,
     "2025": 187,
     "2026": 145
    },
    "momentum": {
     "id": "cicd",
     "name": "Cicd",
-    "total": 416,
+    "total": 415,
     "recent": 215,
     "prior": 143,
     "growth_pct": 50.3,
-    "recent_share": 0.517,
+    "recent_share": 0.518,
     "papers_per_month": 17.9,
-    "score": 102.0
+    "score": 102.1
    }
   },
   {
@@ -129,23 +129,23 @@
   {
    "id": "containers",
    "name": "Containers",
-   "count": 297,
+   "count": 296,
    "trajectory": {
     "2023": 16,
-    "2024": 65,
+    "2024": 64,
     "2025": 94,
     "2026": 122
    },
    "momentum": {
     "id": "containers",
     "name": "Containers",
-    "total": 297,
+    "total": 296,
     "recent": 167,
     "prior": 70,
     "growth_pct": 138.6,
-    "recent_share": 0.562,
+    "recent_share": 0.564,
     "papers_per_month": 13.9,
-    "score": 194.8
+    "score": 195.0
    }
   },
   {
@@ -235,23 +235,23 @@
   {
    "id": "iac",
    "name": "IaC",
-   "count": 383,
+   "count": 382,
    "trajectory": {
     "2023": 16,
     "2024": 65,
     "2025": 162,
-    "2026": 140
+    "2026": 139
    },
    "momentum": {
     "id": "iac",
     "name": "Iac",
-    "total": 383,
-    "recent": 200,
+    "total": 382,
+    "recent": 199,
     "prior": 126,
-    "growth_pct": 58.7,
-    "recent_share": 0.522,
-    "papers_per_month": 16.7,
-    "score": 110.9
+    "growth_pct": 57.9,
+    "recent_share": 0.521,
+    "papers_per_month": 16.6,
+    "score": 110.0
    }
   },
   {
@@ -362,15 +362,15 @@
   {
    "id": "multi-cluster",
    "name": "Multi-Cluster",
-   "count": 34,
+   "count": 33,
    "trajectory": {
-    "2026": 34
+    "2026": 33
    },
    "momentum": {
     "id": "multi-cluster",
     "name": "Multi Cluster",
-    "total": 34,
-    "recent": 34,
+    "total": 33,
+    "recent": 33,
     "prior": 0,
     "growth_pct": null,
     "recent_share": 1.0,
@@ -466,23 +466,23 @@
   {
    "id": "policycode",
    "name": "Policy & Code",
-   "count": 271,
+   "count": 268,
    "trajectory": {
     "2023": 7,
-    "2024": 35,
-    "2025": 93,
-    "2026": 136
+    "2024": 34,
+    "2025": 92,
+    "2026": 135
    },
    "momentum": {
     "id": "policycode",
     "name": "Policycode",
-    "total": 271,
-    "recent": 185,
-    "prior": 56,
-    "growth_pct": 230.4,
-    "recent_share": 0.683,
-    "papers_per_month": 15.4,
-    "score": 298.7
+    "total": 268,
+    "recent": 184,
+    "prior": 55,
+    "growth_pct": 234.5,
+    "recent_share": 0.687,
+    "papers_per_month": 15.3,
+    "score": 303.2
    }
   },
   {
@@ -510,23 +510,23 @@
   {
    "id": "security",
    "name": "Security",
-   "count": 466,
+   "count": 464,
    "trajectory": {
     "2023": 14,
     "2024": 76,
-    "2025": 163,
+    "2025": 161,
     "2026": 213
    },
    "momentum": {
     "id": "security",
     "name": "Security",
-    "total": 466,
+    "total": 464,
     "recent": 293,
-    "prior": 117,
-    "growth_pct": 150.4,
-    "recent_share": 0.629,
+    "prior": 115,
+    "growth_pct": 154.8,
+    "recent_share": 0.631,
     "papers_per_month": 24.4,
-    "score": 213.3
+    "score": 217.9
    }
   },
   {
@@ -596,23 +596,23 @@
   {
    "id": "storage",
    "name": "Storage",
-   "count": 425,
+   "count": 418,
    "trajectory": {
     "2023": 24,
-    "2024": 89,
+    "2024": 85,
     "2025": 110,
-    "2026": 202
+    "2026": 199
    },
    "momentum": {
     "id": "storage",
     "name": "Storage",
-    "total": 425,
-    "recent": 255,
-    "prior": 91,
-    "growth_pct": 180.2,
-    "recent_share": 0.6,
-    "papers_per_month": 21.2,
-    "score": 240.2
+    "total": 418,
+    "recent": 252,
+    "prior": 90,
+    "growth_pct": 180.0,
+    "recent_share": 0.603,
+    "papers_per_month": 21.0,
+    "score": 240.3
    }
   }
  ],
@@ -625,12 +625,12 @@
   {
    "id": "architecture",
    "name": "Architecture",
-   "count": 657
+   "count": 655
   },
   {
    "id": "benchmark",
    "name": "Benchmark",
-   "count": 55
+   "count": 54
   },
   {
    "id": "development",
@@ -640,7 +640,7 @@
   {
    "id": "systems",
    "name": "Systems",
-   "count": 2831
+   "count": 2818
   }
  ],
  "timeline": [
@@ -1367,11 +1367,6 @@
   [
    "2024-01",
    "cicd",
-   "architecture"
-  ],
-  [
-   "2024-01",
-   "cicd",
    "development"
   ],
   [
@@ -1448,11 +1443,6 @@
    "2024-01",
    "containers",
    "architecture"
-  ],
-  [
-   "2024-01",
-   "containers",
-   "systems"
   ],
   [
    "2024-01",
@@ -1746,11 +1736,6 @@
   ],
   [
    "2024-01",
-   "policycode",
-   "systems"
-  ],
-  [
-   "2024-01",
    "s3",
    "architecture"
   ],
@@ -1843,16 +1828,6 @@
    "2024-01",
    "storage",
    "architecture"
-  ],
-  [
-   "2024-01",
-   "storage",
-   "systems"
-  ],
-  [
-   "2024-01",
-   "storage",
-   "systems"
   ],
   [
    "2024-01",
@@ -3215,11 +3190,6 @@
    "systems"
   ],
   [
-   "2024-07",
-   "storage",
-   "systems"
-  ],
-  [
    "2024-08",
    "cicd",
    "architecture"
@@ -3585,11 +3555,6 @@
    "systems"
   ],
   [
-   "2024-09",
-   "storage",
-   "systems"
-  ],
-  [
    "2024-10",
    "ai-security",
    "application"
@@ -5143,16 +5108,6 @@
    "2025-01",
    "security",
    "development"
-  ],
-  [
-   "2025-01",
-   "security",
-   "systems"
-  ],
-  [
-   "2025-01",
-   "security",
-   "systems"
   ],
   [
    "2025-01",
@@ -7118,11 +7073,6 @@
    "2025-06",
    "policycode",
    "architecture"
-  ],
-  [
-   "2025-06",
-   "policycode",
-   "benchmark"
   ],
   [
    "2025-06",
@@ -11116,11 +11066,6 @@
   ],
   [
    "2026-01",
-   "iac",
-   "systems"
-  ],
-  [
-   "2026-01",
    "kubernetes-networking",
    "systems"
   ],
@@ -14847,11 +14792,6 @@
   [
    "2026-04",
    "kubernetes-security",
-   "systems"
-  ],
-  [
-   "2026-04",
-   "multi-cluster",
    "systems"
   ],
   [
@@ -16627,11 +16567,6 @@
   [
    "2026-05",
    "policycode",
-   "architecture"
-  ],
-  [
-   "2026-05",
-   "policycode",
    "systems"
   ],
   [
@@ -18290,11 +18225,6 @@
    "systems"
   ],
   [
-   "2026-06",
-   "storage",
-   "systems"
-  ],
-  [
    "2026-07",
    "ai-security",
    "architecture"
@@ -19600,11 +19530,6 @@
    "systems"
   ],
   [
-   "2026-07",
-   "storage",
-   "systems"
-  ],
-  [
    "2026-08",
    "ai-security",
    "application"
@@ -20412,11 +20337,6 @@
   [
    "2026-08",
    "software-defined-storage",
-   "systems"
-  ],
-  [
-   "2026-08",
-   "storage",
    "systems"
   ],
   [
@@ -20510,12 +20430,12 @@
    "papers": 88
   },
   {
-   "name": "Open MIND",
+   "name": "SSRN Electronic Journal",
    "papers": 68
   },
   {
-   "name": "SSRN Electronic Journal",
-   "papers": 68
+   "name": "Open MIND",
+   "papers": 65
   },
   {
    "name": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
@@ -20575,14 +20495,14 @@
    "recent": 18,
    "total": 19,
    "burst_score": 1.47,
-   "recent_share": 0.007
+   "recent_share": 0.0071
   },
   {
    "keyword": "sidecar",
    "recent": 17,
    "total": 18,
-   "burst_score": 1.47,
-   "recent_share": 0.0066
+   "burst_score": 1.46,
+   "recent_share": 0.0067
   },
   {
    "keyword": "crd",
@@ -20593,31 +20513,38 @@
   },
   {
    "keyword": "reconciliation",
-   "recent": 28,
-   "total": 31,
+   "recent": 27,
+   "total": 30,
    "burst_score": 1.4,
-   "recent_share": 0.011
+   "recent_share": 0.0106
   },
   {
    "keyword": "rbac",
    "recent": 30,
    "total": 34,
    "burst_score": 1.37,
-   "recent_share": 0.0117
+   "recent_share": 0.0118
   },
   {
    "keyword": "namespace",
    "recent": 30,
    "total": 34,
    "burst_score": 1.37,
-   "recent_share": 0.0117
+   "recent_share": 0.0118
   },
   {
    "keyword": "istio",
-   "recent": 24,
-   "total": 28,
-   "burst_score": 1.33,
-   "recent_share": 0.0094
+   "recent": 23,
+   "total": 27,
+   "burst_score": 1.32,
+   "recent_share": 0.009
+  },
+  {
+   "keyword": "csi",
+   "recent": 11,
+   "total": 13,
+   "burst_score": 1.31,
+   "recent_share": 0.0043
   },
   {
    "keyword": "mtls",
@@ -20631,7 +20558,7 @@
    "recent": 129,
    "total": 159,
    "burst_score": 1.26,
-   "recent_share": 0.0504
+   "recent_share": 0.0506
   },
   {
    "keyword": "admission",
@@ -20645,21 +20572,14 @@
    "recent": 42,
    "total": 52,
    "burst_score": 1.25,
-   "recent_share": 0.0164
+   "recent_share": 0.0165
   },
   {
    "keyword": "layer",
-   "recent": 533,
-   "total": 670,
+   "recent": 530,
+   "total": 665,
    "burst_score": 1.24,
-   "recent_share": 0.2084
-  },
-  {
-   "keyword": "compose",
-   "recent": 101,
-   "total": 129,
-   "burst_score": 1.22,
-   "recent_share": 0.0395
+   "recent_share": 0.2078
   },
   {
    "keyword": "etcd",
