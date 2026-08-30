@@ -80632,7 +80632,6 @@ papers:
   venue: Journal of Telecommunications and Information Technology
 - title: 'hira299/sentinel-mesh: Sentinel-Mesh: IEEE Access Major Revision'
   date: 2026-06
-  url: https://github.com/hira299/sentinel-mesh/tree/v1.0.0-revised
   category: iac
   subcategory: benchmark
   authors:
