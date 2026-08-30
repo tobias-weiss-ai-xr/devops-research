@@ -45,23 +45,23 @@
   {
    "id": "cicd",
    "name": "CI/CD",
-   "count": 415,
+   "count": 414,
    "trajectory": {
     "2023": 14,
-    "2024": 69,
+    "2024": 68,
     "2025": 187,
     "2026": 145
    },
    "momentum": {
     "id": "cicd",
     "name": "Cicd",
-    "total": 415,
+    "total": 414,
     "recent": 215,
-    "prior": 143,
-    "growth_pct": 50.3,
-    "recent_share": 0.518,
+    "prior": 142,
+    "growth_pct": 51.4,
+    "recent_share": 0.519,
     "papers_per_month": 17.9,
-    "score": 102.1
+    "score": 103.3
    }
   },
   {
@@ -635,7 +635,7 @@
   {
    "id": "development",
    "name": "Development",
-   "count": 350
+   "count": 349
   },
   {
    "id": "systems",
@@ -4058,11 +4058,6 @@
    "2024-12",
    "cicd",
    "architecture"
-  ],
-  [
-   "2024-12",
-   "cicd",
-   "development"
   ],
   [
    "2024-12",
@@ -20515,7 +20510,7 @@
    "keyword": "reconciliation",
    "recent": 27,
    "total": 30,
-   "burst_score": 1.4,
+   "burst_score": 1.39,
    "recent_share": 0.0106
   },
   {
@@ -20561,18 +20556,18 @@
    "recent_share": 0.0506
   },
   {
-   "keyword": "admission",
-   "recent": 34,
-   "total": 42,
-   "burst_score": 1.26,
-   "recent_share": 0.0133
-  },
-  {
    "keyword": "chart",
    "recent": 42,
    "total": 52,
    "burst_score": 1.25,
    "recent_share": 0.0165
+  },
+  {
+   "keyword": "admission",
+   "recent": 34,
+   "total": 42,
+   "burst_score": 1.25,
+   "recent_share": 0.0133
   },
   {
    "keyword": "layer",

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_papers": 3955,
+    "total_papers": 3954,
     "generated_date": "2026-08",
     "taxonomy": {
       "categories": 29,
@@ -17,7 +17,7 @@
   "by_category": {
     "ai-security": 155,
     "ceph": 2,
-    "cicd": 415,
+    "cicd": 414,
     "container-image": 27,
     "container-runtime": 3,
     "container-security": 86,
@@ -49,12 +49,12 @@
     "application": 78,
     "architecture": 655,
     "benchmark": 54,
-    "development": 350,
+    "development": 349,
     "systems": 2818
   },
   "by_year": {
     "2023": 134,
-    "2024": 608,
+    "2024": 607,
     "2025": 1206,
     "2026": 2007
   },
@@ -65,7 +65,7 @@
     "observability/systems": 231,
     "iac/systems": 197,
     "distributed-storage/systems": 190,
-    "cicd/development": 175,
+    "cicd/development": 174,
     "object-storage/systems": 167,
     "platform/architecture": 167,
     "kubernetes/systems": 164,
@@ -390,13 +390,13 @@
     {
       "id": "cicd",
       "name": "Cicd",
-      "total": 415,
+      "total": 414,
       "recent": 215,
-      "prior": 143,
-      "growth_pct": 50.3,
-      "recent_share": 0.518,
+      "prior": 142,
+      "growth_pct": 51.4,
+      "recent_share": 0.519,
       "papers_per_month": 17.9,
-      "score": 102.1
+      "score": 103.3
     },
     {
       "id": "ceph",
@@ -511,7 +511,7 @@
     },
     "cicd": {
       "2023": 14,
-      "2024": 69,
+      "2024": 68,
       "2025": 187,
       "2026": 145
     },
@@ -684,7 +684,7 @@
       "keyword": "reconciliation",
       "recent": 27,
       "total": 30,
-      "burst_score": 1.4,
+      "burst_score": 1.39,
       "recent_share": 0.0106
     },
     {
@@ -730,18 +730,18 @@
       "recent_share": 0.0506
     },
     {
-      "keyword": "admission",
-      "recent": 34,
-      "total": 42,
-      "burst_score": 1.26,
-      "recent_share": 0.0133
-    },
-    {
       "keyword": "chart",
       "recent": 42,
       "total": 52,
       "burst_score": 1.25,
       "recent_share": 0.0165
+    },
+    {
+      "keyword": "admission",
+      "recent": 34,
+      "total": 42,
+      "burst_score": 1.25,
+      "recent_share": 0.0133
     },
     {
       "keyword": "layer",
@@ -759,7 +759,7 @@
     }
   ],
   "source_breakdown": {
-    "arxiv": 1308,
+    "arxiv": 1307,
     "doi": 2370,
     "other": 277
   },

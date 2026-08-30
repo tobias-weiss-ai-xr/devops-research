@@ -141014,39 +141014,6 @@ papers:
     work reduces the manual burden on researchers while ensuring high levels of reproducibility
     and interoperability and providing an unified environment for development, training,
     and production of AI/ML models in the EOSC.
-- title: Comparison of Static Analysis Architecture Recovery Tools for Microservice
-    Applications
-  date: 2024-12
-  url: https://arxiv.org/abs/2412.08352
-  category: cicd
-  subcategory: development
-  authors:
-  - Simon Schneider
-  - Alexander Bakhtin
-  - Xiaozhou Li
-  - Jacopo Soldani
-  - Antonio Brogi
-  venue: ''
-  code_url: ''
-  project_url: ''
-  abstract: 'Architecture recovery tools help software engineers obtain an overview
-    of the structure of their software systems during all phases of the software development
-    life cycle. This is especially important for microservice applications because
-    they consist of multiple interacting microservices, which makes it more challenging
-    to oversee the architecture. Various tools and techniques for architecture recovery
-    (also called architecture reconstruction) have been presented in academic and
-    gray literature sources, but no overview and comparison of their accuracy exists.
-    This paper presents the results of a multivocal literature review with the goal
-    of identifying architecture recovery tools for microservice applications and a
-    comparison of the identified tools'' architectural recovery accuracy. We focused
-    on static tools since they can be integrated into fast-paced CI/CD pipelines.
-    13 such tools were identified from the literature and nine of them could be executed
-    and compared on their capability of detecting different system characteristics.
-    The best-performing tool exhibited an overall F1-score of 0.86. Additionally,
-    the possibility of combining multiple tools to increase the recovery correctness
-    was investigated, yielding a combination of four individual tools that achieves
-    an F1-score of 0.91. Registered report: The methodology of this study has been
-    peer-reviewed and accepted as a registered report at MSR''24: arXiv:2403.06941'
 - title: 'Refactoring for Dockerfile Quality: A Dive into Developer Practices and
     Automation Potential'
   date: 2025-01
