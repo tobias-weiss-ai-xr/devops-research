@@ -4076,7 +4076,6 @@ papers:
 - title: 'The Role OF DevOps in Mobile Application Development: CI/CD Pipelines for
     Faster Releases'
   date: 2026-04
-  url: https://www.neliti.com/publications/713213/the-role-of-devops-in-mobile-application-development-ci-cd-pipelines-for-faster
   category: cicd
   subcategory: architecture
   authors:
@@ -63835,7 +63834,6 @@ papers:
 - title: A Conceptual Framework for CI/CD Pipeline Security Controls in Hybrid Application
     Deployments
   date: 2025-01
-  url: https://doi.org/10.6084/m9.figshare.29602490.v2
   category: cicd
   subcategory: architecture
   authors:
@@ -68174,7 +68172,6 @@ papers:
 - title: A Conceptual Model for Secure DevOps Architecture Using Jenkins, Terraform,
     and Kubernetes
   date: 2025-01
-  url: https://doi.org/10.6084/m9.figshare.29602484.v2
   category: cicd
   subcategory: systems
   authors:
@@ -123575,7 +123572,6 @@ papers:
     Omniverse Grid with AI and the Lean Kernel as Proof Assistants, The Blueprint
     for the Construction of the Loom of Knowledge
   date: 2026-08
-  url: https://doi.org/10.6084/m9.figshare.33180176.v2
   category: storage
   subcategory: systems
   authors:
@@ -123646,7 +123642,6 @@ papers:
 - title: Informational Flow of Quantized Packets of Logic in an Idle Multiplayer Procedural-Generation
     Omniverse Grid with AI and the Lean Kernel as Proof Assistants
   date: 2026-08
-  url: https://doi.org/10.6084/m9.figshare.33180176.v3
   category: storage
   subcategory: systems
   authors:
