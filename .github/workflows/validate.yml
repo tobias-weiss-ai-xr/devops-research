@@ -8,14 +8,23 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ci-host]
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-validate-${{ hashFiles('**/requirements*.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install deps
-        run: pip install -r requirements.txt
+      - name: Install deps (cached)
+        run: pip install -r requirements.txt --quiet
       - name: Smoke test pipeline (dry-run)
         run: python3 run_pipeline.py --dry-run | tail -4
       - name: Compile ingestion modules
