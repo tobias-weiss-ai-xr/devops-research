@@ -1,21 +1,21 @@
 # Concept Graph Analysis
 
-**Generated:** 50 nodes, 271 edges, 1 components, 1 communities (modularity -131.667). Edges = co-occurrence.
+**Generated:** 50 nodes, 272 edges, 1 components, 1 communities (modularity -131.281). Edges = co-occurrence.
 
 ## Top hubs (by PageRank)
 
-- **framework** — PR 0.2367, degree 41, df 1392
-- **dataset** — PR 0.0574, degree 30, df 254
-- **benchmark** — PR 0.0493, degree 29, df 228
-- **Security** — PR 0.0444, degree 15, df 464
-- **CI/CD** — PR 0.0378, degree 14, df 414
-- **reproducibility** — PR 0.0371, degree 31, df 151
-- **quantitative** — PR 0.0360, degree 27, df 137
-- **Policy & Code** — PR 0.0328, degree 16, df 268
+- **framework** — PR 0.2366, degree 41, df 1393
+- **dataset** — PR 0.0573, degree 30, df 254
+- **benchmark** — PR 0.0493, degree 29, df 229
+- **Security** — PR 0.0443, degree 15, df 464
+- **CI/CD** — PR 0.0377, degree 14, df 414
+- **reproducibility** — PR 0.0370, degree 31, df 151
+- **quantitative** — PR 0.0359, degree 27, df 137
+- **Policy & Code** — PR 0.0327, degree 16, df 268
 - **case study** — PR 0.0318, degree 25, df 145
-- **Storage** — PR 0.0310, degree 14, df 418
-- **survey** — PR 0.0301, degree 28, df 117
-- **IaC** — PR 0.0291, degree 10, df 382
+- **Storage** — PR 0.0309, degree 14, df 418
+- **survey** — PR 0.0300, degree 28, df 117
+- **IaC** — PR 0.0291, degree 10, df 383
 
 ## Bridge nodes (high betweenness — connect clusters)
 
@@ -40,7 +40,7 @@
 - framework ↔ K8s Security (weight 5, EB 43.0)
 - framework ↔ research gap (weight 4, EB 30.0)
 - framework ↔ Service Mesh (weight 3, EB 27.5)
-- framework ↔ mixed methods (weight 2, EB 24.4167)
+- framework ↔ mixed methods (weight 2, EB 23.9167)
 - framework ↔ open access (weight 4, EB 19.8167)
 
 ## Communities (clusters of related concepts)
