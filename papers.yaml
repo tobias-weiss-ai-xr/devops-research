@@ -153761,3 +153761,71 @@ papers:
     role for a service mesh architecture where network functions can be deployed anywhere
     in the infrastructure. We demonstrated its efficiency in comparison with alternative
     architectures.
+- title: Compared to What? A Human-Anchored Security Benchmark for LLM-Generated Infrastructure-as-Code
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.28021v1
+  category: iac
+  subcategory: systems
+  authors:
+  - Animesh Shaw
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Large language models are increasingly used to author Infrastructure-as-Code
+    (IaC), where a single insecure default can be deployed directly into production.
+    Prior evaluations report raw vulnerability counts for model-generated IaC, but
+    without a human baseline they cannot determine whether models are actually worse
+    than engineers. We introduce GenIaC-SecBench, a benchmark of 100 deployment scenarios
+    stratified by architectural complexity, evaluated across 12 model configurations
+    from four vendors, producing 1,196 IaC artifacts scanned by three independent
+    policy engines (Checkov, Trivy, KICS). Critically, we also scan 634 human-authored
+    IaC templates with the same toolchain, providing the first size-matched human
+    security baseline. Vulnerability density is strongly inverse to artifact size
+    (Spearman $ρ= -0.55$, $p &lt; 10^{-77}$), meaning unmatched comparisons measure
+    size rather than security. When matched on declared-resource count, all model
+    configurations fall within 3.21x--3.87x the human vulnerability density, with
+    the gap widening for simpler tasks (4.9x at one resource, 1.4x at twenty or more).
+    We decompose reasoning into standard generation, prompt-engineered chain-of-thought,
+    and vendor extended-thinking APIs. Vendor extended thinking significantly outperforms
+    prompted chain-of-thought ($-12.0\%$, $p = 0.0013$), while prompted chain-of-thought
+    is indistinguishable from standard generation ($-1.3\%$, n.s.). Token instrumentation
+    shows extended thinking uses under 1\% of the output budget, explaining its bounded
+    effect. Two negative results also emerge: deployability does not correlate with
+    vulnerability ($r = 0.158$, $p = 0.625$), and classical complete-case Friedman
+    testing is infeasible for realistic benchmark designs, motivating the Skillings-Mack
+    statistic. All code, data, and regeneration scripts are released.'
+- title: 'eBPF-Based Cybersecurity Mechanisms: A Systematic Literature Review'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.27511v1
+  category: container-security
+  subcategory: systems
+  authors:
+  - Stamatios Kostopoulos
+  - Panagiotis Tsakonas
+  - Evangelos K. Markakis
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Extended Berkeley Packet Filter (eBPF) has emerged as a kernel-level
+    framework enabling dynamic security enforcement in modern operating systems. While
+    eBPF''s cybersecurity potential has attracted significant attention, existing
+    work remains fragmented across domains, evaluation methodologies, and deployment
+    contexts. This systematic literature review applies PRISMA methodology to identify,
+    categorize, and synthesize peer-reviewed research on eBPF-based cybersecurity
+    mechanisms. Following a structured screening of 3,735 records from six databases,
+    54 primary studies (2018-2026) were analyzed and organized into a seven-domain
+    taxonomy: DDoS mitigation, intrusion detection, IoT security, container security,
+    microservice protection, networking, and security tools. Analysis reveals eBPF
+    enables low-overhead security enforcement (median 2.4% CPU overhead [1.1-8.6%],
+    ranging from nanosecond-scale costs for infrequent hooks to 10-20% for kernel
+    hot paths) with high detection accuracy (94-99%). It particularly excels in kernel-level
+    monitoring, real-time packet processing, and cloud-native workload protection.
+    However, significant challenges persist: verifier-imposed constraints limit algorithm
+    complexity, 85.1% (46/54) of studies require low-level programming expertise,
+    kernel version fragmentation hinders portability, and 96.2% (52/54) of research
+    fails to address eBPF''s own vulnerabilities. This review identifies critical
+    research gaps in multi-tenant isolation, adversarial machine learning (ML) robustness,
+    production validation, and standardized evaluation frameworks. By consolidating
+    fragmented knowledge and highlighting architectural trade-offs between safety
+    and expressiveness, this work provides a foundation for next-generation eBPF security
+    systems and actionable directions for kernel programmability research.'
