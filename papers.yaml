@@ -153829,3 +153829,34 @@ papers:
     fragmented knowledge and highlighting architectural trade-offs between safety
     and expressiveness, this work provides a foundation for next-generation eBPF security
     systems and actionable directions for kernel programmability research.'
+- title: A Multi-Month Study of Git Commit Signing
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.29283v1
+  category: container-security
+  subcategory: systems
+  authors:
+  - Abubakar Sadiq Shittu
+  - John Sadik
+  - Scott Ruoti
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Git commit signing, introduced in 2012, is one mechanism for establishing
+    commit provenance in software supply chains, yet developer-controlled adoption
+    remains rare and developers' experiences using it are understudied. To examine
+    this experience, we conducted a three-month study with senior undergraduate and
+    graduate computer science students (n = 22), whom we treat as proxies for junior
+    developers. Participants configured commit signing independently, used it across
+    four coursework projects, extended it to a second device, examined an external
+    repository containing anomalous commits, and answered security-reasoning prompts.
+    We found that while almost all participants successfully signed every commit and
+    rated routine signing positively, many faced friction during setup, multi-device
+    configuration, and repository verification. Despite signing all semester, they
+    struggled to spot anomalous commits during verification, with over a quarter finding
+    none. Additionally, nearly half expressed at least one misconception regarding
+    signing guarantees or key management. Without isolating whether these difficulties
+    stemmed from tooling, education, or understanding, we conclude that making signing
+    easier is not enough to ensure effective security use. Rather, secure adoption
+    also requires tools and education that support signature verification against
+    authorized identities, interpretation of missing signatures and unknown keys,
+    and correct reasoning about key-lifecycle operations.

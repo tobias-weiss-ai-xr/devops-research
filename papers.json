@@ -2370,7 +2370,7 @@
  {
   "title": "A PLAYER\u2019S SOURCE CODE FROM TUTORIAL TO THE MAIN GAME WALKTHROUGH Informational Flow of Quantized Packets of Logic in an Idle Multiplayer Procedural-Generation Omniverse Grid with AI and the Lean Kernel as Proof Assistants, The Blueprint for the Construction of the Loom of Knowledge",
   "date": "2026-08",
-  "url": "https://doi.org/10.6084/m9.figshare.33180176.v2",
+  "url": "",
   "category": "storage",
   "subcategory": "systems",
   "authors": [
@@ -2382,7 +2382,7 @@
  {
   "title": "Informational Flow of Quantized Packets of Logic in an Idle Multiplayer Procedural-Generation Omniverse Grid with AI and the Lean Kernel as Proof Assistants",
   "date": "2026-08",
-  "url": "https://doi.org/10.6084/m9.figshare.33180176.v3",
+  "url": "",
   "category": "storage",
   "subcategory": "systems",
   "authors": [
@@ -2404,6 +2404,46 @@
   ],
   "abstract": "Integrated Climate\u2013Water Allocation Decision Support Framework (ICWADSF) Architecture in Google Colab 3.X.7.1 Overview The Integrated Climate\u2013Water Allocation Decision Support Framework (ICWADSF) is developed as a modular, Python-based system within the Google Colaboratory (Colab) environment. This architecture leverages Colab's cloud-based computational resources, collaborative features, and integration with Google Drive for data storage, facilitating a reproducible and transparent research workflow. The framework is designed to bridge the outputs from the SWAT+ hydrological model with a custom-built water allocation engine, enabling the comprehensive evaluation of future water security under various climate and development scenarios. This approach offers several advantages over traditional desktop-based modeling, including: Accessibility: Eliminates software and hardware barriers, making the framework accessible from any web browser. Reproducibility: Colab notebooks inherently document code, execution order, and results, enhancing transparency and reproducibility. Scalability: Utilizes Google's infrastructure for potentially large-scale data processing and model runs. Modularity: Encapsulates distinct components (data preprocessing, SWAT+ output integration, demand estimation, allocation, performance analysis) into reusable Python modules, improving maintainability and extensibility. The ICWADSF serves as the computational core for executing the 20 integrated simulations described in Section 3.X.6, systematically evaluating the performance of each scenario. 3.X.7.2 Framework Components and Workflow The ICWADSF is structured around a sequential workflow, ensuring logical data flow and processing: Data Input and Preprocessing Module Purpose: Manages the ingestion, cleaning, and preparation of all input data required by the SWAT+ model and the water allocation engine. Inputs: Climate Data: Historical (e.g., observed rainfall, temperature) and projected CMIP6 climate time series (SSP2-4.5, SSP5-8.5 for 2030s and 2050s) from various GCMs, bias-corrected and downscaled to the basin scale. These are typically in CSV or NetCDF format. SWAT+ Configuration Files: Model setup files, parameter tables, and spatial data (DEM, land use, soil) used to run SWAT+ externally. Socioeconomic Data: Population projections (CSA), livestock census data, planned irrigated areas, industrial growth rates, and per-capita water demand standards. Hydropower Data: Reservoir characteristics (storage capacity, rule curves), operational parameters (turbine discharge, plant factor), and evaporation rates. Functions: Data validation, unit conversion, temporal aggregation (e.g., daily to monthly), and formatting data into structures suitable for downstream modules (e.g., Pandas DataFrames). SWAT+ Hydrological Simulation (External Integration) Purpose: While SWAT+ simulations are performed externally (e.g., using QSWAT+ interface or command line on a dedicated machine), this component focuses on the integration of its outputs into Colab. Inputs: Raw monthly or daily output files from SWAT+ (output.rch, output.hru, output.std), containing simulated streamflow, water yield, groundwater recharge, actual evapotranspiration, and reservoir inflows for all sub-basins. Functions: Automated parsing of SWAT+ output files, extraction of relevant hydrological time series, spatial aggregation (e.g., basin-wide water yield), and storage of processed outputs in a standardized format (e.g., CSV, Parquet) for access by the allocation engine. Water Demand Estimation Module Purpose: Dynamically calculates monthly sectoral water demands based on scenario-specific assumptions and input data. Inputs: Processed SWAT+ outputs (e.g., reference evapotranspiration, actual evapotranspiration), socioeconomic data, hydropower parameters, and environmental flow rules. Functions: calculate_domestic_demand(population, per_capita_rate, efficiency_factor) calculate_livestock_demand(livestock_numbers, water_requirements, efficiency_factor) calculate_irrigation_demand(irrigated_area, kc_values, eto_swat, peff_ratio, efficiency_factors) calculate_industrial_demand(industrial_growth_rate, municipal_demand, recycling_factor) calculate_hydropower_requirement(reservoir_parameters, swat_inflows, evaporation_losses) calculate_environmental_flow(mean_annual_flow, allocation_percentage) Outputs: A DataFrame containing monthly demands for each sector for the entire simulation period, organized by scenario. Water Allocation Engine Module (Python-based) Purpose: Implements the sequential water allocation algorithm and computes performance indicators for each simulation. Inputs: Monthly available water from SWAT+ outputs, and monthly sectoral water demands from the demand estimation module. Functions: run_allocation(available_water_series, demand_dict, priority_order): Executes the sequential allocation logic, returning allocated volumes and deficits for each sector. calculate_performance_metrics(allocated_volumes, demand_volumes): Computes Reliability, Resilience, Vulnerability, Sustainability Index, Water Scarcity Index, Demand Satisfaction, and other scenario-specific indicators (e.g., Reservoir Reliability, Environmental Flow Satisfaction). Algorithm: As detailed in Section 3.X.6.3 and 3.X.6.6. Outputs: Monthly allocated volumes, deficits, and summary tables of performance indicators for each scenario-climate combination. Scenario Automation and Execution Module Purpose: Orchestrates the execution of all 20 integrated simulations systematically. Functions: load_scenario_parameters(scenario_name): Loads specific parameters for S0, S1, S2, S3. load_climate_data(climate_condition): Selects and loads SWAT+ outputs corresponding to Historical, SSP2-4.5 (2030s/2050s), SSP5-8.5 (2030s/2050s). run_full_simulation(scenario_name, climate_condition): Calls the demand estimation and allocation modules, stores results. Control Flow: Loops through each development scenario and each climate condition, ensuring all 20 combinations are simulated and their results stored for comparative analysis. Visualization and Reporting Module Purpose: Generates graphical representations and summary tables of the results, facilitating interpretation and communication of findings. Functions: plot_time_series(data_series, title, ylabel): For monthly streamflow, demand, allocation, deficits. plot_comparison_bar_charts(scenario_metrics, metric_name): For comparing reliability, SI, WSI across scenarios. generate_summary_tables(all_results): Creates concise tables of key indicators. Libraries: Utilizes matplotlib, seaborn, and pandas for data visualization. Outputs: High-quality figures and tables suitable for inclusion in the dissertation and journal publications. This modular architecture ensures a clear separation of concerns, simplifies debugging, and enhances the framework's adaptability to future research questions or alternative basin studies. 3.X.7.3 Data Management and Reproducibility in Google Colab Data Storage and Access All input datasets (climate, socioeconomic) and processed SWAT+ outputs are stored in a structured manner on Google Drive. Google Colab notebooks are mounted to Google Drive, allowing seamless access to all data files. Intermediate results and final outputs from the ICWADSF (e.g., monthly allocation tables, performance metrics) are also saved back to Google Drive, ensuring data persistence and easy retrieval. 2. Version Control The Colab notebooks themselves serve as executable scripts, and their revisions can be tracked using Colab's built-in version history or integrated with GitHub for more robust version control. Key Python modules are stored as .py files on Google Drive, allowing them to be imported and updated across multiple notebooks. 3. Environment Management Google Colab provides a pre-configured Python environment. Any additional required libraries (e.g., pandas, numpy, matplotlib, seaborn) are installed at the beginning of the notebook using pip, ensuring a consistent execution environment. 4. Parameterization and Configuration Scenario-specific assumptions and parameters are clearly defined within dedicated sections or configuration files (e.g., JSON, YAML) that are read by the framework. This externalization of parameters facilitates easy modification and testing of new scenarios without altering the core logic of the Python modules. 5. Reproducible Execution Each notebook is designed to be self-contained and executable from top to bottom, with clear comments and documentation. This ensures that any researcher can run the simulations and reproduce the results, provided they have access to the input data and a Google account. This robust architecture enables the ICWADSF to be a powerful and transparent tool for water resource planning and management research in data-scarce regions like the Upper Genale\u2013Dawa Basin. References Brown, C., et al. (2012). Water resources planning under climate uncertainty. Journal of Water Resources Planning and Management, 138(1), 1-10. Gebrechorkos, S. H., et al. (2023). Future climate projections over East Africa using CMIP6 models: Implications for water resources. International Journal of Climatology, 43(2), 999-1020. IPCC. (2021). Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Loucks, D. P., & van Beek, E. (2017). Water Resource Systems Planning and Management. Springer. Now, we will move to 3.X.8 Model Validation and Sensitivity Analysis, which will discuss the methods used to ensure the reliability and robustness of the demand estimates and allocation model, as well as an assessment of key assumptions. 3.X.8 Model Validation and Sensitivity Analysis 3.X.8.1 Overview Model validation and sensitivity analysis are indispensable steps in any complex modeling study, particularly in water resources management where dec",
   "venue": "Open MIND"
+ },
+ {
+  "title": "Compared to What? A Human-Anchored Security Benchmark for LLM-Generated Infrastructure-as-Code",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.28021v1",
+  "category": "iac",
+  "subcategory": "systems",
+  "authors": [
+   "Animesh Shaw"
+  ],
+  "abstract": "Large language models are increasingly used to author Infrastructure-as-Code (IaC), where a single insecure default can be deployed directly into production. Prior evaluations report raw vulnerability counts for model-generated IaC, but without a human baseline they cannot determine whether models are actually worse than engineers. We introduce GenIaC-SecBench, a benchmark of 100 deployment scenarios stratified by architectural complexity, evaluated across 12 model configurations from four vendors, producing 1,196 IaC artifacts scanned by three independent policy engines (Checkov, Trivy, KICS). Critically, we also scan 634 human-authored IaC templates with the same toolchain, providing the first size-matched human security baseline. Vulnerability density is strongly inverse to artifact size (Spearman $\u03c1= -0.55$, $p &lt; 10^{-77}$), meaning unmatched comparisons measure size rather than security. When matched on declared-resource count, all model configurations fall within 3.21x--3.87x the human vulnerability density, with the gap widening for simpler tasks (4.9x at one resource, 1.4x at twenty or more). We decompose reasoning into standard generation, prompt-engineered chain-of-thought, and vendor extended-thinking APIs. Vendor extended thinking significantly outperforms prompted chain-of-thought ($-12.0\\%$, $p = 0.0013$), while prompted chain-of-thought is indistinguishable from standard generation ($-1.3\\%$, n.s.). Token instrumentation shows extended thinking uses under 1\\% of the output budget, explaining its bounded effect. Two negative results also emerge: deployability does not correlate with vulnerability ($r = 0.158$, $p = 0.625$), and classical complete-case Friedman testing is infeasible for realistic benchmark designs, motivating the Skillings-Mack statistic. All code, data, and regeneration scripts are released.",
+  "venue": ""
+ },
+ {
+  "title": "eBPF-Based Cybersecurity Mechanisms: A Systematic Literature Review",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.27511v1",
+  "category": "container-security",
+  "subcategory": "systems",
+  "authors": [
+   "Stamatios Kostopoulos",
+   "Panagiotis Tsakonas",
+   "Evangelos K. Markakis"
+  ],
+  "abstract": "Extended Berkeley Packet Filter (eBPF) has emerged as a kernel-level framework enabling dynamic security enforcement in modern operating systems. While eBPF's cybersecurity potential has attracted significant attention, existing work remains fragmented across domains, evaluation methodologies, and deployment contexts. This systematic literature review applies PRISMA methodology to identify, categorize, and synthesize peer-reviewed research on eBPF-based cybersecurity mechanisms. Following a structured screening of 3,735 records from six databases, 54 primary studies (2018-2026) were analyzed and organized into a seven-domain taxonomy: DDoS mitigation, intrusion detection, IoT security, container security, microservice protection, networking, and security tools. Analysis reveals eBPF enables low-overhead security enforcement (median 2.4% CPU overhead [1.1-8.6%], ranging from nanosecond-scale costs for infrequent hooks to 10-20% for kernel hot paths) with high detection accuracy (94-99%). It particularly excels in kernel-level monitoring, real-time packet processing, and cloud-native workload protection. However, significant challenges persist: verifier-imposed constraints limit algorithm complexity, 85.1% (46/54) of studies require low-level programming expertise, kernel version fragmentation hinders portability, and 96.2% (52/54) of research fails to address eBPF's own vulnerabilities. This review identifies critical research gaps in multi-tenant isolation, adversarial machine learning (ML) robustness, production validation, and standardized evaluation frameworks. By consolidating fragmented knowledge and highlighting architectural trade-offs between safety and expressiveness, this work provides a foundation for next-generation eBPF security systems and actionable directions for kernel programmability research.",
+  "venue": ""
+ },
+ {
+  "title": "A Multi-Month Study of Git Commit Signing",
+  "date": "2026-08",
+  "url": "https://arxiv.org/abs/2608.29283v1",
+  "category": "container-security",
+  "subcategory": "systems",
+  "authors": [
+   "Abubakar Sadiq Shittu",
+   "John Sadik",
+   "Scott Ruoti"
+  ],
+  "abstract": "Git commit signing, introduced in 2012, is one mechanism for establishing commit provenance in software supply chains, yet developer-controlled adoption remains rare and developers' experiences using it are understudied. To examine this experience, we conducted a three-month study with senior undergraduate and graduate computer science students (n = 22), whom we treat as proxies for junior developers. Participants configured commit signing independently, used it across four coursework projects, extended it to a second device, examined an external repository containing anomalous commits, and answered security-reasoning prompts. We found that while almost all participants successfully signed every commit and rated routine signing positively, many faced friction during setup, multi-device configuration, and repository verification. Despite signing all semester, they struggled to spot anomalous commits during verification, with over a quarter finding none. Additionally, nearly half expressed at least one misconception regarding signing guarantees or key management. Without isolating whether these difficulties stemmed from tooling, education, or understanding, we conclude that making signing easier is not enough to ensure effective security use. Rather, secure adoption also requires tools and education that support signature verification against authorized identities, interpretation of missing signatures and unknown keys, and correct reasoning about key-lifecycle operations.",
+  "venue": ""
  },
  {
   "title": "ConfigWiz: Automating Privilege Configuration for Containerized Applications",
@@ -8888,7 +8928,7 @@
  {
   "title": "hira299/sentinel-mesh: Sentinel-Mesh: IEEE Access Major Revision",
   "date": "2026-06",
-  "url": "https://github.com/hira299/sentinel-mesh/tree/v1.0.0-revised",
+  "url": "",
   "category": "iac",
   "subcategory": "benchmark",
   "authors": [
@@ -13424,7 +13464,7 @@
  {
   "title": "The Role OF DevOps in Mobile Application Development: CI/CD Pipelines for Faster Releases",
   "date": "2026-04",
-  "url": "https://www.neliti.com/publications/713213/the-role-of-devops-in-mobile-application-development-ci-cd-pipelines-for-faster",
+  "url": "",
   "category": "cicd",
   "subcategory": "architecture",
   "authors": [
@@ -41168,7 +41208,7 @@
  {
   "title": "A Conceptual Framework for CI/CD Pipeline Security Controls in Hybrid Application Deployments",
   "date": "2025-01",
-  "url": "https://doi.org/10.6084/m9.figshare.29602490.v2",
+  "url": "",
   "category": "cicd",
   "subcategory": "architecture",
   "authors": [
@@ -41343,7 +41383,7 @@
  {
   "title": "A Conceptual Model for Secure DevOps Architecture Using Jenkins, Terraform, and Kubernetes",
   "date": "2025-01",
-  "url": "https://doi.org/10.6084/m9.figshare.29602484.v2",
+  "url": "",
   "category": "cicd",
   "subcategory": "systems",
   "authors": [
