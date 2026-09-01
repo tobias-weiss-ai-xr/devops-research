@@ -2,7 +2,7 @@ topic:
   name: devops-research
   short: devops
   description: DevOps research with deep dive on Kubernetes, Docker, container orchestration, and storage (Ceph, SCS, S3)
-  openalex_mailto: research@tobias-weiss-ai-xr.de
+  openalex_mailto: tobias@tobias-weiss.org
 
 taxonomy:
   categories:
