@@ -1,6 +1,6 @@
 # Concept Map — Knowledge Graph of the Corpus
 
-**Generated:** 50 concepts, 272 relationships from 3956 papers. Edges = co-occurrence (shared papers).
+**Generated:** 50 concepts, 272 relationships from 3957 papers. Edges = co-occurrence (shared papers).
 
 ## Top concepts
 
@@ -27,7 +27,7 @@
 | survey | curated | 117 |
 | taxonomy | curated | 93 |
 | S3 | taxonomy | 89 |
-| Container Security | taxonomy | 87 |
+| Container Security | taxonomy | 88 |
 | experiment | curated | 80 |
 | qualitative | curated | 79 |
 | Docker | taxonomy | 78 |
